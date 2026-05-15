@@ -1,0 +1,3648 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>OEMリサーチ: ベビー＆マタニティ サブカテゴリ一覧</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif;
+  background: #f5f5f0;
+  color: #212121;
+  font-size: 12px;
+  line-height: 1.4;
+}
+.container { max-width: 1400px; margin: 0 auto; background: white; border: 1px solid #d7a063; }
+
+.report-head {
+  background: linear-gradient(180deg, #ed6c02 0%, #d35400 100%);
+  color: white;
+  padding: 14px 20px;
+  border-bottom: 3px solid #c95400;
+}
+.report-head .label { font-size: 10px; opacity: 0.85; letter-spacing: 0.15em; }
+.report-head h1 { font-size: 20px; margin: 3px 0 6px; }
+.report-head .meta { display: flex; gap: 16px; font-size: 11px; opacity: 0.9; }
+
+.kpi-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 6px;
+  padding: 10px 16px;
+  background: #fff8e1;
+  border-bottom: 2px solid #f9a825;
+}
+.kpi {
+  background: white;
+  border: 1px solid #d7a063;
+  padding: 6px 10px;
+}
+.kpi-label { font-size: 10px; color: #5d4037; }
+.kpi-value { font-size: 17px; font-weight: 700; color: #d35400; }
+
+.group-section { padding: 8px 0; }
+.group-head {
+  background: #ffb74d;
+  color: #212121;
+  padding: 6px 16px;
+  font-weight: 700;
+  font-size: 13px;
+  border-top: 1px solid #d7a063;
+  border-bottom: 1px solid #d7a063;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.group-head .group-count {
+  background: rgba(0,0,0,0.15);
+  color: white;
+  padding: 1px 8px;
+  border-radius: 8px;
+  font-size: 11px;
+}
+
+table.rows {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+}
+table.rows thead th {
+  background: #ffe082;
+  color: #212121;
+  border: 1px solid #d7a063;
+  padding: 4px 6px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 10px;
+  position: sticky;
+  top: 0;
+}
+table.rows tbody td {
+  border: 1px solid #ddc7a0;
+  padding: 3px 6px;
+  vertical-align: middle;
+  background: white;
+  white-space: nowrap;
+}
+table.rows tbody tr:nth-child(even) td { background: #fff8e1; }
+table.rows tbody tr:hover td { background: #ffe0b2; cursor: default; }
+.num { text-align: right; font-variant-numeric: tabular-nums; }
+.center { text-align: center; }
+.cat-name { font-weight: 600; color: #1565c0; max-width: 280px; overflow: hidden; text-overflow: ellipsis; }
+.cat-name a { color: #1565c0; text-decoration: none; }
+.cat-name a:hover { text-decoration: underline; }
+.parent-tail { color: #5d4037; font-size: 10px; max-width: 200px; overflow: hidden; text-overflow: ellipsis; }
+
+.b {
+  display: inline-block;
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 2px;
+  font-weight: 700;
+  border: 1px solid;
+}
+.b.green { background: #c8e6c9; color: #1b5e20; border-color: #66bb6a; }
+.b.yellow { background: #fff59d; color: #856404; border-color: #fdd835; }
+.b.orange { background: #ffe0b2; color: #e65100; border-color: #ffb74d; }
+.b.red { background: #ffcdd2; color: #b71c1c; border-color: #e57373; }
+.b.gray { background: #eceff1; color: #455a64; border-color: #b0bec5; }
+.b.lite { background: #f5f5f5; color: #757575; border-color: #bdbdbd; }
+
+.sb { display: inline-flex; align-items: center; gap: 4px; }
+.sb-bar { width: 32px; height: 5px; background: #eee; border: 1px solid #999; }
+.sb-fill { height: 100%; }
+.sb-num { font-weight: 700; min-width: 22px; text-align: right; }
+
+.report-btn {
+  background: #ed6c02; color: white; border: none;
+  padding: 3px 10px; font-size: 11px; font-weight: 700;
+  text-decoration: none; border-radius: 3px;
+  display: inline-block;
+}
+.report-btn:hover { background: #d35400; }
+.report-btn-2 {
+  background: white; color: #1565c0; border: 1px solid #1565c0;
+  padding: 3px 8px; font-size: 11px;
+  text-decoration: none; border-radius: 3px;
+}
+
+.toolbar {
+  background: #ffe082;
+  border-bottom: 1px solid #f9a825;
+  padding: 6px 16px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.toolbar input, .toolbar select {
+  background: white;
+  border: 1px solid #d7a063;
+  padding: 3px 8px;
+  font-size: 11px;
+  border-radius: 2px;
+  font-family: inherit;
+}
+.toolbar input[type=search] { min-width: 220px; }
+.toolbar label { font-size: 11px; font-weight: 700; color: #5d4037; }
+
+.footer {
+  padding: 10px 16px;
+  font-size: 10px;
+  color: #757575;
+  text-align: center;
+  background: #fafafa;
+  border-top: 1px solid #ddc7a0;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="report-head">
+    <div class="label">OEMリサーチ / STAGE 1 サブカテゴリ一覧</div>
+    <h1>ベビー＆マタニティ 配下サブカテゴリ 207件</h1>
+    <div class="meta">
+      <span>生成日: 2026/5/15 12:13:05</span>
+      <span>データソース: Keepa + Amazon JP HTML scrape</span>
+    </div>
+  </div>
+
+  <div class="kpi-bar">
+    <div class="kpi"><div class="kpi-label">サブカテゴリ総数</div><div class="kpi-value">207</div></div>
+    <div class="kpi"><div class="kpi-label">scan済</div><div class="kpi-value">0</div></div>
+    <div class="kpi"><div class="kpi-label">🟢 強推奨</div><div class="kpi-value" style="color:#2e7d32">0</div></div>
+    <div class="kpi"><div class="kpi-label">🟡 検討</div><div class="kpi-value" style="color:#f57c00">0</div></div>
+    <div class="kpi"><div class="kpi-label">親グループ数</div><div class="kpi-value">11</div></div>
+  </div>
+
+  <div class="toolbar">
+    <label>絞り込み</label>
+    <input type="search" id="q" placeholder="カテゴリ名で検索">
+    <label>表示</label>
+    <select id="filter-status">
+      <option value="">全て</option>
+      <option value="scanned">scan済のみ</option>
+      <option value="strong">🟢強推奨のみ</option>
+      <option value="consider">🟡検討のみ</option>
+      <option value="recommended">🟢+🟡</option>
+    </select>
+    <span style="margin-left:auto;color:#5d4037;font-size:11px">表示: <strong id="shown">207</strong>件</span>
+  </div>
+
+
+  <div class="group-section" data-group="ベビー＆マタニティ">
+    <div class="group-head">
+      📁 ベビー＆マタニティ
+      <span class="group-count">146件</span>
+    </div>
+    <table class="rows">
+      <thead>
+        <tr>
+          <th style="width:50px">順</th>
+          <th style="width:90px">判定</th>
+          <th style="width:90px">競合</th>
+          <th style="text-align:left">カテゴリ名</th>
+          <th>所属パス</th>
+          <th style="width:90px">スコア</th>
+          <th style="width:110px">月商</th>
+          <th style="width:80px">レビュー中</th>
+          <th style="width:60px">1位%</th>
+          <th style="width:50px">★</th>
+          <th style="width:80px">平均価格</th>
+          <th style="width:80px">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="おくるみ ベビー＆マタニティ / おでかけ用品">
+          <td class="center">1</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346096011/" target="_blank">おくるみ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おでかけ用品">ベビー＆マタニティ / おでかけ用品</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346096011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="おむつ取替えマット ベビー＆マタニティ / おでかけ用品">
+          <td class="center">2</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345964011/" target="_blank">おむつ取替えマット</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おでかけ用品">ベビー＆マタニティ / おでかけ用品</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345964011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ガーゼ・ガーゼハンカチ ベビー＆マタニティ / おでかけ用品">
+          <td class="center">3</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346098011/" target="_blank">ガーゼ・ガーゼハンカチ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おでかけ用品">ベビー＆マタニティ / おでかけ用品</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346098011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ショッピングカートカバー ベビー＆マタニティ / おでかけ用品">
+          <td class="center">4</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88729051/" target="_blank">ショッピングカートカバー</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おでかけ用品">ベビー＆マタニティ / おでかけ用品</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88729051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ソックス・ブーティ ベビー＆マタニティ / おでかけ用品">
+          <td class="center">5</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346100011/" target="_blank">ソックス・ブーティ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おでかけ用品">ベビー＆マタニティ / おでかけ用品</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346100011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="マフラー ベビー＆マタニティ / おでかけ用品">
+          <td class="center">6</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346102011/" target="_blank">マフラー</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おでかけ用品">ベビー＆マタニティ / おでかけ用品</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346102011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="マルチブランケット・ひざかけ ベビー＆マタニティ / おでかけ用品">
+          <td class="center">7</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88730051/" target="_blank">マルチブランケット・ひざかけ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おでかけ用品">ベビー＆マタニティ / おでかけ用品</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88730051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="レイングッズ ベビー＆マタニティ / おでかけ用品">
+          <td class="center">8</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346104011/" target="_blank">レイングッズ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おでかけ用品">ベビー＆マタニティ / おでかけ用品</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346104011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="保温・保冷バッグ ベビー＆マタニティ / おでかけ用品">
+          <td class="center">9</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88733051/" target="_blank">保温・保冷バッグ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おでかけ用品">ベビー＆マタニティ / おでかけ用品</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88733051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="子ども用バッグ ベビー＆マタニティ / おでかけ用品">
+          <td class="center">10</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88726051/" target="_blank">子ども用バッグ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おでかけ用品">ベビー＆マタニティ / おでかけ用品</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88726051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="帽子・キャップ・ハット ベビー＆マタニティ / おでかけ用品">
+          <td class="center">11</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346108011/" target="_blank">帽子・キャップ・ハット</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おでかけ用品">ベビー＆マタニティ / おでかけ用品</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346108011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="手袋・ミトン ベビー＆マタニティ / おでかけ用品">
+          <td class="center">12</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346103011/" target="_blank">手袋・ミトン</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おでかけ用品">ベビー＆マタニティ / おでかけ用品</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346103011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="耳あて ベビー＆マタニティ / おでかけ用品">
+          <td class="center">13</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346107011/" target="_blank">耳あて</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おでかけ用品">ベビー＆マタニティ / おでかけ用品</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346107011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="おしりふき ベビー＆マタニティ / おむつ・トイレ">
+          <td class="center">14</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170365011/" target="_blank">おしりふき</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おむつ・トイレ">ベビー＆マタニティ / おむつ・トイレ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170365011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="おしりふきアクセサリ ベビー＆マタニティ / おむつ・トイレ">
+          <td class="center">15</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2740583051/" target="_blank">おしりふきアクセサリ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おむつ・トイレ">ベビー＆マタニティ / おむつ・トイレ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2740583051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="おまる・便座 ベビー＆マタニティ / おむつ・トイレ">
+          <td class="center">16</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345915011/" target="_blank">おまる・便座</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おむつ・トイレ">ベビー＆マタニティ / おむつ・トイレ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345915011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="おむつ ベビー＆マタニティ / おむつ・トイレ">
+          <td class="center">17</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170329011/" target="_blank">おむつ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おむつ・トイレ">ベビー＆マタニティ / おむつ・トイレ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170329011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="おむつストッカー ベビー＆マタニティ / おむつ・トイレ">
+          <td class="center">18</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910007051/" target="_blank">おむつストッカー</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おむつ・トイレ">ベビー＆マタニティ / おむつ・トイレ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910007051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="おむつポーチ ベビー＆マタニティ / おむつ・トイレ">
+          <td class="center">19</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88724051/" target="_blank">おむつポーチ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おむつ・トイレ">ベビー＆マタニティ / おむつ・トイレ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88724051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="おむつ処理ポット・ペール ベビー＆マタニティ / おむつ・トイレ">
+          <td class="center">20</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2740584051/" target="_blank">おむつ処理ポット・ペール</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おむつ・トイレ">ベビー＆マタニティ / おむつ・トイレ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2740584051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="シート ベビー＆マタニティ / おむつ・トイレ">
+          <td class="center">21</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10457914051/" target="_blank">シート</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おむつ・トイレ">ベビー＆マタニティ / おむつ・トイレ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10457914051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ステップスツール・踏み台 ベビー＆マタニティ / おむつ・トイレ">
+          <td class="center">22</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10395288051/" target="_blank">ステップスツール・踏み台</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おむつ・トイレ">ベビー＆マタニティ / おむつ・トイレ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10395288051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="トレーニングパンツ ベビー＆マタニティ / おむつ・トイレ">
+          <td class="center">23</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345918011/" target="_blank">トレーニングパンツ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / おむつ・トイレ">ベビー＆マタニティ / おむつ・トイレ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345918011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="かご・ボックス ベビー＆マタニティ / インテリア・デコレーション">
+          <td class="center">24</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910042051/" target="_blank">かご・ボックス</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / インテリア・デコレーション">ベビー＆マタニティ / インテリア・デコレーション</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910042051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="寝かしつけ用おもちゃ ベビー＆マタニティ / インテリア・デコレーション">
+          <td class="center">25</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189083051/" target="_blank">寝かしつけ用おもちゃ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / インテリア・デコレーション">ベビー＆マタニティ / インテリア・デコレーション</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189083051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="スリング ベビー＆マタニティ / キャリア・アクセサリ">
+          <td class="center">26</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345974011/" target="_blank">スリング</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / キャリア・アクセサリ">ベビー＆マタニティ / キャリア・アクセサリ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345974011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ハイキングバックパック ベビー＆マタニティ / キャリア・アクセサリ">
+          <td class="center">27</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/15384771/" target="_blank">ハイキングバックパック</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / キャリア・アクセサリ">ベビー＆マタニティ / キャリア・アクセサリ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/15384771/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビーキャリア ベビー＆マタニティ / キャリア・アクセサリ">
+          <td class="center">28</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10442563051/" target="_blank">ベビーキャリア</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / キャリア・アクセサリ">ベビー＆マタニティ / キャリア・アクセサリ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10442563051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="抱っこひも・スリング小物 ベビー＆マタニティ / キャリア・アクセサリ">
+          <td class="center">29</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345972011/" target="_blank">抱っこひも・スリング小物</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / キャリア・アクセサリ">ベビー＆マタニティ / キャリア・アクセサリ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345972011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ガード &amp; ロック ベビー＆マタニティ / セーフティー">
+          <td class="center">30</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/11639500051/" target="_blank">ガード &amp; ロック</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / セーフティー">ベビー＆マタニティ / セーフティー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/11639500051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="コンセントガード ベビー＆マタニティ / セーフティー">
+          <td class="center">31</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910048051/" target="_blank">コンセントガード</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / セーフティー">ベビー＆マタニティ / セーフティー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910048051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="コーナークッション ベビー＆マタニティ / セーフティー">
+          <td class="center">32</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910047051/" target="_blank">コーナークッション</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / セーフティー">ベビー＆マタニティ / セーフティー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910047051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ストーブガード ベビー＆マタニティ / セーフティー">
+          <td class="center">33</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345901011/" target="_blank">ストーブガード</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / セーフティー">ベビー＆マタニティ / セーフティー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345901011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ドアロック・ストッパー ベビー＆マタニティ / セーフティー">
+          <td class="center">34</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910049051/" target="_blank">ドアロック・ストッパー</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / セーフティー">ベビー＆マタニティ / セーフティー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910049051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビーサークル・プレイヤード ベビー＆マタニティ / セーフティー">
+          <td class="center">35</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345900011/" target="_blank">ベビーサークル・プレイヤード</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / セーフティー">ベビー＆マタニティ / セーフティー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345900011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="リフレクター ベビー＆マタニティ / セーフティー">
+          <td class="center">36</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2946723051/" target="_blank">リフレクター</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / セーフティー">ベビー＆マタニティ / セーフティー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2946723051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="室内用ヘルメット ベビー＆マタニティ / セーフティー">
+          <td class="center">37</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3054633051/" target="_blank">室内用ヘルメット</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / セーフティー">ベビー＆マタニティ / セーフティー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3054633051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="扇風機カバー ベビー＆マタニティ / セーフティー">
+          <td class="center">38</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2975685051/" target="_blank">扇風機カバー</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / セーフティー">ベビー＆マタニティ / セーフティー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2975685051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="滑り止め用品 ベビー＆マタニティ / セーフティー">
+          <td class="center">39</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910051051/" target="_blank">滑り止め用品</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / セーフティー">ベビー＆マタニティ / セーフティー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910051051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="聴覚保護イヤーマフ ベビー＆マタニティ / セーフティー">
+          <td class="center">40</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/8415839051/" target="_blank">聴覚保護イヤーマフ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / セーフティー">ベビー＆マタニティ / セーフティー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/8415839051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="迷子防止リュック・ハーネス ベビー＆マタニティ / セーフティー">
+          <td class="center">41</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2946728051/" target="_blank">迷子防止リュック・ハーネス</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / セーフティー">ベビー＆マタニティ / セーフティー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2946728051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="チャイルドシートアクセサリ ベビー＆マタニティ / チャイルドシート">
+          <td class="center">42</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345907011/" target="_blank">チャイルドシートアクセサリ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / チャイルドシート">ベビー＆マタニティ / チャイルドシート</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345907011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="3輪ベビーカー ベビー＆マタニティ / ベビーカー">
+          <td class="center">43</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88747051/" target="_blank">3輪ベビーカー</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーカー">ベビー＆マタニティ / ベビーカー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88747051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビーカーパーツ・アダプター ベビー＆マタニティ / ベビーカー">
+          <td class="center">44</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88759051/" target="_blank">ベビーカーパーツ・アダプター</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーカー">ベビー＆マタニティ / ベビーカー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88759051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビーカー小物 ベビー＆マタニティ / ベビーカー">
+          <td class="center">45</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345937011/" target="_blank">ベビーカー小物</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーカー">ベビー＆マタニティ / ベビーカー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345937011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="両対面ベビーカー ベビー＆マタニティ / ベビーカー">
+          <td class="center">46</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2740580051/" target="_blank">両対面ベビーカー</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーカー">ベビー＆マタニティ / ベビーカー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2740580051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="二人・多人数用ベビーカー ベビー＆マタニティ / ベビーカー">
+          <td class="center">47</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345938011/" target="_blank">二人・多人数用ベビーカー</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーカー">ベビー＆マタニティ / ベビーカー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345938011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="背面ベビーカー・バギー ベビー＆マタニティ / ベビーカー">
+          <td class="center">48</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345936011/" target="_blank">背面ベビーカー・バギー</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーカー">ベビー＆マタニティ / ベビーカー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345936011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="べビーヘアカットグッズ ベビー＆マタニティ / ベビーケア・バス">
+          <td class="center">49</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170386011/" target="_blank">べビーヘアカットグッズ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーケア・バス">ベビー＆マタニティ / ベビーケア・バス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170386011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="シャンプーハット ベビー＆マタニティ / ベビーケア・バス">
+          <td class="center">50</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170361011/" target="_blank">シャンプーハット</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーケア・バス">ベビー＆マタニティ / ベビーケア・バス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170361011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="バスチェア ベビー＆マタニティ / ベビーケア・バス">
+          <td class="center">51</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345919011/" target="_blank">バスチェア</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーケア・バス">ベビー＆マタニティ / ベビーケア・バス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345919011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ヘアケア ベビー＆マタニティ / ベビーケア・バス">
+          <td class="center">52</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10311650051/" target="_blank">ヘアケア</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーケア・バス">ベビー＆マタニティ / ベビーケア・バス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10311650051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビーシャンプー ベビー＆マタニティ / ベビーケア・バス">
+          <td class="center">53</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3607069051/" target="_blank">ベビーシャンプー</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーケア・バス">ベビー＆マタニティ / ベビーケア・バス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3607069051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビースポンジ ベビー＆マタニティ / ベビーケア・バス">
+          <td class="center">54</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170359011/" target="_blank">ベビースポンジ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーケア・バス">ベビー＆マタニティ / ベビーケア・バス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170359011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビーソープ ベビー＆マタニティ / ベビーケア・バス">
+          <td class="center">55</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170356011/" target="_blank">ベビーソープ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーケア・バス">ベビー＆マタニティ / ベビーケア・バス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170356011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビーデンタルケア ベビー＆マタニティ / ベビーケア・バス">
+          <td class="center">56</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170414011/" target="_blank">ベビーデンタルケア</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーケア・バス">ベビー＆マタニティ / ベビーケア・バス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170414011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビーバス ベビー＆マタニティ / ベビーケア・バス">
+          <td class="center">57</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345921011/" target="_blank">ベビーバス</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーケア・バス">ベビー＆マタニティ / ベビーケア・バス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345921011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビーブラシ・くし ベビー＆マタニティ / ベビーケア・バス">
+          <td class="center">58</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2356794051/" target="_blank">ベビーブラシ・くし</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーケア・バス">ベビー＆マタニティ / ベビーケア・バス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2356794051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビー体温計 ベビー＆マタニティ / ベビーケア・バス">
+          <td class="center">59</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3943180051/" target="_blank">ベビー体温計</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーケア・バス">ベビー＆マタニティ / ベビーケア・バス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3943180051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビー湯おけ ベビー＆マタニティ / ベビーケア・バス">
+          <td class="center">60</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2740587051/" target="_blank">ベビー湯おけ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーケア・バス">ベビー＆マタニティ / ベビーケア・バス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2740587051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビー爪切り ベビー＆マタニティ / ベビーケア・バス">
+          <td class="center">61</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170385011/" target="_blank">ベビー爪切り</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーケア・バス">ベビー＆マタニティ / ベビーケア・バス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170385011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビー用タオル ベビー＆マタニティ / ベビーケア・バス">
+          <td class="center">62</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170362011/" target="_blank">ベビー用タオル</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーケア・バス">ベビー＆マタニティ / ベビーケア・バス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170362011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビー用バスローブ ベビー＆マタニティ / ベビーケア・バス">
+          <td class="center">63</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393073011/" target="_blank">ベビー用バスローブ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーケア・バス">ベビー＆マタニティ / ベビーケア・バス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393073011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビー綿棒 ベビー＆マタニティ / ベビーケア・バス">
+          <td class="center">64</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170376011/" target="_blank">ベビー綿棒</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーケア・バス">ベビー＆マタニティ / ベビーケア・バス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170376011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="湯温度計 ベビー＆マタニティ / ベビーケア・バス">
+          <td class="center">65</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345922011/" target="_blank">湯温度計</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーケア・バス">ベビー＆マタニティ / ベビーケア・バス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345922011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="身長計・ベビースケール ベビー＆マタニティ / ベビーケア・バス">
+          <td class="center">66</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910044051/" target="_blank">身長計・ベビースケール</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーケア・バス">ベビー＆マタニティ / ベビーケア・バス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910044051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="鼻吸い器 ベビー＆マタニティ / ベビーケア・バス">
+          <td class="center">67</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2356795051/" target="_blank">鼻吸い器</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビーケア・バス">ベビー＆マタニティ / ベビーケア・バス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2356795051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベッドガード・フェンス ベビー＆マタニティ / ベビー家具・収納">
+          <td class="center">68</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345903011/" target="_blank">ベッドガード・フェンス</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー家具・収納">ベビー＆マタニティ / ベビー家具・収納</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345903011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビーチェア ベビー＆マタニティ / ベビー家具・収納">
+          <td class="center">69</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345950011/" target="_blank">ベビーチェア</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー家具・収納">ベビー＆マタニティ / ベビー家具・収納</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345950011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビーチェア小物 ベビー＆マタニティ / ベビー家具・収納">
+          <td class="center">70</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345943011/" target="_blank">ベビーチェア小物</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー家具・収納">ベビー＆マタニティ / ベビー家具・収納</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345943011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビーハンガー ベビー＆マタニティ / ベビー家具・収納">
+          <td class="center">71</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910043051/" target="_blank">ベビーハンガー</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー家具・収納">ベビー＆マタニティ / ベビー家具・収納</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910043051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="乳幼児用ベッド ベビー＆マタニティ / ベビー家具・収納">
+          <td class="center">72</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345966011/" target="_blank">乳幼児用ベッド</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー家具・収納">ベビー＆マタニティ / ベビー家具・収納</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345966011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="収納家具 ベビー＆マタニティ / ベビー家具・収納">
+          <td class="center">73</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345967011/" target="_blank">収納家具</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー家具・収納">ベビー＆マタニティ / ベビー家具・収納</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345967011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="子ども用テーブル・椅子セット ベビー＆マタニティ / ベビー家具・収納">
+          <td class="center">74</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/5341924051/" target="_blank">子ども用テーブル・椅子セット</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー家具・収納">ベビー＆マタニティ / ベビー家具・収納</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/5341924051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="シーツ ベビー＆マタニティ / ベビー布団・寝具">
+          <td class="center">75</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910028051/" target="_blank">シーツ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー布団・寝具">ベビー＆マタニティ / ベビー布団・寝具</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910028051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビー布団 ベビー＆マタニティ / ベビー布団・寝具">
+          <td class="center">76</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345969011/" target="_blank">ベビー布団</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー布団・寝具">ベビー＆マタニティ / ベビー布団・寝具</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345969011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="布団カバー ベビー＆マタニティ / ベビー布団・寝具">
+          <td class="center">77</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910029051/" target="_blank">布団カバー</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー布団・寝具">ベビー＆マタニティ / ベビー布団・寝具</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910029051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="敷きパッド・防水シーツ ベビー＆マタニティ / ベビー布団・寝具">
+          <td class="center">78</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910032051/" target="_blank">敷きパッド・防水シーツ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー布団・寝具">ベビー＆マタニティ / ベビー布団・寝具</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910032051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="枕カバー ベビー＆マタニティ / ベビー布団・寝具">
+          <td class="center">79</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910036051/" target="_blank">枕カバー</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー布団・寝具">ベビー＆マタニティ / ベビー布団・寝具</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910036051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="蚊帳 ベビー＆マタニティ / ベビー布団・寝具">
+          <td class="center">80</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910033051/" target="_blank">蚊帳</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー布団・寝具">ベビー＆マタニティ / ベビー布団・寝具</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910033051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="tシャツ ベビー＆マタニティ / ベビー服">
+          <td class="center">81</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393080011/" target="_blank">Tシャツ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393080011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="カーディガン ベビー＆マタニティ / ベビー服">
+          <td class="center">82</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393091011/" target="_blank">カーディガン</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393091011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="コート・ジャンパー ベビー＆マタニティ / ベビー服">
+          <td class="center">83</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393086011/" target="_blank">コート・ジャンパー</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393086011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="シャツ・ブラウス ベビー＆マタニティ / ベビー服">
+          <td class="center">84</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393084011/" target="_blank">シャツ・ブラウス</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393084011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ショートパンツ・ハーフパンツ ベビー＆マタニティ / ベビー服">
+          <td class="center">85</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393093011/" target="_blank">ショートパンツ・ハーフパンツ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393093011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="スカート ベビー＆マタニティ / ベビー服">
+          <td class="center">86</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393095011/" target="_blank">スカート</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393095011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="セレモニー・着物 ベビー＆マタニティ / ベビー服">
+          <td class="center">87</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346058011/" target="_blank">セレモニー・着物</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346058011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="セーター ベビー＆マタニティ / ベビー服">
+          <td class="center">88</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393090011/" target="_blank">セーター</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393090011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="タンクトップ・キャミソール ベビー＆マタニティ / ベビー服">
+          <td class="center">89</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393081011/" target="_blank">タンクトップ・キャミソール</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393081011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="トレーナー・パーカー ベビー＆マタニティ / ベビー服">
+          <td class="center">90</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393089011/" target="_blank">トレーナー・パーカー</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393089011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="パジャマ ベビー＆マタニティ / ベビー服">
+          <td class="center">91</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346071011/" target="_blank">パジャマ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346071011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベスト ベビー＆マタニティ / ベビー服">
+          <td class="center">92</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393087011/" target="_blank">ベスト</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393087011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビー小物 ベビー＆マタニティ / ベビー服">
+          <td class="center">93</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346095011/" target="_blank">ベビー小物</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346095011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビー服上下セット ベビー＆マタニティ / ベビー服">
+          <td class="center">94</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/7720000051/" target="_blank">ベビー服上下セット</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/7720000051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ポロシャツ ベビー＆マタニティ / ベビー服">
+          <td class="center">95</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393085011/" target="_blank">ポロシャツ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393085011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ロングパンツ ベビー＆マタニティ / ベビー服">
+          <td class="center">96</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393092011/" target="_blank">ロングパンツ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393092011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ロンパース・カバーオール ベビー＆マタニティ / ベビー服">
+          <td class="center">97</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/351704011/" target="_blank">ロンパース・カバーオール</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/351704011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ワンピース・チュニック ベビー＆マタニティ / ベビー服">
+          <td class="center">98</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393100011/" target="_blank">ワンピース・チュニック</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393100011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="水着 ベビー＆マタニティ / ベビー服">
+          <td class="center">99</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346055011/" target="_blank">水着</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346055011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="着ぐるみ・コスチューム ベビー＆マタニティ / ベビー服">
+          <td class="center">100</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3050851051/" target="_blank">着ぐるみ・コスチューム</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / ベビー服">ベビー＆マタニティ / ベビー服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3050851051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="お産パッド ベビー＆マタニティ / マタニティ">
+          <td class="center">101</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170405011/" target="_blank">お産パッド</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / マタニティ">ベビー＆マタニティ / マタニティ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170405011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="マザーズバッグ ベビー＆マタニティ / マタニティ">
+          <td class="center">102</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345961011/" target="_blank">マザーズバッグ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / マタニティ">ベビー＆マタニティ / マタニティ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345961011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="マタニティキーホルダー ベビー＆マタニティ / マタニティ">
+          <td class="center">103</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2506943051/" target="_blank">マタニティキーホルダー</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / マタニティ">ベビー＆マタニティ / マタニティ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2506943051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="マタニティ下着 ベビー＆マタニティ / マタニティ">
+          <td class="center">104</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346165011/" target="_blank">マタニティ下着</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / マタニティ">ベビー＆マタニティ / マタニティ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346165011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="妊娠線予防クリーム ベビー＆マタニティ / マタニティ">
+          <td class="center">105</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3060547051/" target="_blank">妊娠線予防クリーム</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / マタニティ">ベビー＆マタニティ / マタニティ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3060547051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="心音計 ベビー＆マタニティ / マタニティ">
+          <td class="center">106</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2506942051/" target="_blank">心音計</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / マタニティ">ベビー＆マタニティ / マタニティ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2506942051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="母子手帳ケース ベビー＆マタニティ / マタニティ">
+          <td class="center">107</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345962011/" target="_blank">母子手帳ケース</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / マタニティ">ベビー＆マタニティ / マタニティ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345962011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="超音波写真アルバム ベビー＆マタニティ / マタニティ">
+          <td class="center">108</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2121908051/" target="_blank">超音波写真アルバム</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / マタニティ">ベビー＆マタニティ / マタニティ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2121908051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="おむつケーキ ベビー＆マタニティ / 出産祝い・ギフト・メモリアル">
+          <td class="center">109</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3607070051/" target="_blank">おむつケーキ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 出産祝い・ギフト・メモリアル">ベビー＆マタニティ / 出産祝い・ギフト・メモリアル</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3607070051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="お食い初め ベビー＆マタニティ / 出産祝い・ギフト・メモリアル">
+          <td class="center">110</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345892011/" target="_blank">お食い初め</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 出産祝い・ギフト・メモリアル">ベビー＆マタニティ / 出産祝い・ギフト・メモリアル</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345892011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ギフトセット ベビー＆マタニティ / 出産祝い・ギフト・メモリアル">
+          <td class="center">111</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345894011/" target="_blank">ギフトセット</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 出産祝い・ギフト・メモリアル">ベビー＆マタニティ / 出産祝い・ギフト・メモリアル</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345894011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビーカタログギフト ベビー＆マタニティ / 出産祝い・ギフト・メモリアル">
+          <td class="center">112</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2121906051/" target="_blank">ベビーカタログギフト</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 出産祝い・ギフト・メモリアル">ベビー＆マタニティ / 出産祝い・ギフト・メモリアル</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2121906051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="メモリアルグッズ ベビー＆マタニティ / 出産祝い・ギフト・メモリアル">
+          <td class="center">113</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345895011/" target="_blank">メモリアルグッズ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 出産祝い・ギフト・メモリアル">ベビー＆マタニティ / 出産祝い・ギフト・メモリアル</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345895011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ジャンパー・エンターテイナー ベビー＆マタニティ / 室内遊具">
+          <td class="center">114</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2975696051/" target="_blank">ジャンパー・エンターテイナー</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 室内遊具">ベビー＆マタニティ / 室内遊具</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2975696051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="バウンサー ベビー＆マタニティ / 室内遊具">
+          <td class="center">115</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345947011/" target="_blank">バウンサー</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 室内遊具">ベビー＆マタニティ / 室内遊具</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345947011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビージム・プレイマット ベビー＆マタニティ / 室内遊具">
+          <td class="center">116</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1978041051/" target="_blank">ベビージム・プレイマット</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 室内遊具">ベビー＆マタニティ / 室内遊具</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1978041051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビーロッカー ベビー＆マタニティ / 室内遊具">
+          <td class="center">117</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/8424874051/" target="_blank">ベビーロッカー</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 室内遊具">ベビー＆マタニティ / 室内遊具</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/8424874051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="歩行器 ベビー＆マタニティ / 室内遊具">
+          <td class="center">118</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345952011/" target="_blank">歩行器</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 室内遊具">ベビー＆マタニティ / 室内遊具</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345952011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="おしゃぶり・歯がため ベビー＆マタニティ / 授乳・食事">
+          <td class="center">119</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345978011/" target="_blank">おしゃぶり・歯がため</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 授乳・食事">ベビー＆マタニティ / 授乳・食事</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345978011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="スタイ・バープクロス ベビー＆マタニティ / 授乳・食事">
+          <td class="center">120</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/8484602051/" target="_blank">スタイ・バープクロス</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 授乳・食事">ベビー＆マタニティ / 授乳・食事</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/8484602051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="バストケア・乳頭保護 ベビー＆マタニティ / 授乳・食事">
+          <td class="center">121</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2479254051/" target="_blank">バストケア・乳頭保護</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 授乳・食事">ベビー＆マタニティ / 授乳・食事</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2479254051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビー食器 ベビー＆マタニティ / 授乳・食事">
+          <td class="center">122</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2479261051/" target="_blank">ベビー食器</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 授乳・食事">ベビー＆マタニティ / 授乳・食事</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2479261051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="哺乳びん ベビー＆マタニティ / 授乳・食事">
+          <td class="center">123</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345987011/" target="_blank">哺乳びん</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 授乳・食事">ベビー＆マタニティ / 授乳・食事</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345987011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="授乳クッション ベビー＆マタニティ / 授乳・食事">
+          <td class="center">124</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2479255051/" target="_blank">授乳クッション</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 授乳・食事">ベビー＆マタニティ / 授乳・食事</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2479255051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="授乳ケープ ベビー＆マタニティ / 授乳・食事">
+          <td class="center">125</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88728051/" target="_blank">授乳ケープ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 授乳・食事">ベビー＆マタニティ / 授乳・食事</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88728051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="搾乳器 ベビー＆マタニティ / 授乳・食事">
+          <td class="center">126</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345988011/" target="_blank">搾乳器</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 授乳・食事">ベビー＆マタニティ / 授乳・食事</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345988011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="母乳パッド ベビー＆マタニティ / 授乳・食事">
+          <td class="center">127</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2356796051/" target="_blank">母乳パッド</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 授乳・食事">ベビー＆マタニティ / 授乳・食事</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2356796051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="母乳保存パック ベビー＆マタニティ / 授乳・食事">
+          <td class="center">128</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2479253051/" target="_blank">母乳保存パック</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 授乳・食事">ベビー＆マタニティ / 授乳・食事</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2479253051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="調乳器具 ベビー＆マタニティ / 授乳・食事">
+          <td class="center">129</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345990011/" target="_blank">調乳器具</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 授乳・食事">ベビー＆マタニティ / 授乳・食事</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345990011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="離乳食保存容器 ベビー＆マタニティ / 授乳・食事">
+          <td class="center">130</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2479260051/" target="_blank">離乳食保存容器</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 授乳・食事">ベビー＆マタニティ / 授乳・食事</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2479260051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="離乳食調理器具 ベビー＆マタニティ / 授乳・食事">
+          <td class="center">131</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2479259051/" target="_blank">離乳食調理器具</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 授乳・食事">ベビー＆マタニティ / 授乳・食事</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2479259051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="食事マット ベビー＆マタニティ / 授乳・食事">
+          <td class="center">132</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2479262051/" target="_blank">食事マット</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 授乳・食事">ベビー＆マタニティ / 授乳・食事</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2479262051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="お風呂用おもちゃ ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">
+          <td class="center">133</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189085051/" target="_blank">お風呂用おもちゃ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189085051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ジャンピングジャック ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">
+          <td class="center">134</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/16397638051/" target="_blank">ジャンピングジャック</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/16397638051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="スロープトイ ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">
+          <td class="center">135</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189095051/" target="_blank">スロープトイ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189095051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="セキュリティブランケット ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">
+          <td class="center">136</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/16397637051/" target="_blank">セキュリティブランケット</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/16397637051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビートイ ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">
+          <td class="center">137</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10581509051/" target="_blank">ベビートイ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10581509051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ホビーホース ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">
+          <td class="center">138</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/16397639051/" target="_blank">ホビーホース</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/16397639051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ローリーポリートイ ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">
+          <td class="center">139</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/16397640051/" target="_blank">ローリーポリートイ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/16397640051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="屋内遊具 ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">
+          <td class="center">140</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189093051/" target="_blank">屋内遊具</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189093051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="木馬・ロッキングアニマル ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">
+          <td class="center">141</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/8418092051/" target="_blank">木馬・ロッキングアニマル</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/8418092051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="歯がため ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">
+          <td class="center">142</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2479256051/" target="_blank">歯がため</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2479256051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="積み木 ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">
+          <td class="center">143</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189086051/" target="_blank">積み木</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ">ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189086051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ファーストシューズ ベビー＆マタニティ / 靴">
+          <td class="center">144</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2032362051/" target="_blank">ファーストシューズ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 靴">ベビー＆マタニティ / 靴</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2032362051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="フォーマル ベビー＆マタニティ / 靴">
+          <td class="center">145</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2032363051/" target="_blank">フォーマル</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 靴">ベビー＆マタニティ / 靴</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2032363051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビーシューズ ベビー＆マタニティ / 靴">
+          <td class="center">146</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2032361051/" target="_blank">ベビーシューズ</a></td>
+          <td class="parent-tail" title="ベビー＆マタニティ / 靴">ベビー＆マタニティ / 靴</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2032361051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="group-section" data-group="マタニティ">
+    <div class="group-head">
+      📁 マタニティ
+      <span class="group-count">18件</span>
+    </div>
+    <table class="rows">
+      <thead>
+        <tr>
+          <th style="width:50px">順</th>
+          <th style="width:90px">判定</th>
+          <th style="width:90px">競合</th>
+          <th style="text-align:left">カテゴリ名</th>
+          <th>所属パス</th>
+          <th style="width:90px">スコア</th>
+          <th style="width:110px">月商</th>
+          <th style="width:80px">レビュー中</th>
+          <th style="width:60px">1位%</th>
+          <th style="width:50px">★</th>
+          <th style="width:80px">平均価格</th>
+          <th style="width:80px">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="tシャツ・カットソー マタニティ / マタニティウェア・授乳服">
+          <td class="center">1</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3299103051/" target="_blank">Tシャツ・カットソー</a></td>
+          <td class="parent-tail" title="マタニティ / マタニティウェア・授乳服">マタニティ / マタニティウェア・授乳服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3299103051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="カーディガン・ボレロ マタニティ / マタニティウェア・授乳服">
+          <td class="center">2</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3299109051/" target="_blank">カーディガン・ボレロ</a></td>
+          <td class="parent-tail" title="マタニティ / マタニティウェア・授乳服">マタニティ / マタニティウェア・授乳服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3299109051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="キャミソール・タンクトップ マタニティ / マタニティウェア・授乳服">
+          <td class="center">3</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3299105051/" target="_blank">キャミソール・タンクトップ</a></td>
+          <td class="parent-tail" title="マタニティ / マタニティウェア・授乳服">マタニティ / マタニティウェア・授乳服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3299105051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="コート・ジャケット マタニティ / マタニティウェア・授乳服">
+          <td class="center">4</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345955011/" target="_blank">コート・ジャケット</a></td>
+          <td class="parent-tail" title="マタニティ / マタニティウェア・授乳服">マタニティ / マタニティウェア・授乳服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/345955011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="サロペット・オーバーオール マタニティ / マタニティウェア・授乳服">
+          <td class="center">5</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2510525051/" target="_blank">サロペット・オーバーオール</a></td>
+          <td class="parent-tail" title="マタニティ / マタニティウェア・授乳服">マタニティ / マタニティウェア・授乳服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2510525051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="シャツ・ブラウス マタニティ / マタニティウェア・授乳服">
+          <td class="center">6</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3299106051/" target="_blank">シャツ・ブラウス</a></td>
+          <td class="parent-tail" title="マタニティ / マタニティウェア・授乳服">マタニティ / マタニティウェア・授乳服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3299106051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="スカート マタニティ / マタニティウェア・授乳服">
+          <td class="center">7</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2506934051/" target="_blank">スカート</a></td>
+          <td class="parent-tail" title="マタニティ / マタニティウェア・授乳服">マタニティ / マタニティウェア・授乳服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2506934051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="セーター マタニティ / マタニティウェア・授乳服">
+          <td class="center">8</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3299111051/" target="_blank">セーター</a></td>
+          <td class="parent-tail" title="マタニティ / マタニティウェア・授乳服">マタニティ / マタニティウェア・授乳服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3299111051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="トレーナー・パーカー マタニティ / マタニティウェア・授乳服">
+          <td class="center">9</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3299108051/" target="_blank">トレーナー・パーカー</a></td>
+          <td class="parent-tail" title="マタニティ / マタニティウェア・授乳服">マタニティ / マタニティウェア・授乳服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3299108051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="パンツ マタニティ / マタニティウェア・授乳服">
+          <td class="center">10</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2506935051/" target="_blank">パンツ</a></td>
+          <td class="parent-tail" title="マタニティ / マタニティウェア・授乳服">マタニティ / マタニティウェア・授乳服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2506935051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="フォーマルドレス・スーツ マタニティ / マタニティウェア・授乳服">
+          <td class="center">11</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2506937051/" target="_blank">フォーマルドレス・スーツ</a></td>
+          <td class="parent-tail" title="マタニティ / マタニティウェア・授乳服">マタニティ / マタニティウェア・授乳服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2506937051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="マタニティ水着 マタニティ / マタニティウェア・授乳服">
+          <td class="center">12</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346155011/" target="_blank">マタニティ水着</a></td>
+          <td class="parent-tail" title="マタニティ / マタニティウェア・授乳服">マタニティ / マタニティウェア・授乳服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346155011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ルームウェア・パジャマ マタニティ / マタニティウェア・授乳服">
+          <td class="center">13</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346182011/" target="_blank">ルームウェア・パジャマ</a></td>
+          <td class="parent-tail" title="マタニティ / マタニティウェア・授乳服">マタニティ / マタニティウェア・授乳服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346182011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ワンピース・チュニック マタニティ / マタニティウェア・授乳服">
+          <td class="center">14</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346162011/" target="_blank">ワンピース・チュニック</a></td>
+          <td class="parent-tail" title="マタニティ / マタニティウェア・授乳服">マタニティ / マタニティウェア・授乳服</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346162011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ウエストニッパー・産後サポーター マタニティ / 産後リフォーム下着">
+          <td class="center">15</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346166011/" target="_blank">ウエストニッパー・産後サポーター</a></td>
+          <td class="parent-tail" title="マタニティ / 産後リフォーム下着">マタニティ / 産後リフォーム下着</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346166011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="リフォームガードル マタニティ / 産後リフォーム下着">
+          <td class="center">16</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346179011/" target="_blank">リフォームガードル</a></td>
+          <td class="parent-tail" title="マタニティ / 産後リフォーム下着">マタニティ / 産後リフォーム下着</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346179011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="リフォームショーツ マタニティ / 産後リフォーム下着">
+          <td class="center">17</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346180011/" target="_blank">リフォームショーツ</a></td>
+          <td class="parent-tail" title="マタニティ / 産後リフォーム下着">マタニティ / 産後リフォーム下着</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346180011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="骨盤ベルト マタニティ / 産後リフォーム下着">
+          <td class="center">18</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2506940051/" target="_blank">骨盤ベルト</a></td>
+          <td class="parent-tail" title="マタニティ / 産後リフォーム下着">マタニティ / 産後リフォーム下着</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2506940051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="group-section" data-group="赤ちゃん・幼児のおもちゃ">
+    <div class="group-head">
+      📁 赤ちゃん・幼児のおもちゃ
+      <span class="group-count">8件</span>
+    </div>
+    <table class="rows">
+      <thead>
+        <tr>
+          <th style="width:50px">順</th>
+          <th style="width:90px">判定</th>
+          <th style="width:90px">競合</th>
+          <th style="text-align:left">カテゴリ名</th>
+          <th>所属パス</th>
+          <th style="width:90px">スコア</th>
+          <th style="width:110px">月商</th>
+          <th style="width:80px">レビュー中</th>
+          <th style="width:60px">1位%</th>
+          <th style="width:50px">★</th>
+          <th style="width:80px">平均価格</th>
+          <th style="width:80px">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="かずあそび 赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具">
+          <td class="center">1</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189098051/" target="_blank">かずあそび</a></td>
+          <td class="parent-tail" title="赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具">赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189098051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="はめこみ・形合わせ 赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具">
+          <td class="center">2</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189096051/" target="_blank">はめこみ・形合わせ</a></td>
+          <td class="parent-tail" title="赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具">赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189096051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="アクティビティキューブ 赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具">
+          <td class="center">3</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10355628051/" target="_blank">アクティビティキューブ</a></td>
+          <td class="parent-tail" title="赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具">赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10355628051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ハンマートイ 赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具">
+          <td class="center">4</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189094051/" target="_blank">ハンマートイ</a></td>
+          <td class="parent-tail" title="赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具">赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189094051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ルーピング・ビーズコースター 赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具">
+          <td class="center">5</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189088051/" target="_blank">ルーピング・ビーズコースター</a></td>
+          <td class="parent-tail" title="赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具">赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189088051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="初期発育用電子玩具 赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具">
+          <td class="center">6</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10343572051/" target="_blank">初期発育用電子玩具</a></td>
+          <td class="parent-tail" title="赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具">赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10343572051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="手押し車・プルトイ 赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具">
+          <td class="center">7</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189091051/" target="_blank">手押し車・プルトイ</a></td>
+          <td class="parent-tail" title="赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具">赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189091051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="知育時計・時計のおもちゃ 赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具">
+          <td class="center">8</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189097051/" target="_blank">知育時計・時計のおもちゃ</a></td>
+          <td class="parent-tail" title="赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具">赤ちゃん・幼児のおもちゃ / 早期発育・アクティビティ玩具</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189097051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="group-section" data-group="授乳・食事">
+    <div class="group-head">
+      📁 授乳・食事
+      <span class="group-count">7件</span>
+    </div>
+    <table class="rows">
+      <thead>
+        <tr>
+          <th style="width:50px">順</th>
+          <th style="width:90px">判定</th>
+          <th style="width:90px">競合</th>
+          <th style="text-align:left">カテゴリ名</th>
+          <th>所属パス</th>
+          <th style="width:90px">スコア</th>
+          <th style="width:110px">月商</th>
+          <th style="width:80px">レビュー中</th>
+          <th style="width:60px">1位%</th>
+          <th style="width:50px">★</th>
+          <th style="width:80px">平均価格</th>
+          <th style="width:80px">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ごはんのベビーフード 授乳・食事 / ベビーフード">
+          <td class="center">1</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/71427051/" target="_blank">ごはんのベビーフード</a></td>
+          <td class="parent-tail" title="授乳・食事 / ベビーフード">授乳・食事 / ベビーフード</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/71427051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="シリアル・ポリッジ 授乳・食事 / ベビーフード">
+          <td class="center">2</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10540691051/" target="_blank">シリアル・ポリッジ</a></td>
+          <td class="parent-tail" title="授乳・食事 / ベビーフード">授乳・食事 / ベビーフード</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10540691051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ヌードル 授乳・食事 / ベビーフード">
+          <td class="center">3</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/71428051/" target="_blank">ヌードル</a></td>
+          <td class="parent-tail" title="授乳・食事 / ベビーフード">授乳・食事 / ベビーフード</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/71428051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビー用スープ・ポタージュ 授乳・食事 / ベビーフード">
+          <td class="center">4</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2439506051/" target="_blank">ベビー用スープ・ポタージュ</a></td>
+          <td class="parent-tail" title="授乳・食事 / ベビーフード">授乳・食事 / ベビーフード</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2439506051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="卵のベビーフード 授乳・食事 / ベビーフード">
+          <td class="center">5</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/71424051/" target="_blank">卵のベビーフード</a></td>
+          <td class="parent-tail" title="授乳・食事 / ベビーフード">授乳・食事 / ベビーフード</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/71424051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="豆・豆腐のベビーフード 授乳・食事 / ベビーフード">
+          <td class="center">6</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2439520051/" target="_blank">豆・豆腐のベビーフード</a></td>
+          <td class="parent-tail" title="授乳・食事 / ベビーフード">授乳・食事 / ベビーフード</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2439520051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="魚のベビーフード 授乳・食事 / ベビーフード">
+          <td class="center">7</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/71426051/" target="_blank">魚のベビーフード</a></td>
+          <td class="parent-tail" title="授乳・食事 / ベビーフード">授乳・食事 / ベビーフード</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/71426051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="group-section" data-group="おむつ・トイレ">
+    <div class="group-head">
+      📁 おむつ・トイレ
+      <span class="group-count">5件</span>
+    </div>
+    <table class="rows">
+      <thead>
+        <tr>
+          <th style="width:50px">順</th>
+          <th style="width:90px">判定</th>
+          <th style="width:90px">競合</th>
+          <th style="text-align:left">カテゴリ名</th>
+          <th>所属パス</th>
+          <th style="width:90px">スコア</th>
+          <th style="width:110px">月商</th>
+          <th style="width:80px">レビュー中</th>
+          <th style="width:60px">1位%</th>
+          <th style="width:50px">★</th>
+          <th style="width:80px">平均価格</th>
+          <th style="width:80px">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="おむつカバー おむつ・トイレ / 布おむつ・アクセサリー">
+          <td class="center">1</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2740582051/" target="_blank">おむつカバー</a></td>
+          <td class="parent-tail" title="おむつ・トイレ / 布おむつ・アクセサリー">おむつ・トイレ / 布おむつ・アクセサリー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2740582051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="スプレーシャワー おむつ・トイレ / 布おむつ・アクセサリー">
+          <td class="center">2</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/21739369051/" target="_blank">スプレーシャワー</a></td>
+          <td class="parent-tail" title="おむつ・トイレ / 布おむつ・アクセサリー">おむつ・トイレ / 布おむつ・アクセサリー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/21739369051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ライナー おむつ・トイレ / 布おむつ・アクセサリー">
+          <td class="center">3</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/21739371051/" target="_blank">ライナー</a></td>
+          <td class="parent-tail" title="おむつ・トイレ / 布おむつ・アクセサリー">おむつ・トイレ / 布おむつ・アクセサリー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/21739371051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="布おむつ おむつ・トイレ / 布おむつ・アクセサリー">
+          <td class="center">4</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393223011/" target="_blank">布おむつ</a></td>
+          <td class="parent-tail" title="おむつ・トイレ / 布おむつ・アクセサリー">おむつ・トイレ / 布おむつ・アクセサリー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393223011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="洗濯用洗剤 おむつ・トイレ / 布おむつ・アクセサリー">
+          <td class="center">5</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/21739370051/" target="_blank">洗濯用洗剤</a></td>
+          <td class="parent-tail" title="おむつ・トイレ / 布おむつ・アクセサリー">おむつ・トイレ / 布おむつ・アクセサリー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/21739370051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="group-section" data-group="ベビー服">
+    <div class="group-head">
+      📁 ベビー服
+      <span class="group-count">5件</span>
+    </div>
+    <table class="rows">
+      <thead>
+        <tr>
+          <th style="width:50px">順</th>
+          <th style="width:90px">判定</th>
+          <th style="width:90px">競合</th>
+          <th style="text-align:left">カテゴリ名</th>
+          <th>所属パス</th>
+          <th style="width:90px">スコア</th>
+          <th style="width:110px">月商</th>
+          <th style="width:80px">レビュー中</th>
+          <th style="width:60px">1位%</th>
+          <th style="width:50px">★</th>
+          <th style="width:80px">平均価格</th>
+          <th style="width:80px">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ショーツ・ブリーフ ベビー服 / 下着・肌着・ソックス">
+          <td class="center">1</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393079011/" target="_blank">ショーツ・ブリーフ</a></td>
+          <td class="parent-tail" title="ベビー服 / 下着・肌着・ソックス">ベビー服 / 下着・肌着・ソックス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393079011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="スパッツ・レギンス ベビー服 / 下着・肌着・ソックス">
+          <td class="center">2</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393096011/" target="_blank">スパッツ・レギンス</a></td>
+          <td class="parent-tail" title="ベビー服 / 下着・肌着・ソックス">ベビー服 / 下着・肌着・ソックス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/393096011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="タイツ ベビー服 / 下着・肌着・ソックス">
+          <td class="center">3</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3050848051/" target="_blank">タイツ</a></td>
+          <td class="parent-tail" title="ベビー服 / 下着・肌着・ソックス">ベビー服 / 下着・肌着・ソックス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3050848051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="レッグウォーマー ベビー服 / 下着・肌着・ソックス">
+          <td class="center">4</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3050847051/" target="_blank">レッグウォーマー</a></td>
+          <td class="parent-tail" title="ベビー服 / 下着・肌着・ソックス">ベビー服 / 下着・肌着・ソックス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3050847051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="肌着 ベビー服 / 下着・肌着・ソックス">
+          <td class="center">5</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346035011/" target="_blank">肌着</a></td>
+          <td class="parent-tail" title="ベビー服 / 下着・肌着・ソックス">ベビー服 / 下着・肌着・ソックス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/346035011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="group-section" data-group="セーフティー">
+    <div class="group-head">
+      📁 セーフティー
+      <span class="group-count">4件</span>
+    </div>
+    <table class="rows">
+      <thead>
+        <tr>
+          <th style="width:50px">順</th>
+          <th style="width:90px">判定</th>
+          <th style="width:90px">競合</th>
+          <th style="text-align:left">カテゴリ名</th>
+          <th>所属パス</th>
+          <th style="width:90px">スコア</th>
+          <th style="width:110px">月商</th>
+          <th style="width:80px">レビュー中</th>
+          <th style="width:60px">1位%</th>
+          <th style="width:50px">★</th>
+          <th style="width:80px">平均価格</th>
+          <th style="width:80px">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ゲートエクステンション セーフティー / ベビーゲート">
+          <td class="center">1</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10326856051/" target="_blank">ゲートエクステンション</a></td>
+          <td class="parent-tail" title="セーフティー / ベビーゲート">セーフティー / ベビーゲート</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10326856051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ドア・階段ゲート セーフティー / ベビーゲート">
+          <td class="center">2</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10326855051/" target="_blank">ドア・階段ゲート</a></td>
+          <td class="parent-tail" title="セーフティー / ベビーゲート">セーフティー / ベビーゲート</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10326855051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="オーディオモニター セーフティー / ベビーモニター">
+          <td class="center">3</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/8479742051/" target="_blank">オーディオモニター</a></td>
+          <td class="parent-tail" title="セーフティー / ベビーモニター">セーフティー / ベビーモニター</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/8479742051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="スマートモニター セーフティー / ベビーモニター">
+          <td class="center">4</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/8479743051/" target="_blank">スマートモニター</a></td>
+          <td class="parent-tail" title="セーフティー / ベビーモニター">セーフティー / ベビーモニター</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/8479743051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="group-section" data-group="チャイルドシート">
+    <div class="group-head">
+      📁 チャイルドシート
+      <span class="group-count">4件</span>
+    </div>
+    <table class="rows">
+      <thead>
+        <tr>
+          <th style="width:50px">順</th>
+          <th style="width:90px">判定</th>
+          <th style="width:90px">競合</th>
+          <th style="text-align:left">カテゴリ名</th>
+          <th>所属パス</th>
+          <th style="width:90px">スコア</th>
+          <th style="width:110px">月商</th>
+          <th style="width:80px">レビュー中</th>
+          <th style="width:60px">1位%</th>
+          <th style="width:50px">★</th>
+          <th style="width:80px">平均価格</th>
+          <th style="width:80px">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="カーステッカー チャイルドシート / カーアクセサリ">
+          <td class="center">1</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88745051/" target="_blank">カーステッカー</a></td>
+          <td class="parent-tail" title="チャイルドシート / カーアクセサリ">チャイルドシート / カーアクセサリ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88745051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="サンシェード チャイルドシート / カーアクセサリ">
+          <td class="center">2</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88742051/" target="_blank">サンシェード</a></td>
+          <td class="parent-tail" title="チャイルドシート / カーアクセサリ">チャイルドシート / カーアクセサリ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88742051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビーミラー チャイルドシート / カーアクセサリ">
+          <td class="center">3</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88740051/" target="_blank">ベビーミラー</a></td>
+          <td class="parent-tail" title="チャイルドシート / カーアクセサリ">チャイルドシート / カーアクセサリ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88740051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="車内収納小物 チャイルドシート / カーアクセサリ">
+          <td class="center">4</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88746051/" target="_blank">車内収納小物</a></td>
+          <td class="parent-tail" title="チャイルドシート / カーアクセサリ">チャイルドシート / カーアクセサリ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/88746051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="group-section" data-group="ベビーケア・バス">
+    <div class="group-head">
+      📁 ベビーケア・バス
+      <span class="group-count">4件</span>
+    </div>
+    <table class="rows">
+      <thead>
+        <tr>
+          <th style="width:50px">順</th>
+          <th style="width:90px">判定</th>
+          <th style="width:90px">競合</th>
+          <th style="text-align:left">カテゴリ名</th>
+          <th>所属パス</th>
+          <th style="width:90px">スコア</th>
+          <th style="width:110px">月商</th>
+          <th style="width:80px">レビュー中</th>
+          <th style="width:60px">1位%</th>
+          <th style="width:50px">★</th>
+          <th style="width:80px">平均価格</th>
+          <th style="width:80px">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビーオイル ベビーケア・バス / ベビースキンケア">
+          <td class="center">1</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170391011/" target="_blank">ベビーオイル</a></td>
+          <td class="parent-tail" title="ベビーケア・バス / ベビースキンケア">ベビーケア・バス / ベビースキンケア</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170391011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビークリーム ベビーケア・バス / ベビースキンケア">
+          <td class="center">2</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170392011/" target="_blank">ベビークリーム</a></td>
+          <td class="parent-tail" title="ベビーケア・バス / ベビースキンケア">ベビーケア・バス / ベビースキンケア</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170392011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビーパウダー ベビーケア・バス / ベビースキンケア">
+          <td class="center">3</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170389011/" target="_blank">ベビーパウダー</a></td>
+          <td class="parent-tail" title="ベビーケア・バス / ベビースキンケア">ベビーケア・バス / ベビースキンケア</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170389011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビーローション ベビーケア・バス / ベビースキンケア">
+          <td class="center">4</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170390011/" target="_blank">ベビーローション</a></td>
+          <td class="parent-tail" title="ベビーケア・バス / ベビースキンケア">ベビーケア・バス / ベビースキンケア</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/170390011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="group-section" data-group="ベビー布団・寝具">
+    <div class="group-head">
+      📁 ベビー布団・寝具
+      <span class="group-count">4件</span>
+    </div>
+    <table class="rows">
+      <thead>
+        <tr>
+          <th style="width:50px">順</th>
+          <th style="width:90px">判定</th>
+          <th style="width:90px">競合</th>
+          <th style="text-align:left">カテゴリ名</th>
+          <th>所属パス</th>
+          <th style="width:90px">スコア</th>
+          <th style="width:110px">月商</th>
+          <th style="width:80px">レビュー中</th>
+          <th style="width:60px">1位%</th>
+          <th style="width:50px">★</th>
+          <th style="width:80px">平均価格</th>
+          <th style="width:80px">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ガーゼケット ベビー布団・寝具 / ブランケット・おくるみ">
+          <td class="center">1</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10425132051/" target="_blank">ガーゼケット</a></td>
+          <td class="parent-tail" title="ベビー布団・寝具 / ブランケット・おくるみ">ベビー布団・寝具 / ブランケット・おくるみ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10425132051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="スリーパー ベビー布団・寝具 / ブランケット・おくるみ">
+          <td class="center">2</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10425134051/" target="_blank">スリーパー</a></td>
+          <td class="parent-tail" title="ベビー布団・寝具 / ブランケット・おくるみ">ベビー布団・寝具 / ブランケット・おくるみ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10425134051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="タオルケット ベビー布団・寝具 / ブランケット・おくるみ">
+          <td class="center">3</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10425133051/" target="_blank">タオルケット</a></td>
+          <td class="parent-tail" title="ベビー布団・寝具 / ブランケット・おくるみ">ベビー布団・寝具 / ブランケット・おくるみ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10425133051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="毛布・ブランケット ベビー布団・寝具 / ブランケット・おくるみ">
+          <td class="center">4</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910023051/" target="_blank">毛布・ブランケット</a></td>
+          <td class="parent-tail" title="ベビー布団・寝具 / ブランケット・おくるみ">ベビー布団・寝具 / ブランケット・おくるみ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/1910023051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="group-section" data-group="ベビーフード">
+    <div class="group-head">
+      📁 ベビーフード
+      <span class="group-count">2件</span>
+    </div>
+    <table class="rows">
+      <thead>
+        <tr>
+          <th style="width:50px">順</th>
+          <th style="width:90px">判定</th>
+          <th style="width:90px">競合</th>
+          <th style="text-align:left">カテゴリ名</th>
+          <th>所属パス</th>
+          <th style="width:90px">スコア</th>
+          <th style="width:110px">月商</th>
+          <th style="width:80px">レビュー中</th>
+          <th style="width:60px">1位%</th>
+          <th style="width:50px">★</th>
+          <th style="width:80px">平均価格</th>
+          <th style="width:80px">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビー用液体ミルク ベビーフード / ミルク">
+          <td class="center">1</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/8417469051/" target="_blank">ベビー用液体ミルク</a></td>
+          <td class="parent-tail" title="ベビーフード / ミルク">ベビーフード / ミルク</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/8417469051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ベビー用粉ミルク ベビーフード / ミルク">
+          <td class="center">2</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/8417468051/" target="_blank">ベビー用粉ミルク</a></td>
+          <td class="parent-tail" title="ベビーフード / ミルク">ベビーフード / ミルク</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/8417468051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+
+  <div class="footer">
+    <a href="index-l1.html">← L1ルート一覧に戻る</a> / ベビー＆マタニティ配下 207件サブカテゴリ / グループ別表示 / 個別「📄 詳細」ボタンでレポートページへ
+  </div>
+</div>
+
+<script>
+const q = document.getElementById('q');
+const sel = document.getElementById('filter-status');
+const shown = document.getElementById('shown');
+
+function applyFilter() {
+  const term = q.value.toLowerCase();
+  const stat = sel.value;
+  let visibleCount = 0;
+  document.querySelectorAll('table.rows tbody tr').forEach((tr) => {
+    const matchSearch = !term || tr.dataset.search.includes(term);
+    const reco = tr.dataset.reco;
+    const status = tr.dataset.status;
+    let matchStatus = true;
+    if (stat === 'scanned') matchStatus = status.includes('scan済');
+    if (stat === 'strong') matchStatus = reco.includes('強推奨');
+    if (stat === 'consider') matchStatus = reco.includes('検討');
+    if (stat === 'recommended') matchStatus = reco.includes('強推奨') || reco.includes('検討');
+    const show = matchSearch && matchStatus;
+    tr.style.display = show ? '' : 'none';
+    if (show) visibleCount++;
+  });
+  shown.textContent = visibleCount;
+  // グループ全部非表示なら、見出しも非表示
+  document.querySelectorAll('.group-section').forEach((g) => {
+    const anyVisible = Array.from(g.querySelectorAll('tbody tr')).some((tr) => tr.style.display !== 'none');
+    g.style.display = anyVisible ? '' : 'none';
+  });
+}
+q.oninput = applyFilter;
+sel.onchange = applyFilter;
+</script>
+</body>
+</html>

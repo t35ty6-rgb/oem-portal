@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>OEM参入リサーチレポート: バイク車体カバー</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif;
+  background: #f5f5f0;
+  color: #212121;
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 16px;
+}
+.container { max-width: 1100px; margin: 0 auto; background: white; border: 1px solid #d7a063; }
+
+/* Header */
+.report-head {
+  background: linear-gradient(180deg, #ed6c02 0%, #d35400 100%);
+  color: white;
+  padding: 18px 24px;
+  border-bottom: 3px solid #c95400;
+}
+.report-head .label { font-size: 11px; opacity: 0.85; letter-spacing: 0.15em; }
+.report-head h1 { font-size: 24px; margin: 4px 0 8px; }
+.report-head .meta { display: flex; gap: 20px; font-size: 12px; opacity: 0.9; }
+
+/* Verdict banner */
+.verdict {
+  background: #c8e6c9;
+  border-left: 6px solid #2e7d32;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.verdict-icon { font-size: 36px; }
+.verdict-text { flex: 1; }
+.verdict-text strong { color: #1b5e20; font-size: 18px; }
+.verdict-text .sub { font-size: 12px; color: #2e7d32; margin-top: 4px; }
+
+/* Section */
+.section { padding: 18px 24px; border-bottom: 1px solid #ddd; }
+.section h2 { font-size: 15px; margin: 0 0 10px; color: #d35400; border-left: 4px solid #ed6c02; padding-left: 8px; }
+
+/* KV Grid */
+.kv-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 6px;
+}
+.kv {
+  border: 1px solid #ddc7a0;
+  background: #fff8e1;
+  padding: 6px 10px;
+}
+.kv-label { font-size: 10px; color: #8d6e63; }
+.kv-value { font-size: 16px; font-weight: 700; color: #212121; }
+.kv-pass { color: #2e7d32; }
+.kv-fail { color: #c62828; }
+
+/* Criteria table */
+table.criteria {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+table.criteria th, table.criteria td {
+  border: 1px solid #ddc7a0;
+  padding: 6px 8px;
+  text-align: left;
+}
+table.criteria thead th {
+  background: #ffe082;
+  font-size: 11px;
+}
+table.criteria tbody td.pass { background: #c8e6c9; color: #1b5e20; font-weight: 700; }
+table.criteria tbody td.fail { background: #ffcdd2; color: #b71c1c; font-weight: 700; }
+table.criteria tbody td.warn { background: #fff59d; color: #856404; }
+
+/* Top10 table */
+table.top10 {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+table.top10 thead th {
+  background: #ffb74d;
+  border: 1px solid #d7a063;
+  padding: 6px 8px;
+  text-align: center;
+  font-size: 11px;
+}
+table.top10 tbody td {
+  border: 1px solid #ddc7a0;
+  padding: 6px 8px;
+  vertical-align: middle;
+}
+table.top10 tbody tr:nth-child(odd) td { background: #fff8e1; }
+table.top10 tbody tr.rank-1 td { background: #fff9c4 !important; font-weight: 600; }
+table.top10 tbody tr.rank-2 td { border-left: 3px solid #bdbdbd; }
+table.top10 tbody tr.rank-3 td { border-left: 3px solid #a1887f; }
+.rank-num { text-align: center; font-weight: 700; font-size: 14px; width: 36px; }
+.asin-cell { font-family: monospace; font-size: 11px; }
+.title-cell { max-width: 380px; font-size: 12px; }
+.title-cell a { color: #1565c0; text-decoration: none; font-weight: 600; }
+.num-cell { text-align: right; font-variant-numeric: tabular-nums; }
+.brand-cell { font-size: 11px; color: #5d4037; }
+.stars { color: #f57c00; }
+
+/* KW chips */
+.kw-list { display: flex; flex-wrap: wrap; gap: 5px; }
+.kw {
+  background: #fff8e1;
+  border: 1px solid #d7a063;
+  padding: 4px 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  color: #5d4037;
+}
+.kw strong { color: #d35400; margin-left: 4px; }
+
+/* Action box */
+.action-box {
+  background: #fff3e0;
+  border: 2px solid #ed6c02;
+  padding: 12px 18px;
+  margin-top: 8px;
+}
+.action-box h3 { color: #d35400; font-size: 13px; margin-bottom: 8px; }
+.action-box ol { padding-left: 22px; }
+.action-box li { margin-bottom: 5px; font-size: 13px; }
+
+.btn-link {
+  display: inline-block;
+  background: #ed6c02;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 6px;
+}
+.btn-link.secondary {
+  background: white;
+  color: #d35400;
+  border: 2px solid #ed6c02;
+}
+
+/* Footer */
+.footer {
+  padding: 12px 24px;
+  background: #fafafa;
+  font-size: 10px;
+  color: #757575;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="report-head">
+    <div class="label">OEM参入リサーチレポート / STAGE 2 深掘り</div>
+    <h1>バイク車体カバー</h1>
+    <div class="meta">
+      <span>Amazon カテゴリ ID: 2045235051</span>
+      <span>所属: 車＆バイク / バイクアクセサリ</span>
+      <span>レポート日: 2026-05-15</span>
+    </div>
+  </div>
+
+  <div class="verdict">
+    <div class="verdict-icon">🟢</div>
+    <div class="verdict-text">
+      <strong>判定: 強推奨</strong>
+      <div class="sub">過去コンサル基準を3項目すべてクリア。1位独占ではなく上位5社で売上分散、参入余地あり。レビュー差(★3.8〜5.0、件数も二極化)からも「新興セラーが上位に食い込んでる」=入り込める構造。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>📊 市場サマリー</h2>
+    <div class="kv-grid">
+      <div class="kv"><div class="kv-label">TOPセラー月商(推定)</div><div class="kv-value kv-pass">¥5,960,000</div></div>
+      <div class="kv"><div class="kv-label">単価レンジ</div><div class="kv-value">¥2,199 〜 ¥6,994</div></div>
+      <div class="kv"><div class="kv-label">中央価格帯</div><div class="kv-value">¥2,980〜¥3,200</div></div>
+      <div class="kv"><div class="kv-label">★平均レンジ</div><div class="kv-value">3.8 〜 5.0</div></div>
+      <div class="kv"><div class="kv-label">1位独占度</div><div class="kv-value kv-pass">0% (分散)</div></div>
+      <div class="kv"><div class="kv-label">Top10セラー数</div><div class="kv-value">8 (重複2)</div></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>✅ 過去コンサル基準チェック</h2>
+    <table class="criteria">
+      <thead>
+        <tr><th>基準</th><th>本市場</th><th>判定</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>TOPセラー月商 ¥300万以上</td><td>¥596万</td><td class="pass">○ 合格</td></tr>
+        <tr><td>単価 ¥1,500-2,000以上</td><td>¥2,980 (TOPセラー)</td><td class="pass">○ 合格</td></tr>
+        <tr><td>1位独占度 50%未満</td><td>0% (5社分散)</td><td class="pass">○ 合格</td></tr>
+        <tr><td>競合のレビュー中央値 (改善余地判定)</td><td>★3.8〜5.0、件数二極化</td><td class="warn">△ 新興もOK</td></tr>
+        <tr><td>商材難易度 (PSE等規制)</td><td>布製品、規制なし</td><td class="pass">○ 容易</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>🏆 上位10社 競合</h2>
+    <table class="top10">
+      <thead>
+        <tr>
+          <th>順</th>
+          <th>ASIN</th>
+          <th>ブランド</th>
+          <th style="text-align:left">商品名</th>
+          <th>価格</th>
+          <th>★</th>
+          <th>レビュー</th>
+          <th>確認</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="rank-1">
+          <td class="rank-num">1</td>
+          <td class="asin-cell">B08BP6J69F</td>
+          <td class="brand-cell">Homwarm</td>
+          <td class="title-cell"><a href="https://www.amazon.co.jp/dp/B08BP6J69F" target="_blank">Homwarm バイクカバー 300D厚手 防水 紫外線防止 盗難防止 収納バッグ付き</a></td>
+          <td class="num-cell">¥2,980</td>
+          <td class="num-cell"><span class="stars">★4.4</span></td>
+          <td class="num-cell">16,577</td>
+          <td><a href="https://www.amazon.co.jp/product-reviews/B08BP6J69F" target="_blank">レビュー</a></td>
+        </tr>
+        <tr class="rank-2">
+          <td class="rank-num">2</td>
+          <td class="asin-cell">B0G8JBCJP2</td>
+          <td class="brand-cell">CENterano</td>
+          <td class="title-cell"><a href="https://www.amazon.co.jp/dp/B0G8JBCJP2" target="_blank">バイクカバー 420D厚手 【2025年新版&両側通気口】 車体カバー 防水 耐熱</a></td>
+          <td class="num-cell">-</td>
+          <td class="num-cell"><span class="stars">★5.0</span></td>
+          <td class="num-cell">13</td>
+          <td><a href="https://www.amazon.co.jp/product-reviews/B0G8JBCJP2" target="_blank">レビュー</a></td>
+        </tr>
+        <tr class="rank-3">
+          <td class="rank-num">3</td>
+          <td class="asin-cell">B07CWWBBD2</td>
+          <td class="brand-cell">デイトナ Daytona</td>
+          <td class="title-cell"><a href="https://www.amazon.co.jp/dp/B07CWWBBD2" target="_blank">デイトナ バイクカバー 125cc 250cc 400cc 撥水加工 前後が分かる</a></td>
+          <td class="num-cell">¥2,199</td>
+          <td class="num-cell"><span class="stars">★4.2</span></td>
+          <td class="num-cell">3,440</td>
+          <td><a href="https://www.amazon.co.jp/product-reviews/B07CWWBBD2" target="_blank">レビュー</a></td>
+        </tr>
+        <tr>
+          <td class="rank-num">4</td>
+          <td class="asin-cell">B0FBSBWCW9</td>
+          <td class="brand-cell">Bst Jyob</td>
+          <td class="title-cell"><a href="https://www.amazon.co.jp/dp/B0FBSBWCW9" target="_blank">Bst Jyob バイクカバー オックス600D 極厚 多サイズ展開 リアbox対応</a></td>
+          <td class="num-cell">-</td>
+          <td class="num-cell"><span class="stars">★4.4</span></td>
+          <td class="num-cell">400</td>
+          <td><a href="https://www.amazon.co.jp/product-reviews/B0FBSBWCW9" target="_blank">レビュー</a></td>
+        </tr>
+        <tr>
+          <td class="rank-num">5</td>
+          <td class="asin-cell">B01D150WJO</td>
+          <td class="brand-cell">Tokept</td>
+          <td class="title-cell"><a href="https://www.amazon.co.jp/dp/B01D150WJO" target="_blank">tokept 190t ATV ATC 雨防水カバー XXLサイズ 88" x</a></td>
+          <td class="num-cell">-</td>
+          <td class="num-cell">-</td>
+          <td class="num-cell">-</td>
+          <td><a href="https://www.amazon.co.jp/product-reviews/B01D150WJO" target="_blank">レビュー</a></td>
+        </tr>
+        <tr>
+          <td class="rank-num">6</td>
+          <td class="asin-cell">B07FXLRL67</td>
+          <td class="brand-cell">デイトナ Daytona</td>
+          <td class="title-cell"><a href="https://www.amazon.co.jp/dp/B07FXLRL67" target="_blank">デイトナ バイクカバー 大型 250cc 400cc 耐水圧20,000mm 湿気</a></td>
+          <td class="num-cell">¥6,994</td>
+          <td class="num-cell"><span class="stars">★4.3</span></td>
+          <td class="num-cell">1,305</td>
+          <td><a href="https://www.amazon.co.jp/product-reviews/B07FXLRL67" target="_blank">レビュー</a></td>
+        </tr>
+        <tr>
+          <td class="rank-num">7</td>
+          <td class="asin-cell">B0F1T4YVNN</td>
+          <td class="brand-cell">Ewuolck</td>
+          <td class="title-cell"><a href="https://www.amazon.co.jp/dp/B0F1T4YVNN" target="_blank">バイクカバー 420D厚手 【2025年新版＆湿気対策&両側通気口】 バイク用レインカバー</a></td>
+          <td class="num-cell">¥3,199</td>
+          <td class="num-cell"><span class="stars">★4.4</span></td>
+          <td class="num-cell">1,234</td>
+          <td><a href="https://www.amazon.co.jp/product-reviews/B0F1T4YVNN" target="_blank">レビュー</a></td>
+        </tr>
+        <tr>
+          <td class="rank-num">8</td>
+          <td class="asin-cell">B0F9G778PS</td>
+          <td class="brand-cell">Bst Jyob</td>
+          <td class="title-cell"><a href="https://www.amazon.co.jp/dp/B0F9G778PS" target="_blank">Bst Jyob バイクカバー 500D厚手 防水 独自の腰紐付き・風飛び完全防止</a></td>
+          <td class="num-cell">-</td>
+          <td class="num-cell"><span class="stars">★4.7</span></td>
+          <td class="num-cell">33</td>
+          <td><a href="https://www.amazon.co.jp/product-reviews/B0F9G778PS" target="_blank">レビュー</a></td>
+        </tr>
+        <tr>
+          <td class="rank-num">9</td>
+          <td class="asin-cell">B0FPRF5LY3</td>
+          <td class="brand-cell">Kaedear</td>
+          <td class="title-cell"><a href="https://www.amazon.co.jp/dp/B0FPRF5LY3" target="_blank">Kaedear カエディア バイクカバー 軽量 簡易 UVカット 不織布 通気性 傷防止</a></td>
+          <td class="num-cell">¥3,168</td>
+          <td class="num-cell"><span class="stars">★4.0</span></td>
+          <td class="num-cell">564</td>
+          <td><a href="https://www.amazon.co.jp/product-reviews/B0FPRF5LY3" target="_blank">レビュー</a></td>
+        </tr>
+        <tr>
+          <td class="rank-num">10</td>
+          <td class="asin-cell">B0C1P6SZPZ</td>
+          <td class="brand-cell">TATATOO</td>
+          <td class="title-cell"><a href="https://www.amazon.co.jp/dp/B0C1P6SZPZ" target="_blank">Tatatoo バイクカバー 厚手 125/250cc用 400cc対応 大型 原付 防水 耐熱</a></td>
+          <td class="num-cell">¥2,899</td>
+          <td class="num-cell"><span class="stars">★3.8</span></td>
+          <td class="num-cell">592</td>
+          <td><a href="https://www.amazon.co.jp/product-reviews/B0C1P6SZPZ" target="_blank">レビュー</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>🔍 主要検索KW (流入元推定)</h2>
+    <div style="font-size:11px;color:#5d4037;margin-bottom:6px">Top10商品のタイトル頻出語</div>
+    <div class="kw-list">
+      <div class="kw">バイクカバー 厚手 <strong>×5</strong></div>
+      <div class="kw">防水 耐熱 <strong>×3</strong></div>
+      <div class="kw">紫外線防止 カット <strong>×3</strong></div>
+      <div class="kw">防風 防埃 <strong>×3</strong></div>
+      <div class="kw">防雨 防雪 <strong>×3</strong></div>
+      <div class="kw">厚手 防水 <strong>×2</strong></div>
+      <div class="kw">2025年新版 両側通気口 <strong>×2</strong></div>
+      <div class="kw">125cc 250cc 400cc <strong>×3</strong></div>
+    </div>
+    <div style="font-size:11px;color:#5d4037;margin-top:10px;margin-bottom:4px">3語連結 (差別化訴求パターン)</div>
+    <div class="kw-list">
+      <div class="kw">紫外線防止 カット 防風</div>
+      <div class="kw">防風 防埃 防雨</div>
+      <div class="kw">防埃 防雨 防雪</div>
+      <div class="kw">厚手 防水 紫外線防止</div>
+      <div class="kw">2025年新版 両側通気口</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>💡 市場構造の観察</h2>
+    <ol style="padding-left:24px;line-height:1.7">
+      <li><strong>1位の極端な高レビュー(16,577)に対し、2-3位以下が桁違いに少ない</strong> → 1位ブランドのトレース勝負ではなく、新規参入が「2-3位ポジション」を取りに行く構造</li>
+      <li><strong>大手はデイトナ(Daytona)のみ</strong>、他は中華OEM・PB系 → クリエイティブと商品力で十分戦える</li>
+      <li><strong>「2025年新版」「両側通気口」など新機能訴求が増加中</strong> → 古い1位を新機能で抜く流れ。差別化ポイント明確</li>
+      <li><strong>★3.8〜5.0と評価バラつき大</strong> → 「ハズレ品」が混在、品質を打ち出せば一気に評価で抜ける</li>
+      <li><strong>サイズ展開(125cc/250cc/400cc/XXL/リアbox対応)で差別化</strong> → 多サイズ展開がスタンダード</li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <h2>🎯 差別化アイデア</h2>
+    <ol style="padding-left:24px;line-height:1.7">
+      <li><strong>素材スペック明示</strong>: 600D/420D/300D の数字戦争 → 700D超で「市場最高クラス」訴求</li>
+      <li><strong>両側通気口 + 反射テープ</strong> 標準装備（夜間安全性訴求）</li>
+      <li><strong>サイズチャート画像</strong>を商品ページに大きく載せる（サイズミスマッチがレビューでの不満頻出）</li>
+      <li><strong>付属品セット</strong>: 収納バッグ + 風飛び防止バンド + 盗難防止ロック穴金属リング</li>
+      <li><strong>レインカバー専用 vs オールシーズン</strong>: 用途別の2モデル展開</li>
+      <li><strong>「日本製ストラップ」「日本国内検品」</strong>等の品質訴求（中華OEMが多い市場で差別化）</li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <h2>📋 次のアクション</h2>
+    <div class="action-box">
+      <h3>STEP3 利益計算へ進む</h3>
+      <ol>
+        <li>1688.com で「摩托车罩」検索 → サンプル候補工場5社抽出</li>
+        <li>各工場に問い合わせ（600D/420D厚手・両側通気口・サイズ展開・MOQ確認）</li>
+        <li>原価予想 ¥800-1,200 (FOB) → FBA手数料含めて利益額 ¥1,200-1,800/個 試算</li>
+        <li>サンプル発注 (代行: ラクマート 周さん経由) — 春節前(1月中旬)目処</li>
+        <li>サンプル評価 → 本発注へ</li>
+      </ol>
+    </div>
+    <div style="margin-top:14px">
+      <a href="https://www.amazon.co.jp/gp/bestsellers/-/2045235051/" target="_blank" class="btn-link">Amazon BSR一覧</a>
+      <a href="https://www.1688.com/zw/search.htm?keywords=%E6%91%A9%E6%89%98%E8%BD%A6%E7%BD%A9" target="_blank" class="btn-link secondary">1688で「摩托车罩」検索</a>
+      <a href="https://www.alibaba.com/trade/search?SearchText=motorcycle+cover" target="_blank" class="btn-link secondary">Alibaba 検索</a>
+      <a href="https://www.amazon.co.jp/s?k=%E3%83%90%E3%82%A4%E3%82%AF%E3%82%AB%E3%83%90%E3%83%BC" target="_blank" class="btn-link secondary">Amazon 検索</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    OEMリサーチレポート / Stage 2 深掘り / カテゴリID 2045235051 / 2026-05-15<br>
+    データソース: Keepa Product API (Best Sellers + Product詳細)
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>OEMリサーチビューアー</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>📋 OEMリサーチビューアー</h1>
+  <div class="stat-blocks">
+    <div class="stat-block">総数<strong id="stat-total">-</strong></div>
+    <div class="stat-block">scan済<strong id="stat-scanned">-</strong></div>
+    <div class="stat-block">表示<strong id="stat-shown">-</strong></div>
+    <div class="stat-block" style="font-size:10px">更新 <span id="stat-updated">-</span></div>
+  </div>
+  <div class="my-pills" id="my-pills"></div>
+</div>
+
+<div class="filters">
+  <label>マイ
+    <select id="filter-my">
+      <option value="">全て</option>
+      <option value="__set">マーク済</option>
+      <option value="__none">未マーク</option>
+      <option value="interest">⭐興味</option>
+      <option value="research">🔍深掘</option>
+      <option value="sample">📦サンプル</option>
+      <option value="shipped">✅発売</option>
+      <option value="rejected">❌却下</option>
+    </select>
+  </label>
+  <label>L1
+    <select id="filter-l1"><option value="">全て</option></select>
+  </label>
+  <label>判定
+    <select id="filter-reco">
+      <option value="">全て</option>
+      <option value="🟢 強推奨">🟢強推奨</option>
+      <option value="🟡 検討">🟡検討</option>
+      <option value="⚪ 保留">⚪保留</option>
+      <option value="❌ 月商不足">❌月商不足</option>
+      <option value="❌ 寡占強">❌寡占強</option>
+      <option value="⏳ 待機">⏳待機</option>
+    </select>
+  </label>
+  <label>競合
+    <select id="filter-tag">
+      <option value="">全て</option>
+      <option value="🟢 群雄割拠">🟢群雄割拠</option>
+      <option value="🟢 5社拮抗">🟢5社拮抗</option>
+      <option value="⚪ 中間型">⚪中間</option>
+      <option value="🟠 二強型">🟠二強</option>
+      <option value="🟠 寡占型">🟠寡占</option>
+      <option value="🔴 一強型">🔴一強</option>
+    </select>
+  </label>
+  <input type="search" id="search" placeholder="カテゴリ名検索">
+  <button id="btn-clear" class="btn-small">クリア</button>
+  <button id="btn-reload" class="btn-small">🔄 データ再読込</button>
+  <button id="btn-export" class="btn-small" style="margin-left:auto">📥 マイデータ書出</button>
+</div>
+
+<div class="body-split">
+  <div class="left-pane">
+    <table class="cats">
+      <thead><tr id="thead-row"></tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+    <div id="empty" class="empty-state" style="display:none">該当なし</div>
+  </div>
+  <div class="right-pane" id="detail-pane">
+    <div class="detail-empty">← 左でカテゴリを選択</div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

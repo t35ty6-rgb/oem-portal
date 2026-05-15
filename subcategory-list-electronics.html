@@ -1,0 +1,1877 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>OEMリサーチ: 家電＆カメラ サブカテゴリ一覧</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif;
+  background: #f5f5f0;
+  color: #212121;
+  font-size: 12px;
+  line-height: 1.4;
+}
+.container { max-width: 1400px; margin: 0 auto; background: white; border: 1px solid #d7a063; }
+
+.report-head {
+  background: linear-gradient(180deg, #ed6c02 0%, #d35400 100%);
+  color: white;
+  padding: 14px 20px;
+  border-bottom: 3px solid #c95400;
+}
+.report-head .label { font-size: 10px; opacity: 0.85; letter-spacing: 0.15em; }
+.report-head h1 { font-size: 20px; margin: 3px 0 6px; }
+.report-head .meta { display: flex; gap: 16px; font-size: 11px; opacity: 0.9; }
+
+.kpi-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 6px;
+  padding: 10px 16px;
+  background: #fff8e1;
+  border-bottom: 2px solid #f9a825;
+}
+.kpi {
+  background: white;
+  border: 1px solid #d7a063;
+  padding: 6px 10px;
+}
+.kpi-label { font-size: 10px; color: #5d4037; }
+.kpi-value { font-size: 17px; font-weight: 700; color: #d35400; }
+
+.group-section { padding: 8px 0; }
+.group-head {
+  background: #ffb74d;
+  color: #212121;
+  padding: 6px 16px;
+  font-weight: 700;
+  font-size: 13px;
+  border-top: 1px solid #d7a063;
+  border-bottom: 1px solid #d7a063;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.group-head .group-count {
+  background: rgba(0,0,0,0.15);
+  color: white;
+  padding: 1px 8px;
+  border-radius: 8px;
+  font-size: 11px;
+}
+
+table.rows {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+}
+table.rows thead th {
+  background: #ffe082;
+  color: #212121;
+  border: 1px solid #d7a063;
+  padding: 4px 6px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 10px;
+  position: sticky;
+  top: 0;
+}
+table.rows tbody td {
+  border: 1px solid #ddc7a0;
+  padding: 3px 6px;
+  vertical-align: middle;
+  background: white;
+  white-space: nowrap;
+}
+table.rows tbody tr:nth-child(even) td { background: #fff8e1; }
+table.rows tbody tr:hover td { background: #ffe0b2; cursor: default; }
+.num { text-align: right; font-variant-numeric: tabular-nums; }
+.center { text-align: center; }
+.cat-name { font-weight: 600; color: #1565c0; max-width: 280px; overflow: hidden; text-overflow: ellipsis; }
+.cat-name a { color: #1565c0; text-decoration: none; }
+.cat-name a:hover { text-decoration: underline; }
+.parent-tail { color: #5d4037; font-size: 10px; max-width: 200px; overflow: hidden; text-overflow: ellipsis; }
+
+.b {
+  display: inline-block;
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 2px;
+  font-weight: 700;
+  border: 1px solid;
+}
+.b.green { background: #c8e6c9; color: #1b5e20; border-color: #66bb6a; }
+.b.yellow { background: #fff59d; color: #856404; border-color: #fdd835; }
+.b.orange { background: #ffe0b2; color: #e65100; border-color: #ffb74d; }
+.b.red { background: #ffcdd2; color: #b71c1c; border-color: #e57373; }
+.b.gray { background: #eceff1; color: #455a64; border-color: #b0bec5; }
+.b.lite { background: #f5f5f5; color: #757575; border-color: #bdbdbd; }
+
+.sb { display: inline-flex; align-items: center; gap: 4px; }
+.sb-bar { width: 32px; height: 5px; background: #eee; border: 1px solid #999; }
+.sb-fill { height: 100%; }
+.sb-num { font-weight: 700; min-width: 22px; text-align: right; }
+
+.report-btn {
+  background: #ed6c02; color: white; border: none;
+  padding: 3px 10px; font-size: 11px; font-weight: 700;
+  text-decoration: none; border-radius: 3px;
+  display: inline-block;
+}
+.report-btn:hover { background: #d35400; }
+.report-btn-2 {
+  background: white; color: #1565c0; border: 1px solid #1565c0;
+  padding: 3px 8px; font-size: 11px;
+  text-decoration: none; border-radius: 3px;
+}
+
+.toolbar {
+  background: #ffe082;
+  border-bottom: 1px solid #f9a825;
+  padding: 6px 16px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.toolbar input, .toolbar select {
+  background: white;
+  border: 1px solid #d7a063;
+  padding: 3px 8px;
+  font-size: 11px;
+  border-radius: 2px;
+  font-family: inherit;
+}
+.toolbar input[type=search] { min-width: 220px; }
+.toolbar label { font-size: 11px; font-weight: 700; color: #5d4037; }
+
+.footer {
+  padding: 10px 16px;
+  font-size: 10px;
+  color: #757575;
+  text-align: center;
+  background: #fafafa;
+  border-top: 1px solid #ddc7a0;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="report-head">
+    <div class="label">OEMリサーチ / STAGE 1 サブカテゴリ一覧</div>
+    <h1>家電＆カメラ 配下サブカテゴリ 102件</h1>
+    <div class="meta">
+      <span>生成日: 2026/5/15 12:13:05</span>
+      <span>データソース: Keepa + Amazon JP HTML scrape</span>
+    </div>
+  </div>
+
+  <div class="kpi-bar">
+    <div class="kpi"><div class="kpi-label">サブカテゴリ総数</div><div class="kpi-value">102</div></div>
+    <div class="kpi"><div class="kpi-label">scan済</div><div class="kpi-value">0</div></div>
+    <div class="kpi"><div class="kpi-label">🟢 強推奨</div><div class="kpi-value" style="color:#2e7d32">0</div></div>
+    <div class="kpi"><div class="kpi-label">🟡 検討</div><div class="kpi-value" style="color:#f57c00">0</div></div>
+    <div class="kpi"><div class="kpi-label">親グループ数</div><div class="kpi-value">4</div></div>
+  </div>
+
+  <div class="toolbar">
+    <label>絞り込み</label>
+    <input type="search" id="q" placeholder="カテゴリ名で検索">
+    <label>表示</label>
+    <select id="filter-status">
+      <option value="">全て</option>
+      <option value="scanned">scan済のみ</option>
+      <option value="strong">🟢強推奨のみ</option>
+      <option value="consider">🟡検討のみ</option>
+      <option value="recommended">🟢+🟡</option>
+    </select>
+    <span style="margin-left:auto;color:#5d4037;font-size:11px">表示: <strong id="shown">102</strong>件</span>
+  </div>
+
+
+  <div class="group-section" data-group="家電＆カメラ">
+    <div class="group-head">
+      📁 家電＆カメラ
+      <span class="group-count">74件</span>
+    </div>
+    <table class="rows">
+      <thead>
+        <tr>
+          <th style="width:50px">順</th>
+          <th style="width:90px">判定</th>
+          <th style="width:90px">競合</th>
+          <th style="text-align:left">カテゴリ名</th>
+          <th>所属パス</th>
+          <th style="width:90px">スコア</th>
+          <th style="width:110px">月商</th>
+          <th style="width:80px">レビュー中</th>
+          <th style="width:60px">1位%</th>
+          <th style="width:50px">★</th>
+          <th style="width:80px">平均価格</th>
+          <th style="width:80px">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="アクセサリ 家電＆カメラ / アクセサリ・サプライ">
+          <td class="center">1</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285029051/" target="_blank">アクセサリ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / アクセサリ・サプライ">家電＆カメラ / アクセサリ・サプライ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285029051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ホームオーディオアクセサリ 家電＆カメラ / アクセサリ・サプライ">
+          <td class="center">2</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285126051/" target="_blank">ホームオーディオアクセサリ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / アクセサリ・サプライ">家電＆カメラ / アクセサリ・サプライ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285126051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ポータブルオーディオアクセサリ 家電＆カメラ / アクセサリ・サプライ">
+          <td class="center">3</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285138051/" target="_blank">ポータブルオーディオアクセサリ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / アクセサリ・サプライ">家電＆カメラ / アクセサリ・サプライ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285138051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="携帯電話・スマートフォンアクセサリ 家電＆カメラ / アクセサリ・サプライ">
+          <td class="center">4</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/128189011/" target="_blank">携帯電話・スマートフォンアクセサリ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / アクセサリ・サプライ">家電＆カメラ / アクセサリ・サプライ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/128189011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="旅行用電源変換プラグ 家電＆カメラ / アクセサリ・サプライ">
+          <td class="center">5</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/7780677051/" target="_blank">旅行用電源変換プラグ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / アクセサリ・サプライ">家電＆カメラ / アクセサリ・サプライ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/7780677051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="イヤホン・ヘッドホンアダプター 家電＆カメラ / イヤホン・ヘッドホン">
+          <td class="center">6</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285141051/" target="_blank">イヤホン・ヘッドホンアダプター</a></td>
+          <td class="parent-tail" title="家電＆カメラ / イヤホン・ヘッドホン">家電＆カメラ / イヤホン・ヘッドホン</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285141051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="イヤホン・ヘッドホンケース 家電＆カメラ / イヤホン・ヘッドホン">
+          <td class="center">7</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285140051/" target="_blank">イヤホン・ヘッドホンケース</a></td>
+          <td class="parent-tail" title="家電＆カメラ / イヤホン・ヘッドホン">家電＆カメラ / イヤホン・ヘッドホン</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285140051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="イヤーパッド 家電＆カメラ / イヤホン・ヘッドホン">
+          <td class="center">8</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3050401051/" target="_blank">イヤーパッド</a></td>
+          <td class="parent-tail" title="家電＆カメラ / イヤホン・ヘッドホン">家電＆カメラ / イヤホン・ヘッドホン</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3050401051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="イヤーピース 家電＆カメラ / イヤホン・ヘッドホン">
+          <td class="center">9</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/85405051/" target="_blank">イヤーピース</a></td>
+          <td class="parent-tail" title="家電＆カメラ / イヤホン・ヘッドホン">家電＆カメラ / イヤホン・ヘッドホン</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/85405051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="クリーニングキット 家電＆カメラ / イヤホン・ヘッドホン">
+          <td class="center">10</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/207877547051/" target="_blank">クリーニングキット</a></td>
+          <td class="parent-tail" title="家電＆カメラ / イヤホン・ヘッドホン">家電＆カメラ / イヤホン・ヘッドホン</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/207877547051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="スタンド 家電＆カメラ / イヤホン・ヘッドホン">
+          <td class="center">11</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10420174051/" target="_blank">スタンド</a></td>
+          <td class="parent-tail" title="家電＆カメラ / イヤホン・ヘッドホン">家電＆カメラ / イヤホン・ヘッドホン</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10420174051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ヘッドホンアンプ 家電＆カメラ / イヤホン・ヘッドホン">
+          <td class="center">12</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/85407051/" target="_blank">ヘッドホンアンプ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / イヤホン・ヘッドホン">家電＆カメラ / イヤホン・ヘッドホン</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/85407051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ヘッドホン延長ケーブル 家電＆カメラ / イヤホン・ヘッドホン">
+          <td class="center">13</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/85406051/" target="_blank">ヘッドホン延長ケーブル</a></td>
+          <td class="parent-tail" title="家電＆カメラ / イヤホン・ヘッドホン">家電＆カメラ / イヤホン・ヘッドホン</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/85406051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="リケーブル 家電＆カメラ / イヤホン・ヘッドホン">
+          <td class="center">14</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3050400051/" target="_blank">リケーブル</a></td>
+          <td class="parent-tail" title="家電＆カメラ / イヤホン・ヘッドホン">家電＆カメラ / イヤホン・ヘッドホン</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3050400051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="収納フック 家電＆カメラ / イヤホン・ヘッドホン">
+          <td class="center">15</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10420173051/" target="_blank">収納フック</a></td>
+          <td class="parent-tail" title="家電＆カメラ / イヤホン・ヘッドホン">家電＆カメラ / イヤホン・ヘッドホン</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10420173051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="vrゴーグル 家電＆カメラ / ウェアラブルデバイス">
+          <td class="center">16</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/4693249051/" target="_blank">VRゴーグル</a></td>
+          <td class="parent-tail" title="家電＆カメラ / ウェアラブルデバイス">家電＆カメラ / ウェアラブルデバイス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/4693249051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="スマートウォッチ 家電＆カメラ / ウェアラブルデバイス">
+          <td class="center">17</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2725002051/" target="_blank">スマートウォッチ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / ウェアラブルデバイス">家電＆カメラ / ウェアラブルデバイス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2725002051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="スマートウォッチアクセサリ 家電＆カメラ / ウェアラブルデバイス">
+          <td class="center">18</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3544117051/" target="_blank">スマートウォッチアクセサリ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / ウェアラブルデバイス">家電＆カメラ / ウェアラブルデバイス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3544117051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="スマートトラッカー 家電＆カメラ / ウェアラブルデバイス">
+          <td class="center">19</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/5975597051/" target="_blank">スマートトラッカー</a></td>
+          <td class="parent-tail" title="家電＆カメラ / ウェアラブルデバイス">家電＆カメラ / ウェアラブルデバイス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/5975597051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ヘッドセット 家電＆カメラ / ウェアラブルデバイス">
+          <td class="center">20</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2146180051/" target="_blank">ヘッドセット</a></td>
+          <td class="parent-tail" title="家電＆カメラ / ウェアラブルデバイス">家電＆カメラ / ウェアラブルデバイス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2146180051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="メガネ 家電＆カメラ / ウェアラブルデバイス">
+          <td class="center">21</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2725001051/" target="_blank">メガネ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / ウェアラブルデバイス">家電＆カメラ / ウェアラブルデバイス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2725001051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="リストバンド型アクセサリ 家電＆カメラ / ウェアラブルデバイス">
+          <td class="center">22</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3544109051/" target="_blank">リストバンド型アクセサリ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / ウェアラブルデバイス">家電＆カメラ / ウェアラブルデバイス</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3544109051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="アンプ 家電＆カメラ / オーディオ">
+          <td class="center">23</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2795019051/" target="_blank">アンプ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / オーディオ">家電＆カメラ / オーディオ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2795019051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="スピーカー 家電＆カメラ / オーディオ">
+          <td class="center">24</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/171351011/" target="_blank">スピーカー</a></td>
+          <td class="parent-tail" title="家電＆カメラ / オーディオ">家電＆カメラ / オーディオ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/171351011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ミニコンポ・セットコンポ 家電＆カメラ / オーディオ">
+          <td class="center">25</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3477731/" target="_blank">ミニコンポ・セットコンポ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / オーディオ">家電＆カメラ / オーディオ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3477731/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="スタジオ撮影機材 家電＆カメラ / カメラ">
+          <td class="center">26</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/11072151/" target="_blank">スタジオ撮影機材</a></td>
+          <td class="parent-tail" title="家電＆カメラ / カメラ">家電＆カメラ / カメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/11072151/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="スライドプロジェクター 家電＆カメラ / カメラ">
+          <td class="center">27</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/11072091/" target="_blank">スライドプロジェクター</a></td>
+          <td class="parent-tail" title="家電＆カメラ / カメラ">家電＆カメラ / カメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/11072091/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="デジタルカメラ 家電＆カメラ / カメラ">
+          <td class="center">28</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3371371/" target="_blank">デジタルカメラ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / カメラ">家電＆カメラ / カメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3371371/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="デジタルフォトフレーム 家電＆カメラ / カメラ">
+          <td class="center">29</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/675721011/" target="_blank">デジタルフォトフレーム</a></td>
+          <td class="parent-tail" title="家電＆カメラ / カメラ">家電＆カメラ / カメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/675721011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ドローン・アクセサリ 家電＆カメラ / カメラ">
+          <td class="center">30</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10492310051/" target="_blank">ドローン・アクセサリ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / カメラ">家電＆カメラ / カメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10492310051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="フィルムスキャナ 家電＆カメラ / カメラ">
+          <td class="center">31</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2152011051/" target="_blank">フィルムスキャナ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / カメラ">家電＆カメラ / カメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2152011051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="フェイク・ダミーカメラ 家電＆カメラ / カメラ">
+          <td class="center">32</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2830372051/" target="_blank">フェイク・ダミーカメラ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / カメラ">家電＆カメラ / カメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2830372051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="フラッシュ・ストロボ 家電＆カメラ / カメラ">
+          <td class="center">33</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/11071331/" target="_blank">フラッシュ・ストロボ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / カメラ">家電＆カメラ / カメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/11071331/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ホームプロジェクター 家電＆カメラ / カメラ">
+          <td class="center">34</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/137613011/" target="_blank">ホームプロジェクター</a></td>
+          <td class="parent-tail" title="家電＆カメラ / カメラ">家電＆カメラ / カメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/137613011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="三脚・一脚 家電＆カメラ / カメラ">
+          <td class="center">35</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10658511/" target="_blank">三脚・一脚</a></td>
+          <td class="parent-tail" title="家電＆カメラ / カメラ">家電＆カメラ / カメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10658511/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="交換レンズ 家電＆カメラ / カメラ">
+          <td class="center">36</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/675729011/" target="_blank">交換レンズ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / カメラ">家電＆カメラ / カメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/675729011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="写真整理・保管 家電＆カメラ / カメラ">
+          <td class="center">37</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/675681011/" target="_blank">写真整理・保管</a></td>
+          <td class="parent-tail" title="家電＆カメラ / カメラ">家電＆カメラ / カメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/675681011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="双眼鏡・望遠鏡・光学機器 家電＆カメラ / カメラ">
+          <td class="center">38</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/171350011/" target="_blank">双眼鏡・望遠鏡・光学機器</a></td>
+          <td class="parent-tail" title="家電＆カメラ / カメラ">家電＆カメラ / カメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/171350011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="暗室・現像用品 家電＆カメラ / カメラ">
+          <td class="center">39</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/11071911/" target="_blank">暗室・現像用品</a></td>
+          <td class="parent-tail" title="家電＆カメラ / カメラ">家電＆カメラ / カメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/11071911/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="水中撮影器材 家電＆カメラ / カメラ">
+          <td class="center">40</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2226068051/" target="_blank">水中撮影器材</a></td>
+          <td class="parent-tail" title="家電＆カメラ / カメラ">家電＆カメラ / カメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2226068051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="防犯カメラ 家電＆カメラ / カメラ">
+          <td class="center">41</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/5338722051/" target="_blank">防犯カメラ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / カメラ">家電＆カメラ / カメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/5338722051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="avアンプ・avレシーバー 家電＆カメラ / テレビ・レコーダー">
+          <td class="center">42</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3477891/" target="_blank">AVアンプ・AVレシーバー</a></td>
+          <td class="parent-tail" title="家電＆カメラ / テレビ・レコーダー">家電＆カメラ / テレビ・レコーダー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3477891/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="スピーカー 家電＆カメラ / テレビ・レコーダー">
+          <td class="center">43</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/137612011/" target="_blank">スピーカー</a></td>
+          <td class="parent-tail" title="家電＆カメラ / テレビ・レコーダー">家電＆カメラ / テレビ・レコーダー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/137612011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="テレビ 家電＆カメラ / テレビ・レコーダー">
+          <td class="center">44</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3477491/" target="_blank">テレビ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / テレビ・レコーダー">家電＆カメラ / テレビ・レコーダー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3477491/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="テレビチューナー 家電＆カメラ / テレビ・レコーダー">
+          <td class="center">45</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2249542051/" target="_blank">テレビチューナー</a></td>
+          <td class="parent-tail" title="家電＆カメラ / テレビ・レコーダー">家電＆カメラ / テレビ・レコーダー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2249542051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="テレビ用hdd 家電＆カメラ / テレビ・レコーダー">
+          <td class="center">46</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2112679051/" target="_blank">テレビ用HDD</a></td>
+          <td class="parent-tail" title="家電＆カメラ / テレビ・レコーダー">家電＆カメラ / テレビ・レコーダー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2112679051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ホームシアターシステム 家電＆カメラ / テレビ・レコーダー">
+          <td class="center">47</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2795010051/" target="_blank">ホームシアターシステム</a></td>
+          <td class="parent-tail" title="家電＆カメラ / テレビ・レコーダー">家電＆カメラ / テレビ・レコーダー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2795010051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ポータブルテレビ 家電＆カメラ / テレビ・レコーダー">
+          <td class="center">48</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/137575011/" target="_blank">ポータブルテレビ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / テレビ・レコーダー">家電＆カメラ / テレビ・レコーダー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/137575011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="メガネ型動画プレイヤー 家電＆カメラ / テレビ・レコーダー">
+          <td class="center">49</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285143051/" target="_blank">メガネ型動画プレイヤー</a></td>
+          <td class="parent-tail" title="家電＆カメラ / テレビ・レコーダー">家電＆カメラ / テレビ・レコーダー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285143051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="メディアストリーミング端末 家電＆カメラ / テレビ・レコーダー">
+          <td class="center">50</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285132051/" target="_blank">メディアストリーミング端末</a></td>
+          <td class="parent-tail" title="家電＆カメラ / テレビ・レコーダー">家電＆カメラ / テレビ・レコーダー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285132051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="メディアドライブ 家電＆カメラ / テレビ・レコーダー">
+          <td class="center">51</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2151967051/" target="_blank">メディアドライブ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / テレビ・レコーダー">家電＆カメラ / テレビ・レコーダー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2151967051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="デジタルオーディオプレーヤー 家電＆カメラ / ポータブルオーディオ">
+          <td class="center">52</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/140474011/" target="_blank">デジタルオーディオプレーヤー</a></td>
+          <td class="parent-tail" title="家電＆カメラ / ポータブルオーディオ">家電＆カメラ / ポータブルオーディオ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/140474011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ボイスレコーダー 家電＆カメラ / ポータブルオーディオ">
+          <td class="center">53</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/85400051/" target="_blank">ボイスレコーダー</a></td>
+          <td class="parent-tail" title="家電＆カメラ / ポータブルオーディオ">家電＆カメラ / ポータブルオーディオ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/85400051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ポータブルmdプレーヤー 家電＆カメラ / ポータブルオーディオ">
+          <td class="center">54</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3481201/" target="_blank">ポータブルMDプレーヤー</a></td>
+          <td class="parent-tail" title="家電＆カメラ / ポータブルオーディオ">家電＆カメラ / ポータブルオーディオ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3481201/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ポータブルスピーカー・ドック 家電＆カメラ / ポータブルオーディオ">
+          <td class="center">55</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/6905032051/" target="_blank">ポータブルスピーカー・ドック</a></td>
+          <td class="parent-tail" title="家電＆カメラ / ポータブルオーディオ">家電＆カメラ / ポータブルオーディオ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/6905032051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ポータブルラジオ 家電＆カメラ / ポータブルオーディオ">
+          <td class="center">56</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/85398051/" target="_blank">ポータブルラジオ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / ポータブルオーディオ">家電＆カメラ / ポータブルオーディオ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/85398051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="simカード 家電＆カメラ / 携帯電話・スマートフォン">
+          <td class="center">57</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285145051/" target="_blank">SIMカード</a></td>
+          <td class="parent-tail" title="家電＆カメラ / 携帯電話・スマートフォン">家電＆カメラ / 携帯電話・スマートフォン</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285145051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="セルサービスプラン 家電＆カメラ / 携帯電話・スマートフォン">
+          <td class="center">58</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/24821910051/" target="_blank">セルサービスプラン</a></td>
+          <td class="parent-tail" title="家電＆カメラ / 携帯電話・スマートフォン">家電＆カメラ / 携帯電話・スマートフォン</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/24821910051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="モバイルブロードバンドプラン 家電＆カメラ / 携帯電話・スマートフォン">
+          <td class="center">59</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/24821911051/" target="_blank">モバイルブロードバンドプラン</a></td>
+          <td class="parent-tail" title="家電＆カメラ / 携帯電話・スマートフォン">家電＆カメラ / 携帯電話・スマートフォン</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/24821911051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="モバイルルーター 家電＆カメラ / 携帯電話・スマートフォン">
+          <td class="center">60</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2151987051/" target="_blank">モバイルルーター</a></td>
+          <td class="parent-tail" title="家電＆カメラ / 携帯電話・スマートフォン">家電＆カメラ / 携帯電話・スマートフォン</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2151987051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="マリンラジオ 家電＆カメラ / 無線・トランシーバー">
+          <td class="center">61</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/14616512051/" target="_blank">マリンラジオ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / 無線・トランシーバー">家電＆カメラ / 無線・トランシーバー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/14616512051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="中継局・リピーター 家電＆カメラ / 無線・トランシーバー">
+          <td class="center">62</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285304051/" target="_blank">中継局・リピーター</a></td>
+          <td class="parent-tail" title="家電＆カメラ / 無線・トランシーバー">家電＆カメラ / 無線・トランシーバー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285304051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="受信機・レシーバー 家電＆カメラ / 無線・トランシーバー">
+          <td class="center">63</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/387485011/" target="_blank">受信機・レシーバー</a></td>
+          <td class="parent-tail" title="家電＆カメラ / 無線・トランシーバー">家電＆カメラ / 無線・トランシーバー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/387485011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="無線機 家電＆カメラ / 無線・トランシーバー">
+          <td class="center">64</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/387490011/" target="_blank">無線機</a></td>
+          <td class="parent-tail" title="家電＆カメラ / 無線・トランシーバー">家電＆カメラ / 無線・トランシーバー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/387490011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="無線機アクセサリ 家電＆カメラ / 無線・トランシーバー">
+          <td class="center">65</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/387484011/" target="_blank">無線機アクセサリ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / 無線・トランシーバー">家電＆カメラ / 無線・トランシーバー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/387484011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="特定小電力トランシーバー 家電＆カメラ / 無線・トランシーバー">
+          <td class="center">66</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/236011011/" target="_blank">特定小電力トランシーバー</a></td>
+          <td class="parent-tail" title="家電＆カメラ / 無線・トランシーバー">家電＆カメラ / 無線・トランシーバー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/236011011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="スペーサー 家電＆カメラ / 電池">
+          <td class="center">67</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/84729051/" target="_blank">スペーサー</a></td>
+          <td class="parent-tail" title="家電＆カメラ / 電池">家電＆カメラ / 電池</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/84729051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="乾電池 家電＆カメラ / 電池">
+          <td class="center">68</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285179051/" target="_blank">乾電池</a></td>
+          <td class="parent-tail" title="家電＆カメラ / 電池">家電＆カメラ / 電池</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285179051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="充電器単体 家電＆カメラ / 電池">
+          <td class="center">69</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285180051/" target="_blank">充電器単体</a></td>
+          <td class="parent-tail" title="家電＆カメラ / 電池">家電＆カメラ / 電池</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285180051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="充電式電池 家電＆カメラ / 電池">
+          <td class="center">70</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/13751341/" target="_blank">充電式電池</a></td>
+          <td class="parent-tail" title="家電＆カメラ / 電池">家電＆カメラ / 電池</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/13751341/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="充電式電池・充電器パック 家電＆カメラ / 電池">
+          <td class="center">71</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/13751351/" target="_blank">充電式電池・充電器パック</a></td>
+          <td class="parent-tail" title="家電＆カメラ / 電池">家電＆カメラ / 電池</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/13751351/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="電池チェッカー 家電＆カメラ / 電池">
+          <td class="center">72</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/13751361/" target="_blank">電池チェッカー</a></td>
+          <td class="parent-tail" title="家電＆カメラ / 電池">家電＆カメラ / 電池</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/13751361/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="プリペイド電話カード 家電＆カメラ / 電話機・fax">
+          <td class="center">73</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2284030051/" target="_blank">プリペイド電話カード</a></td>
+          <td class="parent-tail" title="家電＆カメラ / 電話機・FAX">家電＆カメラ / 電話機・FAX</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2284030051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="電話機・fax用アクセサリ 家電＆カメラ / 電話機・fax">
+          <td class="center">74</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2284028051/" target="_blank">電話機・FAX用アクセサリ</a></td>
+          <td class="parent-tail" title="家電＆カメラ / 電話機・FAX">家電＆カメラ / 電話機・FAX</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2284028051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="group-section" data-group="テレビ・レコーダー">
+    <div class="group-head">
+      📁 テレビ・レコーダー
+      <span class="group-count">11件</span>
+    </div>
+    <table class="rows">
+      <thead>
+        <tr>
+          <th style="width:50px">順</th>
+          <th style="width:90px">判定</th>
+          <th style="width:90px">競合</th>
+          <th style="text-align:left">カテゴリ名</th>
+          <th>所属パス</th>
+          <th style="width:90px">スコア</th>
+          <th style="width:110px">月商</th>
+          <th style="width:80px">レビュー中</th>
+          <th style="width:60px">1位%</th>
+          <th style="width:50px">★</th>
+          <th style="width:80px">平均価格</th>
+          <th style="width:80px">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="3dメガネ テレビ・レコーダー / アクセサリ">
+          <td class="center">1</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285167051/" target="_blank">3Dメガネ</a></td>
+          <td class="parent-tail" title="テレビ・レコーダー / アクセサリ">テレビ・レコーダー / アクセサリ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285167051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="av・テレビリモコン テレビ・レコーダー / アクセサリ">
+          <td class="center">2</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/615963011/" target="_blank">AV・テレビリモコン</a></td>
+          <td class="parent-tail" title="テレビ・レコーダー / アクセサリ">テレビ・レコーダー / アクセサリ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/615963011/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="bs・cs放送機器 テレビ・レコーダー / アクセサリ">
+          <td class="center">3</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3477391/" target="_blank">BS・CS放送機器</a></td>
+          <td class="parent-tail" title="テレビ・レコーダー / アクセサリ">テレビ・レコーダー / アクセサリ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3477391/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="クリーナー用品 テレビ・レコーダー / アクセサリ">
+          <td class="center">4</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2249554051/" target="_blank">クリーナー用品</a></td>
+          <td class="parent-tail" title="テレビ・レコーダー / アクセサリ">テレビ・レコーダー / アクセサリ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2249554051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ケーブル テレビ・レコーダー / アクセサリ">
+          <td class="center">5</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10571138051/" target="_blank">ケーブル</a></td>
+          <td class="parent-tail" title="テレビ・レコーダー / アクセサリ">テレビ・レコーダー / アクセサリ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10571138051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="テレビ台・アクセサリ テレビ・レコーダー / アクセサリ">
+          <td class="center">6</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/5341898051/" target="_blank">テレビ台・アクセサリ</a></td>
+          <td class="parent-tail" title="テレビ・レコーダー / アクセサリ">テレビ・レコーダー / アクセサリ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/5341898051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="プロジェクターアクセサリ テレビ・レコーダー / アクセサリ">
+          <td class="center">7</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2311303051/" target="_blank">プロジェクターアクセサリ</a></td>
+          <td class="parent-tail" title="テレビ・レコーダー / アクセサリ">テレビ・レコーダー / アクセサリ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2311303051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="リアプロジェクション交換ランプ テレビ・レコーダー / アクセサリ">
+          <td class="center">8</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/14616545051/" target="_blank">リアプロジェクション交換ランプ</a></td>
+          <td class="parent-tail" title="テレビ・レコーダー / アクセサリ">テレビ・レコーダー / アクセサリ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/14616545051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="映像編集機 テレビ・レコーダー / アクセサリ">
+          <td class="center">9</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2249551051/" target="_blank">映像編集機</a></td>
+          <td class="parent-tail" title="テレビ・レコーダー / アクセサリ">テレビ・レコーダー / アクセサリ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2249551051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="液晶テレビ保護用品 テレビ・レコーダー / アクセサリ">
+          <td class="center">10</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2249550051/" target="_blank">液晶テレビ保護用品</a></td>
+          <td class="parent-tail" title="テレビ・レコーダー / アクセサリ">テレビ・レコーダー / アクセサリ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2249550051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="無線lan子機 テレビ・レコーダー / アクセサリ">
+          <td class="center">11</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2151998051/" target="_blank">無線LAN子機</a></td>
+          <td class="parent-tail" title="テレビ・レコーダー / アクセサリ">テレビ・レコーダー / アクセサリ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2151998051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="group-section" data-group="カメラ">
+    <div class="group-head">
+      📁 カメラ
+      <span class="group-count">10件</span>
+    </div>
+    <table class="rows">
+      <thead>
+        <tr>
+          <th style="width:50px">順</th>
+          <th style="width:90px">判定</th>
+          <th style="width:90px">競合</th>
+          <th style="text-align:left">カテゴリ名</th>
+          <th>所属パス</th>
+          <th style="width:90px">スコア</th>
+          <th style="width:110px">月商</th>
+          <th style="width:80px">レビュー中</th>
+          <th style="width:60px">1位%</th>
+          <th style="width:50px">★</th>
+          <th style="width:80px">平均価格</th>
+          <th style="width:80px">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="インスタントカメラ カメラ / フィルムカメラ">
+          <td class="center">1</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10658451/" target="_blank">インスタントカメラ</a></td>
+          <td class="parent-tail" title="カメラ / フィルムカメラ">カメラ / フィルムカメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10658451/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="コンパクト カメラ / フィルムカメラ">
+          <td class="center">2</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10658441/" target="_blank">コンパクト</a></td>
+          <td class="parent-tail" title="カメラ / フィルムカメラ">カメラ / フィルムカメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10658441/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="パノラマカメラ カメラ / フィルムカメラ">
+          <td class="center">3</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2680383051/" target="_blank">パノラマカメラ</a></td>
+          <td class="parent-tail" title="カメラ / フィルムカメラ">カメラ / フィルムカメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2680383051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ピンホールカメラ カメラ / フィルムカメラ">
+          <td class="center">4</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2680380051/" target="_blank">ピンホールカメラ</a></td>
+          <td class="parent-tail" title="カメラ / フィルムカメラ">カメラ / フィルムカメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2680380051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="レンズ付きフィルム カメラ / フィルムカメラ">
+          <td class="center">5</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/11071321/" target="_blank">レンズ付きフィルム</a></td>
+          <td class="parent-tail" title="カメラ / フィルムカメラ">カメラ / フィルムカメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/11071321/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="一眼レフカメラ カメラ / フィルムカメラ">
+          <td class="center">6</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10658431/" target="_blank">一眼レフカメラ</a></td>
+          <td class="parent-tail" title="カメラ / フィルムカメラ">カメラ / フィルムカメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/10658431/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="中・大判カメラ カメラ / フィルムカメラ">
+          <td class="center">7</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/14616519051/" target="_blank">中・大判カメラ</a></td>
+          <td class="parent-tail" title="カメラ / フィルムカメラ">カメラ / フィルムカメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/14616519051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="中判カメラ カメラ / フィルムカメラ">
+          <td class="center">8</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/11071301/" target="_blank">中判カメラ</a></td>
+          <td class="parent-tail" title="カメラ / フィルムカメラ">カメラ / フィルムカメラ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/11071301/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ポータブルフォトプリンター カメラ / フォトプリンタ">
+          <td class="center">9</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/14616240051/" target="_blank">ポータブルフォトプリンター</a></td>
+          <td class="parent-tail" title="カメラ / フォトプリンタ">カメラ / フォトプリンタ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/14616240051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="卓上フォトプリンタ カメラ / フォトプリンタ">
+          <td class="center">10</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/14616239051/" target="_blank">卓上フォトプリンタ</a></td>
+          <td class="parent-tail" title="カメラ / フォトプリンタ">カメラ / フォトプリンタ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/14616239051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="group-section" data-group="オーディオ">
+    <div class="group-head">
+      📁 オーディオ
+      <span class="group-count">7件</span>
+    </div>
+    <table class="rows">
+      <thead>
+        <tr>
+          <th style="width:50px">順</th>
+          <th style="width:90px">判定</th>
+          <th style="width:90px">競合</th>
+          <th style="text-align:left">カテゴリ名</th>
+          <th>所属パス</th>
+          <th style="width:90px">スコア</th>
+          <th style="width:110px">月商</th>
+          <th style="width:80px">レビュー中</th>
+          <th style="width:60px">1位%</th>
+          <th style="width:50px">★</th>
+          <th style="width:80px">平均価格</th>
+          <th style="width:80px">操作</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="fm・amチューナー オーディオ / プレーヤー・レコーダー">
+          <td class="center">1</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3477871/" target="_blank">FM・AMチューナー</a></td>
+          <td class="parent-tail" title="オーディオ / プレーヤー・レコーダー">オーディオ / プレーヤー・レコーダー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/3477871/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ディスクプレーヤー・レコーダー オーディオ / プレーヤー・レコーダー">
+          <td class="center">2</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2795016051/" target="_blank">ディスクプレーヤー・レコーダー</a></td>
+          <td class="parent-tail" title="オーディオ / プレーヤー・レコーダー">オーディオ / プレーヤー・レコーダー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2795016051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="ネットワークオーディオプレーヤー オーディオ / プレーヤー・レコーダー">
+          <td class="center">3</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2795017051/" target="_blank">ネットワークオーディオプレーヤー</a></td>
+          <td class="parent-tail" title="オーディオ / プレーヤー・レコーダー">オーディオ / プレーヤー・レコーダー</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2795017051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="インターネットラジオ オーディオ / ラジオ">
+          <td class="center">4</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/85399051/" target="_blank">インターネットラジオ</a></td>
+          <td class="parent-tail" title="オーディオ / ラジオ">オーディオ / ラジオ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/85399051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="クロックラジオ オーディオ / ラジオ">
+          <td class="center">5</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2112669051/" target="_blank">クロックラジオ</a></td>
+          <td class="parent-tail" title="オーディオ / ラジオ">オーディオ / ラジオ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2112669051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="シャワーラジオ オーディオ / ラジオ">
+          <td class="center">6</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285135051/" target="_blank">シャワーラジオ</a></td>
+          <td class="parent-tail" title="オーディオ / ラジオ">オーディオ / ラジオ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285135051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+        <tr data-reco="" data-status="⏳ 待機" data-search="卓上ラジオ オーディオ / ラジオ">
+          <td class="center">7</td>
+          <td class="center"><span class="b lite">⏳ 待機</span></td>
+          <td class="center"></td>
+          <td class="cat-name"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285136051/" target="_blank">卓上ラジオ</a></td>
+          <td class="parent-tail" title="オーディオ / ラジオ">オーディオ / ラジオ</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="num">-</td>
+          <td class="center"><a href="https://www.amazon.co.jp/gp/bestsellers/-/2285136051/" target="_blank" class="report-btn-2">📊 BSR</a></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+
+  <div class="footer">
+    <a href="index-l1.html">← L1ルート一覧に戻る</a> / 家電＆カメラ配下 102件サブカテゴリ / グループ別表示 / 個別「📄 詳細」ボタンでレポートページへ
+  </div>
+</div>
+
+<script>
+const q = document.getElementById('q');
+const sel = document.getElementById('filter-status');
+const shown = document.getElementById('shown');
+
+function applyFilter() {
+  const term = q.value.toLowerCase();
+  const stat = sel.value;
+  let visibleCount = 0;
+  document.querySelectorAll('table.rows tbody tr').forEach((tr) => {
+    const matchSearch = !term || tr.dataset.search.includes(term);
+    const reco = tr.dataset.reco;
+    const status = tr.dataset.status;
+    let matchStatus = true;
+    if (stat === 'scanned') matchStatus = status.includes('scan済');
+    if (stat === 'strong') matchStatus = reco.includes('強推奨');
+    if (stat === 'consider') matchStatus = reco.includes('検討');
+    if (stat === 'recommended') matchStatus = reco.includes('強推奨') || reco.includes('検討');
+    const show = matchSearch && matchStatus;
+    tr.style.display = show ? '' : 'none';
+    if (show) visibleCount++;
+  });
+  shown.textContent = visibleCount;
+  // グループ全部非表示なら、見出しも非表示
+  document.querySelectorAll('.group-section').forEach((g) => {
+    const anyVisible = Array.from(g.querySelectorAll('tbody tr')).some((tr) => tr.style.display !== 'none');
+    g.style.display = anyVisible ? '' : 'none';
+  });
+}
+q.oninput = applyFilter;
+sel.onchange = applyFilter;
+</script>
+</body>
+</html>
