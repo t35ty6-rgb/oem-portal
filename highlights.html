@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta name="robots" content="noindex,nofollow">
+<meta charset="UTF-8">
+<title>厳選カテゴリ一覧 - OEMリサーチ</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif; background: #f5f6f8; color: #1f2937; font-size: 13px; line-height: 1.5; }
+
+.topnav { position: sticky; top: 0; z-index: 100; display: flex; align-items: stretch; background: #1e293b; color: white; border-bottom: 2px solid #f97316; font-size: 11px; }
+.topnav .nav-home, .topnav .nav-dashboard { background: #f97316; color: white; padding: 8px 14px; text-decoration: none; font-weight: 700; font-size: 12px; white-space: nowrap; display: flex; align-items: center; }
+.topnav .nav-home:hover { background: #ea580c; }
+.topnav .nav-dashboard { background: #1565c0; }
+.topnav .label { flex: 1; padding: 8px 14px; color: #cbd5e1; font-size: 12px; align-self: center; }
+
+.container { max-width: 1400px; margin: 16px auto; background: white; border: 1px solid #e5e7eb; }
+.report-head { background: linear-gradient(180deg, #f97316 0%, #ea580c 100%); color: white; padding: 18px 24px; }
+.report-head h1 { font-size: 22px; margin-bottom: 4px; }
+.report-head .meta { font-size: 11px; opacity: 0.9; }
+
+.tab-bar { display: flex; gap: 0; background: #fafbfc; border-bottom: 1px solid #e5e7eb; padding: 0 24px; }
+.tab-btn {
+  background: transparent; border: none; padding: 12px 20px; font-size: 13px; font-weight: 700;
+  cursor: pointer; color: #6b7280; border-bottom: 3px solid transparent;
+}
+.tab-btn:hover { color: #ea580c; }
+.tab-btn.active { color: #ea580c; border-bottom-color: #f97316; background: white; }
+.tab-btn .count { background: #e5e7eb; color: #374151; padding: 1px 8px; border-radius: 10px; font-size: 11px; margin-left: 6px; }
+.tab-btn.active .count { background: #f97316; color: white; }
+
+.toolbar { padding: 12px 24px; background: #fff7ed; border-bottom: 1px solid #fed7aa; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.toolbar input, .toolbar select { background: white; border: 1px solid #e5e7eb; padding: 4px 10px; font-size: 12px; border-radius: 3px; }
+.toolbar label { font-size: 11px; font-weight: 700; color: #6b7280; }
+
+table.cats { width: 100%; border-collapse: collapse; font-size: 12px; }
+table.cats thead th { background: #fafbfc; border: 1px solid #e5e7eb; padding: 6px 8px; text-align: left; font-weight: 700; font-size: 10px; color: #6b7280; cursor: pointer; }
+table.cats thead th.sorted::after { content: ' ▼'; color: #ea580c; }
+table.cats tbody td { border: 1px solid #e5e7eb; padding: 6px 8px; vertical-align: middle; background: white; }
+table.cats tbody tr:hover td { background: #fff7ed; }
+table.cats .cat-name { font-weight: 600; }
+table.cats .cat-name a { color: #1565c0; text-decoration: none; }
+table.cats .cat-name a:hover { text-decoration: underline; }
+.num { text-align: right; font-variant-numeric: tabular-nums; font-family: monospace; }
+.btn { display: inline-block; padding: 3px 10px; background: #f97316; color: white; text-decoration: none; font-size: 11px; font-weight: 700; border-radius: 3px; }
+.btn:hover { background: #ea580c; }
+.btn-2 { background: #1565c0; }
+.btn-2:hover { background: #0d47a1; }
+.thumb { width: 36px; height: 36px; object-fit: contain; border: 1px solid #e5e7eb; }
+.reco-strong { background: #c8e6c9; color: #1b5e20; padding: 2px 6px; border-radius: 2px; font-weight: 700; font-size: 10px; }
+.reco-consider { background: #fff59d; color: #856404; padding: 2px 6px; border-radius: 2px; font-weight: 700; font-size: 10px; }
+
+.empty { text-align: center; padding: 40px; color: #9ca3af; }
+.footer { padding: 12px 24px; background: #fafafa; font-size: 10px; color: #6b7280; text-align: center; }
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a class="nav-home" href="index-l1.html">🏠 トップ</a>
+  <span class="label">🌟 厳選カテゴリ一覧 (全L1横断)</span>
+  <a class="nav-dashboard" href="dashboard.html">📊 ダッシュボード</a>
+</nav>
+
+<div class="container">
+  <div class="report-head">
+    <h1>🌟 厳選カテゴリ一覧</h1>
+    <div class="meta" id="metaInfo">読み込み中...</div>
+  </div>
+
+  <details class="usage-guide" style="margin:8px 16px 0;background:#fffbeb;border:1px solid #fcd34d;border-radius:4px;padding:8px 12px">
+    <summary style="cursor:pointer;font-weight:700;color:#92400e;font-size:12px;outline:none">💡 このページの使い方</summary>
+    <div style="margin-top:10px;font-size:11.5px;line-height:1.7;color:#451a03">
+      <p style="margin-bottom:6px"><strong>L1横断で「ねらい目カテゴリ」を一覧する場所。</strong> タブ+フィルタで絞り込んで、行クリックで該当L1ページへ。</p>
+      <ul style="margin:0 0 6px 18px">
+        <li><strong>タブ:</strong> 🟢おすすめ(スコア70+) / 🟡ありかも(50-70) / 📊分析済み全部</li>
+        <li><strong>難易度フィルタ「💎 OEM参入可のみ」:</strong> ¥1,500+ かつ top5最少レビュー&lt;500 のカテゴリだけに絞る (一番おすすめの使い方)</li>
+        <li><strong>データフィルタ「✅完全のみ」:</strong> 判定が信頼できる範囲だけ表示</li>
+        <li><strong>カテゴリ名の右の🎯:</strong> 1位ASINが複数カテゴリで重複ヒットしてる証。クリックで横断ヒット詳細</li>
+        <li><strong>行末「🔬深掘り」:</strong> 個別レポート(レビュー分析・利益試算・1688リンク等)</li>
+      </ul>
+      <p style="margin-bottom:0"><strong>💡 各列・フィルタはカーソル合わせると説明出ます</strong></p>
+    </div>
+  </details>
+
+  <div class="tab-bar">
+    <button class="tab-btn" data-tab="strong" title="スコア70+ の市場魅力度高めカテゴリ">🟢 おすすめ <span class="count" id="cnt-strong">0</span></button>
+    <button class="tab-btn" data-tab="consider" title="スコア50-70 の中堅ねらい目カテゴリ">🟡 ありかも <span class="count" id="cnt-consider">0</span></button>
+    <button class="tab-btn" data-tab="scanned" title="Keepa取得+分析済の全カテゴリ (判定外含む)">📊 分析済み全部 <span class="count" id="cnt-scanned">0</span></button>
+  </div>
+
+  <div class="toolbar">
+    <input type="search" id="q" placeholder="🔍 カテゴリ名で検索" style="min-width:240px">
+    <select id="l1Filter">
+      <option value="">L1: 全て</option>
+    </select>
+    <select id="dcFilter" title="データ取得状況で絞る。✅完全=判定が信頼できる範囲">
+      <option value="">データ: 全て</option>
+      <option value="verified">✅ 完全のみ</option>
+      <option value="partial">🟡 部分のみ</option>
+    </select>
+    <select id="entryFilter" title="参入難易度 (top5 Keepa から推定)">
+      <option value="">難易度: 全て</option>
+      <option value="viable">💎 OEM参入可のみ</option>
+      <option value="easy">🟢 easy</option>
+      <option value="medium">🟡 medium</option>
+      <option value="hard">🟠 hard</option>
+      <option value="very_hard">🔴 very_hard</option>
+    </select>
+    <span style="margin-left:auto;color:#6b7280;font-size:11px">表示: <strong id="shown">0</strong>件</span>
+  </div>
+
+  <div id="resultArea"></div>
+
+  <div class="footer">
+    各行クリックで該当L1ページへ / 行末の「深掘り」ボタンで個別レポート
+  </div>
+</div>
+
+<script>
+const L1_SLUG = {
+  'ホーム＆キッチン': 'home-kitchen', 'スポーツ＆アウトドア': 'sports-outdoor', '車＆バイク': 'auto-bike',
+  'ベビー＆マタニティ': 'baby-maternity', 'ビューティー': 'beauty', 'ドラッグストア': 'drugstore',
+  '家電＆カメラ': 'electronics', 'パソコン・周辺機器': 'pc-peripherals', '楽器・音響機器': 'instruments',
+  'DIY・工具・ガーデン': 'diy', 'おもちゃ': 'toys', 'ファッション': 'fashion',
+  'ペット用品': 'pet-supplies', 'ホビー': 'hobby', '大型家電': 'appliances',
+  '文房具・オフィス用品': 'office', '産業・研究開発用品': 'industrial', '食品・飲料・お酒': 'food',
+};
+
+const params = new URLSearchParams(window.location.search);
+let currentTab = params.get('filter') || 'strong';
+const initEntry = params.get('entry') || '';
+let DATA = null;
+
+function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":"&#39;"}[c])); }
+function fmtYen(n) { if (n == null || n === '') return '-'; const x = Number(n); return isNaN(x) ? '-' : Math.round(x).toLocaleString() + '円'; }
+function recoBadge(r) {
+  if (!r) return '';
+  if (r.includes('強推奨') || r.includes('おすすめ')) return '<span class="reco-strong">🟢 おすすめ</span>';
+  if (r.includes('検討') || r.includes('ありかも')) return '<span class="reco-consider">🟡 ありかも</span>';
+  return '';
+}
+
+let TOP1 = {};
+let ASIN_HITS = {}; // asin -> count (何カテゴリで top1?)
+async function loadData() {
+  const [r, r2] = await Promise.all([
+    fetch('data/categories.json?t=' + Date.now()),
+    fetch('data/category-top1.json?t=' + Date.now()).catch(() => null),
+  ]);
+  DATA = await r.json();
+  if (r2 && r2.ok) TOP1 = await r2.json();
+  // ASIN 横断カウント計算
+  for (const [, t1] of Object.entries(TOP1)) {
+    if (t1.asin) ASIN_HITS[t1.asin] = (ASIN_HITS[t1.asin] || 0) + 1;
+  }
+  const cats = DATA.categories || [];
+
+  // L1選択肢
+  const l1s = [...new Set(cats.map(c => c.l1Root).filter(Boolean))].sort();
+  const l1Sel = document.getElementById('l1Filter');
+  for (const l1 of l1s) l1Sel.insertAdjacentHTML('beforeend', `<option value="${esc(l1)}">${esc(l1)}</option>`);
+
+  // カウント
+  const strong = cats.filter(c => c.recommendation && (c.recommendation.includes('強推奨') || c.recommendation.includes('おすすめ')));
+  const consider = cats.filter(c => c.recommendation && (c.recommendation.includes('検討') || c.recommendation.includes('ありかも')));
+  const scanned = cats.filter(c => c.status && (c.status.includes('scan済') || c.status.includes('分析済')) && c.score);
+  document.getElementById('cnt-strong').textContent = strong.length;
+  document.getElementById('cnt-consider').textContent = consider.length;
+  document.getElementById('cnt-scanned').textContent = scanned.length;
+  document.getElementById('metaInfo').textContent = '生成: ' + new Date(DATA.generatedAt).toLocaleString('ja-JP') + ' / 全' + cats.length.toLocaleString() + 'カテゴリ';
+
+  if (initEntry) {
+    document.getElementById('entryFilter').value = initEntry;
+    // 参入可フィルタ時は scanned タブにしておく（おすすめ判定外でも該当出すため）
+    if (initEntry === 'viable' && !params.get('filter')) currentTab = 'scanned';
+  }
+  setTab(currentTab);
+}
+
+function setTab(tab) {
+  currentTab = tab;
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === tab));
+  render();
+}
+
+function getFilteredCats() {
+  const cats = DATA.categories || [];
+  let filtered;
+  if (currentTab === 'strong') filtered = cats.filter(c => c.recommendation && (c.recommendation.includes('強推奨') || c.recommendation.includes('おすすめ')));
+  else if (currentTab === 'consider') filtered = cats.filter(c => c.recommendation && (c.recommendation.includes('検討') || c.recommendation.includes('ありかも')));
+  else filtered = cats.filter(c => c.status && (c.status.includes('scan済') || c.status.includes('分析済')) && c.score);
+  return filtered.sort((a, b) => (b.score || 0) - (a.score || 0));
+}
+
+function render() {
+  const term = (document.getElementById('q').value || '').toLowerCase();
+  const l1Filter = document.getElementById('l1Filter').value;
+  const dcFilter = document.getElementById('dcFilter').value;
+  let items = getFilteredCats();
+  if (term) items = items.filter(c => (c.label + ' ' + c.parent).toLowerCase().includes(term));
+  if (l1Filter) items = items.filter(c => c.l1Root === l1Filter);
+  if (dcFilter) items = items.filter(c => c.dataCompleteness === dcFilter);
+  const entryF = document.getElementById('entryFilter').value;
+  if (entryF === 'viable') items = items.filter(c => c.oemViable);
+  else if (entryF) items = items.filter(c => c.entryDifficulty === entryF);
+  document.getElementById('shown').textContent = items.length;
+
+  const area = document.getElementById('resultArea');
+  if (items.length === 0) { area.innerHTML = '<div class="empty">該当カテゴリ無し</div>'; return; }
+
+  const rows = items.map((c, i) => {
+    const slug = L1_SLUG[c.l1Root] || c.l1Root;
+    const top1 = TOP1[c.id] || {};
+    const thumb = top1.image ? '<a href="' + esc(top1.url || '#') + '" target="_blank"><img class="thumb" src="' + esc(top1.image) + '" loading="lazy" onerror="this.style.display=\'none\'"></a>' : '<span style="color:#cbd5e1;font-size:9px">画像なし</span>';
+    const t1Title = top1.title ? esc(top1.title).slice(0, 50) : '';
+    const brand = top1.brand ? '<span style="font-size:10px;color:#1565c0;font-weight:600">' + esc(top1.brand) + '</span>' : '';
+    const chCount = top1.asin ? (ASIN_HITS[top1.asin] || 0) : 0;
+    const chBadge = chCount >= 2 ? ' <a href="cross-category-hits.html?q=' + esc(top1.asin) + '" target="_blank" style="background:linear-gradient(180deg,#f97316,#ea580c);color:white;padding:2px 7px;border-radius:10px;font-size:10px;font-weight:700;text-decoration:none;margin-left:4px" title="同じ商品が ' + chCount + 'カテゴリで1位">🎯' + chCount + '</a>' : '';
+    return '<tr>' +
+      '<td class="num">' + (i + 1) + '</td>' +
+      '<td>' + thumb + '</td>' +
+      '<td class="cat-name"><a href="subcategory-list-' + slug + '.html">' + esc(c.label) + '</a>' + chBadge + (c.dataCompleteness === 'verified' ? ' <span style="background:linear-gradient(180deg,#34d399,#10b981);color:white;padding:1px 5px;border-radius:8px;font-size:9px;font-weight:700;margin-left:4px">✅完全</span>' : c.dataCompleteness === 'partial' ? ' <span style="background:#fef3c7;color:#92400e;border:1px solid #fbbf24;padding:1px 5px;border-radius:8px;font-size:9px;font-weight:700;margin-left:4px">🟡部分</span>' : '') + (c.oemViable ? ' <span title="' + esc(c.entryReason || '') + '" style="background:linear-gradient(180deg,#fde68a,#f59e0b);color:#78350f;padding:1px 6px;border-radius:8px;font-size:9px;font-weight:700;margin-left:4px">💎参入可</span>' : (c.entryDifficulty === 'easy' ? ' <span title="' + esc(c.entryReason || '') + '" style="background:#dcfce7;color:#166534;padding:1px 5px;border-radius:8px;font-size:9px;font-weight:700;margin-left:4px">🟢easy</span>' : '')) + '<div style="font-size:10px;color:#6b7280;margin-top:2px">1位: ' + t1Title + '</div>' + brand + '</td>' +
+      '<td><span style="font-size:11px;color:#6b7280">' + esc(c.l1Root) + '</span></td>' +
+      '<td>' + recoBadge(c.recommendation) + '</td>' +
+      '<td class="num"><strong style="color:#ea580c">' + (c.score || '-') + '</strong></td>' +
+      '<td class="num">' + fmtYen(c.totalRevenue) + '</td>' +
+      '<td class="num">' + (c.reviewMedian || '-') + '</td>' +
+      '<td class="num">' + (c.topShare ? (c.topShare * 100).toFixed(0) + '%' : '-') + '</td>' +
+      '<td class="num">' + (c.ratingMean ? Number(c.ratingMean).toFixed(1) : '-') + '</td>' +
+      '<td class="num">' + fmtYen(c.avgPrice) + '</td>' +
+      '<td>' +
+        '<a class="btn" href="deepdive-' + c.id + '.html" target="_blank">🔬 深掘り</a> ' +
+        '<a class="btn btn-2" href="subcategory-list-' + slug + '.html#' + c.id + '">L1で見る</a>' +
+      '</td>' +
+    '</tr>';
+  }).join('');
+
+  area.innerHTML = '<table class="cats"><thead><tr>' +
+    '<th>順</th><th>画像</th><th style="min-width:260px">カテゴリ / 1位商品</th><th>L1</th><th>判定</th>' +
+    '<th class="num">スコア</th><th class="num">月商</th><th class="num">レビュー中</th>' +
+    '<th class="num">1位%</th><th class="num">★</th><th class="num">平均価格</th><th>操作</th>' +
+    '</tr></thead><tbody>' + rows + '</tbody></table>';
+}
+
+document.querySelectorAll('.tab-btn').forEach(b => b.addEventListener('click', () => setTab(b.dataset.tab)));
+document.getElementById('q').addEventListener('input', render);
+document.getElementById('l1Filter').addEventListener('change', render);
+document.getElementById('dcFilter').addEventListener('change', render);
+document.getElementById('entryFilter').addEventListener('change', render);
+
+loadData().catch(e => { document.getElementById('resultArea').innerHTML = '<div class="empty">読み込みエラー: ' + e.message + '</div>'; });
+</script>
+</body>
+</html>

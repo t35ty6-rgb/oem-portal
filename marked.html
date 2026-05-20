@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta name="robots" content="noindex,nofollow">
+<meta charset="UTF-8">
+<title>マーク済みカテゴリ - OEMリサーチ</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif; background: #f5f6f8; color: #1f2937; font-size: 13px; line-height: 1.5; }
+
+.topnav { position: sticky; top: 0; z-index: 100; display: flex; align-items: stretch; background: #1e293b; color: white; border-bottom: 2px solid #f97316; font-size: 11px; }
+.topnav .nav-home, .topnav .nav-dashboard { background: #f97316; color: white; padding: 8px 14px; text-decoration: none; font-weight: 700; font-size: 12px; white-space: nowrap; display: flex; align-items: center; }
+.topnav .nav-home:hover { background: #ea580c; }
+.topnav .nav-dashboard { background: #1565c0; }
+.topnav .label { flex: 1; padding: 8px 14px; color: #cbd5e1; font-size: 12px; align-self: center; }
+
+.container { max-width: 1280px; margin: 16px auto; background: white; border: 1px solid #e5e7eb; }
+.report-head { background: linear-gradient(180deg, #f97316 0%, #ea580c 100%); color: white; padding: 18px 24px; }
+.report-head h1 { font-size: 22px; margin-bottom: 4px; }
+.report-head .meta { font-size: 11px; opacity: 0.9; }
+
+.kpi-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; padding: 12px 24px; background: #fff7ed; border-bottom: 2px solid #fed7aa; }
+.kpi { background: white; border: 1px solid #e5e7eb; padding: 8px 12px; }
+.kpi-label { font-size: 10px; color: #6b7280; }
+.kpi-value { font-size: 22px; font-weight: 700; color: #ea580c; }
+
+.section { padding: 16px 24px; border-bottom: 1px solid #e5e7eb; }
+.section h2 { font-size: 15px; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.section h2 .count { background: #e5e7eb; color: #374151; padding: 2px 10px; border-radius: 10px; font-size: 11px; font-weight: 700; }
+.section.s-interest h2 { color: #92400e; border-left: 4px solid #fbbf24; padding-left: 8px; }
+.section.s-research h2 { color: #ea580c; border-left: 4px solid #f97316; padding-left: 8px; }
+.section.s-sample h2 { color: #6d28d9; border-left: 4px solid #a78bfa; padding-left: 8px; }
+.section.s-shipped h2 { color: #166534; border-left: 4px solid #34d399; padding-left: 8px; }
+.section.s-rejected h2 { color: #991b1b; border-left: 4px solid #f87171; padding-left: 8px; }
+
+table.cats { width: 100%; border-collapse: collapse; font-size: 12px; }
+table.cats thead th { background: #fafbfc; border: 1px solid #e5e7eb; padding: 6px 8px; text-align: left; font-weight: 700; font-size: 10px; color: #6b7280; }
+table.cats tbody td { border: 1px solid #e5e7eb; padding: 6px 8px; }
+table.cats tbody tr:hover td { background: #fff7ed; }
+table.cats .cat-name a { color: #1565c0; text-decoration: none; font-weight: 600; }
+table.cats .cat-name a:hover { text-decoration: underline; }
+.num { text-align: right; font-variant-numeric: tabular-nums; font-family: monospace; }
+.btn { display: inline-block; padding: 3px 10px; background: #f97316; color: white; text-decoration: none; font-size: 11px; font-weight: 700; border-radius: 3px; }
+.btn:hover { background: #ea580c; }
+.btn-2 { background: #1565c0; }
+.btn-2:hover { background: #0d47a1; }
+
+.empty { text-align: center; padding: 40px; color: #9ca3af; }
+.unmark-btn { background: transparent; border: 1px solid #fca5a5; color: #991b1b; cursor: pointer; padding: 2px 6px; font-size: 10px; border-radius: 2px; }
+.unmark-btn:hover { background: #fee2e2; }
+.footer { padding: 12px 24px; background: #fafafa; font-size: 10px; color: #6b7280; text-align: center; }
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a class="nav-home" href="index-l1.html">🏠 トップ</a>
+  <span class="label">⭐ マーク済みカテゴリ一覧</span>
+  <a class="nav-dashboard" href="dashboard.html">📊 ダッシュボード</a>
+</nav>
+
+<div class="container">
+  <div class="report-head">
+    <h1>⭐ マーク済みカテゴリ一覧</h1>
+    <div class="meta">localStorage に保存されたマーク状態から自動集計 / <span id="updated"></span></div>
+  </div>
+
+  <div class="kpi-bar" id="kpi-bar"></div>
+
+  <div id="sections"></div>
+
+  <div class="footer">
+    マーク変更は各サブカテゴリ一覧ページから（行の☆ボタン）/ このページはマーク済みのみ集約表示
+  </div>
+</div>
+
+<script>
+const L1_SLUG = {
+  'ホーム＆キッチン': 'home-kitchen', 'スポーツ＆アウトドア': 'sports-outdoor', '車＆バイク': 'auto-bike',
+  'ベビー＆マタニティ': 'baby-maternity', 'ビューティー': 'beauty', 'ドラッグストア': 'drugstore',
+  '家電＆カメラ': 'electronics', 'パソコン・周辺機器': 'pc-peripherals', '楽器・音響機器': 'instruments',
+  'DIY・工具・ガーデン': 'diy', 'おもちゃ': 'toys', 'ファッション': 'fashion',
+  'ペット用品': 'pet-supplies', 'ホビー': 'hobby', '大型家電': 'appliances',
+  '文房具・オフィス用品': 'office', '産業・研究開発用品': 'industrial', '食品・飲料・お酒': 'food',
+};
+const MARK_DEFS = [
+  { key: 'interest', icon: '⭐', label: '興味' },
+  { key: 'research', icon: '🔍', label: '深掘' },
+  { key: 'sample', icon: '📦', label: 'サンプル' },
+  { key: 'shipped', icon: '✅', label: '発売' },
+  { key: 'rejected', icon: '❌', label: '却下' },
+];
+
+async function main() {
+  const marks = JSON.parse(localStorage.getItem('oem-marks-v1') || '{}');
+  document.getElementById('updated').textContent = new Date().toLocaleString('ja-JP');
+
+  const r = await fetch('data/categories.json?t=' + Date.now());
+  const data = await r.json();
+  const cats = data.categories || [];
+  const byId = new Map(cats.map((c) => [String(c.id), c]));
+
+  // マーク済みだけ
+  const marked = Object.entries(marks).map(([id, mark]) => {
+    const cat = byId.get(String(id));
+    if (!cat) return null;
+    return { ...cat, mark };
+  }).filter(Boolean);
+
+  // KPI
+  const kpiBar = document.getElementById('kpi-bar');
+  kpiBar.innerHTML = '<div class="kpi"><div class="kpi-label">マーク総数</div><div class="kpi-value">' + marked.length + '</div></div>' +
+    MARK_DEFS.map((d) => {
+      const n = marked.filter((m) => m.mark === d.key).length;
+      return '<div class="kpi"><div class="kpi-label">' + d.icon + ' ' + d.label + '</div><div class="kpi-value">' + n + '</div></div>';
+    }).join('');
+
+  // セクション
+  const sectionsEl = document.getElementById('sections');
+  if (marked.length === 0) {
+    sectionsEl.innerHTML = '<div class="empty">⭐マーク済みカテゴリが無い<br><br>各 <a href="index-l1.html">L1ページ</a> から行の星ボタンで気になるカテゴリをマーク開始</div>';
+    return;
+  }
+
+  sectionsEl.innerHTML = MARK_DEFS.map((d) => {
+    const items = marked.filter((m) => m.mark === d.key);
+    if (items.length === 0) return '';
+    return '<div class="section s-' + d.key + '">' +
+      '<h2>' + d.icon + ' ' + d.label + ' <span class="count">' + items.length + '件</span></h2>' +
+      '<table class="cats"><thead><tr>' +
+      '<th>カテゴリ</th><th>L1ルート</th><th>所属</th><th>スコア</th><th>1位月商</th><th>競合</th><th>操作</th>' +
+      '</tr></thead><tbody>' +
+      items.map((c) => {
+        const slug = L1_SLUG[c.l1Root] || c.l1Root;
+        const dpFile = 'deepdive-' + c.id + '.html';
+        return '<tr data-cat-id="' + c.id + '">' +
+          '<td class="cat-name"><a href="' + dpFile + '" target="_blank">' + escapeHtml(c.label) + '</a></td>' +
+          '<td>' + escapeHtml(c.l1Root || '') + '</td>' +
+          '<td style="font-size:10px;color:#6b7280">' + escapeHtml(c.parent || '') + '</td>' +
+          '<td class="num">' + (c.score || '-') + '</td>' +
+          '<td class="num">' + (c.totalRevenue ? Math.round(c.totalRevenue).toLocaleString() + '円' : '-') + '</td>' +
+          '<td>' + escapeHtml(c.marketTag || '') + '</td>' +
+          '<td>' +
+            '<a class="btn" href="subcategory-list-' + slug + '.html#' + c.id + '">L1で見る</a> ' +
+            '<a class="btn btn-2" href="https://www.amazon.co.jp/gp/bestsellers/-/' + c.id + '/" target="_blank">BSR</a> ' +
+            '<button class="unmark-btn" data-cat-id="' + c.id + '">解除</button>' +
+          '</td>' +
+        '</tr>';
+      }).join('') +
+      '</tbody></table></div>';
+  }).join('');
+
+  // 解除ボタン
+  document.querySelectorAll('.unmark-btn').forEach((b) => {
+    b.addEventListener('click', () => {
+      const id = b.dataset.catId;
+      delete marks[id];
+      localStorage.setItem('oem-marks-v1', JSON.stringify(marks));
+      main(); // 再描画
+    });
+  });
+}
+
+function escapeHtml(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+main().catch((e) => { document.getElementById('sections').innerHTML = '<div class="empty">エラー: ' + e.message + '</div>'; });
+</script>
+</body>
+</html>

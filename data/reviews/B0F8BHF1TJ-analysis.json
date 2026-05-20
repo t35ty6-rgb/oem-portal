@@ -1,0 +1,407 @@
+{
+  "asin": "B0F8BHF1TJ",
+  "productTitle": "Philips(フィリップス) LED電球 E26口金 60W相当 電球色 広配光 LDA7L-G/E/K/1P-A",
+  "analyzedAt": "2026-05-16T23:10:32.658Z",
+  "totalReviews": 39,
+  "lowStarCount": 10,
+  "highStarCount": 21,
+  "avgRating": "3.41",
+  "painPoints": {
+    "品質": {
+      "count": 3,
+      "words": [
+        "不良"
+      ]
+    },
+    "説明書": {
+      "count": 8,
+      "words": [
+        "翻訳"
+      ]
+    },
+    "音": {
+      "count": 15,
+      "words": [
+        "うるさい",
+        "音"
+      ]
+    },
+    "デザイン": {
+      "count": 4,
+      "words": [
+        "色"
+      ]
+    },
+    "梱包": {
+      "count": 1,
+      "words": [
+        "汚れ"
+      ]
+    },
+    "サポート": {
+      "count": 1,
+      "words": [
+        "返品"
+      ]
+    },
+    "互換": {
+      "count": 1,
+      "words": [
+        "使えない"
+      ]
+    }
+  },
+  "praisePoints": {
+    "満足": {
+      "count": 6,
+      "words": [
+        "良い",
+        "最高",
+        "満足"
+      ]
+    },
+    "品質": {
+      "count": 2,
+      "words": [
+        "しっかり",
+        "安心"
+      ]
+    },
+    "価値": {
+      "count": 3,
+      "words": [
+        "安い",
+        "買って良かった"
+      ]
+    }
+  },
+  "painMatches": {
+    "品質": [
+      {
+        "idx": 2,
+        "hitWord": "不良",
+        "rating": 1,
+        "title": "不良品",
+        "body": "二個の内、一個から電子音が聞こえました。やっぱり安いのは当たり外れがあります。"
+      },
+      {
+        "idx": 7,
+        "hitWord": "不良",
+        "rating": 2,
+        "title": "２個のうち１個が不良品",
+        "body": "{\"clickstreamNexusMetricsConfig\":{\"producerId\":\"vsemetrics_playercards\",\"schemaId\":\"clickstream.CustomerEvent.4\",\"actionType\":\"DISCOVERY\",\"eventOwner\":\"vsemetrics_playercards\",\"eventType\":\"IVEVideoVie"
+      }
+    ],
+    "耐久": [],
+    "サイズ": [],
+    "説明書": [
+      {
+        "idx": 7,
+        "hitWord": "翻訳",
+        "rating": 2,
+        "title": "２個のうち１個が不良品",
+        "body": "{\"clickstreamNexusMetricsConfig\":{\"producerId\":\"vsemetrics_playercards\",\"schemaId\":\"clickstream.CustomerEvent.4\",\"actionType\":\"DISCOVERY\",\"eventOwner\":\"vsemetrics_playercards\",\"eventType\":\"IVEVideoVie"
+      }
+    ],
+    "におい": [],
+    "音": [
+      {
+        "idx": 1,
+        "hitWord": "うるさい",
+        "rating": 1,
+        "title": "ノイズうるさい",
+        "body": "気になるレベルでジーっと音がするこれでは使えない"
+      },
+      {
+        "idx": 2,
+        "hitWord": "音",
+        "rating": 1,
+        "title": "不良品",
+        "body": "二個の内、一個から電子音が聞こえました。やっぱり安いのは当たり外れがあります。"
+      },
+      {
+        "idx": 4,
+        "hitWord": "音",
+        "rating": 1,
+        "title": "気になる音",
+        "body": "微かなジーッという音が気になる"
+      },
+      {
+        "idx": 5,
+        "hitWord": "うるさい",
+        "rating": 1,
+        "title": "ジージー音が止まない",
+        "body": "・点灯するとジージー音が鳴る。最初何の音かわからず外から蝉の音が聞こえるのかと思ってました。が、点灯すると鳴って消すと止まる。明らかにフィリップスの電球から鳴ってました。・長さが足りません。デスクライトのような照明器具では問題ないですが、廊下など建物付属の場所ではハマったように見えて正常に設置しないため使えません。同時期に似たようなスペックのエルパの電球も買いましたが、スペック上はエルパの方が短い"
+      },
+      {
+        "idx": 7,
+        "hitWord": "音",
+        "rating": 2,
+        "title": "２個のうち１個が不良品",
+        "body": "{\"clickstreamNexusMetricsConfig\":{\"producerId\":\"vsemetrics_playercards\",\"schemaId\":\"clickstream.CustomerEvent.4\",\"actionType\":\"DISCOVERY\",\"eventOwner\":\"vsemetrics_playercards\",\"eventType\":\"IVEVideoVie"
+      },
+      {
+        "idx": 8,
+        "hitWord": "うるさい",
+        "rating": 2,
+        "title": "ジージー",
+        "body": "ジージー音がうるさい。昼光色 にしては電球色が入ってるみたいな色でした。"
+      }
+    ],
+    "使い勝手": [],
+    "デザイン": [
+      {
+        "idx": 7,
+        "hitWord": "色",
+        "rating": 2,
+        "title": "２個のうち１個が不良品",
+        "body": "{\"clickstreamNexusMetricsConfig\":{\"producerId\":\"vsemetrics_playercards\",\"schemaId\":\"clickstream.CustomerEvent.4\",\"actionType\":\"DISCOVERY\",\"eventOwner\":\"vsemetrics_playercards\",\"eventType\":\"IVEVideoVie"
+      },
+      {
+        "idx": 8,
+        "hitWord": "色",
+        "rating": 2,
+        "title": "ジージー",
+        "body": "ジージー音がうるさい。昼光色 にしては電球色が入ってるみたいな色でした。"
+      }
+    ],
+    "価格": [],
+    "梱包": [
+      {
+        "idx": 7,
+        "hitWord": "汚れ",
+        "rating": 2,
+        "title": "２個のうち１個が不良品",
+        "body": "{\"clickstreamNexusMetricsConfig\":{\"producerId\":\"vsemetrics_playercards\",\"schemaId\":\"clickstream.CustomerEvent.4\",\"actionType\":\"DISCOVERY\",\"eventOwner\":\"vsemetrics_playercards\",\"eventType\":\"IVEVideoVie"
+      }
+    ],
+    "サポート": [
+      {
+        "idx": 7,
+        "hitWord": "返品",
+        "rating": 2,
+        "title": "２個のうち１個が不良品",
+        "body": "{\"clickstreamNexusMetricsConfig\":{\"producerId\":\"vsemetrics_playercards\",\"schemaId\":\"clickstream.CustomerEvent.4\",\"actionType\":\"DISCOVERY\",\"eventOwner\":\"vsemetrics_playercards\",\"eventType\":\"IVEVideoVie"
+      }
+    ],
+    "互換": [
+      {
+        "idx": 1,
+        "hitWord": "使えない",
+        "rating": 1,
+        "title": "ノイズうるさい",
+        "body": "気になるレベルでジーっと音がするこれでは使えない"
+      }
+    ]
+  },
+  "praiseMatches": {
+    "満足": [
+      {
+        "idx": 1,
+        "hitWord": "良い",
+        "rating": 4,
+        "title": "十分",
+        "body": "耐久性は分かりませんが、十分な明るさで値段も非常に良いです。到着が遅れたのは残念です。"
+      },
+      {
+        "idx": 3,
+        "hitWord": "最高",
+        "rating": 5,
+        "title": "明るい",
+        "body": "洗面台の電球交換。昼光色のLED、60wとても明るい、まさに昼間。替えて良かった。白髪の1本1本が、はっきり分かります。後は、耐久性が保てば最高。"
+      },
+      {
+        "idx": 10,
+        "hitWord": "良い",
+        "rating": 5,
+        "title": "お手頃LED",
+        "body": "昼光色のLEDが一つ切れてしまった為、こちらを購入しました。思っていたとおりの色で他メーカーの昼光色ライトと一緒に使用しても違和感はありませんでした。お値段も手頃なので大変良いと思います。"
+      },
+      {
+        "idx": 13,
+        "hitWord": "おすすめ",
+        "rating": 5,
+        "title": "おすすめ",
+        "body": "明るいし色味よし。安いけど問題なし"
+      },
+      {
+        "idx": 18,
+        "hitWord": "良い",
+        "rating": 4,
+        "title": "明るくて良いと思います。",
+        "body": "電球色LEDは光量不足イメージがありますが、このLED球は明るくよかったです。"
+      },
+      {
+        "idx": 19,
+        "hitWord": "満足",
+        "rating": 4,
+        "title": "しっかり梱包して配送して欲しい",
+        "body": "明るくて商品自体には満足です。段ボールの中に剥き出しで入っていました。電球ですから衝撃を受け使えなくなる場合があります。Amazonの配送はこの点を改善してください。"
+      }
+    ],
+    "品質": [
+      {
+        "idx": 9,
+        "hitWord": "安心",
+        "rating": 5,
+        "title": "風呂場のLEDが点滅し始めたので購入",
+        "body": "３００円台と安すぎて不安をかんじたもののPhilips製だということで試しに購入。明るい！密閉型器具対応の表記もあり安心して使える。５年保証と書いてあるしLED電球も安くなったと実感"
+      },
+      {
+        "idx": 19,
+        "hitWord": "しっかり",
+        "rating": 4,
+        "title": "しっかり梱包して配送して欲しい",
+        "body": "明るくて商品自体には満足です。段ボールの中に剥き出しで入っていました。電球ですから衝撃を受け使えなくなる場合があります。Amazonの配送はこの点を改善してください。"
+      }
+    ],
+    "価値": [
+      {
+        "idx": 0,
+        "hitWord": "買って良かった",
+        "rating": 5,
+        "title": "買って良かったと思う。",
+        "body": "明るくて、低価格いいと思います。耐久性については、まだ取り付けたばかりなので、分かりません。"
+      },
+      {
+        "idx": 12,
+        "hitWord": "安い",
+        "rating": 5,
+        "title": "なし",
+        "body": "安い"
+      },
+      {
+        "idx": 13,
+        "hitWord": "安い",
+        "rating": 5,
+        "title": "おすすめ",
+        "body": "明るいし色味よし。安いけど問題なし"
+      }
+    ],
+    "使いやすさ": []
+  },
+  "topNgramsLow": [
+    {
+      "gram": "自動翻",
+      "count": 8
+    },
+    {
+      "gram": "動翻訳",
+      "count": 8
+    },
+    {
+      "gram": "ました",
+      "count": 5
+    },
+    {
+      "gram": "点灯し",
+      "count": 4
+    },
+    {
+      "gram": "ジージ",
+      "count": 4
+    },
+    {
+      "gram": "ージー",
+      "count": 4
+    },
+    {
+      "gram": "問題な",
+      "count": 4
+    },
+    {
+      "gram": "してい",
+      "count": 4
+    },
+    {
+      "gram": "ドイツ",
+      "count": 4
+    },
+    {
+      "gram": "イツ語",
+      "count": 4
+    },
+    {
+      "gram": "フラン",
+      "count": 4
+    },
+    {
+      "gram": "ランス",
+      "count": 4
+    },
+    {
+      "gram": "ンス語",
+      "count": 4
+    },
+    {
+      "gram": "スペイ",
+      "count": 4
+    },
+    {
+      "gram": "ペイン",
+      "count": 4
+    }
+  ],
+  "topNgramsHigh": [
+    {
+      "gram": "明るい",
+      "count": 9
+    },
+    {
+      "gram": "かった",
+      "count": 7
+    },
+    {
+      "gram": "明るく",
+      "count": 6
+    },
+    {
+      "gram": "るくて",
+      "count": 5
+    },
+    {
+      "gram": "います",
+      "count": 5
+    },
+    {
+      "gram": "りませ",
+      "count": 5
+    },
+    {
+      "gram": "ません",
+      "count": 5
+    },
+    {
+      "gram": "て良か",
+      "count": 4
+    },
+    {
+      "gram": "良かっ",
+      "count": 4
+    },
+    {
+      "gram": "低価格",
+      "count": 4
+    },
+    {
+      "gram": "と思い",
+      "count": 4
+    },
+    {
+      "gram": "思いま",
+      "count": 4
+    },
+    {
+      "gram": "なので",
+      "count": 4
+    },
+    {
+      "gram": "ました",
+      "count": 4
+    },
+    {
+      "gram": "ありま",
+      "count": 4
+    }
+  ]
+}

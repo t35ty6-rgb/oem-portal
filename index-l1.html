@@ -1,146 +1,383 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+<meta name="robots" content="noindex,nofollow">
 <meta charset="UTF-8">
 <title>OEMリサーチ ポータル</title>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif; background: #f5f5f0; color: #212121; font-size: 13px; line-height: 1.5; padding: 16px; }
-.container { max-width: 1100px; margin: 0 auto; background: white; border: 1px solid #d7a063; }
-.report-head { background: linear-gradient(180deg, #ed6c02 0%, #d35400 100%); color: white; padding: 18px 24px; border-bottom: 3px solid #c95400; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif; background: #f5f6f8; color: #212121; font-size: 13px; line-height: 1.5; }
+
+.topnav {
+  position: sticky; top: 0; z-index: 100;
+  display: flex; align-items: stretch;
+  background: #1e293b; color: white;
+  border-bottom: 2px solid #f97316;
+  font-size: 11px;
+}
+.topnav .nav-home, .topnav .nav-dashboard {
+  background: #f97316; color: white;
+  padding: 8px 14px; text-decoration: none;
+  font-weight: 700; font-size: 12px;
+  white-space: nowrap;
+  display: flex; align-items: center;
+}
+.topnav .nav-home:hover { background: #ea580c; }
+.topnav .nav-dashboard { background: #1565c0; }
+.topnav .nav-dashboard:hover { background: #0d47a1; }
+.topnav .nav-tabs {
+  flex: 1; display: flex; overflow-x: auto;
+  scrollbar-width: thin;
+}
+.topnav .nav-tab {
+  padding: 6px 10px; color: #cbd5e1;
+  text-decoration: none; font-size: 11px;
+  border-right: 1px solid #334155;
+  white-space: nowrap;
+  display: flex; align-items: center;
+}
+.topnav .nav-tab:hover { background: #334155; color: white; }
+.topnav .nav-tab.active { background: #f97316; color: white; font-weight: 700; }
+
+.container { max-width: 1200px; margin: 16px auto; background: white; border: 1px solid #e5e7eb; }
+.report-head { background: linear-gradient(180deg, #f97316 0%, #ea580c 100%); color: white; padding: 18px 24px; }
 .report-head .label { font-size: 11px; opacity: 0.85; letter-spacing: 0.15em; }
 .report-head h1 { font-size: 22px; margin: 4px 0 8px; }
 .report-head .meta { font-size: 11px; opacity: 0.9; }
+
+.kpi-bar {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 8px; padding: 12px 24px; background: #fff7ed; border-bottom: 2px solid #fed7aa;
+}
+.kpi { background: white; border: 1px solid #e5e7eb; padding: 10px 14px; border-radius: 4px; }
+.kpi.kpi-link { cursor: pointer; text-decoration: none; color: inherit; display: block; transition: all 0.12s; }
+.kpi.kpi-link:hover { background: linear-gradient(180deg, #fff7ed, #fed7aa); border-color: #f97316; transform: translateY(-2px); box-shadow: 0 3px 8px rgba(249,115,22,0.2); }
+.kpi.kpi-link .kpi-label::after { content: ' →'; opacity: 0.4; }
+.kpi.kpi-link:hover .kpi-label::after { opacity: 1; color: #f97316; }
+.kpi-label { font-size: 11px; color: #6b7280; font-weight: 600; }
+.kpi-value { font-size: 24px; font-weight: 700; color: #ea580c; line-height: 1.1; margin-top: 2px; }
+.kpi-value.green { color: #16a34a; }
+.kpi-value.yellow { color: #f59e0b; }
+.kpi-sub { font-size: 10px; color: #9ca3af; margin-top: 2px; }
+
 .section { padding: 16px 24px; }
-.section h2 { font-size: 14px; color: #d35400; border-left: 4px solid #ed6c02; padding-left: 8px; margin-bottom: 12px; }
-.l1-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 10px; }
-.l1-card { border: 1px solid #d7a063; background: #fff8e1; padding: 12px; text-decoration: none; color: inherit; display: block; transition: background 0.15s; }
-.l1-card:hover { background: #ffe0b2; }
-.l1-card h3 { font-size: 15px; color: #d35400; margin-bottom: 6px; }
-.l1-card .nums { display: flex; gap: 12px; font-size: 11px; }
-.l1-card .num-block { background: white; border: 1px solid #ddc7a0; padding: 4px 8px; }
-.l1-card .num-block strong { font-size: 14px; display: block; }
-.l1-card .num-block.strong strong { color: #2e7d32; }
-.l1-card .num-block.consider strong { color: #f57c00; }
-.subnav { padding: 14px 24px; background: #fff8e1; border-bottom: 1px solid #f9a825; }
-.subnav a { color: #1565c0; text-decoration: none; font-weight: 700; font-size: 12px; margin-right: 16px; }
+.section h2 { font-size: 15px; color: #ea580c; border-left: 4px solid #f97316; padding-left: 8px; margin-bottom: 14px; }
+
+.l1-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+.l1-card {
+  border: 1px solid #e5e7eb; background: white; padding: 14px;
+  transition: all 0.15s; position: relative; border-radius: 4px;
+}
+.l1-card:hover { border-color: #f97316; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+.l1-title-link { text-decoration: none; color: inherit; display: block; }
+.l1-title-link h3 { font-size: 16px; color: #ea580c; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+.l1-title-link:hover h3 { color: #c2410c; text-decoration: underline; }
+.l1-card .arrow { margin-left: auto; color: #cbd5e1; font-size: 16px; }
+.l1-card:hover .arrow { color: #f97316; }
+.l1-card .nums { display: flex; gap: 6px; flex-wrap: wrap; font-size: 11px; }
+.l1-card .num-block { background: #f5f6f8; border: 1px solid #e5e7eb; padding: 3px 8px; border-radius: 2px; text-decoration: none; color: inherit; }
+.l1-card .num-link:hover { background: #fff7ed; border-color: #f97316; }
+.l1-card .num-block strong { font-size: 13px; display: block; font-weight: 700; }
+.l1-card .num-block.strong { background: #f0fdf4; border-color: #86efac; }
+.l1-card .num-block.strong strong { color: #16a34a; }
+.l1-card .num-block.strong:hover { background: #dcfce7; }
+.l1-card .num-block.consider { background: #fef3c7; border-color: #fcd34d; }
+.l1-card .num-block.consider strong { color: #f59e0b; }
+.l1-card .num-block.consider:hover { background: #fde68a; }
+.l1-card-wrap { position: relative; }
+
+.subnav { padding: 12px 24px; background: #fafbfc; border-bottom: 1px solid #e5e7eb; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+.subnav strong { font-size: 11px; color: #6b7280; }
+.subnav a { color: #1565c0; text-decoration: none; font-weight: 700; font-size: 12px; }
 .subnav a:hover { text-decoration: underline; }
-.footer { padding: 12px 24px; background: #fafafa; font-size: 10px; color: #757575; text-align: center; }
+
+.footer { padding: 12px 24px; background: #fafafa; font-size: 10px; color: #757575; text-align: center; border-top: 1px solid #e5e7eb; }
 </style>
 </head>
 <body>
+<nav class="topnav">
+  <a class="nav-home" href="index-l1.html">🏠 トップ</a>
+  <div class="nav-tabs"><a class="nav-tab" href="subcategory-list-home-kitchen.html">ホーム＆キッチン</a><a class="nav-tab" href="subcategory-list-sports-outdoor.html">スポーツ＆アウトドア</a><a class="nav-tab" href="subcategory-list-auto-bike.html">車＆バイク</a><a class="nav-tab" href="subcategory-list-baby-maternity.html">ベビー＆マタニティ</a><a class="nav-tab" href="subcategory-list-beauty.html">ビューティー</a><a class="nav-tab" href="subcategory-list-drugstore.html">ドラッグストア</a><a class="nav-tab" href="subcategory-list-electronics.html">家電＆カメラ</a><a class="nav-tab" href="subcategory-list-pc-peripherals.html">パソコン・周辺機器</a><a class="nav-tab" href="subcategory-list-instruments.html">楽器・音響機器</a><a class="nav-tab" href="subcategory-list-diy.html">DIY・工具・ガーデン</a><a class="nav-tab" href="subcategory-list-toys.html">おもちゃ</a><a class="nav-tab" href="subcategory-list-fashion.html">ファッション</a><a class="nav-tab" href="subcategory-list-pet-supplies.html">ペット用品</a><a class="nav-tab" href="subcategory-list-hobby.html">ホビー</a><a class="nav-tab" href="subcategory-list-appliances.html">大型家電</a><a class="nav-tab" href="subcategory-list-office.html">文房具・オフィス用品</a><a class="nav-tab" href="subcategory-list-industrial.html">産業・研究開発用品</a><a class="nav-tab" href="subcategory-list-food.html">食品・飲料・お酒</a></div>
+  <a class="nav-marked" href="marked.html" style="background:#fbbf24;color:#1f2937;padding:8px 14px;text-decoration:none;font-weight:700;font-size:12px;white-space:nowrap;display:flex;align-items:center">⭐ マーク済み</a>
+  <a class="nav-cross" href="cross-category-hits.html" style="background:#a78bfa;color:white;padding:8px 14px;text-decoration:none;font-weight:700;font-size:12px;white-space:nowrap;display:flex;align-items:center">🎯 横断ヒット</a>
+  <a class="nav-dashboard" href="dashboard.html">📊 ダッシュボード</a>
+</nav>
 <div class="container">
   <div class="report-head">
-    <div class="label">OEMリサーチ ポータル</div>
+    <div class="label">OEMリサーチ ポータル / Stage 1</div>
     <h1>📋 大カテゴリ(L1)別 サブカテゴリ一覧</h1>
-    <div class="meta">生成日: 2026/5/15 12:13:05 / 全L1: 9</div>
+    <div class="meta">生成日: 2026/5/18 12:47:09 / 全L1: 18件</div>
   </div>
+
+  <div class="kpi-bar">
+    <div class="kpi"><div class="kpi-label">L1カテゴリ</div><div class="kpi-value">18</div></div>
+    <div class="kpi"><div class="kpi-label">サブカテゴリ総数</div><div class="kpi-value">11,181</div></div>
+    <a class="kpi kpi-link" href="highlights.html?filter=scanned"><div class="kpi-label">📊 分析済</div><div class="kpi-value">9940</div><div class="kpi-sub">クリック→一覧</div></a>
+    <a class="kpi kpi-link" href="highlights.html?filter=strong"><div class="kpi-label">🟢 おすすめ</div><div class="kpi-value green">303</div><div class="kpi-sub">クリック→一覧</div></a>
+    <a class="kpi kpi-link" href="highlights.html?filter=consider"><div class="kpi-label">🟡 ありかも</div><div class="kpi-value yellow">1406</div><div class="kpi-sub">クリック→一覧</div></a>
+    <a class="kpi kpi-link" href="highlights.html"><div class="kpi-label">✅ データ完全</div><div class="kpi-value green">58</div><div class="kpi-sub">信頼できる候補</div></a>
+    <a class="kpi kpi-link" href="highlights.html?entry=viable" title="参入候補一覧へ。¥1,500+ かつ top5最少レビュー&lt;500のカテゴリ"><div class="kpi-label">💎 OEM参入可</div><div class="kpi-value green">7814</div><div class="kpi-sub">¥1,500+ & 既存弱め</div></a>
+  </div>
+
+  <details class="usage-guide" style="margin:0 24px 12px;background:#fffbeb;border:1px solid #fcd34d;border-radius:4px;padding:10px 14px">
+    <summary style="cursor:pointer;font-weight:700;color:#92400e;font-size:13px;outline:none">💡 ポータルの使い方ガイド（クリックで開く）</summary>
+    <div style="margin-top:12px;font-size:12px;line-height:1.7;color:#451a03">
+      <p style="margin-bottom:8px;font-weight:700">🎯 OEM候補をサクッと見つける流れ</p>
+      <ol style="margin:0 0 10px 22px">
+        <li>上の「💎 OEM参入可」KPIをクリック → 1,400件の参入候補リスト</li>
+        <li>そのページで「並び替え: 参入難易度 易しい順」または「データ: ✅完全のみ」で絞る</li>
+        <li>気になるカテゴリを開いて Top5商品+レビューを確認</li>
+        <li>⭐興味 / 🔍深掘 / 📦サンプル のマークで管理</li>
+      </ol>
+      <p style="margin-bottom:6px;font-weight:700">📋 KPIの意味</p>
+      <ul style="margin:0 0 10px 22px">
+        <li><strong>📊 分析済:</strong> Keepa取得+スコア算出済みカテゴリ数</li>
+        <li><strong>🟢 おすすめ / 🟡 ありかも:</strong> 市場魅力度判定 (スコア70+/50-70)</li>
+        <li><strong>✅ データ完全:</strong> top5の Keepa+レビュー揃ってる=判定が信頼できる範囲</li>
+        <li><strong>💎 OEM参入可:</strong> ¥1,500+ かつ top5最少レビュー&lt;500 = 利益取れて参入余地あり</li>
+      </ul>
+      <p style="margin-bottom:6px;font-weight:700">🔬 各カテゴリ詳細</p>
+      <ul style="margin:0 0 0 22px">
+        <li>L1カードから入る → サブカテゴリ表でフィルタ/ソート → 各行クリックでTop5商品展開</li>
+        <li>「🔬深掘り」ボタンで個別レポート(レビュー分析・利益試算・1688リンク等)生成</li>
+        <li>各カラム/フィルタ/バッジは <strong>カーソル合わせるとツールチップ</strong> で説明出ます</li>
+      </ul>
+    </div>
+  </details>
 
   <div class="subnav">
     <strong>関連ページ:</strong>
-    <a href="index.html">📊 全カテゴリ管理ダッシュボード</a>
-    <a href="bike-cover-report.html">📄 バイク車体カバー詳細レポート</a>
+    <a href="highlights.html?entry=viable" style="color:#7c3aed;font-weight:700">💎 OEM参入可リスト</a>
+    <a href="pair-suggestions.html" style="color:#7c3aed;font-weight:700">💜 市場×市場ペア提案</a>
+    <a href="cross-category-hits.html">🎯 横断ヒット</a>
+    <a href="dashboard.html">📊 全カテゴリダッシュボード</a>
   </div>
 
   <div class="section">
-    <h2>🗂 大カテゴリから入る</h2>
+    <h2>🗂 大カテゴリから入る (件数の多い順)</h2>
     <div class="l1-grid">
 
-      <a href="subcategory-list-home-kitchen.html" class="l1-card">
-        <h3>ホーム＆キッチン</h3>
+      <div class="l1-card">
+        <a href="subcategory-list-home-kitchen.html" class="l1-title-link">
+          <h3>ホーム＆キッチン<span class="arrow">→</span></h3>
+        </a>
         <div class="nums">
-          <div class="num-block"><strong>518</strong>件</div>
-          <div class="num-block"><strong>17</strong>scan済</div>
-          <div class="num-block strong"><strong>0</strong>強推</div>
-          <div class="num-block consider"><strong>5</strong>検討</div>
+          <a class="num-block num-link" href="subcategory-list-home-kitchen.html"><strong>658</strong>件</a>
+          <a class="num-block num-link" href="subcategory-list-home-kitchen.html?filter=scanned"><strong>654</strong>分析済</a>
+          <a class="num-block num-link strong" href="subcategory-list-home-kitchen.html?filter=strong"><strong>18</strong>🟢おすすめ</a>
+          <a class="num-block num-link consider" href="subcategory-list-home-kitchen.html?filter=consider"><strong>192</strong>🟡ありかも</a>
         </div>
-      </a>
+      </div>
 
-      <a href="subcategory-list-sports-outdoor.html" class="l1-card">
-        <h3>スポーツ＆アウトドア</h3>
+      <div class="l1-card">
+        <a href="subcategory-list-sports-outdoor.html" class="l1-title-link">
+          <h3>スポーツ＆アウトドア<span class="arrow">→</span></h3>
+        </a>
         <div class="nums">
-          <div class="num-block"><strong>700</strong>件</div>
-          <div class="num-block"><strong>0</strong>scan済</div>
-          <div class="num-block strong"><strong>0</strong>強推</div>
-          <div class="num-block consider"><strong>0</strong>検討</div>
+          <a class="num-block num-link" href="subcategory-list-sports-outdoor.html"><strong>837</strong>件</a>
+          <a class="num-block num-link" href="subcategory-list-sports-outdoor.html?filter=scanned"><strong>787</strong>分析済</a>
+          <a class="num-block num-link strong" href="subcategory-list-sports-outdoor.html?filter=strong"><strong>22</strong>🟢おすすめ</a>
+          <a class="num-block num-link consider" href="subcategory-list-sports-outdoor.html?filter=consider"><strong>166</strong>🟡ありかも</a>
         </div>
-      </a>
+      </div>
 
-      <a href="subcategory-list-auto-bike.html" class="l1-card">
-        <h3>車＆バイク</h3>
+      <div class="l1-card">
+        <a href="subcategory-list-diy.html" class="l1-title-link">
+          <h3>DIY・工具・ガーデン<span class="arrow">→</span></h3>
+        </a>
         <div class="nums">
-          <div class="num-block"><strong>422</strong>件</div>
-          <div class="num-block"><strong>0</strong>scan済</div>
-          <div class="num-block strong"><strong>0</strong>強推</div>
-          <div class="num-block consider"><strong>0</strong>検討</div>
+          <a class="num-block num-link" href="subcategory-list-diy.html"><strong>1,375</strong>件</a>
+          <a class="num-block num-link" href="subcategory-list-diy.html?filter=scanned"><strong>1284</strong>分析済</a>
+          <a class="num-block num-link strong" href="subcategory-list-diy.html?filter=strong"><strong>31</strong>🟢おすすめ</a>
+          <a class="num-block num-link consider" href="subcategory-list-diy.html?filter=consider"><strong>125</strong>🟡ありかも</a>
         </div>
-      </a>
+      </div>
 
-      <a href="subcategory-list-baby-maternity.html" class="l1-card">
-        <h3>ベビー＆マタニティ</h3>
+      <div class="l1-card">
+        <a href="subcategory-list-instruments.html" class="l1-title-link">
+          <h3>楽器・音響機器<span class="arrow">→</span></h3>
+        </a>
         <div class="nums">
-          <div class="num-block"><strong>207</strong>件</div>
-          <div class="num-block"><strong>0</strong>scan済</div>
-          <div class="num-block strong"><strong>0</strong>強推</div>
-          <div class="num-block consider"><strong>0</strong>検討</div>
+          <a class="num-block num-link" href="subcategory-list-instruments.html"><strong>194</strong>件</a>
+          <a class="num-block num-link" href="subcategory-list-instruments.html?filter=scanned"><strong>186</strong>分析済</a>
+          <a class="num-block num-link strong" href="subcategory-list-instruments.html?filter=strong"><strong>36</strong>🟢おすすめ</a>
+          <a class="num-block num-link consider" href="subcategory-list-instruments.html?filter=consider"><strong>87</strong>🟡ありかも</a>
         </div>
-      </a>
+      </div>
 
-      <a href="subcategory-list-beauty.html" class="l1-card">
-        <h3>ビューティー</h3>
+      <div class="l1-card">
+        <a href="subcategory-list-auto-bike.html" class="l1-title-link">
+          <h3>車＆バイク<span class="arrow">→</span></h3>
+        </a>
         <div class="nums">
-          <div class="num-block"><strong>116</strong>件</div>
-          <div class="num-block"><strong>0</strong>scan済</div>
-          <div class="num-block strong"><strong>0</strong>強推</div>
-          <div class="num-block consider"><strong>0</strong>検討</div>
+          <a class="num-block num-link" href="subcategory-list-auto-bike.html"><strong>491</strong>件</a>
+          <a class="num-block num-link" href="subcategory-list-auto-bike.html?filter=scanned"><strong>476</strong>分析済</a>
+          <a class="num-block num-link strong" href="subcategory-list-auto-bike.html?filter=strong"><strong>20</strong>🟢おすすめ</a>
+          <a class="num-block num-link consider" href="subcategory-list-auto-bike.html?filter=consider"><strong>91</strong>🟡ありかも</a>
         </div>
-      </a>
+      </div>
 
-      <a href="subcategory-list-drugstore.html" class="l1-card">
-        <h3>ドラッグストア</h3>
+      <div class="l1-card">
+        <a href="subcategory-list-industrial.html" class="l1-title-link">
+          <h3>産業・研究開発用品<span class="arrow">→</span></h3>
+        </a>
         <div class="nums">
-          <div class="num-block"><strong>170</strong>件</div>
-          <div class="num-block"><strong>0</strong>scan済</div>
-          <div class="num-block strong"><strong>0</strong>強推</div>
-          <div class="num-block consider"><strong>0</strong>検討</div>
+          <a class="num-block num-link" href="subcategory-list-industrial.html"><strong>2,519</strong>件</a>
+          <a class="num-block num-link" href="subcategory-list-industrial.html?filter=scanned"><strong>1884</strong>分析済</a>
+          <a class="num-block num-link strong" href="subcategory-list-industrial.html?filter=strong"><strong>12</strong>🟢おすすめ</a>
+          <a class="num-block num-link consider" href="subcategory-list-industrial.html?filter=consider"><strong>89</strong>🟡ありかも</a>
         </div>
-      </a>
+      </div>
 
-      <a href="subcategory-list-electronics.html" class="l1-card">
-        <h3>家電＆カメラ</h3>
+      <div class="l1-card">
+        <a href="subcategory-list-toys.html" class="l1-title-link">
+          <h3>おもちゃ<span class="arrow">→</span></h3>
+        </a>
         <div class="nums">
-          <div class="num-block"><strong>102</strong>件</div>
-          <div class="num-block"><strong>0</strong>scan済</div>
-          <div class="num-block strong"><strong>0</strong>強推</div>
-          <div class="num-block consider"><strong>0</strong>検討</div>
+          <a class="num-block num-link" href="subcategory-list-toys.html"><strong>645</strong>件</a>
+          <a class="num-block num-link" href="subcategory-list-toys.html?filter=scanned"><strong>617</strong>分析済</a>
+          <a class="num-block num-link strong" href="subcategory-list-toys.html?filter=strong"><strong>20</strong>🟢おすすめ</a>
+          <a class="num-block num-link consider" href="subcategory-list-toys.html?filter=consider"><strong>78</strong>🟡ありかも</a>
         </div>
-      </a>
+      </div>
 
-      <a href="subcategory-list-pc-peripherals.html" class="l1-card">
-        <h3>パソコン・周辺機器</h3>
+      <div class="l1-card">
+        <a href="subcategory-list-pc-peripherals.html" class="l1-title-link">
+          <h3>パソコン・周辺機器<span class="arrow">→</span></h3>
+        </a>
         <div class="nums">
-          <div class="num-block"><strong>126</strong>件</div>
-          <div class="num-block"><strong>0</strong>scan済</div>
-          <div class="num-block strong"><strong>0</strong>強推</div>
-          <div class="num-block consider"><strong>0</strong>検討</div>
+          <a class="num-block num-link" href="subcategory-list-pc-peripherals.html"><strong>152</strong>件</a>
+          <a class="num-block num-link" href="subcategory-list-pc-peripherals.html?filter=scanned"><strong>151</strong>分析済</a>
+          <a class="num-block num-link strong" href="subcategory-list-pc-peripherals.html?filter=strong"><strong>23</strong>🟢おすすめ</a>
+          <a class="num-block num-link consider" href="subcategory-list-pc-peripherals.html?filter=consider"><strong>72</strong>🟡ありかも</a>
         </div>
-      </a>
+      </div>
 
-      <a href="subcategory-list-instruments.html" class="l1-card">
-        <h3>楽器・音響機器</h3>
+      <div class="l1-card">
+        <a href="subcategory-list-food.html" class="l1-title-link">
+          <h3>食品・飲料・お酒<span class="arrow">→</span></h3>
+        </a>
         <div class="nums">
-          <div class="num-block"><strong>160</strong>件</div>
-          <div class="num-block"><strong>0</strong>scan済</div>
-          <div class="num-block strong"><strong>0</strong>強推</div>
-          <div class="num-block consider"><strong>0</strong>検討</div>
+          <a class="num-block num-link" href="subcategory-list-food.html"><strong>1,035</strong>件</a>
+          <a class="num-block num-link" href="subcategory-list-food.html?filter=scanned"><strong>870</strong>分析済</a>
+          <a class="num-block num-link strong" href="subcategory-list-food.html?filter=strong"><strong>11</strong>🟢おすすめ</a>
+          <a class="num-block num-link consider" href="subcategory-list-food.html?filter=consider"><strong>82</strong>🟡ありかも</a>
         </div>
-      </a>
+      </div>
+
+      <div class="l1-card">
+        <a href="subcategory-list-baby-maternity.html" class="l1-title-link">
+          <h3>ベビー＆マタニティ<span class="arrow">→</span></h3>
+        </a>
+        <div class="nums">
+          <a class="num-block num-link" href="subcategory-list-baby-maternity.html"><strong>246</strong>件</a>
+          <a class="num-block num-link" href="subcategory-list-baby-maternity.html?filter=scanned"><strong>246</strong>分析済</a>
+          <a class="num-block num-link strong" href="subcategory-list-baby-maternity.html?filter=strong"><strong>21</strong>🟢おすすめ</a>
+          <a class="num-block num-link consider" href="subcategory-list-baby-maternity.html?filter=consider"><strong>70</strong>🟡ありかも</a>
+        </div>
+      </div>
+
+      <div class="l1-card">
+        <a href="subcategory-list-fashion.html" class="l1-title-link">
+          <h3>ファッション<span class="arrow">→</span></h3>
+        </a>
+        <div class="nums">
+          <a class="num-block num-link" href="subcategory-list-fashion.html"><strong>1,045</strong>件</a>
+          <a class="num-block num-link" href="subcategory-list-fashion.html?filter=scanned"><strong>990</strong>分析済</a>
+          <a class="num-block num-link strong" href="subcategory-list-fashion.html?filter=strong"><strong>9</strong>🟢おすすめ</a>
+          <a class="num-block num-link consider" href="subcategory-list-fashion.html?filter=consider"><strong>77</strong>🟡ありかも</a>
+        </div>
+      </div>
+
+      <div class="l1-card">
+        <a href="subcategory-list-drugstore.html" class="l1-title-link">
+          <h3>ドラッグストア<span class="arrow">→</span></h3>
+        </a>
+        <div class="nums">
+          <a class="num-block num-link" href="subcategory-list-drugstore.html"><strong>246</strong>件</a>
+          <a class="num-block num-link" href="subcategory-list-drugstore.html?filter=scanned"><strong>233</strong>分析済</a>
+          <a class="num-block num-link strong" href="subcategory-list-drugstore.html?filter=strong"><strong>15</strong>🟢おすすめ</a>
+          <a class="num-block num-link consider" href="subcategory-list-drugstore.html?filter=consider"><strong>53</strong>🟡ありかも</a>
+        </div>
+      </div>
+
+      <div class="l1-card">
+        <a href="subcategory-list-beauty.html" class="l1-title-link">
+          <h3>ビューティー<span class="arrow">→</span></h3>
+        </a>
+        <div class="nums">
+          <a class="num-block num-link" href="subcategory-list-beauty.html"><strong>168</strong>件</a>
+          <a class="num-block num-link" href="subcategory-list-beauty.html?filter=scanned"><strong>162</strong>分析済</a>
+          <a class="num-block num-link strong" href="subcategory-list-beauty.html?filter=strong"><strong>16</strong>🟢おすすめ</a>
+          <a class="num-block num-link consider" href="subcategory-list-beauty.html?filter=consider"><strong>51</strong>🟡ありかも</a>
+        </div>
+      </div>
+
+      <div class="l1-card">
+        <a href="subcategory-list-electronics.html" class="l1-title-link">
+          <h3>家電＆カメラ<span class="arrow">→</span></h3>
+        </a>
+        <div class="nums">
+          <a class="num-block num-link" href="subcategory-list-electronics.html"><strong>147</strong>件</a>
+          <a class="num-block num-link" href="subcategory-list-electronics.html?filter=scanned"><strong>105</strong>分析済</a>
+          <a class="num-block num-link strong" href="subcategory-list-electronics.html?filter=strong"><strong>18</strong>🟢おすすめ</a>
+          <a class="num-block num-link consider" href="subcategory-list-electronics.html?filter=consider"><strong>46</strong>🟡ありかも</a>
+        </div>
+      </div>
+
+      <div class="l1-card">
+        <a href="subcategory-list-pet-supplies.html" class="l1-title-link">
+          <h3>ペット用品<span class="arrow">→</span></h3>
+        </a>
+        <div class="nums">
+          <a class="num-block num-link" href="subcategory-list-pet-supplies.html"><strong>447</strong>件</a>
+          <a class="num-block num-link" href="subcategory-list-pet-supplies.html?filter=scanned"><strong>410</strong>分析済</a>
+          <a class="num-block num-link strong" href="subcategory-list-pet-supplies.html?filter=strong"><strong>8</strong>🟢おすすめ</a>
+          <a class="num-block num-link consider" href="subcategory-list-pet-supplies.html?filter=consider"><strong>50</strong>🟡ありかも</a>
+        </div>
+      </div>
+
+      <div class="l1-card">
+        <a href="subcategory-list-office.html" class="l1-title-link">
+          <h3>文房具・オフィス用品<span class="arrow">→</span></h3>
+        </a>
+        <div class="nums">
+          <a class="num-block num-link" href="subcategory-list-office.html"><strong>475</strong>件</a>
+          <a class="num-block num-link" href="subcategory-list-office.html?filter=scanned"><strong>454</strong>分析済</a>
+          <a class="num-block num-link strong" href="subcategory-list-office.html?filter=strong"><strong>3</strong>🟢おすすめ</a>
+          <a class="num-block num-link consider" href="subcategory-list-office.html?filter=consider"><strong>40</strong>🟡ありかも</a>
+        </div>
+      </div>
+
+      <div class="l1-card">
+        <a href="subcategory-list-hobby.html" class="l1-title-link">
+          <h3>ホビー<span class="arrow">→</span></h3>
+        </a>
+        <div class="nums">
+          <a class="num-block num-link" href="subcategory-list-hobby.html"><strong>441</strong>件</a>
+          <a class="num-block num-link" href="subcategory-list-hobby.html?filter=scanned"><strong>388</strong>分析済</a>
+          <a class="num-block num-link strong" href="subcategory-list-hobby.html?filter=strong"><strong>11</strong>🟢おすすめ</a>
+          <a class="num-block num-link consider" href="subcategory-list-hobby.html?filter=consider"><strong>20</strong>🟡ありかも</a>
+        </div>
+      </div>
+
+      <div class="l1-card">
+        <a href="subcategory-list-appliances.html" class="l1-title-link">
+          <h3>大型家電<span class="arrow">→</span></h3>
+        </a>
+        <div class="nums">
+          <a class="num-block num-link" href="subcategory-list-appliances.html"><strong>60</strong>件</a>
+          <a class="num-block num-link" href="subcategory-list-appliances.html?filter=scanned"><strong>43</strong>分析済</a>
+          <a class="num-block num-link strong" href="subcategory-list-appliances.html?filter=strong"><strong>9</strong>🟢おすすめ</a>
+          <a class="num-block num-link consider" href="subcategory-list-appliances.html?filter=consider"><strong>17</strong>🟡ありかも</a>
+        </div>
+      </div>
 
     </div>
   </div>
 
   <div class="footer">
-    各L1カードをクリック → サブカテゴリ一覧 → さらに気になるカテゴリで詳細レポート（順次追加）
+    各L1カードまたは上部タブをクリック → サブカテゴリ一覧 → 行クリックで上位5商品の詳細
   </div>
 </div>
 </body>

@@ -1,0 +1,109 @@
+{
+  "asin": "B07TKK8T4H",
+  "productTitle": "BANDAI SPIRITS(バンダイ スピリッツ) HG 機動戦士ガンダムSEED C.E.73 STARGAZER ストライクノワールガンダム 1/144スケール 色分け済みプラモデル",
+  "analyzedAt": "2026-05-16T04:27:35.933Z",
+  "totalReviews": 6,
+  "lowStarCount": 0,
+  "highStarCount": 5,
+  "avgRating": "4.33",
+  "painPoints": {},
+  "praisePoints": {
+    "満足": {
+      "count": 1,
+      "words": [
+        "良い"
+      ]
+    }
+  },
+  "painMatches": {
+    "品質": [],
+    "耐久": [],
+    "サイズ": [],
+    "説明書": [],
+    "におい": [],
+    "音": [],
+    "使い勝手": [],
+    "デザイン": [],
+    "価格": [],
+    "梱包": [],
+    "サポート": [],
+    "互換": []
+  },
+  "praiseMatches": {
+    "満足": [
+      {
+        "idx": 3,
+        "hitWord": "良い",
+        "rating": 4,
+        "title": "安定感がある",
+        "body": "HGの割に品質良い"
+      }
+    ],
+    "品質": [],
+    "価値": [],
+    "使いやすさ": []
+  },
+  "topNgramsLow": [],
+  "topNgramsHigh": [
+    {
+      "gram": "ストラ",
+      "count": 5
+    },
+    {
+      "gram": "トライ",
+      "count": 5
+    },
+    {
+      "gram": "ライク",
+      "count": 5
+    },
+    {
+      "gram": "カッコ",
+      "count": 3
+    },
+    {
+      "gram": "ノワー",
+      "count": 3
+    },
+    {
+      "gram": "ワール",
+      "count": 3
+    },
+    {
+      "gram": "ました",
+      "count": 3
+    },
+    {
+      "gram": "相変わ",
+      "count": 2
+    },
+    {
+      "gram": "変わら",
+      "count": 2
+    },
+    {
+      "gram": "わらず",
+      "count": 2
+    },
+    {
+      "gram": "らずカ",
+      "count": 2
+    },
+    {
+      "gram": "ずカッ",
+      "count": 2
+    },
+    {
+      "gram": "ッコい",
+      "count": 2
+    },
+    {
+      "gram": "コいい",
+      "count": 2
+    },
+    {
+      "gram": "イクノ",
+      "count": 2
+    }
+  ]
+}

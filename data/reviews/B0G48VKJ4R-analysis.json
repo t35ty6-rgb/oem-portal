@@ -1,0 +1,109 @@
+{
+  "asin": "B0G48VKJ4R",
+  "productTitle": "3個セット HX-606車用掃除機に適応のHEPAフィルター BeeTool ハンディクリーナーの交換部品",
+  "analyzedAt": "2026-05-16T04:40:23.681Z",
+  "totalReviews": 6,
+  "lowStarCount": 0,
+  "highStarCount": 6,
+  "avgRating": "4.50",
+  "painPoints": {},
+  "praisePoints": {
+    "品質": {
+      "count": 1,
+      "words": [
+        "しっかり"
+      ]
+    }
+  },
+  "painMatches": {
+    "品質": [],
+    "耐久": [],
+    "サイズ": [],
+    "説明書": [],
+    "におい": [],
+    "音": [],
+    "使い勝手": [],
+    "デザイン": [],
+    "価格": [],
+    "梱包": [],
+    "サポート": [],
+    "互換": []
+  },
+  "praiseMatches": {
+    "満足": [],
+    "品質": [
+      {
+        "idx": 3,
+        "hitWord": "しっかり",
+        "rating": 4,
+        "title": "しっかりしている",
+        "body": "問題なく使用できています。"
+      }
+    ],
+    "価値": [],
+    "使いやすさ": []
+  },
+  "topNgramsLow": [],
+  "topNgramsHigh": [
+    {
+      "gram": "ました",
+      "count": 5
+    },
+    {
+      "gram": "フィル",
+      "count": 5
+    },
+    {
+      "gram": "ィルタ",
+      "count": 5
+    },
+    {
+      "gram": "ルター",
+      "count": 5
+    },
+    {
+      "gram": "クリー",
+      "count": 3
+    },
+    {
+      "gram": "リーナ",
+      "count": 3
+    },
+    {
+      "gram": "ーナー",
+      "count": 3
+    },
+    {
+      "gram": "問題な",
+      "count": 3
+    },
+    {
+      "gram": "題なく",
+      "count": 3
+    },
+    {
+      "gram": "なく使",
+      "count": 3
+    },
+    {
+      "gram": "使えま",
+      "count": 2
+    },
+    {
+      "gram": "えまし",
+      "count": 2
+    },
+    {
+      "gram": "サイズ",
+      "count": 2
+    },
+    {
+      "gram": "ハンデ",
+      "count": 2
+    },
+    {
+      "gram": "ンディ",
+      "count": 2
+    }
+  ]
+}

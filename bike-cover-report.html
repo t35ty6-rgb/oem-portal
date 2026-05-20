@@ -1,161 +1,283 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+<meta name="robots" content="noindex,nofollow">
 <meta charset="UTF-8">
 <title>OEM参入リサーチレポート: バイク車体カバー</title>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #f5f6f8;
+  --surface: #ffffff;
+  --surface-2: #fafbfc;
+  --border: #e5e7eb;
+  --text: #111827;
+  --text-dim: #6b7280;
+  --accent: #f97316;
+  --accent-2: #ea580c;
+  --accent-bg: #fff7ed;
+  --success: #10b981;
+  --success-bg: #ecfdf5;
+  --warning: #f59e0b;
+  --warning-bg: #fffbeb;
+  --info: #3b82f6;
+  --info-bg: #eff6ff;
+  --shadow-sm: 0 1px 2px rgba(15,23,42,0.04), 0 1px 3px rgba(15,23,42,0.06);
+  --shadow-md: 0 4px 6px -1px rgba(15,23,42,0.08), 0 2px 4px -2px rgba(15,23,42,0.06);
+}
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif;
-  background: #f5f5f0;
-  color: #212121;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif;
+  background: var(--bg);
+  color: var(--text);
   font-size: 13px;
   line-height: 1.5;
-  padding: 16px;
+  padding: 24px;
+  -webkit-font-smoothing: antialiased;
 }
-.container { max-width: 1100px; margin: 0 auto; background: white; border: 1px solid #d7a063; }
+.container { max-width: 1180px; margin: 0 auto; background: var(--surface); border-radius: 14px; box-shadow: var(--shadow-md); overflow: hidden; }
 
 /* Header */
 .report-head {
-  background: linear-gradient(180deg, #ed6c02 0%, #d35400 100%);
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 50%, #c2410c 100%);
   color: white;
-  padding: 18px 24px;
-  border-bottom: 3px solid #c95400;
+  padding: 24px 28px;
 }
-.report-head .label { font-size: 11px; opacity: 0.85; letter-spacing: 0.15em; }
-.report-head h1 { font-size: 24px; margin: 4px 0 8px; }
-.report-head .meta { display: flex; gap: 20px; font-size: 12px; opacity: 0.9; }
+.report-head .label { font-size: 11px; opacity: 0.85; letter-spacing: 0.15em; font-weight: 600; }
+.report-head h1 { font-size: 26px; margin: 6px 0 10px; font-weight: 800; letter-spacing: -0.01em; }
+.report-head .meta { display: flex; gap: 20px; font-size: 12px; opacity: 0.92; flex-wrap: wrap; }
 
 /* Verdict banner */
 .verdict {
-  background: #c8e6c9;
-  border-left: 6px solid #2e7d32;
-  padding: 14px 24px;
+  background: var(--success-bg);
+  border-left: 4px solid var(--success);
+  padding: 16px 28px;
   display: flex;
   align-items: center;
   gap: 16px;
 }
-.verdict-icon { font-size: 36px; }
+.verdict-icon { font-size: 32px; }
 .verdict-text { flex: 1; }
-.verdict-text strong { color: #1b5e20; font-size: 18px; }
-.verdict-text .sub { font-size: 12px; color: #2e7d32; margin-top: 4px; }
+.verdict-text strong { color: var(--success); font-size: 17px; font-weight: 700; }
+.verdict-text .sub { font-size: 12px; color: #047857; margin-top: 4px; line-height: 1.55; }
 
 /* Section */
-.section { padding: 18px 24px; border-bottom: 1px solid #ddd; }
-.section h2 { font-size: 15px; margin: 0 0 10px; color: #d35400; border-left: 4px solid #ed6c02; padding-left: 8px; }
+.section { padding: 22px 28px; border-top: 1px solid var(--border); }
+.section h2 { font-size: 15px; margin: 0 0 14px; color: var(--accent-2); font-weight: 700; display: flex; align-items: center; gap: 8px; }
+.section h2::before { content: ''; width: 3px; height: 16px; background: var(--accent); border-radius: 2px; }
 
-/* KV Grid */
+/* KV Grid (市場サマリー) */
 .kv-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 6px;
+  gap: 8px;
 }
 .kv {
-  border: 1px solid #ddc7a0;
-  background: #fff8e1;
-  padding: 6px 10px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  padding: 10px 14px;
+  border-radius: 8px;
 }
-.kv-label { font-size: 10px; color: #8d6e63; }
-.kv-value { font-size: 16px; font-weight: 700; color: #212121; }
-.kv-pass { color: #2e7d32; }
-.kv-fail { color: #c62828; }
+.kv-label { font-size: 10px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; }
+.kv-value { font-size: 18px; font-weight: 700; color: var(--text); margin-top: 2px; letter-spacing: -0.01em; }
+.kv-pass { color: var(--success); }
+.kv-fail { color: #ef4444; }
 
 /* Criteria table */
 table.criteria {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
   font-size: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border);
 }
 table.criteria th, table.criteria td {
-  border: 1px solid #ddc7a0;
-  padding: 6px 8px;
+  border-bottom: 1px solid var(--border);
+  padding: 9px 12px;
   text-align: left;
 }
+table.criteria tr:last-child td { border-bottom: 0; }
 table.criteria thead th {
-  background: #ffe082;
+  background: var(--surface-2);
   font-size: 11px;
+  font-weight: 700;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
-table.criteria tbody td.pass { background: #c8e6c9; color: #1b5e20; font-weight: 700; }
-table.criteria tbody td.fail { background: #ffcdd2; color: #b71c1c; font-weight: 700; }
-table.criteria tbody td.warn { background: #fff59d; color: #856404; }
+table.criteria tbody td.pass { background: var(--success-bg); color: var(--success); font-weight: 700; }
+table.criteria tbody td.fail { background: #fef2f2; color: #ef4444; font-weight: 700; }
+table.criteria tbody td.warn { background: var(--warning-bg); color: var(--warning); font-weight: 700; }
 
 /* Top10 table */
 table.top10 {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
   font-size: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border);
 }
 table.top10 thead th {
-  background: #ffb74d;
-  border: 1px solid #d7a063;
-  padding: 6px 8px;
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--border);
+  padding: 9px 10px;
   text-align: center;
   font-size: 11px;
+  font-weight: 700;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 table.top10 tbody td {
-  border: 1px solid #ddc7a0;
-  padding: 6px 8px;
+  border-bottom: 1px solid var(--border);
+  padding: 9px 10px;
   vertical-align: middle;
 }
-table.top10 tbody tr:nth-child(odd) td { background: #fff8e1; }
-table.top10 tbody tr.rank-1 td { background: #fff9c4 !important; font-weight: 600; }
-table.top10 tbody tr.rank-2 td { border-left: 3px solid #bdbdbd; }
-table.top10 tbody tr.rank-3 td { border-left: 3px solid #a1887f; }
+table.top10 tbody tr:last-child td { border-bottom: 0; }
+table.top10 tbody tr:hover td { background: var(--accent-bg); }
+table.top10 tbody tr.rank-1 td { background: #fffbeb; }
+table.top10 tbody tr.rank-1 .rank-num { color: #d4a017; }
+table.top10 tbody tr.rank-2 .rank-num { color: #9ca3af; }
+table.top10 tbody tr.rank-3 .rank-num { color: #b45309; }
 .rank-num { text-align: center; font-weight: 700; font-size: 14px; width: 36px; }
-.asin-cell { font-family: monospace; font-size: 11px; }
+.asin-cell { font-family: ui-monospace, "SF Mono", monospace; font-size: 11px; color: var(--text-dim); }
 .title-cell { max-width: 380px; font-size: 12px; }
-.title-cell a { color: #1565c0; text-decoration: none; font-weight: 600; }
-.num-cell { text-align: right; font-variant-numeric: tabular-nums; }
-.brand-cell { font-size: 11px; color: #5d4037; }
-.stars { color: #f57c00; }
+.title-cell a { color: var(--text); text-decoration: none; font-weight: 600; }
+.title-cell a:hover { color: var(--accent-2); }
+.num-cell { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+.brand-cell { font-size: 11px; color: var(--text-dim); }
+.stars { color: var(--warning); font-weight: 600; }
 
 /* KW chips */
 .kw-list { display: flex; flex-wrap: wrap; gap: 5px; }
 .kw {
-  background: #fff8e1;
-  border: 1px solid #d7a063;
-  padding: 4px 10px;
-  border-radius: 3px;
+  background: var(--accent-bg);
+  border: 1px solid rgba(249,115,22,0.2);
+  padding: 5px 12px;
+  border-radius: 100px;
   font-size: 12px;
-  color: #5d4037;
+  color: var(--accent-2);
+  font-weight: 600;
 }
-.kw strong { color: #d35400; margin-left: 4px; }
+.kw strong { background: var(--accent); color: white; padding: 1px 7px; border-radius: 100px; margin-left: 4px; font-size: 10px; }
 
 /* Action box */
 .action-box {
-  background: #fff3e0;
-  border: 2px solid #ed6c02;
-  padding: 12px 18px;
-  margin-top: 8px;
+  background: linear-gradient(135deg, #fff7ed, #ffedd5);
+  border: 1px solid rgba(249,115,22,0.2);
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-top: 6px;
 }
-.action-box h3 { color: #d35400; font-size: 13px; margin-bottom: 8px; }
+.action-box h3 { color: var(--accent-2); font-size: 14px; margin-bottom: 10px; font-weight: 700; }
 .action-box ol { padding-left: 22px; }
-.action-box li { margin-bottom: 5px; font-size: 13px; }
+.action-box li { margin-bottom: 5px; font-size: 13px; line-height: 1.55; }
 
 .btn-link {
   display: inline-block;
-  background: #ed6c02;
+  background: var(--accent);
   color: white;
-  padding: 6px 14px;
-  border-radius: 3px;
+  padding: 7px 16px;
+  border-radius: 100px;
   text-decoration: none;
   font-size: 12px;
   font-weight: 700;
   margin-right: 6px;
+  transition: all 0.15s;
+  box-shadow: 0 1px 2px rgba(249,115,22,0.3);
 }
+.btn-link:hover { background: var(--accent-2); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(249,115,22,0.35); }
 .btn-link.secondary {
   background: white;
-  color: #d35400;
-  border: 2px solid #ed6c02;
+  color: var(--accent-2);
+  border: 1px solid var(--accent);
+  box-shadow: none;
 }
+.btn-link.secondary:hover { background: var(--accent-bg); }
+
+/* Review section (5社まとめ) */
+.review-zone {
+  background: var(--surface-2);
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.review-zone.running { background: var(--info-bg); border-color: var(--info); border-style: solid; }
+.review-zone.done { background: var(--success-bg); border-color: var(--success); border-style: solid; }
+.review-zone.error { background: #fef2f2; border-color: #ef4444; border-style: solid; }
+.review-zone-text { color: var(--text-dim); font-size: 13px; margin-bottom: 12px; }
+.review-zone-text strong { color: var(--text); }
+.spinner {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(59,130,246,0.3);
+  border-top-color: var(--info);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.progress-bar {
+  width: 100%; height: 5px; background: var(--border); border-radius: 100px; overflow: hidden; margin: 10px 0;
+}
+.progress-bar-fill { height: 100%; background: var(--info); width: 0%; transition: width 0.3s; }
+
+.review-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+@media (min-width: 880px) { .review-grid { grid-template-columns: 1fr 1fr; } }
+.rev-prod {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+.rev-prod-head {
+  display: flex; align-items: center; gap: 8px;
+  padding-bottom: 8px; border-bottom: 1px solid var(--border); margin-bottom: 10px;
+}
+.rev-rank {
+  background: var(--text); color: white; padding: 2px 9px; border-radius: 100px; font-size: 11px; font-weight: 700;
+}
+.rev-rank-1 { background: #d4a017; }
+.rev-rank-2 { background: #9ca3af; }
+.rev-rank-3 { background: #b45309; }
+.rev-prod-title { font-size: 12px; font-weight: 600; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rev-list { display: flex; flex-direction: column; gap: 8px; max-height: 380px; overflow-y: auto; }
+.rev-item { font-size: 12px; line-height: 1.55; padding-bottom: 8px; border-bottom: 1px dashed var(--border); }
+.rev-item:last-child { border-bottom: 0; }
+.rev-meta { display: flex; gap: 8px; align-items: center; margin-bottom: 3px; }
+.rev-rating-pill { background: var(--accent-bg); color: var(--accent-2); font-weight: 700; padding: 1px 7px; border-radius: 100px; font-size: 11px; }
+.rev-date { font-size: 10px; color: var(--text-dim); }
+.rev-title { font-weight: 600; font-size: 12px; margin-bottom: 2px; }
+.rev-body { color: var(--text-dim); font-size: 12px; }
+
+.btn {
+  background: var(--accent); color: white; border: 0;
+  padding: 8px 18px; border-radius: 100px; font-size: 13px; font-weight: 700;
+  cursor: pointer; transition: all 0.18s;
+  box-shadow: 0 1px 2px rgba(249,115,22,0.3);
+}
+.btn:hover { background: var(--accent-2); transform: translateY(-1px); }
+.btn:disabled { background: var(--text-dim); cursor: not-allowed; transform: none; }
 
 /* Footer */
 .footer {
-  padding: 12px 24px;
-  background: #fafafa;
-  font-size: 10px;
-  color: #757575;
+  padding: 14px 28px;
+  background: var(--surface-2);
+  font-size: 11px;
+  color: var(--text-dim);
   text-align: center;
+  border-top: 1px solid var(--border);
 }
 </style>
 </head>
@@ -375,6 +497,18 @@ table.top10 tbody tr.rank-3 td { border-left: 3px solid #a1887f; }
   </div>
 
   <div class="section">
+    <h2>💬 5社まとめレビュー <span id="rev-pill" style="background:#f5f5f0;color:#6b7280;padding:2px 8px;border-radius:100px;font-size:11px;font-weight:600;margin-left:4px">未取得</span></h2>
+    <div id="review-zone" class="review-zone">
+      <div class="review-zone-text" id="rev-text">
+        <strong>上位5社のレビュー本文</strong>を Amazon 商品ページから一括取得します（各2秒待機、計15〜20秒）。
+      </div>
+      <button id="btn-scrape" class="btn" onclick="startScrape()">📥 5社レビュー一括取得</button>
+      <div class="progress-bar" id="rev-progress" style="display:none"><div class="progress-bar-fill" id="rev-progress-fill"></div></div>
+    </div>
+    <div id="review-results" class="review-grid"></div>
+  </div>
+
+  <div class="section">
     <h2>📋 次のアクション</h2>
     <div class="action-box">
       <h3>STEP3 利益計算へ進む</h3>
@@ -399,5 +533,140 @@ table.top10 tbody tr.rank-3 td { border-left: 3px solid #a1887f; }
     データソース: Keepa Product API (Best Sellers + Product詳細)
   </div>
 </div>
+
+<script>
+const TOP5_ASINS = ['B08BP6J69F', 'B07CWWBBD2', 'B07FXLRL67', 'B0F1T4YVNN', 'B0C1P6SZPZ'];
+const RANK_BY_ASIN = { 'B08BP6J69F': 1, 'B07CWWBBD2': 3, 'B07FXLRL67': 6, 'B0F1T4YVNN': 7, 'B0C1P6SZPZ': 10 };
+const BRAND_BY_ASIN = { 'B08BP6J69F': 'Homwarm', 'B07CWWBBD2': 'デイトナ', 'B07FXLRL67': 'デイトナ', 'B0F1T4YVNN': 'Ewuolck', 'B0C1P6SZPZ': 'TATATOO' };
+
+const reviewZone = document.getElementById('review-zone');
+const revText = document.getElementById('rev-text');
+const revPill = document.getElementById('rev-pill');
+const btnScrape = document.getElementById('btn-scrape');
+const revProgress = document.getElementById('rev-progress');
+const revProgressFill = document.getElementById('rev-progress-fill');
+const reviewResults = document.getElementById('review-results');
+
+async function startScrape() {
+  btnScrape.disabled = true;
+  reviewZone.className = 'review-zone running';
+  revPill.textContent = 'スクレイピング中…';
+  revPill.style.background = '#3b82f6'; revPill.style.color = 'white';
+  revText.innerHTML = '<span class="spinner"></span><strong>スクレイピング中…</strong> Amazon商品ページから各商品のレビューを取得しています';
+  revProgress.style.display = 'block';
+  revProgressFill.style.width = '5%';
+
+  try {
+    const r = await fetch('/api/scrape-reviews', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ asins: TOP5_ASINS }),
+    });
+    if (!r.ok) {
+      const err = await r.json().catch(() => ({}));
+      throw new Error(err.error || 'scrape起動失敗');
+    }
+    pollStatus();
+  } catch (e) {
+    reviewZone.className = 'review-zone error';
+    revText.innerHTML = `<strong style="color:#ef4444">エラー</strong>: ${e.message}<br>backend serverが起動しているか確認 (node portal/server.js)`;
+    btnScrape.disabled = false;
+  }
+}
+
+async function pollStatus() {
+  try {
+    const r = await fetch('/api/scrape-status');
+    const s = await r.json();
+    if (s.state === 'running') {
+      const pct = Math.round((s.done / Math.max(s.total, 1)) * 100);
+      revProgressFill.style.width = pct + '%';
+      revText.innerHTML = `<span class="spinner"></span><strong>スクレイピング中…</strong> ${s.done}/${s.total} 完了 (現在: ${s.current || '-'})`;
+      setTimeout(pollStatus, 1500);
+    } else if (s.state === 'done') {
+      revProgressFill.style.width = '100%';
+      reviewZone.className = 'review-zone done';
+      revPill.textContent = `${s.totalReviews}件取得済`;
+      revPill.style.background = '#10b981'; revPill.style.color = 'white';
+      revText.innerHTML = `<strong style="color:#10b981">✓ 完了</strong>: ${s.total}商品から計 ${s.totalReviews} 件のレビューを取得`;
+      btnScrape.textContent = '🔄 再取得';
+      btnScrape.disabled = false;
+      await loadReviews();
+    } else if (s.state === 'error') {
+      reviewZone.className = 'review-zone error';
+      revText.innerHTML = `<strong style="color:#ef4444">エラー</strong>: ${s.error || 'unknown'}`;
+      btnScrape.disabled = false;
+    } else {
+      setTimeout(pollStatus, 1500);
+    }
+  } catch (e) {
+    setTimeout(pollStatus, 2000);
+  }
+}
+
+async function loadReviews() {
+  reviewResults.innerHTML = '';
+  for (const asin of TOP5_ASINS) {
+    try {
+      const r = await fetch('/api/reviews/' + asin);
+      if (!r.ok) continue;
+      const d = await r.json();
+      reviewResults.appendChild(renderProduct(asin, d));
+    } catch (e) {}
+  }
+}
+
+function renderProduct(asin, data) {
+  const div = document.createElement('div');
+  div.className = 'rev-prod';
+  const rank = RANK_BY_ASIN[asin] || '-';
+  const brand = BRAND_BY_ASIN[asin] || '';
+  const reviews = data.reviews || [];
+  const rankClass = rank <= 3 ? `rev-rank-${rank}` : '';
+  div.innerHTML = `
+    <div class="rev-prod-head">
+      <span class="rev-rank ${rankClass}">${rank}位</span>
+      <span class="rev-prod-title">${brand} - ${reviews.length}件</span>
+      <a href="https://www.amazon.co.jp/dp/${asin}" target="_blank" style="font-size:11px;color:#6b7280;text-decoration:none">Amazon →</a>
+    </div>
+    <div class="rev-list">
+      ${reviews.length ? reviews.map((r) => `
+        <div class="rev-item">
+          <div class="rev-meta">
+            <span class="rev-rating-pill">★${r.rating || '?'}</span>
+            <span class="rev-date">${escapeHtml(r.date || '')}</span>
+          </div>
+          ${r.title ? `<div class="rev-title">${escapeHtml(r.title.replace(/^5つ星のうち[\d.]+\s*/, ''))}</div>` : ''}
+          <div class="rev-body">${escapeHtml((r.body || '').slice(0, 280))}${(r.body || '').length > 280 ? '…' : ''}</div>
+        </div>
+      `).join('') : '<div style="color:#9ca3af;font-size:12px;padding:8px">レビューなし</div>'}
+    </div>
+  `;
+  return div;
+}
+
+function escapeHtml(s) {
+  if (!s) return '';
+  return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+// ページロード時、既存scrape結果があれば自動表示
+(async () => {
+  const r = await fetch('/api/scrape-status').catch(() => null);
+  if (!r) return;
+  const s = await r.json();
+  if (s.state === 'done') {
+    revPill.textContent = `${s.totalReviews || '?'}件取得済`;
+    revPill.style.background = '#10b981'; revPill.style.color = 'white';
+    reviewZone.className = 'review-zone done';
+    revText.innerHTML = `<strong style="color:#10b981">✓ 前回取得済</strong>: ${s.totalReviews || '?'} 件のレビューを下に表示`;
+    btnScrape.textContent = '🔄 再取得';
+    await loadReviews();
+  } else if (s.state === 'running') {
+    pollStatus();
+    btnScrape.disabled = true;
+  }
+})();
+</script>
 </body>
 </html>

@@ -1,0 +1,206 @@
+{
+  "asin": "B000SKHSRU",
+  "productTitle": "【総代理店】スタイロフォン Stylophone 【日本語説明有り】 シンセサイザー レトロ 電子楽器 アナログシンセサイザー 音楽ガジェット",
+  "analyzedAt": "2026-05-16T13:21:47.060Z",
+  "totalReviews": 51,
+  "lowStarCount": 20,
+  "highStarCount": 21,
+  "avgRating": "3.02",
+  "painPoints": {
+    "音": {
+      "count": 1,
+      "words": [
+        "音"
+      ]
+    }
+  },
+  "praisePoints": {
+    "満足": {
+      "count": 10,
+      "words": [
+        "良い",
+        "素晴らしい",
+        "最高"
+      ]
+    }
+  },
+  "painMatches": {
+    "品質": [],
+    "耐久": [],
+    "サイズ": [],
+    "説明書": [],
+    "におい": [],
+    "音": [
+      {
+        "idx": 10,
+        "hitWord": "音",
+        "rating": 2,
+        "title": "残念",
+        "body": "届いた初日から5、6間の音階がおかしくして使えるものではありませんでしたどれだけチューニングしてもドレミファソラシド すら綺麗に鳴りません面白そうな楽器なだけに、残念"
+      }
+    ],
+    "使い勝手": [],
+    "デザイン": [],
+    "価格": [],
+    "梱包": [],
+    "サポート": [],
+    "互換": []
+  },
+  "praiseMatches": {
+    "満足": [
+      {
+        "idx": 1,
+        "hitWord": "満足",
+        "rating": 5,
+        "title": "息子が喜んでる",
+        "body": "息子へのプレゼントです。良くわからないけれどとても喜んでいるので満足です"
+      },
+      {
+        "idx": 2,
+        "hitWord": "最高",
+        "rating": 5,
+        "title": "いい音するよね",
+        "body": "中学生からの夢でした最高です金属部分は酸化？するので付属のメガネ拭きみたいな物で拭いてくださいエフェクター付けても面白いですよ"
+      },
+      {
+        "idx": 3,
+        "hitWord": "素晴らしい",
+        "rating": 4,
+        "title": "楽しい",
+        "body": "なかなか楽しめてる充電の減り以外は素晴らしい"
+      },
+      {
+        "idx": 4,
+        "hitWord": "良い",
+        "rating": 5,
+        "title": "とても良い",
+        "body": "孫が大変喜んでました。ありがとうございます。☺️"
+      },
+      {
+        "idx": 5,
+        "hitWord": "最高",
+        "rating": 5,
+        "title": "5つ星のうち5.0",
+        "body": "最高！"
+      },
+      {
+        "idx": 7,
+        "hitWord": "良い",
+        "rating": 5,
+        "title": "神！",
+        "body": "練習しだいで何でも弾ける上Lets'go!!もできて持ち運びが楽なので友達との遊びで使うのに良い！"
+      },
+      {
+        "idx": 8,
+        "hitWord": "最高",
+        "rating": 4,
+        "title": "Let's Go!!!!!!!!!!!",
+        "body": "メディアを読み込めませんでした。\n                \n            \n                \n            \n            \n        \n    \n    \n\n\n\n\n\n\n\n\n  \n  \n    鍵盤が反射して見づらかったりする所を無視すれば最高の玩具"
+      },
+      {
+        "idx": 9,
+        "hitWord": "気に入っ",
+        "rating": 5,
+        "title": "小学生の孫が楽しんでいる",
+        "body": "孫からのリクエストでクリスマスプレゼントに買いました。とても気に入って遊んでいます。"
+      },
+      {
+        "idx": 10,
+        "hitWord": "最高",
+        "rating": 4,
+        "title": "Let's Go!!!!!!!!!!!",
+        "body": "{\"clickstreamNexusMetricsConfig\":{\"producerId\":\"vsemetrics_playercards\",\"schemaId\":\"clickstream.CustomerEvent.4\",\"actionType\":\"DISCOVERY\",\"eventOwner\":\"vsemetrics_playercards\",\"eventType\":\"IVEVideoVie"
+      },
+      {
+        "idx": 20,
+        "hitWord": "最高",
+        "rating": 5,
+        "title": "触ってるだけでめっちゃ楽しい",
+        "body": "音とか最高に面白いし、いじってるだけで子供心に帰れる"
+      }
+    ],
+    "品質": [],
+    "価値": [],
+    "使いやすさ": []
+  },
+  "topNgramsLow": [
+    {
+      "gram": "オモチ",
+      "count": 2
+    },
+    {
+      "gram": "モチャ",
+      "count": 2
+    },
+    {
+      "gram": "りませ",
+      "count": 2
+    },
+    {
+      "gram": "ません",
+      "count": 2
+    }
+  ],
+  "topNgramsHigh": [
+    {
+      "gram": "自動翻",
+      "count": 8
+    },
+    {
+      "gram": "動翻訳",
+      "count": 8
+    },
+    {
+      "gram": "います",
+      "count": 7
+    },
+    {
+      "gram": "してい",
+      "count": 6
+    },
+    {
+      "gram": "楽しい",
+      "count": 4
+    },
+    {
+      "gram": "とても",
+      "count": 4
+    },
+    {
+      "gram": "いです",
+      "count": 4
+    },
+    {
+      "gram": "ている",
+      "count": 4
+    },
+    {
+      "gram": "かった",
+      "count": 4
+    },
+    {
+      "gram": "ドイツ",
+      "count": 4
+    },
+    {
+      "gram": "イツ語",
+      "count": 4
+    },
+    {
+      "gram": "フラン",
+      "count": 4
+    },
+    {
+      "gram": "ランス",
+      "count": 4
+    },
+    {
+      "gram": "ンス語",
+      "count": 4
+    },
+    {
+      "gram": "スペイ",
+      "count": 4
+    }
+  ]
+}

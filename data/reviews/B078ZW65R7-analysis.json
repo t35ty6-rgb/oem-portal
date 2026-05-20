@@ -1,0 +1,110 @@
+{
+  "asin": "B078ZW65R7",
+  "productTitle": null,
+  "analyzedAt": "2026-05-16T16:56:06.305Z",
+  "totalReviews": 10,
+  "lowStarCount": 0,
+  "highStarCount": 10,
+  "avgRating": "5.00",
+  "painPoints": {},
+  "praisePoints": {
+    "満足": {
+      "count": 2,
+      "words": [
+        "良い",
+        "最高"
+      ]
+    }
+  },
+  "painMatches": {
+    "品質": [],
+    "耐久": [],
+    "サイズ": [],
+    "説明書": [],
+    "におい": [],
+    "音": [],
+    "使い勝手": [],
+    "デザイン": [],
+    "価格": [],
+    "梱包": [],
+    "サポート": [],
+    "互換": []
+  },
+  "praiseMatches": {
+    "満足": [
+      {
+        "idx": 9,
+        "hitWord": "良い",
+        "rating": 5,
+        "title": "最高の商品です。",
+        "body": "非常に良い商品です。ありがとうございました。"
+      }
+    ],
+    "品質": [],
+    "価値": [],
+    "使いやすさ": []
+  },
+  "topNgramsLow": [],
+  "topNgramsHigh": [
+    {
+      "gram": "ました",
+      "count": 4
+    },
+    {
+      "gram": "釣れる",
+      "count": 3
+    },
+    {
+      "gram": "コウイ",
+      "count": 3
+    },
+    {
+      "gram": "ウイカ",
+      "count": 3
+    },
+    {
+      "gram": "シャロ",
+      "count": 3
+    },
+    {
+      "gram": "ャロー",
+      "count": 3
+    },
+    {
+      "gram": "よく釣",
+      "count": 2
+    },
+    {
+      "gram": "く釣れ",
+      "count": 2
+    },
+    {
+      "gram": "夕暮れ",
+      "count": 2
+    },
+    {
+      "gram": "に効果",
+      "count": 2
+    },
+    {
+      "gram": "いまし",
+      "count": 2
+    },
+    {
+      "gram": "春と晩",
+      "count": 2
+    },
+    {
+      "gram": "と晩秋",
+      "count": 2
+    },
+    {
+      "gram": "ロータ",
+      "count": 2
+    },
+    {
+      "gram": "ータイ",
+      "count": 2
+    }
+  ]
+}

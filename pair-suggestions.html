@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta name="robots" content="noindex,nofollow">
+<meta charset="UTF-8">
+<title>ヒット商品×ヒット商品 物理融合OEM発明 - Jobs提案</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif; background: #f5f6f8; color: #212121; font-size: 13px; line-height: 1.6; }
+
+.topnav { position: sticky; top: 0; z-index: 100; display: flex; align-items: stretch; background: #1e293b; color: white; border-bottom: 2px solid #f97316; font-size: 11px; }
+.topnav .nav-home { background: #f97316; color: white; padding: 8px 14px; text-decoration: none; font-weight: 700; font-size: 12px; display: flex; align-items: center; }
+.topnav .nav-home:hover { background: #ea580c; }
+.topnav .label { padding: 8px 14px; color: #cbd5e1; display: flex; align-items: center; flex: 1; }
+
+.container { max-width: 1100px; margin: 16px auto; background: white; border: 1px solid #e5e7eb; }
+.head { background: linear-gradient(180deg, #7c3aed 0%, #5b21b6 100%); color: white; padding: 20px 24px; }
+.head h1 { font-size: 22px; margin-bottom: 6px; }
+.head .sub { font-size: 12px; opacity: 0.92; line-height: 1.7; }
+.head .sub strong { color: #fde047; }
+
+.thesis { margin: 14px 24px; padding: 14px 18px; background: linear-gradient(180deg, #fef3c7, #fde68a); border-left: 6px solid #d97706; border-radius: 4px; font-size: 12.5px; color: #451a03; line-height: 1.75; }
+.thesis strong { color: #9a3412; }
+.thesis .ex { background: white; padding: 8px 12px; margin-top: 8px; border-radius: 3px; font-size: 11.5px; color: #6b7280; }
+.thesis .ex strong { color: #7c3aed; }
+
+.section { padding: 16px 24px; }
+.section h2 { font-size: 16px; color: #5b21b6; border-left: 5px solid #7c3aed; padding-left: 10px; margin-bottom: 14px; }
+
+.invention { background: white; border: 2px solid #5b21b6; border-radius: 8px; margin-bottom: 20px; overflow: hidden; box-shadow: 0 2px 4px rgba(91,33,182,0.1); }
+.inv-head { background: linear-gradient(180deg, #5b21b6, #4c1d95); color: white; padding: 14px 18px; }
+.inv-num { display: inline-block; background: #fbbf24; color: #422006; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 700; margin-right: 8px; }
+.inv-title { font-size: 18px; font-weight: 700; margin-top: 4px; }
+.inv-tagline { font-size: 11.5px; color: #ddd6fe; margin-top: 4px; }
+
+.inv-body { padding: 16px 20px; }
+
+.formula { display: grid; grid-template-columns: 1fr auto 1fr auto 1.2fr; gap: 8px; align-items: center; margin: 0 0 14px; }
+.parent { background: linear-gradient(180deg, #f1f5f9, #e2e8f0); padding: 10px 12px; border-radius: 6px; text-align: center; border: 1px solid #cbd5e1; }
+.parent .p-label { font-size: 9px; color: #64748b; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+.parent .p-name { font-size: 13px; font-weight: 700; color: #1e293b; margin: 2px 0; }
+.parent .p-meta { font-size: 10px; color: #64748b; }
+.op { font-size: 22px; color: #7c3aed; font-weight: 700; text-align: center; }
+.product { background: linear-gradient(135deg, #faf5ff, #ede9fe); padding: 10px 12px; border-radius: 6px; text-align: center; border: 2px solid #7c3aed; }
+.product .p-label { font-size: 9px; color: #7c3aed; font-weight: 700; text-transform: uppercase; }
+.product .p-name { font-size: 13px; font-weight: 700; color: #4c1d95; margin: 2px 0; }
+.product .p-meta { font-size: 10px; color: #6d28d9; }
+
+.row-block { margin-bottom: 12px; }
+.row-label { font-size: 11px; font-weight: 700; color: #6b7280; letter-spacing: 0.05em; margin-bottom: 4px; }
+
+.pain { background: #fef2f2; border-left: 3px solid #ef4444; padding: 8px 12px; border-radius: 0 3px 3px 0; font-size: 11.5px; color: #991b1b; }
+.fix { background: #f0fdf4; border-left: 3px solid #22c55e; padding: 8px 12px; border-radius: 0 3px 3px 0; font-size: 12px; color: #166534; font-weight: 600; line-height: 1.7; }
+.fix ul { margin: 4px 0 0 18px; font-weight: 500; }
+.fix li { margin-bottom: 2px; }
+
+.econ { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-top: 10px; }
+.econ-card { background: #f8fafc; padding: 6px 10px; border-radius: 4px; border: 1px solid #e5e7eb; font-size: 10.5px; }
+.econ-card .e-label { color: #64748b; font-weight: 700; font-size: 9px; text-transform: uppercase; }
+.econ-card .e-value { font-size: 13px; font-weight: 700; color: #1e293b; margin-top: 2px; }
+.econ-card.highlight { background: linear-gradient(180deg, #fef3c7, #fde68a); border-color: #f59e0b; }
+.econ-card.highlight .e-value { color: #9a3412; }
+
+.quote { font-size: 10.5px; color: #475569; font-style: italic; background: #f1f5f9; padding: 4px 8px; border-radius: 3px; margin: 3px 0; }
+.quote::before { content: '"'; color: #94a3b8; }
+.quote::after { content: '"'; color: #94a3b8; }
+
+.principle { background: #0f172a; color: white; padding: 18px 24px; margin-top: 14px; }
+.principle h3 { color: #fbbf24; font-size: 14px; margin-bottom: 10px; }
+.principle ul { margin-left: 20px; font-size: 12.5px; line-height: 1.9; color: #e2e8f0; }
+.principle ul strong { color: #fbbf24; }
+
+.footer { padding: 14px 24px; background: #fafafa; font-size: 11px; color: #6b7280; text-align: center; border-top: 1px solid #e5e7eb; }
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a class="nav-home" href="index-l1.html">🏠 トップ</a>
+  <span class="label">💜 ヒット商品×ヒット商品 物理融合OEM (Jobs発明案)</span>
+</nav>
+
+<div class="container">
+  <div class="head">
+    <h1>💜 ヒット商品×ヒット商品<br>物理融合OEM 発明</h1>
+    <div class="sub">
+      Amazonで<strong>両方売れてる商品</strong>を <strong>物理的に1つに統合</strong> して、新カテゴリの一番乗りを取る発明型OEM。<br>
+      <strong>「2つ持ち歩く面倒」「2つ使い分ける面倒」「2つ買う罪悪感」</strong>を1商品で解消 = 新しい体験商品。
+    </div>
+  </div>
+
+  <div class="thesis">
+    <strong>🎯 発明の原理:</strong> 「ある商品Aの不満」を「ある商品Bの強み」で解消するだけでは普通の改良。
+    <strong>勝つには「両商品とも単品で売れてる」状態で、物理的に融合した瞬間に新カテゴリの No.1 を取る</strong>。
+    <div class="ex">
+      <strong>オーナー例:</strong> ✅ 売れてるポシェット × ✅ 売れてるミニチェア → 「ミニチェア収納専用ポケット付きポシェット」<br>
+      → ポシェット買う層 + ミニチェア買う層 + 「両方持って歩きたかったキャンプ女子」の3市場を一気に取る
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>💡 Jobs 物理融合発明 7案</h2>
+
+    <!-- Invention 1 -->
+    <div class="invention">
+      <div class="inv-head">
+        <span class="inv-num">発明 #1</span>
+        <div class="inv-title">座面下クーラーチェア (アウトドアの完成形)</div>
+        <div class="inv-tagline">座ったまま冷たい飲み物に手が届く。立ち上がる回数ゼロ</div>
+      </div>
+      <div class="inv-body">
+        <div class="formula">
+          <div class="parent">
+            <div class="p-label">親A (Amazon売れ筋)</div>
+            <div class="p-name">コンパクトチェア</div>
+            <div class="p-meta">¥2,500 / 月販5,000個</div>
+          </div>
+          <div class="op">+</div>
+          <div class="parent">
+            <div class="p-label">親B (Amazon売れ筋)</div>
+            <div class="p-name">小型クーラーボックス</div>
+            <div class="p-meta">¥3,000 / 月販3,000個</div>
+          </div>
+          <div class="op">=</div>
+          <div class="product">
+            <div class="p-label">融合発明</div>
+            <div class="p-name">座面下クーラーチェア</div>
+            <div class="p-meta">¥4,980 (狙い目価格)</div>
+          </div>
+        </div>
+
+        <div class="row-block">
+          <div class="row-label">🩹 解消する隠れ不満</div>
+          <div class="pain">「クーラーボックスから飲み物取るたびに立つの面倒」「キャンプで荷物多すぎ」「クーラー+椅子の往復が苦痛」 ─ 誰も言わないが全員思ってる</div>
+        </div>
+
+        <div class="row-block">
+          <div class="row-label">⚙️ 統合仕様 (発明の核)</div>
+          <div class="fix">
+            <ul>
+              <li>座面下に <strong>4L保冷スペース</strong>内蔵 (350ml缶×6本入る)</li>
+              <li>座面横に <strong>ドリンクホルダー2口 + ボトルオープナー</strong></li>
+              <li>折りたたみ時はクーラーボックスが <strong>持ち手内蔵キャリーケース化</strong></li>
+              <li>耐荷重100kg (一般チェアと同等)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="econ">
+          <div class="econ-card"><div class="e-label">融合価格</div><div class="e-value">¥4,980</div></div>
+          <div class="econ-card"><div class="e-label">原価試算</div><div class="e-value">¥1,800</div></div>
+          <div class="econ-card highlight"><div class="e-label">利益/個</div><div class="e-value">¥1,500+</div></div>
+          <div class="econ-card"><div class="e-label">月販見込</div><div class="e-value">300-500個</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Invention 2 -->
+    <div class="invention">
+      <div class="inv-head">
+        <span class="inv-num">発明 #2</span>
+        <div class="inv-title">即抜きホルスター付き登山ボディバッグ (クマ対策装備)</div>
+        <div class="inv-tagline">遭遇時に間に合うスプレー収納。命を守る0.5秒</div>
+      </div>
+      <div class="inv-body">
+        <div class="formula">
+          <div class="parent">
+            <div class="p-label">親A (急成長中)</div>
+            <div class="p-name">熊撃退スプレー</div>
+            <div class="p-meta">¥3,000-5,000 / 2025-26需要急増</div>
+          </div>
+          <div class="op">+</div>
+          <div class="parent">
+            <div class="p-label">親B (定番ヒット)</div>
+            <div class="p-name">登山ボディバッグ</div>
+            <div class="p-meta">¥2,500-4,000 / 通年安定</div>
+          </div>
+          <div class="op">=</div>
+          <div class="product">
+            <div class="p-label">融合発明</div>
+            <div class="p-name">クマ対策ボディバッグ</div>
+            <div class="p-meta">¥6,980 (安全料込)</div>
+          </div>
+        </div>
+
+        <div class="row-block">
+          <div class="row-label">🩹 解消する隠れ不満</div>
+          <div class="pain">「ザックに入れたスプレーは遭遇時に絶対間に合わない」「ベルトホルスターは別売り、組み合わせ自由度低い」「結局スプレー買っても使えない」</div>
+          <div class="quote">熊スプレーなんか、よほど広い場所でもない限りテストなんかできないので騙された気分で…</div>
+        </div>
+
+        <div class="row-block">
+          <div class="row-label">⚙️ 統合仕様 (発明の核)</div>
+          <div class="fix">
+            <ul>
+              <li>胸前ストラップに <strong>マグネット式スプレーホルスター</strong>を一体縫製 (引き抜き0.5秒)</li>
+              <li>サイドに <strong>消音切替式熊鈴</strong>取付フック標準装備</li>
+              <li>背面に <strong>クマ出没エリアQRコード</strong>パッチ (環境省データへ)</li>
+              <li>背中ポケットに簡易応急セット</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="econ">
+          <div class="econ-card"><div class="e-label">融合価格</div><div class="e-value">¥6,980</div></div>
+          <div class="econ-card"><div class="e-label">原価試算</div><div class="e-value">¥2,500</div></div>
+          <div class="econ-card highlight"><div class="e-label">利益/個</div><div class="e-value">¥2,500+</div></div>
+          <div class="econ-card"><div class="e-label">月販見込</div><div class="e-value">200-400個</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Invention 3 -->
+    <div class="invention">
+      <div class="inv-head">
+        <span class="inv-num">発明 #3</span>
+        <div class="inv-title">転倒撮影機能付きベビーコーナーガード</div>
+        <div class="inv-tagline">「あの瞬間撮りたかった」を解消。発達記録 × 事故証明の一体化</div>
+      </div>
+      <div class="inv-body">
+        <div class="formula">
+          <div class="parent">
+            <div class="p-label">親A (Amazon売れ筋)</div>
+            <div class="p-name">ベビーコーナーガード</div>
+            <div class="p-meta">¥1,500-3,000 / 月販2,000個</div>
+          </div>
+          <div class="op">+</div>
+          <div class="parent">
+            <div class="p-label">親B (Amazon売れ筋)</div>
+            <div class="p-name">室内見守りカメラ</div>
+            <div class="p-meta">¥3,500-8,000 / 月販5,000個</div>
+          </div>
+          <div class="op">=</div>
+          <div class="product">
+            <div class="p-label">融合発明</div>
+            <div class="p-name">記録機能付きコーナーガード</div>
+            <div class="p-meta">¥6,980</div>
+          </div>
+        </div>
+
+        <div class="row-block">
+          <div class="row-label">🩹 解消する隠れ不満</div>
+          <div class="pain">「初めての歩き出しの瞬間撮りたかった」「転倒したけど怪我の状況分からない」「カメラは別の部屋に固定で、子供の死角がある」</div>
+          <div class="quote">クッション性ではとても良いと思います。ただ、つかまり立ちやヨチヨチ歩きの…</div>
+        </div>
+
+        <div class="row-block">
+          <div class="row-label">⚙️ 統合仕様 (発明の核)</div>
+          <div class="fix">
+            <ul>
+              <li>コーナーガード本体に <strong>USB-C給電・小型180度広角カメラ</strong>内蔵</li>
+              <li><strong>衝撃センサー連動</strong>で転倒の前後30秒を自動録画 (SDカード保存)</li>
+              <li>記念録画モード: ボタン1押しで「歩いた瞬間」録画</li>
+              <li>データは家庭内NAS/SDのみ (クラウド非依存=プライバシー安心)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="econ">
+          <div class="econ-card"><div class="e-label">融合価格</div><div class="e-value">¥6,980</div></div>
+          <div class="econ-card"><div class="e-label">原価試算</div><div class="e-value">¥2,200</div></div>
+          <div class="econ-card highlight"><div class="e-label">利益/個</div><div class="e-value">¥2,800+</div></div>
+          <div class="econ-card"><div class="e-label">月販見込</div><div class="e-value">500-1,000個</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Invention 4 -->
+    <div class="invention">
+      <div class="inv-head">
+        <span class="inv-num">発明 #4</span>
+        <div class="inv-title">飲める保冷剤「水分補給×アイシング」</div>
+        <div class="inv-tagline">保冷剤がそのまま水分補給に。スポーツ・登山・防災市場</div>
+      </div>
+      <div class="inv-body">
+        <div class="formula">
+          <div class="parent">
+            <div class="p-label">親A (Amazon売れ筋)</div>
+            <div class="p-name">ロゴス保冷剤</div>
+            <div class="p-meta">¥1,500-3,000 / 月販3,000個</div>
+          </div>
+          <div class="op">+</div>
+          <div class="parent">
+            <div class="p-label">親B (定番)</div>
+            <div class="p-name">スポーツドリンク (粉末/凍結)</div>
+            <div class="p-meta">¥1,000-2,000 / 巨大市場</div>
+          </div>
+          <div class="op">=</div>
+          <div class="product">
+            <div class="p-label">融合発明</div>
+            <div class="p-name">飲める保冷剤パック</div>
+            <div class="p-meta">¥1,980 (5パック)</div>
+          </div>
+        </div>
+
+        <div class="row-block">
+          <div class="row-label">🩹 解消する隠れ不満</div>
+          <div class="pain">「保冷剤が溶けたらただの邪魔な液体」「水分補給とアイシングで荷物2倍」「炎天下スポーツで水が足りなくなる」</div>
+          <div class="quote">長時間持続しない。常温になるのが早いです (ロゴス保冷剤)</div>
+        </div>
+
+        <div class="row-block">
+          <div class="row-label">⚙️ 統合仕様 (発明の核)</div>
+          <div class="fix">
+            <ul>
+              <li>飲料水+電解質+ブドウ糖 (経口補水液成分) を凍結したパック</li>
+              <li>外側は <strong>キャップ付きパウチ</strong> ─ 溶けたら絞って飲める</li>
+              <li>凍結中は保冷剤、半溶け時はアイシング、完全溶け後は補水</li>
+              <li>賞味期限2年・防災備蓄兼用</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="econ">
+          <div class="econ-card"><div class="e-label">融合価格</div><div class="e-value">¥1,980/5P</div></div>
+          <div class="econ-card"><div class="e-label">原価試算</div><div class="e-value">¥600</div></div>
+          <div class="econ-card highlight"><div class="e-label">利益/個</div><div class="e-value">¥800+</div></div>
+          <div class="econ-card"><div class="e-label">月販見込</div><div class="e-value">800-1,500個</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Invention 5 -->
+    <div class="invention">
+      <div class="inv-head">
+        <span class="inv-num">発明 #5</span>
+        <div class="inv-title">スマホ充電完結 カーマウント</div>
+        <div class="inv-tagline">「ホルダー+充電器+ケーブル」3つの分離問題を1台で解消</div>
+      </div>
+      <div class="inv-body">
+        <div class="formula">
+          <div class="parent">
+            <div class="p-label">親A (大ヒット)</div>
+            <div class="p-name">車載スマホホルダー</div>
+            <div class="p-meta">¥1,500-3,000 / 月販5,000個</div>
+          </div>
+          <div class="op">+</div>
+          <div class="parent">
+            <div class="p-label">親B (定番)</div>
+            <div class="p-name">車載Qi充電器</div>
+            <div class="p-meta">¥2,000-4,000 / 月販3,000個</div>
+          </div>
+          <div class="op">=</div>
+          <div class="product">
+            <div class="p-label">融合発明</div>
+            <div class="p-name">磁気充電カーマウント</div>
+            <div class="p-meta">¥3,980</div>
+          </div>
+        </div>
+
+        <div class="row-block">
+          <div class="row-label">🩹 解消する隠れ不満</div>
+          <div class="pain">「ホルダーに置くと充電ケーブル抜ける」「充電器単独はホルダーじゃない」「ケーブル絡まる」「MagSafe充電は別売り」</div>
+          <div class="quote">磁石が弱くて段差で落ちる…アームが短くiPhone17に届かない</div>
+        </div>
+
+        <div class="row-block">
+          <div class="row-label">⚙️ 統合仕様 (発明の核)</div>
+          <div class="fix">
+            <ul>
+              <li><strong>MagSafe強磁力 + Qiワイヤレス15W充電</strong>を一体化 (置くだけ充電)</li>
+              <li>シガーソケット給電・余ったUSB-Aポート同乗者用</li>
+              <li>真空吸盤 + ジェルパッドの<strong>二段固定</strong>でダッシュボード対応</li>
+              <li>アーム可動範囲広く取り iPhone17 ProMax対応</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="econ">
+          <div class="econ-card"><div class="e-label">融合価格</div><div class="e-value">¥3,980</div></div>
+          <div class="econ-card"><div class="e-label">原価試算</div><div class="e-value">¥1,400</div></div>
+          <div class="econ-card highlight"><div class="e-label">利益/個</div><div class="e-value">¥1,800+</div></div>
+          <div class="econ-card"><div class="e-label">月販見込</div><div class="e-value">500-800個</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Invention 6 -->
+    <div class="invention">
+      <div class="inv-head">
+        <span class="inv-num">発明 #6</span>
+        <div class="inv-title">カバー一体型ハンガーラック (見せない収納)</div>
+        <div class="inv-tagline">単身世帯の「来客時、服を隠したい」を解消</div>
+      </div>
+      <div class="inv-body">
+        <div class="formula">
+          <div class="parent">
+            <div class="p-label">親A (Amazon売れ筋)</div>
+            <div class="p-name">山善ハンガーラック</div>
+            <div class="p-meta">¥3,500-6,000 / 月販2,000個</div>
+          </div>
+          <div class="op">+</div>
+          <div class="parent">
+            <div class="p-label">親B (Amazon売れ筋)</div>
+            <div class="p-name">衣類カバー (ガーメント)</div>
+            <div class="p-meta">¥800-1,500 / 月販5,000個</div>
+          </div>
+          <div class="op">=</div>
+          <div class="product">
+            <div class="p-label">融合発明</div>
+            <div class="p-name">カバー内蔵ハンガーラック</div>
+            <div class="p-meta">¥5,980</div>
+          </div>
+        </div>
+
+        <div class="row-block">
+          <div class="row-label">🩹 解消する隠れ不満</div>
+          <div class="pain">「ハンガーラックにホコリ被る」「来客時に部屋が雑然と見える」「カバー別買いだとサイズ合わない」「シーズンオフ服を隠したい」</div>
+          <div class="quote">作りが華奢…安定感がなくグラグラします (山善ハンガーラック)</div>
+        </div>
+
+        <div class="row-block">
+          <div class="row-label">⚙️ 統合仕様 (発明の核)</div>
+          <div class="fix">
+            <ul>
+              <li>本体上部にカーテンレール内蔵、<strong>4面ジップアップ式カバー</strong>標準装備</li>
+              <li>カバーは取り外し可・洗濯可・通気メッシュ窓付き</li>
+              <li>支柱を太軸化 (1.5倍) でグラつき解消 ─ 既存不満も同時改善</li>
+              <li>カラー: ベージュ/グレー/黒 (どの部屋にも馴染む)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="econ">
+          <div class="econ-card"><div class="e-label">融合価格</div><div class="e-value">¥5,980</div></div>
+          <div class="econ-card"><div class="e-label">原価試算</div><div class="e-value">¥2,100</div></div>
+          <div class="econ-card highlight"><div class="e-label">利益/個</div><div class="e-value">¥2,200+</div></div>
+          <div class="econ-card"><div class="e-label">月販見込</div><div class="e-value">400-700個</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Invention 7 -->
+    <div class="invention">
+      <div class="inv-head">
+        <span class="inv-num">発明 #7</span>
+        <div class="inv-title">ペットボトル装着型ペット給水器 (散歩革命)</div>
+        <div class="inv-tagline">ペット用水筒 × 折りたたみ皿 を1動作で完結</div>
+      </div>
+      <div class="inv-body">
+        <div class="formula">
+          <div class="parent">
+            <div class="p-label">親A (ペット用品)</div>
+            <div class="p-name">ペット用携帯水筒</div>
+            <div class="p-meta">¥1,200-2,500 / 月販3,000個</div>
+          </div>
+          <div class="op">+</div>
+          <div class="parent">
+            <div class="p-label">親B (定番)</div>
+            <div class="p-name">市販ペットボトル飲料</div>
+            <div class="p-meta">¥130 / 巨大消費市場</div>
+          </div>
+          <div class="op">=</div>
+          <div class="product">
+            <div class="p-label">融合発明</div>
+            <div class="p-name">ペットボトル直結給水ノズル</div>
+            <div class="p-meta">¥1,480</div>
+          </div>
+        </div>
+
+        <div class="row-block">
+          <div class="row-label">🩹 解消する隠れ不満</div>
+          <div class="pain">「ペット用水筒を別に持ち歩くの面倒」「水筒の水だけだと量足りない、コンビニで補充できない」「自分用ペットボトルとペット用を別管理する不毛」</div>
+        </div>
+
+        <div class="row-block">
+          <div class="row-label">⚙️ 統合仕様 (発明の核)</div>
+          <div class="fix">
+            <ul>
+              <li>市販ペットボトル (500ml-1L) のキャップ部分に <strong>直接ねじ込む給水ノズル+折りたたみ皿</strong></li>
+              <li>逆さにすると皿に水が溜まり、戻すと止まる (こぼれない)</li>
+              <li>シリコン製・軽量45g・カラビナで散歩バッグに常時装着</li>
+              <li>洗いやすい3分割構造</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="econ">
+          <div class="econ-card"><div class="e-label">融合価格</div><div class="e-value">¥1,480</div></div>
+          <div class="econ-card"><div class="e-label">原価試算</div><div class="e-value">¥320</div></div>
+          <div class="econ-card highlight"><div class="e-label">利益/個</div><div class="e-value">¥700+</div></div>
+          <div class="econ-card"><div class="e-label">月販見込</div><div class="e-value">1,000-2,000個</div></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="section" style="background:linear-gradient(180deg,#fef3c7,#fff);border-top:3px solid #f59e0b">
+    <h2 style="color:#9a3412;border-color:#f59e0b">💎 別パターン: 非ヒット × 非ヒット = 新ヒット (ブルーオーシャン創出)</h2>
+    <div style="font-size:12.5px;line-height:1.7;color:#451a03;background:white;padding:12px 16px;border-radius:4px;margin-bottom:14px;border-left:4px solid #f59e0b">
+      <strong>発想:</strong> 単品ではニッチで月販数百個しか売れてない商品同士でも、<strong>融合した瞬間に「こんなの欲しかった」と新カテゴリの一人勝ちになる</strong>。
+      ヒット×ヒットより<strong>競合がいない・価格決定権がある・SNS拡散しやすい</strong>。Skeletonのような小規模事業者こそ向いてる戦場。
+    </div>
+
+    <!-- Niche 1 -->
+    <div class="invention" style="border-color:#f59e0b">
+      <div class="inv-head" style="background:linear-gradient(180deg,#d97706,#b45309)">
+        <span class="inv-num">ニッチ #1</span>
+        <div class="inv-title">爪とぎ機能付きインテリアスツール</div>
+        <div class="inv-tagline">猫飼いミニマリスト層 (今まで該当商品ゼロ) を発掘</div>
+      </div>
+      <div class="inv-body">
+        <div class="formula">
+          <div class="parent">
+            <div class="p-label">親A (非ヒット)</div>
+            <div class="p-name">竹素材猫用爪とぎ</div>
+            <div class="p-meta">¥1,500 / 月販200個程度</div>
+          </div>
+          <div class="op">+</div>
+          <div class="parent">
+            <div class="p-label">親B (非ヒット)</div>
+            <div class="p-name">小型インテリアスツール</div>
+            <div class="p-meta">¥2,000 / 月販300個程度</div>
+          </div>
+          <div class="op">=</div>
+          <div class="product">
+            <div class="p-label">新カテゴリ独占</div>
+            <div class="p-name">爪とぎスツール</div>
+            <div class="p-meta">¥4,500 (比較対象なし)</div>
+          </div>
+        </div>
+        <div class="row-block">
+          <div class="row-label">🌊 ブルーオーシャンの理由</div>
+          <div class="fix">
+            <ul>
+              <li>「猫飼い × インテリアこだわり」層は数十万世帯いるが、専用商品が市場にゼロ</li>
+              <li>「爪とぎはダサい・隠したい」「でも家具は爪で傷つく」両方の悩みを一発解決</li>
+              <li>SNSで「これ欲しかった！」と拡散しやすい (アフォーダンス発見型)</li>
+              <li>競合参入まで最低1年 (発想自体が新規)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="econ">
+          <div class="econ-card"><div class="e-label">価格</div><div class="e-value">¥4,500</div></div>
+          <div class="econ-card"><div class="e-label">原価</div><div class="e-value">¥1,600</div></div>
+          <div class="econ-card highlight"><div class="e-label">利益/個</div><div class="e-value">¥1,800+</div></div>
+          <div class="econ-card"><div class="e-label">月販見込</div><div class="e-value">300-600個</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Niche 2 -->
+    <div class="invention" style="border-color:#f59e0b">
+      <div class="inv-head" style="background:linear-gradient(180deg,#d97706,#b45309)">
+        <span class="inv-num">ニッチ #2</span>
+        <div class="inv-title">フライト用オーラルケアキット</div>
+        <div class="inv-tagline">海外出張族 (年間1,000万人) の隠れニーズ</div>
+      </div>
+      <div class="inv-body">
+        <div class="formula">
+          <div class="parent">
+            <div class="p-label">親A (非ヒット)</div>
+            <div class="p-name">使い捨て歯ブラシ</div>
+            <div class="p-meta">¥500/5本 / 月販100個</div>
+          </div>
+          <div class="op">+</div>
+          <div class="parent">
+            <div class="p-label">親B (非ヒット)</div>
+            <div class="p-name">マウスウォッシュ単包</div>
+            <div class="p-meta">¥800/10包 / 月販200個</div>
+          </div>
+          <div class="op">=</div>
+          <div class="product">
+            <div class="p-label">新カテゴリ独占</div>
+            <div class="p-name">機内オーラルケアセット</div>
+            <div class="p-meta">¥1,980 (5回分)</div>
+          </div>
+        </div>
+        <div class="row-block">
+          <div class="row-label">🌊 ブルーオーシャンの理由</div>
+          <div class="fix">
+            <ul>
+              <li>長時間フライトの「歯磨きしたいけど機内化粧室は狭い」問題は普遍的、でも商品化されてない</li>
+              <li>歯ブラシ×洗口液×コットン×折りたたみコップ を1パウチに統合 → 機内手荷物OK</li>
+              <li>羽田/成田の免税店・ANA/JAL機内販売・出張ビジネスパーソン向けに展開</li>
+              <li>パッケージ大事 (旅行クール感) ─ デザインで価格2倍取れる</li>
+            </ul>
+          </div>
+        </div>
+        <div class="econ">
+          <div class="econ-card"><div class="e-label">価格</div><div class="e-value">¥1,980</div></div>
+          <div class="econ-card"><div class="e-label">原価</div><div class="e-value">¥350</div></div>
+          <div class="econ-card highlight"><div class="e-label">利益/個</div><div class="e-value">¥1,200+</div></div>
+          <div class="econ-card"><div class="e-label">月販見込</div><div class="e-value">500-1,200個</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Niche 3 -->
+    <div class="invention" style="border-color:#f59e0b">
+      <div class="inv-head" style="background:linear-gradient(180deg,#d97706,#b45309)">
+        <span class="inv-num">ニッチ #3</span>
+        <div class="inv-title">座るだけ振動マッサージクッション</div>
+        <div class="inv-tagline">デスクワーク層 (1,500万人) の常時ケア需要</div>
+      </div>
+      <div class="inv-body">
+        <div class="formula">
+          <div class="parent">
+            <div class="p-label">親A (非ヒット)</div>
+            <div class="p-name">小型振動マッサージ機</div>
+            <div class="p-meta">¥2,500 / 月販300個</div>
+          </div>
+          <div class="op">+</div>
+          <div class="parent">
+            <div class="p-label">親B (定番だが地味)</div>
+            <div class="p-name">姿勢矯正座布団</div>
+            <div class="p-meta">¥1,500 / 月販500個</div>
+          </div>
+          <div class="op">=</div>
+          <div class="product">
+            <div class="p-label">新カテゴリ独占</div>
+            <div class="p-name">振動マッサージクッション</div>
+            <div class="p-meta">¥4,980</div>
+          </div>
+        </div>
+        <div class="row-block">
+          <div class="row-label">🌊 ブルーオーシャンの理由</div>
+          <div class="fix">
+            <ul>
+              <li>マッサージ機は「使う時間取る」のが障壁 → クッションなら<strong>仕事中に勝手にケア</strong></li>
+              <li>3段階振動 (弱/中/強) + 30分タイマー + USB-C給電 (オフィスでも使える)</li>
+              <li>リモートワーク後遺症で腰痛市場が拡大中 (2025-26)</li>
+              <li>整体院/介護施設にも卸せる二次販路</li>
+            </ul>
+          </div>
+        </div>
+        <div class="econ">
+          <div class="econ-card"><div class="e-label">価格</div><div class="e-value">¥4,980</div></div>
+          <div class="econ-card"><div class="e-label">原価</div><div class="e-value">¥1,500</div></div>
+          <div class="econ-card highlight"><div class="e-label">利益/個</div><div class="e-value">¥2,000+</div></div>
+          <div class="econ-card"><div class="e-label">月販見込</div><div class="e-value">400-800個</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Niche 4 -->
+    <div class="invention" style="border-color:#f59e0b">
+      <div class="inv-head" style="background:linear-gradient(180deg,#d97706,#b45309)">
+        <span class="inv-num">ニッチ #4</span>
+        <div class="inv-title">乾燥+消臭ワンセット シューズケアステーション</div>
+        <div class="inv-tagline">梅雨/冬の靴問題を1台で完結</div>
+      </div>
+      <div class="inv-body">
+        <div class="formula">
+          <div class="parent">
+            <div class="p-label">親A (非ヒット)</div>
+            <div class="p-name">シューズドライヤー</div>
+            <div class="p-meta">¥2,500 / 月販400個</div>
+          </div>
+          <div class="op">+</div>
+          <div class="parent">
+            <div class="p-label">親B (非ヒット)</div>
+            <div class="p-name">靴用UV除菌器</div>
+            <div class="p-meta">¥3,000 / 月販200個</div>
+          </div>
+          <div class="op">=</div>
+          <div class="product">
+            <div class="p-label">新カテゴリ独占</div>
+            <div class="p-name">乾燥×UV除菌×消臭3in1</div>
+            <div class="p-meta">¥5,980</div>
+          </div>
+        </div>
+        <div class="row-block">
+          <div class="row-label">🌊 ブルーオーシャンの理由</div>
+          <div class="fix">
+            <ul>
+              <li>「靴の湿気・臭い・菌」3問題を別々に解決するのは面倒</li>
+              <li>玄関に置きっぱなしの<strong>シューズステーション</strong>として家族全員で使える</li>
+              <li>梅雨シーズン (5-7月) と冬 (12-2月) の年2回ピーク</li>
+              <li>営業職/学生/スポーツ層に刺さる</li>
+            </ul>
+          </div>
+        </div>
+        <div class="econ">
+          <div class="econ-card"><div class="e-label">価格</div><div class="e-value">¥5,980</div></div>
+          <div class="econ-card"><div class="e-label">原価</div><div class="e-value">¥2,000</div></div>
+          <div class="econ-card highlight"><div class="e-label">利益/個</div><div class="e-value">¥2,500+</div></div>
+          <div class="econ-card"><div class="e-label">月販見込</div><div class="e-value">300-700個</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Niche 5 -->
+    <div class="invention" style="border-color:#f59e0b">
+      <div class="inv-head" style="background:linear-gradient(180deg,#d97706,#b45309)">
+        <span class="inv-num">ニッチ #5</span>
+        <div class="inv-title">観葉植物が好む香りディフューザー</div>
+        <div class="inv-tagline">観葉植物ブーム × アロマ層の交差点を発掘</div>
+      </div>
+      <div class="inv-body">
+        <div class="formula">
+          <div class="parent">
+            <div class="p-label">親A (非ヒット)</div>
+            <div class="p-name">植物育成LEDライト</div>
+            <div class="p-meta">¥2,000 / 月販300個</div>
+          </div>
+          <div class="op">+</div>
+          <div class="parent">
+            <div class="p-label">親B (定番だが地味)</div>
+            <div class="p-name">アロマディフューザー</div>
+            <div class="p-meta">¥2,500 / 月販500個</div>
+          </div>
+          <div class="op">=</div>
+          <div class="product">
+            <div class="p-label">新カテゴリ独占</div>
+            <div class="p-name">植物育成ディフューザー</div>
+            <div class="p-meta">¥4,980</div>
+          </div>
+        </div>
+        <div class="row-block">
+          <div class="row-label">🌊 ブルーオーシャンの理由</div>
+          <div class="fix">
+            <ul>
+              <li>「観葉植物が呼吸して香る」というストーリー (科学的根拠+情緒)</li>
+              <li>植物専用オイル (フィトンチッド系/シトラス系) を別売り消耗品化 → ジレットモデル</li>
+              <li>LED光合成補助 + アロマ拡散 + 自動水やりタイマーの3in1</li>
+              <li>Instagram映えする鉢デザイン (花屋/雑貨店卸も視野)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="econ">
+          <div class="econ-card"><div class="e-label">価格</div><div class="e-value">¥4,980</div></div>
+          <div class="econ-card"><div class="e-label">原価</div><div class="e-value">¥1,700</div></div>
+          <div class="econ-card highlight"><div class="e-label">利益+消耗品</div><div class="e-value">¥2,000+月¥500</div></div>
+          <div class="econ-card"><div class="e-label">月販見込</div><div class="e-value">200-500個</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="thesis" style="margin-top:14px;background:linear-gradient(180deg,#fed7aa,#fef3c7)">
+      <strong>🎯 非ヒット×非ヒット型の最大の強み:</strong>
+      <ul style="margin:6px 0 0 20px;font-size:12px">
+        <li><strong>価格決定権:</strong> 比較対象がないので原価の3倍取れる</li>
+        <li><strong>SNS拡散性:</strong> 「こんなの欲しかった!」発見型は口コミ自然発生</li>
+        <li><strong>競合不在:</strong> 大手は非ヒット同士の融合に発想が及ばない (大手の社内承認通らない)</li>
+        <li><strong>カテゴリ作る側:</strong> 後発参入もしばらく出ない → 半年~1年は独占</li>
+        <li><strong>小資本向き:</strong> 月販300-500個でも利益¥80-100万 → 多品種展開の経済性</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="principle">
+    <h3>🎯 物理融合発明の5原則 (誰もやってない理由 = 勝てる理由)</h3>
+    <ul>
+      <li><strong>① 両親とも単品で売れてる:</strong> 需要は既に証明済。融合した瞬間に両親の市場合計が取れる</li>
+      <li><strong>② 「一緒に持ち歩いてた人」をターゲット:</strong> 既に同時購入されてる商品ペアを物理統合 (発見容易)</li>
+      <li><strong>③ 「2つ買うと違和感」のペア:</strong> 値段は2つの和より安くする → 「セットで買う方が得」の合理性提示</li>
+      <li><strong>④ 既存メーカーが融合しない理由:</strong> 自社製品カテゴリの縦割りで横断発想できない (チェアメーカーは保冷剤作らない)</li>
+      <li><strong>⑤ Skeleton優位:</strong> OEM発注で自由に組み合わせ可能。中華工場に図面送るだけで新カテゴリ商品が立ち上がる</li>
+    </ul>
+  </div>
+
+  <div class="section" style="background:#fffbeb">
+    <h2>📋 次のアクション</h2>
+    <p style="margin-bottom:10px;font-size:12px;color:#451a03"><strong>2つの戦線を並走する:</strong> ヒット×ヒット型は確実性高い・回収早い / 非ヒット×非ヒット型はリターン大・カテゴリ独占可</p>
+    <ol style="margin-left:24px;font-size:12.5px;line-height:1.9">
+      <li><strong>第一弾 (確実性):</strong> 発明#7 ペットボトル直結給水ノズル ─ 開発単価最低・金型シンプル</li>
+      <li><strong>第二弾 (爆発力):</strong> ニッチ#2 フライト用オーラルケアキット ─ パッケージで価格2倍取れる・出張需要安定</li>
+      <li><strong>第三弾 (旬):</strong> 発明#1 座面下クーラーチェア ─ 春夏キャンプ (3-8月) の旬商品、3月発売目標</li>
+      <li><strong>第四弾 (差別化):</strong> ニッチ#1 爪とぎスツール ─ SNS映え・新カテゴリ独占可</li>
+      <li>各案を <strong>ラクマート周副社長</strong> に「製造可否+概算原価」相談 (まず#7と ニッチ#2 から)</li>
+    </ol>
+  </div>
+
+  <div class="footer">
+    Jobs (AI CEO) | pair-suggestions.html | ヒット商品×ヒット商品の物理融合発明案 / 元データ: Amazon top5 + 9,082件★1-2レビュー
+  </div>
+</div>
+
+</body>
+</html>

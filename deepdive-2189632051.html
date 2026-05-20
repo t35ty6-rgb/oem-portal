@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta name="robots" content="noindex,nofollow">
+<meta charset="UTF-8">
+<title>深掘り: 食玩 - OEMリサーチ</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif;
+  background: #f5f6f8; color: #1f2937; font-size: 13px; line-height: 1.5;
+}
+
+/* Topnav (build-list-page と同じ) */
+.topnav { position: sticky; top: 0; z-index: 100; display: flex; align-items: stretch; background: #1e293b; color: white; border-bottom: 2px solid #f97316; font-size: 11px; }
+.topnav .nav-home, .topnav .nav-dashboard { background: #f97316; color: white; padding: 8px 14px; text-decoration: none; font-weight: 700; font-size: 12px; white-space: nowrap; display: flex; align-items: center; }
+.topnav .nav-home:hover { background: #ea580c; }
+.topnav .nav-dashboard { background: #1565c0; }
+.topnav .nav-tabs { flex: 1; display: flex; overflow-x: auto; }
+.topnav .nav-tab { padding: 6px 10px; color: #cbd5e1; text-decoration: none; font-size: 11px; border-right: 1px solid #334155; white-space: nowrap; display: flex; align-items: center; }
+.topnav .nav-tab:hover { background: #334155; color: white; }
+
+.container { max-width: 1280px; margin: 16px auto; background: white; border: 1px solid #e5e7eb; }
+.report-head { background: linear-gradient(180deg, #f97316 0%, #ea580c 100%); color: white; padding: 18px 24px; }
+.report-head .breadcrumb { font-size: 11px; opacity: 0.85; }
+.report-head .breadcrumb a { color: white; text-decoration: none; }
+.report-head .breadcrumb a:hover { text-decoration: underline; }
+.report-head h1 { font-size: 24px; margin: 6px 0 4px; }
+.report-head .meta { font-size: 11px; opacity: 0.9; display: flex; gap: 14px; }
+
+.kpi-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; padding: 12px 24px; background: #fff7ed; border-bottom: 2px solid #fed7aa; }
+.kpi { background: white; border: 1px solid #e5e7eb; padding: 8px 12px; border-radius: 3px; }
+.kpi-label { font-size: 10px; color: #6b7280; }
+.kpi-value { font-size: 20px; font-weight: 700; color: #ea580c; }
+.kpi-value.green { color: #16a34a; }
+.kpi-value.red { color: #dc2626; }
+
+.section { padding: 20px 24px; border-bottom: 1px solid #e5e7eb; }
+.section h2 { font-size: 15px; color: #1f2937; border-left: 4px solid #f97316; padding-left: 8px; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+.section h2 .badge { background: #f97316; color: white; font-size: 10px; padding: 2px 6px; border-radius: 2px; }
+.section .note { font-size: 11px; color: #6b7280; margin-bottom: 12px; }
+
+/* 上位5商品カード */
+.product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.product-card { background: white; border: 1px solid #e5e7eb; border-radius: 4px; overflow: hidden; display: flex; flex-direction: column; }
+.product-card .rank { background: linear-gradient(90deg, #f97316, #ea580c); color: white; padding: 4px 10px; font-weight: 700; font-size: 11px; }
+.product-card .img-wrap { width: 100%; height: 160px; display: flex; align-items: center; justify-content: center; background: white; border-bottom: 1px solid #f3f4f6; padding: 8px; }
+.product-card .img-wrap img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.product-card .info { padding: 10px 12px; flex: 1; display: flex; flex-direction: column; gap: 6px; }
+.product-card .title { font-size: 12px; line-height: 1.4; height: 50px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; font-weight: 600; }
+.product-card .brand { font-size: 11px; color: #1565c0; background: #e3f2fd; padding: 2px 6px; border-radius: 2px; align-self: flex-start; font-weight: 600; }
+.product-card .meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; font-size: 12px; }
+.product-card .price { font-weight: 700; color: #ea580c; font-size: 15px; }
+.product-card .star { color: #f57c00; font-weight: 600; }
+.product-card .sales { background: linear-gradient(180deg, #fef9c3, #fef3c7); border: 1px solid #facc15; padding: 6px 8px; border-radius: 3px; }
+.product-card .sales-row { display: flex; justify-content: space-between; font-size: 11px; }
+.product-card .sales-row strong { color: #b45309; font-size: 13px; }
+.product-card .asin { font-size: 10px; color: #888; font-family: monospace; }
+.product-card .charts { padding: 8px 12px; border-top: 1px solid #f3f4f6; background: #fafbfc; }
+.product-card .chart-label { font-size: 10px; color: #6b7280; margin-bottom: 2px; }
+.product-card .chart-label strong { color: #1f2937; font-size: 11px; }
+.product-card .link { display: block; background: #1565c0; color: white; text-align: center; padding: 6px; text-decoration: none; font-size: 11px; font-weight: 700; }
+.product-card .link:hover { background: #0d47a1; }
+
+/* 競合ブランド分布 */
+.brand-list { display: flex; flex-wrap: wrap; gap: 6px; }
+.brand-chip { background: #e3f2fd; color: #1565c0; padding: 4px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+
+/* 1688/Alibaba */
+.source-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
+.source-link { display: block; padding: 12px 16px; background: linear-gradient(180deg, #fef9c3, #fef3c7); border: 1px solid #facc15; border-radius: 4px; text-decoration: none; color: #92400e; font-weight: 600; }
+.source-link:hover { background: #fef3c7; }
+.source-link .src-title { font-size: 13px; }
+.source-link .src-desc { font-size: 10px; opacity: 0.8; margin-top: 2px; }
+
+/* 利益試算 */
+.profit-calc { background: linear-gradient(180deg, #f0fdf4, #dcfce7); border: 1px solid #86efac; border-radius: 4px; padding: 14px; }
+.profit-row { display: grid; grid-template-columns: 180px 1fr; gap: 12px; font-size: 13px; padding: 4px 0; border-bottom: 1px dashed #bbf7d0; }
+.profit-row:last-child { border-bottom: none; font-weight: 700; font-size: 16px; color: #166534; }
+.profit-row .label { color: #166534; }
+.profit-row .value { text-align: right; color: #1f2937; font-family: monospace; }
+.profit-note { font-size: 10px; color: #15803d; margin-top: 8px; }
+
+.footer { padding: 12px 24px; background: #fafafa; font-size: 10px; color: #6b7280; text-align: center; border-top: 1px solid #e5e7eb; }
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a class="nav-home" href="index-l1.html">🏠 トップ</a>
+  <div class="nav-tabs">
+    <a class="nav-tab" href="subcategory-list-home-kitchen.html">← ホビーに戻る</a>
+  </div>
+  <a class="nav-dashboard" href="dashboard.html">📊 ダッシュボード</a>
+</nav>
+
+<div class="container">
+  <div class="report-head">
+    <div class="breadcrumb"><a href="index-l1.html">ホビー</a> › 食玩</div>
+    <h1>🔬 食玩 深掘りレポート</h1>
+    <div class="meta">
+      <span>カテゴリID: 2189632051</span>
+      <span>生成: 2026/5/18 12:47:26</span>
+      <span><a href="https://www.amazon.co.jp/gp/bestsellers/-/2189632051/" target="_blank" style="color:white">📊 Amazon BSRを見る ↗</a></span>
+    </div>
+  </div>
+
+  <div class="kpi-bar">
+    <div class="kpi"><div class="kpi-label">上位5商品の月販合計</div><div class="kpi-value">2,200個</div></div>
+    <div class="kpi"><div class="kpi-label">上位5商品の月商合計</div><div class="kpi-value">97,480円</div></div>
+    <div class="kpi"><div class="kpi-label">競合ブランド数</div><div class="kpi-value">3社</div></div>
+    <div class="kpi"><div class="kpi-label">1位の月販</div><div class="kpi-value">-</div></div>
+    <div class="kpi"><div class="kpi-label">1位の価格</div><div class="kpi-value">26円</div></div>
+  </div>
+
+  <div class="section">
+    <h2>📦 上位5商品の推移 <span class="badge">過去90日</span></h2>
+    <p class="note">価格推移とBSR推移を視覚化。価格が安定してて BSR が低い（売れてる）商品が市場のリーダー。</p>
+    <div class="product-grid">
+
+      <div class="product-card">
+        <div class="rank">#1 BSR</div>
+        <div class="img-wrap"><img src="https://images-fe.ssl-images-amazon.com/images/I/71Byy+KK3rL._AC_UL300_SR300,200_.jpg" alt=""></div>
+        <div class="info">
+          <div class="title">ハート(Heart) たまごっちチョコチップクッキー缶 [BOX販売/4個セット]</div>
+          <span class="brand">ハート</span>
+          <div class="meta">
+            <span class="price">26円</span>
+            <span class="star">★ -0.1</span>
+            <span style="color:#6b7280;font-size:11px">レビュー -1</span>
+          </div>
+          <div style="background:#fef3c7;color:#92400e;border:1px solid #fbbf24;padding:6px 8px;border-radius:3px;font-size:11px;font-weight:700">⚠ Keepa月販データ未取得 (バックグラウンドで取得中)</div>
+          <div class="asin">ASIN: B0GZT5XXL1 / BSR #8</div>
+        </div>
+        <div class="charts">
+          <div class="chart-label">価格推移 <strong>26円</strong></div>
+          <div style="color:#999;font-size:11px">データ不足</div>
+          <div class="chart-label" style="margin-top:6px">BSR推移 <strong>#8</strong></div>
+          <svg width="200" height="36" style="display:block">
+    <path d="M0.0,4.0 L20.0,18.0 L114.2,4.0 L200.0,32.0" fill="none" stroke="#1565c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+        </div>
+        <a class="link" href="https://www.amazon.co.jp/dp/B0GZT5XXL1" target="_blank">Amazonで見る →</a>
+      </div>
+      <div class="product-card">
+        <div class="rank">#2 BSR</div>
+        <div class="img-wrap"><img src="https://images-fe.ssl-images-amazon.com/images/I/61X+so8qW+L._AC_UL300_SR300,200_.jpg" alt=""></div>
+        <div class="info">
+          <div class="title">バンダイ(BANDAI) Disney Characters ウエハース2 ウエハース（焼菓子） 食玩 【BOX販売/20個セット】</div>
+          <span class="brand">BANDAI</span>
+          <div class="meta">
+            <span class="price">27円</span>
+            <span class="star">★ 4.0</span>
+            <span style="color:#6b7280;font-size:11px">レビュー 1</span>
+          </div>
+          <div class="sales">
+            <div class="sales-row"><span>月販</span><strong>400個</strong></div>
+            <div class="sales-row"><span>月商</span><strong>10,640円</strong></div>
+          </div>
+          <div class="asin">ASIN: B0GCGX5FV4 / BSR #113</div>
+        </div>
+        <div class="charts">
+          <div class="chart-label">価格推移 <strong>27円</strong></div>
+          <svg width="200" height="36" style="display:block">
+    <path d="M0.0,22.9 L1.7,17.0 L9.8,9.8 L18.1,4.0 L33.5,5.2 L43.0,5.2 L72.1,10.0 L133.6,17.0 L151.3,10.0 L155.1,22.1 L162.1,23.1 L170.6,23.3 L175.0,25.7 L176.3,24.5 L176.4,23.3 L176.5,24.5 L176.8,23.7 L184.3,24.3 L187.2,24.5 L188.9,24.9 L189.4,25.1 L189.5,25.5 L190.2,25.9 L190.6,25.5 L190.9,25.9 L191.8,26.3 L192.0,26.8 L192.6,27.4 L192.9,27.9 L193.5,28.3 L193.6,28.7 L193.8,28.4 L194.6,28.7 L195.1,29.1 L195.6,30.3 L195.6,29.1 L196.4,29.5 L196.8,29.8 L196.9,31.3 L197.1,31.8 L197.3,31.3 L197.5,31.5 L197.8,31.8 L198.1,31.5 L199.8,31.8 L200.0,32.0" fill="none" stroke="#ea580c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+          <div class="chart-label" style="margin-top:6px">BSR推移 <strong>#113</strong></div>
+          <svg width="200" height="36" style="display:block">
+    <path d="M0.0,4.4 L0.2,4.4 L0.4,4.4 L0.7,4.4 L1.5,4.8 L2.0,4.8 L2.4,4.8 L2.7,5.0 L2.9,5.0 L3.1,5.0 L3.3,5.0 L3.6,5.0 L3.8,5.0 L4.0,4.5 L4.2,4.5 L4.4,4.5 L4.9,4.5 L5.4,4.5 L5.6,4.5 L6.1,4.4 L6.3,4.4 L7.0,4.4 L7.4,4.9 L7.9,4.9 L8.1,4.9 L8.5,4.9 L8.8,5.2 L9.0,5.2 L9.3,5.2 L9.5,5.2 L9.7,5.1 L9.9,5.1 L10.1,5.1 L10.3,6.0 L10.6,6.0 L10.8,6.0 L10.8,6.0 L11.0,6.0 L11.2,6.1 L11.4,6.1 L11.6,6.1 L12.0,7.6 L12.2,7.6 L12.3,7.6 L12.6,7.6 L12.8,7.6 L13.0,7.7 L13.2,7.7 L13.5,8.7 L13.7,8.7 L13.9,8.7 L14.1,8.7 L14.3,8.7 L14.5,8.7 L14.7,8.8 L14.9,8.8 L15.0,10.1 L15.2,10.1 L15.4,10.1 L15.6,10.1 L15.8,10.1 L16.0,10.1 L16.2,10.1 L16.4,10.2 L16.6,10.6 L16.8,10.6 L16.9,10.6 L17.1,10.6 L17.4,10.6 L17.6,10.6 L17.8,10.7 L18.0,10.7 L18.2,11.7 L18.4,11.7 L18.7,11.7 L18.9,11.7 L19.1,11.7 L19.3,11.7 L19.5,11.9 L19.7,11.9 L19.9,11.9 L20.1,11.9 L20.3,11.9 L20.5,11.9 L20.7,11.9 L21.0,12.0 L21.2,12.0 L21.4,12.0 L21.6,12.0 L21.8,12.0 L22.0,11.9 L22.2,11.9 L22.6,12.1 L22.8,12.0 L23.0,12.0 L23.1,12.0 L23.4,12.0 L23.6,12.0 L23.8,12.0 L24.0,12.1 L24.2,12.2 L24.4,12.2 L24.6,12.2 L24.8,12.2 L24.9,12.2 L25.1,12.2 L25.5,12.3 L25.7,12.3 L26.3,12.7 L26.5,12.7 L26.7,12.7 L26.9,12.7 L27.2,12.9 L27.4,12.9 L27.6,12.9 L27.8,12.8 L28.0,12.8 L28.2,12.8 L28.4,12.8 L28.7,13.0 L28.9,13.0 L29.1,13.1 L29.2,13.1 L29.4,13.1 L29.6,13.1 L29.8,13.1 L30.0,13.1 L30.5,13.2 L30.7,13.2 L30.9,13.2 L31.2,13.2 L31.3,13.2 L31.7,13.2 L31.9,13.4 L32.1,13.5 L32.4,13.5 L32.6,13.6 L32.8,13.6 L33.0,13.6 L33.0,13.6 L33.2,13.8 L33.5,13.8 L33.7,14.0 L33.9,14.0 L34.0,14.0 L34.2,14.0 L34.6,14.0 L36.1,14.4 L36.2,14.4 L36.4,14.5 L36.6,14.5 L36.8,14.4 L37.0,14.4 L37.2,14.4 L37.4,14.4 L37.6,14.4 L37.8,14.4 L38.0,14.6 L38.2,14.6 L38.4,14.7 L38.6,14.7 L38.8,14.7 L39.0,14.7 L39.2,14.7 L39.5,14.9 L39.7,14.9 L39.9,15.2 L40.1,15.2 L40.3,15.2 L40.5,15.2 L40.7,15.2 L40.9,15.2 L41.6,15.7 L41.8,15.7 L42.0,15.7 L42.2,15.7 L42.3,15.7 L42.6,15.8 L42.8,15.9 L43.0,15.4 L43.2,15.4 L43.4,16.0 L43.6,16.0 L43.8,16.0 L44.0,16.0 L44.2,16.1 L44.5,16.2 L44.7,16.5 L44.9,16.5 L45.0,16.5 L45.2,16.5 L45.4,16.5 L45.6,16.5 L45.8,16.7 L46.0,16.8 L46.2,16.8 L46.4,16.8 L46.6,16.8 L46.7,16.8 L47.0,16.8 L47.2,16.8 L47.4,16.9 L47.6,17.0 L47.8,17.0 L48.0,17.0 L48.4,17.0 L48.6,17.0 L48.8,17.1 L48.9,17.1 L49.1,17.1 L49.3,17.1 L49.5,17.1 L49.7,17.1 L49.9,17.1 L50.2,17.1 L50.5,17.2 L50.7,17.3 L50.8,17.3 L51.0,17.3 L51.2,17.3 L51.4,17.3 L51.6,17.3 L53.9,17.8 L54.1,17.8 L54.3,17.9 L54.5,17.9 L54.7,17.9 L55.2,18.0 L55.4,18.2 L55.6,18.2 L55.8,18.2 L56.0,18.2 L56.2,18.2 L56.4,18.2 L56.7,18.4 L56.9,18.5 L57.1,18.5 L57.3,18.5 L57.5,18.5 L57.7,18.5 L57.9,18.5 L58.1,18.6 L58.4,18.7 L58.5,18.9 L58.7,18.9 L58.9,19.2 L59.1,19.2 L59.3,19.2 L59.5,19.2 L59.7,19.3 L59.9,19.3 L60.1,19.7 L60.3,19.7 L60.5,19.7 L60.7,19.7 L60.9,19.7 L61.1,19.7 L62.1,20.1 L63.0,20.3 L63.8,20.6 L64.8,20.9 L65.6,20.9 L66.5,21.3 L67.5,21.4 L68.4,21.8 L69.5,22.0 L70.4,22.0 L71.4,22.5 L72.3,22.6 L73.5,22.8 L74.2,23.1 L74.3,23.1 L74.8,23.1 L75.0,23.1 L75.5,23.3 L76.1,23.1 L76.6,23.1 L77.1,23.2 L77.5,23.8 L78.0,23.8 L78.4,24.0 L78.9,24.2 L79.4,24.2 L79.9,24.2 L80.4,24.5 L80.8,24.5 L81.3,24.5 L81.7,24.8 L82.2,24.8 L82.7,24.8 L83.1,25.0 L83.5,25.3 L84.0,25.3 L84.5,25.3 L85.0,25.7 L85.4,25.7 L85.9,25.7 L86.6,26.1 L87.1,26.1 L87.5,26.1 L88.0,26.4 L88.5,26.4 L89.0,26.4 L89.4,26.5 L89.9,26.6 L90.3,26.3 L90.8,26.4 L91.3,26.5 L91.8,26.5 L92.2,26.5 L92.7,26.8 L93.2,26.7 L93.6,26.7 L94.1,26.9 L94.6,27.1 L95.1,27.1 L95.5,27.3 L95.8,27.3 L96.8,27.7 L97.3,27.8 L97.7,28.0 L98.2,28.0 L98.8,28.1 L99.2,28.1 L99.7,28.1 L100.2,28.3 L100.7,28.3 L100.8,28.3 L101.2,28.2 L101.7,28.4 L102.2,28.4 L102.4,28.4 L103.3,28.5 L103.3,28.5 L103.8,28.2 L104.3,28.5 L104.6,28.5 L105.1,28.8 L105.6,28.8 L105.9,28.8 L106.4,28.9 L106.4,28.9 L106.9,28.9 L107.4,28.9 L107.9,29.0 L108.1,29.0 L108.6,29.0 L108.8,29.0 L109.5,29.1 L109.9,29.1 L110.4,29.1 L110.5,29.1 L111.0,29.2 L111.4,29.1 L111.8,29.1 L112.5,29.2 L113.0,29.2 L113.5,29.1 L114.0,29.1 L114.4,29.2 L114.9,29.2 L115.4,29.2 L115.9,29.3 L116.3,29.2 L116.8,29.2 L117.2,29.4 L117.7,29.4 L117.8,29.4 L118.3,29.4 L118.8,29.5 L119.1,29.5 L119.5,29.4 L120.0,29.4 L120.2,29.4 L120.7,29.4 L121.2,29.4 L121.6,29.4 L122.1,29.5 L122.4,29.4 L122.9,29.4 L123.4,29.4 L123.8,29.4 L124.3,29.8 L124.8,29.8 L125.3,29.9 L125.7,29.9 L126.2,29.9 L126.7,30.1 L127.3,29.9 L127.6,29.9 L128.0,30.1 L128.5,30.0 L129.0,29.9 L129.5,29.9 L129.9,30.0 L130.4,30.0 L130.8,30.0 L131.2,30.1 L131.6,30.2 L132.1,30.2 L132.3,30.2 L132.6,30.2 L133.1,30.4 L133.2,30.4 L133.7,30.3 L134.0,30.3 L134.4,30.5 L134.9,31.0 L135.4,30.9 L135.6,30.9 L136.1,31.1 L136.6,31.0 L137.1,31.0 L137.5,31.2 L137.9,31.1 L138.2,31.1 L138.7,31.1 L139.1,31.3 L139.6,31.2 L140.1,31.2 L140.6,31.3 L141.0,31.2 L141.5,31.2 L141.6,31.2 L142.0,31.2 L142.2,31.4 L142.7,31.2 L143.2,31.2 L143.7,31.3 L143.8,31.4 L144.0,31.2 L144.5,31.2 L145.2,31.4 L145.5,31.2 L146.0,31.8 L146.3,31.8 L146.8,32.0 L147.2,31.9 L147.5,31.9 L148.3,32.0 L148.8,31.9 L149.2,31.3 L149.9,31.5 L150.5,31.3 L151.0,31.3 L151.4,31.5 L151.9,7.7 L152.5,7.7 L153.3,9.4 L153.8,9.4 L154.3,9.4 L154.8,11.0 L154.9,11.0 L155.3,11.0 L155.8,11.0 L156.2,11.1 L156.4,5.1 L156.9,5.1 L157.4,5.1 L157.8,5.1 L158.0,6.1 L158.5,6.1 L159.0,6.1 L159.2,6.1 L159.6,5.9 L160.1,5.9 L160.7,6.0 L161.4,5.8 L161.9,5.8 L162.6,7.2 L163.1,7.2 L163.5,7.2 L164.0,8.7 L164.6,8.7 L165.6,8.8 L166.1,10.1 L166.4,10.1 L167.1,5.0 L167.7,5.0 L167.9,5.0 L168.2,5.0 L168.9,4.9 L169.5,4.9 L169.7,4.9 L170.2,4.9 L170.5,5.9 L170.6,5.9 L170.9,5.9 L171.6,5.9 L171.9,5.8 L172.5,5.8 L172.8,5.8 L173.1,5.8 L173.7,5.1 L174.0,5.1 L174.2,5.1 L175.0,6.2 L175.2,6.2 L175.5,6.2 L176.0,6.2 L176.2,6.2 L176.5,6.2 L176.7,5.0 L176.9,5.0 L177.1,5.0 L177.3,5.0 L177.6,5.0 L177.8,5.0 L178.1,4.0 L179.1,4.0 L179.9,4.0 L180.4,4.0 L181.3,4.1 L181.8,4.1 L182.3,4.1 L182.9,4.1 L183.5,4.1 L184.0,4.1 L184.6,4.2 L185.2,4.2 L186.4,4.2 L186.9,4.2 L187.4,4.2 L187.9,4.2 L189.1,4.1 L189.6,4.1 L190.7,4.0 L191.0,4.0 L192.2,4.0 L192.7,4.0 L193.2,4.0 L193.3,4.0 L193.9,4.0 L195.0,4.0 L195.5,4.0 L196.6,4.0 L197.1,4.0 L198.2,4.0 L198.7,4.0 L200.0,4.0" fill="none" stroke="#1565c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+        </div>
+        <a class="link" href="https://www.amazon.co.jp/dp/B0GCGX5FV4" target="_blank">Amazonで見る →</a>
+      </div>
+      <div class="product-card">
+        <div class="rank">#3 BSR</div>
+        <div class="img-wrap"><img src="https://images-fe.ssl-images-amazon.com/images/I/613yDfbSsoL._AC_UL300_SR300,200_.jpg" alt=""></div>
+        <div class="info">
+          <div class="title">hololive OFFICIAL CARD GAME ツインウエハース 20個入りBOX (食玩)</div>
+          <span class="brand">BANDAI</span>
+          <div class="meta">
+            <span class="price">49円</span>
+            <span class="star">★ -0.1</span>
+            <span style="color:#6b7280;font-size:11px">レビュー -1</span>
+          </div>
+          <div class="sales">
+            <div class="sales-row"><span>月販</span><strong>800個</strong></div>
+            <div class="sales-row"><span>月商</span><strong>39,040円</strong></div>
+          </div>
+          <div class="asin">ASIN: B0GKZPKZ87 / BSR #188</div>
+        </div>
+        <div class="charts">
+          <div class="chart-label">価格推移 <strong>49円</strong></div>
+          <svg width="200" height="36" style="display:block">
+    <path d="M0.0,32.0 L4.3,11.2 L6.0,4.0 L8.0,11.2 L8.4,31.2 L79.9,23.2 L96.1,16.0 L100.8,31.2 L104.3,28.0 L105.1,16.0 L105.2,31.2 L109.6,32.0 L121.4,16.0 L127.1,8.0 L127.9,4.0 L132.5,31.2 L135.5,4.0 L143.9,7.2 L149.1,31.2 L149.1,7.2 L152.5,4.0 L156.6,31.2 L162.6,4.0 L163.8,31.2 L172.0,11.2 L172.2,4.0 L172.3,31.2 L172.7,4.0 L173.9,31.2 L174.2,4.0 L175.6,11.2 L175.7,28.0 L175.8,11.2 L178.6,31.2 L179.7,11.2 L182.4,15.2 L183.3,11.2 L183.5,19.2 L183.9,31.2 L184.0,19.2 L184.2,11.2 L185.8,23.2 L186.2,25.2 L188.5,25.2 L189.1,25.2 L191.1,31.2 L191.3,25.2 L193.1,25.6 L194.2,25.2 L195.8,31.2 L196.0,25.2 L199.5,8.0 L199.9,31.2 L200.0,8.0" fill="none" stroke="#ea580c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+          <div class="chart-label" style="margin-top:6px">BSR推移 <strong>#188</strong></div>
+          <svg width="200" height="36" style="display:block">
+    <path d="M0.0,5.6 L0.3,5.6 L1.4,5.8 L1.7,5.8 L1.9,5.7 L2.1,5.7 L2.3,5.7 L2.5,5.7 L2.9,5.7 L3.4,5.5 L4.0,5.5 L4.9,5.5 L5.2,5.5 L5.6,5.5 L5.8,5.4 L7.1,5.4 L7.4,5.0 L7.8,5.0 L9.2,4.9 L9.7,4.9 L11.2,4.9 L11.6,4.9 L11.9,4.8 L15.2,5.3 L15.6,5.4 L15.8,5.4 L16.7,5.4 L17.2,6.5 L17.7,6.5 L18.7,6.6 L19.2,7.4 L19.3,7.4 L19.5,7.4 L19.8,7.4 L20.5,7.4 L21.1,9.1 L21.2,9.1 L21.5,9.1 L22.2,9.1 L22.7,9.1 L23.0,11.3 L23.2,11.3 L23.5,11.3 L25.4,8.4 L26.2,8.4 L28.0,10.3 L29.0,13.1 L30.1,13.1 L30.5,13.1 L31.7,11.6 L32.7,11.6 L33.3,11.2 L33.7,11.2 L34.7,12.6 L35.4,12.6 L36.6,12.6 L36.8,8.8 L37.8,8.8 L38.8,5.8 L39.8,5.8 L40.7,5.5 L41.0,5.5 L41.5,5.5 L42.3,5.5 L43.1,6.0 L43.4,6.0 L44.0,6.0 L44.8,6.4 L45.1,6.4 L45.2,6.3 L45.7,6.3 L46.2,6.3 L46.8,7.4 L47.1,7.6 L47.7,7.5 L48.0,7.5 L48.3,7.6 L48.6,9.0 L49.2,8.8 L49.7,8.8 L50.4,7.5 L51.4,7.5 L52.6,7.1 L52.9,7.1 L53.9,7.1 L54.6,6.5 L54.9,6.5 L56.0,6.6 L56.9,8.0 L57.2,8.0 L58.1,8.0 L58.4,7.8 L59.0,7.8 L60.4,9.5 L60.6,9.5 L60.7,9.5 L60.9,9.6 L61.3,9.6 L61.4,9.6 L62.0,9.6 L62.4,9.4 L62.6,9.3 L62.8,9.4 L63.1,9.3 L63.4,9.3 L63.6,9.3 L64.3,8.5 L64.7,8.5 L66.4,6.8 L67.0,6.8 L67.1,6.8 L67.4,6.8 L67.6,6.8 L68.0,6.8 L69.2,7.0 L70.2,7.5 L70.6,7.6 L71.0,7.6 L71.5,7.6 L71.7,7.6 L72.1,7.6 L72.4,7.6 L72.6,7.6 L73.0,7.6 L73.9,7.6 L74.2,8.2 L74.5,8.2 L75.9,8.2 L76.2,9.1 L76.4,9.1 L77.0,9.1 L77.2,9.1 L77.6,9.1 L77.9,8.4 L78.6,7.8 L78.9,7.8 L80.1,7.6 L80.8,7.6 L81.1,7.6 L82.1,8.5 L84.1,10.3 L84.4,10.3 L84.5,10.3 L85.1,10.3 L85.7,10.3 L85.9,12.4 L86.1,12.4 L86.5,12.4 L86.8,12.4 L87.0,12.4 L87.3,12.4 L87.5,12.4 L87.7,12.4 L88.1,9.5 L88.2,9.5 L88.5,9.5 L89.0,9.5 L89.4,9.5 L90.0,10.9 L90.6,10.9 L91.5,10.9 L92.0,13.9 L92.2,13.9 L92.8,13.9 L93.0,13.9 L93.8,9.8 L94.0,9.8 L94.2,9.8 L94.4,9.8 L94.6,9.8 L94.9,9.8 L95.8,10.0 L96.3,10.0 L96.8,10.0 L97.2,10.0 L97.6,10.0 L97.8,11.5 L98.5,11.5 L99.0,11.5 L99.3,11.5 L99.7,12.7 L99.9,12.7 L100.2,12.7 L100.8,12.7 L101.1,12.7 L101.3,12.7 L101.7,11.8 L102.0,11.8 L102.3,11.9 L103.4,11.9 L103.7,12.0 L104.1,12.0 L104.4,12.0 L105.1,12.0 L105.7,11.7 L106.0,11.7 L108.0,11.3 L108.4,11.3 L108.7,11.3 L109.3,11.3 L109.5,9.8 L109.7,9.8 L110.0,9.4 L111.5,12.4 L111.7,12.4 L112.0,12.4 L112.4,12.4 L112.6,12.4 L113.5,12.7 L113.7,12.7 L113.9,12.7 L114.6,12.7 L114.7,12.7 L115.4,10.6 L115.9,10.4 L117.1,10.4 L117.5,12.3 L117.6,12.3 L117.9,12.3 L118.9,12.4 L119.4,9.2 L119.9,9.7 L121.2,9.1 L121.7,8.9 L122.1,8.9 L122.4,8.9 L122.9,8.9 L123.4,10.8 L123.8,10.8 L124.4,10.8 L125.0,10.8 L125.4,8.8 L125.8,8.8 L126.1,8.8 L126.4,8.8 L126.9,8.8 L127.2,10.3 L127.5,10.3 L127.8,10.6 L128.7,10.6 L129.0,10.6 L129.4,11.3 L129.7,11.3 L130.1,11.3 L130.3,11.3 L130.5,11.3 L131.0,11.3 L131.1,15.5 L131.3,15.5 L131.6,15.6 L131.8,15.6 L132.3,15.6 L132.6,15.6 L133.0,15.6 L133.4,10.6 L133.8,10.6 L134.2,10.6 L134.7,10.6 L135.2,13.2 L136.1,12.8 L136.3,12.8 L137.1,13.6 L137.4,13.6 L137.9,13.2 L138.1,13.1 L138.3,13.1 L138.8,13.2 L139.0,19.3 L139.5,19.9 L139.8,19.9 L140.3,19.9 L141.0,17.2 L141.3,17.2 L142.5,17.2 L143.0,19.1 L143.5,20.4 L143.8,20.4 L144.6,20.4 L144.8,31.9 L145.0,32.0 L145.4,32.0 L146.1,32.0 L146.5,32.0 L146.6,32.0 L146.9,22.8 L147.2,22.8 L147.4,22.8 L148.4,22.8 L148.9,22.9 L149.2,22.9 L149.8,23.0 L150.0,23.0 L150.3,23.0 L150.8,10.6 L150.9,10.6 L151.2,10.6 L152.2,10.6 L152.8,10.4 L153.2,10.4 L153.6,10.4 L153.8,10.4 L154.2,10.4 L154.6,11.9 L155.2,11.9 L155.5,11.9 L155.8,11.9 L156.0,11.9 L156.5,11.9 L156.9,13.4 L157.3,13.4 L157.6,13.4 L158.0,13.4 L158.4,13.4 L158.6,13.8 L158.9,13.8 L159.3,13.9 L160.3,13.9 L160.6,5.8 L161.2,5.7 L161.7,5.7 L162.7,5.3 L163.2,5.3 L165.0,5.1 L165.2,5.0 L166.2,5.0 L166.5,5.6 L166.9,5.7 L168.2,5.7 L168.5,6.1 L170.2,6.1 L170.7,7.3 L171.2,7.2 L171.7,7.2 L172.3,7.2 L172.5,4.6 L172.7,4.6 L173.4,4.6 L174.1,4.6 L174.8,4.3 L177.3,4.4 L178.9,4.7 L180.2,4.9 L181.5,4.9 L183.0,5.3 L184.4,5.3 L184.7,5.3 L185.8,5.3 L186.4,4.3 L188.2,4.4 L188.9,4.4 L190.5,4.6 L192.3,4.2 L194.3,4.0 L196.1,4.0 L196.5,4.1 L198.3,4.2 L198.5,4.3 L200.0,4.6" fill="none" stroke="#1565c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+        </div>
+        <a class="link" href="https://www.amazon.co.jp/dp/B0GKZPKZ87" target="_blank">Amazonで見る →</a>
+      </div>
+      <div class="product-card">
+        <div class="rank">#4 BSR</div>
+        <div class="img-wrap"><img src="https://images-fe.ssl-images-amazon.com/images/I/71bWneM48jL._AC_UL300_SR300,200_.jpg" alt=""></div>
+        <div class="info">
+          <div class="title">バンダイ(BANDAI) To LOVEる -とらぶる- ダークネス ウエハース化計画 ウエハース（焼菓子） 食玩 【BOX販売/20個セット】</div>
+          <span class="brand">BANDAI</span>
+          <div class="meta">
+            <span class="price">40円</span>
+            <span class="star">★ -0.1</span>
+            <span style="color:#6b7280;font-size:11px">レビュー -1</span>
+          </div>
+          <div class="sales">
+            <div class="sales-row"><span>月販</span><strong>800個</strong></div>
+            <div class="sales-row"><span>月商</span><strong>31,840円</strong></div>
+          </div>
+          <div class="asin">ASIN: B0GFHK54LG / BSR #71</div>
+        </div>
+        <div class="charts">
+          <div class="chart-label">価格推移 <strong>40円</strong></div>
+          <svg width="200" height="36" style="display:block">
+    <path d="M0.0,29.2 L3.0,24.4 L6.2,7.1 L13.1,4.0 L17.6,5.3 L90.5,19.3 L93.1,5.3 L110.6,19.3 L110.8,5.3 L145.9,19.3 L146.8,16.7 L152.8,7.1 L154.4,9.1 L155.4,27.4 L159.3,29.5 L168.5,30.7 L175.1,32.0 L178.4,30.7 L180.0,31.0 L182.9,30.7 L184.0,30.5 L186.9,30.7 L189.9,29.9 L191.2,30.0 L191.5,24.4 L191.6,24.9 L191.7,30.0 L191.8,24.9 L191.9,19.3 L196.7,14.7 L197.0,9.9 L197.4,29.2 L197.7,9.9 L198.2,29.2 L198.2,10.1 L198.6,16.7 L200.0,14.7" fill="none" stroke="#ea580c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+          <div class="chart-label" style="margin-top:6px">BSR推移 <strong>#71</strong></div>
+          <svg width="200" height="36" style="display:block">
+    <path d="M0.0,4.7 L0.1,4.7 L0.5,4.2 L0.6,4.2 L1.0,4.2 L1.2,4.2 L1.2,4.2 L1.7,4.2 L2.4,4.2 L2.7,4.2 L3.2,4.2 L3.7,4.2 L3.7,4.2 L4.0,4.2 L4.3,4.2 L4.5,4.2 L5.5,4.4 L5.7,4.4 L5.9,4.4 L6.0,4.4 L6.5,4.4 L6.8,4.4 L7.1,4.4 L7.3,5.0 L7.5,5.0 L7.7,5.0 L7.8,5.0 L8.0,5.0 L8.5,5.0 L8.6,5.0 L9.4,5.4 L9.6,5.4 L9.9,5.4 L10.4,5.5 L10.8,5.5 L11.1,5.5 L11.8,5.5 L12.0,5.5 L12.4,5.6 L12.6,5.6 L12.8,5.6 L13.0,5.6 L13.2,5.6 L13.5,5.6 L14.2,6.0 L14.4,6.0 L14.6,6.0 L14.8,6.0 L15.1,6.0 L15.6,6.0 L15.7,7.5 L15.9,7.5 L16.1,7.5 L16.4,7.5 L16.5,7.5 L16.9,7.5 L17.1,7.5 L17.4,7.5 L17.6,9.3 L18.0,9.3 L18.4,9.3 L20.0,11.0 L20.2,11.0 L20.5,11.0 L20.7,11.0 L20.9,13.2 L21.1,13.2 L21.5,13.2 L21.7,13.2 L21.8,13.2 L22.1,13.2 L22.3,13.5 L22.4,13.5 L22.6,9.2 L22.7,9.2 L23.0,9.2 L23.2,9.2 L23.4,9.2 L23.7,9.2 L23.9,9.3 L24.1,9.3 L24.4,12.1 L24.6,12.2 L24.9,12.2 L26.0,14.9 L26.2,15.0 L26.7,15.0 L26.9,15.0 L27.1,15.0 L27.2,15.3 L27.4,15.4 L27.7,12.1 L27.9,12.1 L28.1,15.5 L28.3,15.4 L28.4,15.5 L28.7,15.5 L28.9,15.5 L29.0,15.7 L29.2,15.8 L29.4,15.8 L29.6,9.5 L29.7,9.5 L30.0,9.5 L30.1,9.5 L30.5,9.5 L30.8,9.5 L31.0,8.4 L31.3,8.4 L31.5,8.4 L31.7,8.4 L31.8,8.4 L32.1,8.4 L32.3,8.4 L32.5,8.4 L32.8,10.6 L33.0,10.6 L33.3,10.6 L33.7,10.6 L33.9,10.6 L34.1,10.6 L34.6,13.9 L34.8,13.9 L35.1,13.9 L35.2,13.9 L35.4,13.9 L35.9,14.3 L36.0,14.3 L36.3,16.6 L36.5,16.6 L36.7,16.6 L37.0,16.6 L37.2,16.6 L39.7,17.6 L40.1,17.9 L40.4,17.9 L40.6,17.9 L40.8,18.2 L41.0,18.3 L41.3,19.3 L41.5,19.3 L41.8,19.4 L42.1,19.4 L42.3,19.4 L42.5,19.4 L42.7,19.8 L43.0,7.7 L43.2,7.7 L43.4,7.7 L43.6,7.7 L43.9,7.7 L44.5,7.7 L44.7,10.0 L44.9,10.0 L45.3,10.0 L45.6,10.0 L46.1,10.1 L46.4,13.7 L46.7,13.7 L46.9,13.7 L47.1,13.7 L47.3,13.7 L47.5,13.7 L48.4,17.2 L49.4,17.2 L50.4,9.9 L51.3,9.9 L52.2,13.7 L53.2,16.9 L53.4,16.9 L53.9,17.0 L54.7,17.3 L55.1,18.1 L56.1,18.1 L56.6,20.2 L56.9,20.2 L57.4,20.2 L58.3,20.9 L59.3,20.9 L60.3,10.5 L61.3,10.5 L61.7,23.4 L62.2,23.4 L62.4,23.4 L62.6,23.4 L63.0,23.4 L63.3,23.8 L63.8,23.9 L63.9,23.9 L64.1,23.9 L64.3,23.9 L64.7,23.9 L65.0,24.2 L65.2,24.3 L65.3,24.3 L65.6,24.4 L65.8,24.4 L66.0,24.4 L66.2,24.4 L66.4,24.6 L67.2,24.7 L67.4,24.7 L67.8,24.7 L68.3,25.1 L69.0,25.0 L69.5,25.0 L69.9,25.4 L70.4,25.8 L70.8,25.8 L71.2,25.8 L71.7,26.2 L72.1,27.6 L72.6,27.6 L73.2,27.6 L73.6,28.3 L74.0,28.3 L74.5,28.3 L74.9,28.6 L75.4,29.0 L75.8,29.0 L76.2,29.0 L76.7,29.4 L76.9,29.5 L77.4,29.8 L77.8,29.7 L78.2,29.7 L78.7,30.2 L78.8,30.3 L79.5,30.3 L79.6,30.2 L80.6,30.3 L81.0,30.3 L81.5,30.3 L82.2,30.6 L82.4,30.6 L82.7,30.5 L83.1,30.5 L83.6,30.8 L84.0,31.1 L84.4,31.1 L85.1,31.1 L85.4,31.4 L86.4,32.0 L87.3,11.7 L87.9,11.7 L88.1,11.7 L88.4,11.7 L88.8,11.8 L89.1,7.3 L89.7,7.3 L90.3,7.3 L91.0,4.9 L92.0,4.9 L92.3,4.9 L92.8,5.0 L93.2,5.0 L93.7,5.0 L94.2,5.9 L94.5,6.1 L94.8,6.1 L95.9,6.0 L97.1,6.0 L97.2,6.0 L97.8,6.6 L98.3,6.6 L98.8,6.6 L99.3,7.0 L99.5,7.0 L100.0,7.0 L100.2,7.0 L100.9,9.2 L101.0,9.2 L101.5,9.2 L101.7,9.2 L102.2,9.2 L102.3,9.3 L102.8,8.2 L103.0,8.2 L103.3,8.2 L103.7,8.2 L104.7,11.1 L104.8,11.1 L105.4,11.1 L106.0,14.1 L106.1,14.1 L106.6,14.1 L107.0,14.1 L107.2,14.1 L107.6,14.4 L108.6,7.3 L109.2,7.3 L109.4,7.4 L109.7,7.4 L110.1,7.4 L110.3,7.4 L110.4,7.4 L111.1,7.4 L111.7,6.3 L112.3,6.3 L112.9,8.5 L113.1,8.5 L113.6,9.2 L114.2,9.2 L114.4,9.2 L114.9,13.1 L115.0,13.1 L115.5,13.1 L116.1,15.2 L116.4,15.2 L116.6,15.3 L117.1,15.3 L117.4,15.3 L117.7,15.6 L117.9,17.4 L118.3,17.4 L118.7,17.4 L119.3,17.6 L119.4,17.7 L120.5,20.0 L121.0,20.3 L121.2,20.3 L121.9,20.6 L122.0,20.6 L122.1,20.6 L122.6,20.6 L122.9,20.9 L123.1,21.7 L123.8,21.7 L124.8,23.4 L124.9,23.4 L125.6,23.4 L126.1,23.8 L126.7,25.1 L127.2,25.1 L128.0,25.4 L128.5,11.1 L129.0,11.1 L129.8,11.1 L130.1,9.2 L130.6,9.2 L131.5,8.7 L131.8,8.7 L132.5,8.7 L133.3,12.4 L133.5,12.4 L134.0,12.5 L134.8,12.5 L135.2,15.1 L135.3,15.1 L135.5,15.1 L136.0,15.1 L136.6,7.4 L136.7,7.4 L136.9,7.4 L137.6,7.4 L137.8,7.4 L138.2,7.4 L138.5,6.4 L138.8,6.4 L138.9,6.4 L139.2,6.4 L139.5,6.4 L140.1,8.5 L140.2,8.5 L140.5,8.6 L140.9,8.6 L141.4,8.6 L141.8,13.1 L142.2,13.1 L142.5,13.1 L143.1,13.4 L143.5,15.3 L143.9,15.4 L144.2,15.4 L145.0,15.7 L145.6,6.3 L145.6,6.3 L146.0,6.3 L146.3,6.3 L146.8,6.3 L147.1,6.8 L147.3,6.9 L147.7,6.9 L148.1,6.9 L148.6,6.7 L149.0,6.7 L149.4,6.7 L149.7,6.7 L150.0,6.7 L150.1,6.7 L150.3,9.0 L150.6,9.0 L150.9,9.0 L151.1,9.0 L151.5,9.0 L152.1,5.9 L152.8,6.0 L153.1,6.0 L153.5,6.0 L153.7,5.2 L154.1,5.2 L155.1,5.2 L155.4,5.5 L156.0,5.5 L156.7,5.5 L157.0,4.4 L157.4,4.4 L158.1,4.4 L158.6,4.4 L159.1,4.3 L159.6,4.3 L160.5,4.2 L161.0,4.2 L161.2,4.2 L161.9,4.2 L162.9,4.2 L163.6,4.2 L163.9,4.1 L164.4,4.1 L165.3,4.1 L165.6,4.1 L166.1,4.1 L166.5,4.1 L167.5,4.1 L167.8,4.1 L169.1,4.1 L169.6,4.1 L169.9,4.1 L170.4,4.1 L170.7,4.1 L171.3,4.1 L172.1,4.1 L172.6,4.2 L173.9,4.2 L174.2,4.1 L174.7,4.1 L175.1,4.1 L175.4,4.1 L175.8,4.1 L176.4,4.1 L177.0,4.1 L177.7,4.0 L178.4,4.0 L179.4,4.0 L181.1,4.1 L181.7,4.1 L182.8,4.1 L183.4,4.1 L184.8,4.0 L186.2,4.0 L186.4,4.0 L187.4,4.0 L187.9,4.1 L188.3,4.1 L189.5,4.0 L191.2,4.0 L191.8,4.0 L192.9,4.0 L194.8,4.0 L196.3,4.0 L196.5,4.0 L198.5,4.0 L200.0,4.0" fill="none" stroke="#1565c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+        </div>
+        <a class="link" href="https://www.amazon.co.jp/dp/B0GFHK54LG" target="_blank">Amazonで見る →</a>
+      </div>
+      <div class="product-card">
+        <div class="rank">#5 BSR</div>
+        <div class="img-wrap"><img src="https://images-fe.ssl-images-amazon.com/images/I/51uaiV8i-hL._AC_UL300_SR300,200_.jpg" alt=""></div>
+        <div class="info">
+          <div class="title">スター ウォーズ STAR WARS ビックリマンチョコ ＜ マンダロリアン＆グローグー ＞ 1BOX 30個入</div>
+          <span class="brand">ノーブランド品</span>
+          <div class="meta">
+            <span class="price">80円</span>
+            <span class="star">★ -0.1</span>
+            <span style="color:#6b7280;font-size:11px">レビュー -1</span>
+          </div>
+          <div class="sales">
+            <div class="sales-row"><span>月販</span><strong>200個</strong></div>
+            <div class="sales-row"><span>月商</span><strong>15,960円</strong></div>
+          </div>
+          <div class="asin">ASIN: B0H1BYSNXL / BSR #118</div>
+        </div>
+        <div class="charts">
+          <div class="chart-label">価格推移 <strong>80円</strong></div>
+          <svg width="200" height="36" style="display:block">
+    <path d="M0.0,32.0 L130.0,29.7 L179.4,23.3 L195.6,16.8 L200.0,4.0" fill="none" stroke="#ea580c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+          <div class="chart-label" style="margin-top:6px">BSR推移 <strong>#118</strong></div>
+          <svg width="200" height="36" style="display:block">
+    <path d="M0.0,32.0 L24.6,4.0 L50.8,4.0 L113.7,4.0 L200.0,4.0" fill="none" stroke="#1565c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+        </div>
+        <a class="link" href="https://www.amazon.co.jp/dp/B0H1BYSNXL" target="_blank">Amazonで見る →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🏢 競合ブランド分布</h2>
+    <p class="note">上位5商品を作ってるブランド。1社が複数枠を取ってる場合は寡占気味。</p>
+    <div class="brand-list">
+<div class="brand-chip">BANDAI <strong>×3</strong></div><div class="brand-chip">ハート <strong>×1</strong></div><div class="brand-chip">ノーブランド品 <strong>×1</strong></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>📊 レビュー分析サマリ <span class="badge">5/5商品</span></h2>
+    
+    <div class="kpi-bar" style="background:#fafbfc;padding:8px 0;border:1px solid #e5e7eb;border-radius:3px;display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;padding:12px">
+      <div class="kpi"><div class="kpi-label">分析対象レビュー</div><div class="kpi-value">0件</div></div>
+      <div class="kpi"><div class="kpi-label">★1-2 (不満)</div><div class="kpi-value red">0件</div></div>
+      <div class="kpi"><div class="kpi-label">★4-5 (満足)</div><div class="kpi-value green">0件</div></div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px">
+      <div>
+        <h3 style="font-size:13px;color:#dc2626;margin-bottom:8px">⚠️ 不満ポイント (★1-2 レビュー) <span style="font-size:10px;font-weight:500;color:#6b7280">クリックで該当レビュー展開</span></h3>
+        <p style="color:#6b7280;font-size:11px">★1-2レビューに頻出キーワード無し</p>
+      </div>
+      <div>
+        <h3 style="font-size:13px;color:#15803d;margin-bottom:8px">💚 評価ポイント (★4-5 レビュー) <span style="font-size:10px;font-weight:500;color:#6b7280">クリックで該当レビュー展開</span></h3>
+        <p style="color:#6b7280;font-size:11px">★4-5レビューに頻出キーワード無し</p>
+      </div>
+    </div>
+    <div id="bar-expand" style="margin-top:14px"></div>
+    <p class="note" style="margin-top:10px">不満ポイントが OEM 改善の優先テーマ。バークリックで該当レビュー一覧。</p>
+    
+  </div>
+
+  <div class="section">
+    <h2>🔍 中国仕入れ先サーチ (OEM ソーシング)</h2>
+    <p class="note">類似商品の中国卸売価格を調査。1688 / Alibaba / ラクマートで検索。</p>
+    <div class="source-links">
+      <a class="source-link" href="https://s.1688.com/selloffer/offer_search.htm?keywords=%E9%A3%9F%E7%8E%A9" target="_blank">
+        <div class="src-title">🇨🇳 1688で「食玩」検索 →</div>
+        <div class="src-desc">アリババ系の中国国内卸売サイト</div>
+      </a>
+      <a class="source-link" href="https://www.alibaba.com/trade/search?SearchText=%E9%A3%9F%E7%8E%A9" target="_blank">
+        <div class="src-title">🌐 Alibaba.com 検索 →</div>
+        <div class="src-desc">輸出対応サプライヤー</div>
+      </a>
+      <a class="source-link" href="https://www.rakumart.com/search/?key=%E9%A3%9F%E7%8E%A9" target="_blank">
+        <div class="src-title">🏯 ラクマート検索 →</div>
+        <div class="src-desc">日本向け代行 (周副社長窓口)</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>💰 利益試算 (1位商品ベース)</h2>
+    <p class="note">数字を変えると即座に再計算。Amazon JP 販売手数料は L0「ホビー」のため <strong>10%</strong> で自動初期化。</p>
+    <div class="profit-calc" id="profit-calc">
+      <div class="profit-row"><span class="label">想定売値</span>
+        <span class="value"><input type="number" id="pc-price" value="26" style="width:120px;text-align:right;font-family:monospace;font-size:13px;padding:4px;border:1px solid #86efac;border-radius:3px"> 円</span>
+      </div>
+      <div class="profit-row"><span class="label">想定原価 (中国仕入れ)</span>
+        <span class="value"><input type="number" id="pc-cost" value="8" style="width:120px;text-align:right;font-family:monospace;font-size:13px;padding:4px;border:1px solid #86efac;border-radius:3px"> 円</span>
+      </div>
+      <div class="profit-row"><span class="label">Amazon販売手数料</span>
+        <span class="value"><input type="number" id="pc-feerate" value="10" style="width:60px;text-align:right;font-family:monospace;font-size:13px;padding:4px;border:1px solid #86efac;border-radius:3px"> % = <span id="pc-fee-amount" style="font-family:monospace">-</span></span>
+      </div>
+      <div class="profit-row"><span class="label">FBA手数料 (大きさ/重さ)</span>
+        <span class="value"><input type="number" id="pc-fba" value="500" style="width:120px;text-align:right;font-family:monospace;font-size:13px;padding:4px;border:1px solid #86efac;border-radius:3px"> 円</span>
+      </div>
+      <div class="profit-row"><span class="label">国際送料/箱代</span>
+        <span class="value"><input type="number" id="pc-ship" value="300" style="width:120px;text-align:right;font-family:monospace;font-size:13px;padding:4px;border:1px solid #86efac;border-radius:3px"> 円</span>
+      </div>
+      <div class="profit-row"><span class="label">シール代 / パッケージ</span>
+        <span class="value"><input type="number" id="pc-label" value="50" style="width:120px;text-align:right;font-family:monospace;font-size:13px;padding:4px;border:1px solid #86efac;border-radius:3px"> 円</span>
+      </div>
+      <div class="profit-row"><span class="label">その他コスト (返品/保証等)</span>
+        <span class="value"><input type="number" id="pc-misc" value="100" style="width:120px;text-align:right;font-family:monospace;font-size:13px;padding:4px;border:1px solid #86efac;border-radius:3px"> 円</span>
+      </div>
+      <div class="profit-row"><span class="label">単品利益</span><span class="value" id="pc-unit-profit" style="font-weight:700;font-size:14px">-</span></div>
+      <div class="profit-row"><span class="label">利益率</span><span class="value" id="pc-margin">-</span></div>
+      <div class="profit-row"><span class="label">想定月販</span>
+        <span class="value"><input type="number" id="pc-sold" value="100" style="width:120px;text-align:right;font-family:monospace;font-size:13px;padding:4px;border:1px solid #86efac;border-radius:3px"> 個</span>
+      </div>
+      <div class="profit-row"><span class="label">想定月利</span><span class="value" id="pc-monthly-profit">-</span></div>
+    </div>
+    <div class="profit-note">
+      ※ 月販個数 100個 は1位商品の Keepa monthlySold (実測)<br>
+      ※ Amazon手数料は L0カテゴリ基準の代表値 (公式: <a href="https://sellercentral.amazon.co.jp/help/hub/reference/200336920" target="_blank">手数料表</a>)<br>
+      ※ FBA手数料は商品サイズ/重量で大きく変わる、要個別確認
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>📝 競合レビュー一括分析</h2>
+    <p class="note">上位5商品のレビューを Amazon から自動スクレイプ。不満点・要望キーワードから OEM 改善案が見える。</p>
+    <button id="scrape-reviews-btn" style="background:#1565c0;color:white;border:none;padding:10px 24px;font-size:13px;font-weight:700;border-radius:4px;cursor:pointer">🔍 5商品のレビュー一括分析を開始</button>
+    <div id="scrape-status" style="margin-top:12px;font-size:12px;color:#6b7280"></div>
+    <div id="reviews-results" style="margin-top:16px"></div>
+  </div>
+
+  <div class="footer">
+    深掘りレポート / 食玩 / Skeleton OEM Lab
+  </div>
+</div>
+
+<script>
+// === 利益試算 リアルタイム計算 ===
+function fy(n) { return Math.round(n).toLocaleString() + '円'; }
+const inputs = ['pc-price','pc-cost','pc-feerate','pc-fba','pc-ship','pc-label','pc-misc','pc-sold'].map(id => document.getElementById(id));
+function recalc() {
+  const [price, cost, feerate, fba, ship, label, misc, sold] = inputs.map(el => +el.value || 0);
+  const fee = price * feerate / 100;
+  document.getElementById('pc-fee-amount').textContent = fy(fee);
+  const unitProfit = price - cost - fee - fba - ship - label - misc;
+  const upEl = document.getElementById('pc-unit-profit');
+  upEl.textContent = fy(unitProfit);
+  upEl.style.color = unitProfit > 0 ? '#16a34a' : '#dc2626';
+  const margin = price > 0 ? (unitProfit / price * 100).toFixed(1) : 0;
+  const mgEl = document.getElementById('pc-margin');
+  mgEl.textContent = margin + '%';
+  mgEl.style.color = margin > 25 ? '#16a34a' : margin > 10 ? '#f59e0b' : '#dc2626';
+  const monthlyProfit = unitProfit * sold;
+  const mpEl = document.getElementById('pc-monthly-profit');
+  mpEl.textContent = fy(monthlyProfit);
+  mpEl.style.color = monthlyProfit > 0 ? '#16a34a' : '#dc2626';
+  mpEl.style.fontSize = '18px';
+  mpEl.style.fontWeight = '700';
+}
+inputs.forEach(el => el.addEventListener('input', recalc));
+recalc();
+
+// === レビュー一括スクレイプ ===
+const SCRAPE_ASINS = ["B0GZT5XXL1","B0GCGX5FV4","B0GKZPKZ87","B0GFHK54LG","B0H1BYSNXL"];
+const scrapeBtn = document.getElementById('scrape-reviews-btn');
+const scrapeStatus = document.getElementById('scrape-status');
+const reviewsResults = document.getElementById('reviews-results');
+
+async function startScrape() {
+  scrapeBtn.disabled = true;
+  scrapeBtn.style.opacity = 0.5;
+  scrapeStatus.textContent = '⏳ レビュースクレイプ開始中...';
+  try {
+    const r = await fetch('/api/scrape-reviews', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({ asins: SCRAPE_ASINS })
+    });
+    const data = await r.json();
+    if (r.status === 409) {
+      // 別スクレイプ進行中 → そのまま進捗ポーリング
+      scrapeStatus.textContent = '⏳ 別商品のスクレイプ進行中 (完了待ち)...';
+      pollStatus();
+      return;
+    }
+    if (!r.ok) throw new Error(data.error || 'スクレイプ起動失敗');
+    scrapeStatus.textContent = '✅ スクレイプ起動: ' + SCRAPE_ASINS.length + 'ASIN (進捗ポーリング中...)';
+    pollStatus();
+  } catch (e) {
+    scrapeStatus.textContent = '✗ エラー: ' + e.message;
+    scrapeBtn.disabled = false; scrapeBtn.style.opacity = 1;
+  }
+}
+
+let pollWasOther = false;
+async function pollStatus() {
+  try {
+    const r = await fetch('/api/scrape-status');
+    const s = await r.json();
+    const isMyAsin = s.current && SCRAPE_ASINS.includes(s.current);
+    if (!isMyAsin && s.state === 'running') {
+      pollWasOther = true;
+      scrapeStatus.textContent = '⏳ 別商品のスクレイプ中 (' + (s.current || '') + ' ' + (s.done || 0) + '/' + (s.total || '?') + ') → 完了後に自分のを開始';
+    } else if (isMyAsin) {
+      scrapeStatus.textContent = '⏳ ' + s.current + ' ' + (s.done + 1 || 1) + '/' + (s.total || SCRAPE_ASINS.length);
+    }
+    if (s.state === 'done' || s.state === 'idle' || s.state === 'error') {
+      if (pollWasOther) {
+        // 他のが終わったら自分の起動
+        pollWasOther = false;
+        scrapeStatus.textContent = '✅ 別商品完了 → 自分のスクレイプ起動中...';
+        const r2 = await fetch('/api/scrape-reviews', {
+          method: 'POST', headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({ asins: SCRAPE_ASINS })
+        });
+        if (r2.status === 409) { setTimeout(pollStatus, 3000); return; }
+        if (!r2.ok) { const d=await r2.json(); throw new Error(d.error||'起動失敗'); }
+        setTimeout(pollStatus, 3000);
+        return;
+      }
+      scrapeStatus.textContent = '✅ 完了';
+      await loadReviews();
+      scrapeBtn.disabled = false; scrapeBtn.style.opacity = 1;
+      return;
+    }
+    setTimeout(pollStatus, 3000);
+  } catch (e) {
+    scrapeStatus.textContent = '✗ ' + e.message;
+    setTimeout(pollStatus, 5000);
+  }
+}
+
+async function loadReviews() {
+  const html = [];
+  for (const asin of SCRAPE_ASINS) {
+    try {
+      const r = await fetch('/api/reviews/' + asin);
+      if (!r.ok) continue;
+      const data = await r.json();
+      const reviews = data.reviews || [];
+      if (reviews.length === 0) continue;
+      // ★順にソート (低→高) で不満→満足の流れにする
+      const sorted = [...reviews].sort((a, b) => (a.rating || 0) - (b.rating || 0));
+      // ★別カウント
+      const byRating = {};
+      for (const r of sorted) { byRating[r.rating || '?'] = (byRating[r.rating || '?'] || 0) + 1; }
+      const ratingSummary = Object.entries(byRating).sort((a,b)=>a[0]-b[0])
+        .map(([s, n]) => '★' + s + ':' + n).join(' / ');
+      html.push('<div style="margin-top:14px;padding:10px;background:#fafbfc;border:1px solid #e5e7eb;border-radius:3px">' +
+        '<div style="font-weight:700;font-size:13px;margin-bottom:6px;display:flex;justify-content:space-between;align-items:center">' +
+          '<span>📦 ' + asin + ' <span style="color:#6b7280;font-weight:500">レビュー全' + reviews.length + '件</span></span>' +
+          '<span style="font-size:10px;color:#6b7280;font-weight:500">' + ratingSummary + '</span>' +
+        '</div>' +
+        '<div style="max-height:500px;overflow-y:auto">' +
+        sorted.map(rv => {
+          const r = rv.rating || 0;
+          const color = r <= 2 ? '#dc2626' : r === 3 ? '#f59e0b' : '#16a34a';
+          return '<div style="padding:6px 8px;border-bottom:1px dashed #e5e7eb;font-size:11px;border-left:3px solid ' + color + '">' +
+            '<div><strong style="color:' + color + '">★' + r + '</strong> ' + (rv.title || '').replace(/</g, '&lt;') + '</div>' +
+            '<div style="color:#374151;margin-top:2px">' + (rv.body || '').slice(0, 300).replace(/</g, '&lt;') + '</div>' +
+          '</div>';
+        }).join('') +
+        '</div>' +
+        '</div>'
+      );
+    } catch {}
+  }
+  reviewsResults.innerHTML = html.join('') || '<p style="color:#6b7280">レビューデータなし</p>';
+}
+
+scrapeBtn.addEventListener('click', startScrape);
+
+// === バークリックで該当レビュー展開 ===
+const PAIN_CAT_REVIEWS = {"品質":[],"耐久":[],"サイズ":[],"説明書":[],"におい":[],"音":[],"使い勝手":[],"デザイン":[],"価格":[],"梱包":[],"サポート":[],"互換":[]};
+const PRAISE_CAT_REVIEWS = {"満足":[],"品質":[],"価値":[],"使いやすさ":[]};
+const barExpand = document.getElementById('bar-expand');
+let openBarKey = null;
+function renderBarExpand(type, cat) {
+  const key = type + ':' + cat;
+  if (openBarKey === key) {
+    openBarKey = null;
+    barExpand.innerHTML = '';
+    document.querySelectorAll('.bar-row').forEach(r => r.style.outline = '');
+    return;
+  }
+  openBarKey = key;
+  const dict = type === 'pain' ? PAIN_CAT_REVIEWS : PRAISE_CAT_REVIEWS;
+  const items = (dict[cat] || []).slice().sort((a, b) => (a.rating || 0) - (b.rating || 0));
+  const headColor = type === 'pain' ? '#dc2626' : '#16a34a';
+  const bg = type === 'pain' ? '#fef2f2' : '#f0fdf4';
+  const html = '<div style="background:' + bg + ';border:2px solid ' + headColor + ';border-radius:4px;padding:10px;margin-top:8px">' +
+    '<div style="font-weight:700;color:' + headColor + ';margin-bottom:8px;font-size:13px">' +
+      (type === 'pain' ? '⚠️ ' : '💚 ') + cat + ' に該当 <span style="color:#6b7280;font-weight:500">' + items.length + '件</span>' +
+      '<button onclick="document.querySelector(\'[data-bar-cat=\\\'' + cat + '\\\']\').click()" style="float:right;background:transparent;border:none;color:#6b7280;cursor:pointer;font-size:14px">✕</button>' +
+    '</div>' +
+    '<div style="max-height:400px;overflow-y:auto">' +
+    items.map(r => {
+      const rt = r.rating || 0;
+      const c = rt <= 2 ? '#dc2626' : rt === 3 ? '#f59e0b' : '#16a34a';
+      const hl = (text) => (text || '').replace(new RegExp(r.hitWord, 'g'), '<mark style="background:#fde047;font-weight:700">' + r.hitWord + '</mark>');
+      return '<div style="padding:6px 8px;margin:4px 0;background:white;border-left:3px solid ' + c + ';border-radius:2px;font-size:11px">' +
+        '<div><strong style="color:' + c + '">★' + rt + '</strong> <span style="color:#6b7280;font-size:10px">' + r.asin + '</span> ' + hl(r.title) + '</div>' +
+        '<div style="color:#374151;margin-top:2px">' + hl(r.body) + '</div>' +
+      '</div>';
+    }).join('') +
+    '</div>' +
+  '</div>';
+  barExpand.innerHTML = html;
+  document.querySelectorAll('.bar-row').forEach(r => r.style.outline = '');
+  const active = document.querySelector('[data-bar-type="' + type + '"][data-bar-cat="' + cat + '"]');
+  if (active) active.style.outline = '2px solid ' + headColor;
+  barExpand.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+document.querySelectorAll('.bar-row').forEach(row => {
+  row.addEventListener('click', () => renderBarExpand(row.dataset.barType, row.dataset.barCat));
+});
+
+// 既存のレビューデータがあれば自動表示
+loadReviews();
+</script>
+</body>
+</html>

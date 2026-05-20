@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta name="robots" content="noindex,nofollow">
+<meta charset="UTF-8">
+<title>深掘り: デスクトップ - OEMリサーチ</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif;
+  background: #f5f6f8; color: #1f2937; font-size: 13px; line-height: 1.5;
+}
+
+/* Topnav (build-list-page と同じ) */
+.topnav { position: sticky; top: 0; z-index: 100; display: flex; align-items: stretch; background: #1e293b; color: white; border-bottom: 2px solid #f97316; font-size: 11px; }
+.topnav .nav-home, .topnav .nav-dashboard { background: #f97316; color: white; padding: 8px 14px; text-decoration: none; font-weight: 700; font-size: 12px; white-space: nowrap; display: flex; align-items: center; }
+.topnav .nav-home:hover { background: #ea580c; }
+.topnav .nav-dashboard { background: #1565c0; }
+.topnav .nav-tabs { flex: 1; display: flex; overflow-x: auto; }
+.topnav .nav-tab { padding: 6px 10px; color: #cbd5e1; text-decoration: none; font-size: 11px; border-right: 1px solid #334155; white-space: nowrap; display: flex; align-items: center; }
+.topnav .nav-tab:hover { background: #334155; color: white; }
+
+.container { max-width: 1280px; margin: 16px auto; background: white; border: 1px solid #e5e7eb; }
+.report-head { background: linear-gradient(180deg, #f97316 0%, #ea580c 100%); color: white; padding: 18px 24px; }
+.report-head .breadcrumb { font-size: 11px; opacity: 0.85; }
+.report-head .breadcrumb a { color: white; text-decoration: none; }
+.report-head .breadcrumb a:hover { text-decoration: underline; }
+.report-head h1 { font-size: 24px; margin: 6px 0 4px; }
+.report-head .meta { font-size: 11px; opacity: 0.9; display: flex; gap: 14px; }
+
+.kpi-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; padding: 12px 24px; background: #fff7ed; border-bottom: 2px solid #fed7aa; }
+.kpi { background: white; border: 1px solid #e5e7eb; padding: 8px 12px; border-radius: 3px; }
+.kpi-label { font-size: 10px; color: #6b7280; }
+.kpi-value { font-size: 20px; font-weight: 700; color: #ea580c; }
+.kpi-value.green { color: #16a34a; }
+.kpi-value.red { color: #dc2626; }
+
+.section { padding: 20px 24px; border-bottom: 1px solid #e5e7eb; }
+.section h2 { font-size: 15px; color: #1f2937; border-left: 4px solid #f97316; padding-left: 8px; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+.section h2 .badge { background: #f97316; color: white; font-size: 10px; padding: 2px 6px; border-radius: 2px; }
+.section .note { font-size: 11px; color: #6b7280; margin-bottom: 12px; }
+
+/* 上位5商品カード */
+.product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.product-card { background: white; border: 1px solid #e5e7eb; border-radius: 4px; overflow: hidden; display: flex; flex-direction: column; }
+.product-card .rank { background: linear-gradient(90deg, #f97316, #ea580c); color: white; padding: 4px 10px; font-weight: 700; font-size: 11px; }
+.product-card .img-wrap { width: 100%; height: 160px; display: flex; align-items: center; justify-content: center; background: white; border-bottom: 1px solid #f3f4f6; padding: 8px; }
+.product-card .img-wrap img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.product-card .info { padding: 10px 12px; flex: 1; display: flex; flex-direction: column; gap: 6px; }
+.product-card .title { font-size: 12px; line-height: 1.4; height: 50px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; font-weight: 600; }
+.product-card .brand { font-size: 11px; color: #1565c0; background: #e3f2fd; padding: 2px 6px; border-radius: 2px; align-self: flex-start; font-weight: 600; }
+.product-card .meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; font-size: 12px; }
+.product-card .price { font-weight: 700; color: #ea580c; font-size: 15px; }
+.product-card .star { color: #f57c00; font-weight: 600; }
+.product-card .sales { background: linear-gradient(180deg, #fef9c3, #fef3c7); border: 1px solid #facc15; padding: 6px 8px; border-radius: 3px; }
+.product-card .sales-row { display: flex; justify-content: space-between; font-size: 11px; }
+.product-card .sales-row strong { color: #b45309; font-size: 13px; }
+.product-card .asin { font-size: 10px; color: #888; font-family: monospace; }
+.product-card .charts { padding: 8px 12px; border-top: 1px solid #f3f4f6; background: #fafbfc; }
+.product-card .chart-label { font-size: 10px; color: #6b7280; margin-bottom: 2px; }
+.product-card .chart-label strong { color: #1f2937; font-size: 11px; }
+.product-card .link { display: block; background: #1565c0; color: white; text-align: center; padding: 6px; text-decoration: none; font-size: 11px; font-weight: 700; }
+.product-card .link:hover { background: #0d47a1; }
+
+/* 競合ブランド分布 */
+.brand-list { display: flex; flex-wrap: wrap; gap: 6px; }
+.brand-chip { background: #e3f2fd; color: #1565c0; padding: 4px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+
+/* 1688/Alibaba */
+.source-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
+.source-link { display: block; padding: 12px 16px; background: linear-gradient(180deg, #fef9c3, #fef3c7); border: 1px solid #facc15; border-radius: 4px; text-decoration: none; color: #92400e; font-weight: 600; }
+.source-link:hover { background: #fef3c7; }
+.source-link .src-title { font-size: 13px; }
+.source-link .src-desc { font-size: 10px; opacity: 0.8; margin-top: 2px; }
+
+/* 利益試算 */
+.profit-calc { background: linear-gradient(180deg, #f0fdf4, #dcfce7); border: 1px solid #86efac; border-radius: 4px; padding: 14px; }
+.profit-row { display: grid; grid-template-columns: 180px 1fr; gap: 12px; font-size: 13px; padding: 4px 0; border-bottom: 1px dashed #bbf7d0; }
+.profit-row:last-child { border-bottom: none; font-weight: 700; font-size: 16px; color: #166534; }
+.profit-row .label { color: #166534; }
+.profit-row .value { text-align: right; color: #1f2937; font-family: monospace; }
+.profit-note { font-size: 10px; color: #15803d; margin-top: 8px; }
+
+.footer { padding: 12px 24px; background: #fafafa; font-size: 10px; color: #6b7280; text-align: center; border-top: 1px solid #e5e7eb; }
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a class="nav-home" href="index-l1.html">🏠 トップ</a>
+  <div class="nav-tabs">
+    <a class="nav-tab" href="subcategory-list-home-kitchen.html">← パソコン・周辺機器に戻る</a>
+  </div>
+  <a class="nav-dashboard" href="dashboard.html">📊 ダッシュボード</a>
+</nav>
+
+<div class="container">
+  <div class="report-head">
+    <div class="breadcrumb"><a href="index-l1.html">パソコン・周辺機器</a> › デスクトップ</div>
+    <h1>🔬 デスクトップ 深掘りレポート</h1>
+    <div class="meta">
+      <span>カテゴリID: 2151949051</span>
+      <span>生成: 2026/5/18 12:47:23</span>
+      <span><a href="https://www.amazon.co.jp/gp/bestsellers/-/2151949051/" target="_blank" style="color:white">📊 Amazon BSRを見る ↗</a></span>
+    </div>
+  </div>
+
+  <div class="kpi-bar">
+    <div class="kpi"><div class="kpi-label">上位5商品の月販合計</div><div class="kpi-value">700個</div></div>
+    <div class="kpi"><div class="kpi-label">上位5商品の月商合計</div><div class="kpi-value">331,856円</div></div>
+    <div class="kpi"><div class="kpi-label">競合ブランド数</div><div class="kpi-value">3社</div></div>
+    <div class="kpi"><div class="kpi-label">1位の月販</div><div class="kpi-value">200個</div></div>
+    <div class="kpi"><div class="kpi-label">1位の価格</div><div class="kpi-value">300円</div></div>
+  </div>
+
+  <div class="section">
+    <h2>📦 上位5商品の推移 <span class="badge">過去90日</span></h2>
+    <p class="note">価格推移とBSR推移を視覚化。価格が安定してて BSR が低い（売れてる）商品が市場のリーダー。</p>
+    <div class="product-grid">
+
+      <div class="product-card">
+        <div class="rank">#1 BSR</div>
+        <div class="img-wrap"><img src="https://images-fe.ssl-images-amazon.com/images/I/61BUtBwwGdL._AC_UL300_SR300,200_.jpg" alt=""></div>
+        <div class="info">
+          <div class="title">【整備済み品】デル デスクトップ OptiPlex 3020SFF又9020SFFデスクトップパソコン 高性能Corei7/windows11 デスクトップ/Office 2019搭載 初期設定済/WIFI 6/Bluetooth4.2/DP/VGA/USB3.1/4KHD対応/マルチ画面対応/180日保証 (メモリ16GB+SSD256GB)</div>
+          <span class="brand">ToueDigital</span>
+          <div class="meta">
+            <span class="price">300円</span>
+            <span class="star">★ 3.7</span>
+            <span style="color:#6b7280;font-size:11px">レビュー 49</span>
+          </div>
+          <div class="sales">
+            <div class="sales-row"><span>月販</span><strong>200個</strong></div>
+            <div class="sales-row"><span>月商</span><strong>59,960円</strong></div>
+          </div>
+          <div class="asin">ASIN: B0GBV3DD2B / BSR #1,846</div>
+        </div>
+        <div class="charts">
+          <div class="chart-label">価格推移 <strong>300円</strong></div>
+          <svg width="200" height="36" style="display:block">
+    <path d="M0.0,14.1 L18.6,21.9 L19.8,14.1 L21.7,21.9 L23.5,23.1 L25.7,32.0 L35.3,21.9 L35.7,10.7 L37.0,21.9 L37.4,10.7 L45.0,21.9 L45.3,10.7 L53.0,20.1 L63.8,10.7 L72.7,32.0 L79.1,10.7 L94.4,11.6 L109.7,10.7 L112.2,10.7 L114.6,10.7 L117.0,10.7 L117.0,7.4 L118.5,7.4 L154.7,4.0 L173.4,4.0 L193.4,14.1 L200.0,4.0" fill="none" stroke="#ea580c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+          <div class="chart-label" style="margin-top:6px">BSR推移 <strong>#1,846</strong></div>
+          <svg width="200" height="36" style="display:block">
+    <path d="M0.0,31.6 L0.3,31.6 L0.8,32.0 L1.0,32.0 L1.2,12.5 L1.7,12.5 L2.0,12.5 L2.1,12.5 L2.5,12.5 L2.5,17.0 L2.7,17.0 L3.0,17.0 L3.2,17.0 L3.2,17.0 L4.1,10.7 L4.5,10.7 L4.6,10.7 L5.6,9.2 L6.0,9.2 L6.0,9.2 L6.5,9.2 L7.1,10.8 L7.5,10.8 L7.6,10.8 L8.0,10.8 L8.4,10.6 L8.9,10.6 L8.9,10.6 L9.4,10.7 L9.4,10.7 L10.0,9.3 L10.4,9.3 L10.6,9.3 L10.7,9.3 L11.1,9.3 L11.4,8.0 L11.5,8.0 L11.8,8.0 L11.9,8.0 L12.3,8.0 L12.9,7.6 L12.9,7.6 L13.2,7.6 L13.9,7.6 L14.2,6.8 L14.6,6.8 L14.7,6.8 L15.1,6.8 L15.5,6.8 L16.2,6.9 L16.7,6.9 L16.8,6.9 L17.0,6.9 L17.0,6.9 L17.3,6.9 L17.9,7.0 L18.2,7.0 L18.4,7.0 L18.5,6.0 L18.6,6.0 L19.1,6.0 L19.2,6.0 L19.7,6.0 L20.1,5.1 L20.5,5.1 L20.9,5.1 L21.3,5.1 L21.4,5.3 L21.5,5.3 L22.0,5.3 L22.1,5.3 L22.5,5.3 L22.9,4.6 L23.3,4.6 L23.4,4.6 L23.6,4.6 L23.8,4.6 L23.9,4.6 L24.3,4.7 L24.5,4.7 L24.7,4.7 L24.8,4.7 L25.4,4.7 L25.4,4.7 L25.9,4.4 L26.5,4.4 L26.7,4.4 L27.0,4.4 L27.1,4.6 L27.2,4.6 L27.4,4.6 L27.5,4.5 L27.7,4.6 L27.8,4.5 L28.0,4.5 L28.4,4.5 L28.4,4.5 L28.6,4.8 L28.9,4.8 L29.0,4.8 L29.2,4.8 L30.1,5.0 L30.4,5.0 L30.6,5.0 L30.7,5.0 L30.9,5.0 L31.2,5.0 L31.4,5.0 L31.5,4.9 L31.7,4.9 L31.7,4.9 L31.9,4.9 L32.2,4.9 L32.3,4.9 L32.9,4.8 L33.3,4.8 L33.5,4.8 L33.5,4.8 L33.7,4.8 L34.3,5.0 L34.7,5.0 L35.1,5.0 L35.5,5.0 L35.7,5.4 L36.6,5.4 L37.0,5.4 L37.5,5.4 L37.6,5.4 L37.8,5.4 L37.9,5.4 L39.0,5.7 L39.1,5.7 L39.3,5.8 L39.9,5.7 L40.4,5.7 L40.5,5.9 L40.7,5.9 L41.6,6.4 L41.9,6.5 L42.1,7.8 L42.2,7.8 L42.7,7.8 L43.2,6.7 L43.2,6.7 L43.7,6.7 L43.9,6.7 L44.4,6.4 L44.5,6.4 L45.2,6.4 L45.4,6.4 L45.9,6.0 L46.3,6.0 L46.3,6.0 L46.4,6.0 L47.0,6.0 L48.1,6.0 L48.2,6.0 L48.5,6.0 L49.0,5.8 L49.5,5.8 L49.7,5.8 L49.9,5.8 L50.3,6.1 L50.7,6.1 L50.8,6.1 L51.0,6.1 L51.5,6.1 L51.8,5.6 L52.0,5.6 L53.0,5.6 L53.2,4.8 L53.7,4.8 L54.2,4.8 L54.4,4.8 L54.6,4.8 L54.9,4.9 L55.1,4.9 L55.2,4.9 L55.6,4.9 L56.0,4.9 L56.2,4.9 L56.5,4.9 L57.2,4.9 L57.4,5.0 L57.5,5.0 L57.7,5.0 L58.1,5.0 L58.6,5.0 L58.9,5.0 L59.2,5.0 L60.4,5.5 L60.8,5.5 L61.4,5.5 L61.6,5.5 L61.7,5.6 L62.2,5.6 L62.5,5.6 L64.8,4.2 L64.9,4.2 L65.1,4.2 L65.7,4.2 L66.2,4.0 L66.4,4.0 L66.8,4.0 L66.8,4.0 L66.9,4.0 L67.5,4.0 L68.0,4.0 L68.5,4.0 L69.0,4.1 L69.3,4.1 L69.8,4.1 L70.7,4.5 L70.8,4.5 L71.1,4.5 L71.1,4.5 L72.0,4.5 L73.0,4.5 L73.7,4.3 L74.5,4.3 L74.7,4.4 L75.8,4.4 L76.2,4.2 L77.2,4.2 L77.4,4.2 L78.2,4.2 L78.8,4.2 L79.5,4.4 L80.6,4.5 L81.6,4.5 L82.1,4.4 L82.9,4.4 L83.5,4.7 L83.8,4.7 L84.1,4.7 L84.3,4.7 L84.5,4.7 L84.8,4.7 L85.3,4.4 L85.6,4.4 L85.6,4.4 L85.9,4.4 L86.5,4.1 L86.6,4.1 L87.5,4.1 L87.9,4.1 L88.3,4.1 L88.3,4.1 L88.5,4.1 L89.0,4.1 L89.5,4.1 L89.9,4.1 L90.4,4.1 L90.4,4.1 L90.5,4.0 L90.9,4.0 L91.3,4.0 L91.5,4.0 L91.7,4.0 L92.1,4.1 L92.3,4.1 L93.0,4.1 L93.2,4.1 L93.6,4.6 L94.3,4.6 L94.7,4.6 L95.4,5.9 L95.7,6.0 L95.8,5.9 L96.0,5.9 L96.7,6.6 L96.9,6.6 L97.2,6.6 L97.2,6.6 L97.3,6.6 L97.7,6.6 L97.9,6.6 L98.2,6.6 L98.4,6.6 L99.0,6.6 L99.1,6.6 L99.5,6.0 L99.7,6.0 L99.9,6.0 L100.3,6.0 L100.8,5.5 L101.0,5.5 L101.4,5.5 L101.8,5.5 L102.0,5.5 L102.2,5.4 L102.4,5.4 L102.6,5.4 L102.8,5.4 L103.0,5.4 L103.2,5.4 L103.6,5.4 L104.7,5.3 L105.0,5.2 L105.3,5.2 L105.4,5.3 L105.7,5.3 L105.7,5.3 L106.0,5.3 L106.4,5.5 L106.5,5.5 L106.9,5.5 L107.1,5.5 L107.4,5.5 L107.9,5.3 L108.2,5.3 L108.2,5.3 L108.5,5.3 L108.9,5.3 L109.1,5.3 L109.4,5.3 L109.4,5.3 L109.7,5.3 L109.9,5.3 L110.0,5.3 L110.4,5.3 L110.7,5.3 L110.9,5.4 L111.0,5.4 L111.4,5.6 L111.8,5.6 L112.0,5.5 L112.2,5.6 L112.3,5.7 L112.5,5.7 L112.8,5.7 L113.1,5.7 L113.4,5.7 L113.7,5.3 L113.8,5.3 L114.0,5.3 L114.1,5.3 L114.3,5.3 L114.6,5.3 L114.8,5.3 L115.2,5.2 L115.4,5.2 L115.6,5.2 L115.7,5.2 L115.9,5.2 L116.3,5.2 L116.7,4.7 L117.0,4.7 L117.2,4.7 L117.6,4.7 L118.0,4.7 L118.3,4.7 L118.7,4.7 L118.9,4.7 L119.4,4.7 L119.9,4.7 L120.5,4.7 L120.6,4.7 L120.9,4.5 L121.5,4.5 L121.6,4.5 L122.0,4.5 L122.2,4.5 L122.3,4.5 L122.4,4.5 L122.5,4.4 L122.7,4.4 L122.8,4.5 L123.3,4.5 L123.4,4.5 L123.6,4.4 L123.6,4.5 L123.9,4.4 L124.3,4.4 L124.4,4.4 L124.6,4.4 L124.8,4.4 L125.1,4.4 L125.5,4.3 L125.6,4.3 L125.8,4.3 L125.9,4.3 L126.4,4.3 L126.9,4.3 L128.1,4.4 L128.4,4.4 L128.5,4.4 L128.6,4.4 L128.7,4.4 L129.0,4.4 L129.1,4.4 L129.6,4.4 L129.9,4.4 L130.2,4.4 L130.4,4.4 L130.6,4.4 L130.9,4.4 L130.9,4.5 L131.5,4.5 L131.7,4.5 L131.9,4.5 L132.1,4.5 L132.7,4.7 L133.4,4.7 L133.5,4.7 L133.6,4.7 L133.7,4.7 L134.0,4.4 L134.2,4.4 L134.4,4.4 L135.0,4.4 L135.3,4.2 L135.6,4.2 L135.8,4.2 L136.0,4.2 L136.8,4.5 L137.1,4.5 L137.5,4.5 L137.7,4.5 L137.8,4.5 L138.2,4.6 L138.6,4.6 L138.7,4.6 L139.1,4.6 L139.3,4.6 L139.6,4.3 L140.0,4.3 L140.2,4.3 L140.9,4.3 L141.2,4.4 L141.5,4.4 L141.7,4.4 L141.9,4.4 L142.2,4.4 L142.7,4.6 L142.8,4.6 L143.3,4.6 L143.5,4.6 L143.7,4.6 L143.9,4.6 L144.0,4.6 L144.3,4.6 L144.5,4.6 L144.6,4.6 L144.8,4.6 L144.9,4.6 L145.0,4.6 L145.2,4.6 L145.5,4.3 L145.5,4.3 L145.8,4.3 L146.0,4.3 L146.4,4.3 L146.7,4.3 L146.8,4.2 L147.4,4.2 L147.5,4.2 L148.0,4.2 L148.4,4.2 L148.6,4.2 L148.8,4.2 L148.8,4.2 L148.9,4.2 L149.3,4.2 L149.5,4.2 L149.8,4.2 L150.0,4.2 L151.1,4.2 L151.6,4.3 L152.3,4.3 L152.7,4.5 L153.3,4.5 L154.1,4.5 L154.2,4.3 L154.7,4.3 L155.0,4.3 L155.5,4.3 L155.6,4.2 L155.8,4.2 L156.0,4.2 L156.2,4.2 L156.6,4.2 L157.0,4.2 L157.3,4.2 L157.3,4.2 L157.5,4.2 L158.4,4.2 L158.7,4.2 L158.9,4.2 L159.1,4.2 L159.3,4.2 L159.9,4.4 L160.2,4.4 L160.7,4.4 L161.1,4.4 L161.3,4.6 L161.6,4.6 L161.8,4.6 L162.5,4.6 L162.7,4.5 L163.2,4.5 L163.5,4.5 L164.1,4.4 L164.5,4.4 L164.8,4.4 L165.7,4.3 L165.9,4.3 L166.2,4.3 L166.8,4.3 L167.0,4.3 L167.2,4.3 L167.4,4.3 L167.6,4.3 L168.4,4.3 L168.6,4.5 L169.1,4.5 L169.4,4.5 L169.6,4.5 L170.0,4.3 L170.2,4.3 L170.6,4.3 L170.9,4.3 L171.4,4.3 L171.9,4.3 L172.2,4.3 L172.5,4.3 L172.7,4.3 L173.0,4.6 L173.2,4.7 L173.4,4.7 L173.7,4.7 L173.8,4.7 L174.1,4.7 L174.1,4.7 L174.3,4.4 L174.4,4.4 L174.8,4.5 L175.2,4.4 L175.6,4.1 L176.0,4.1 L176.3,4.1 L176.6,4.1 L177.1,4.4 L177.6,4.4 L177.8,4.4 L178.4,4.4 L178.5,4.4 L178.7,4.4 L179.1,4.4 L179.4,4.4 L180.1,4.3 L180.6,4.3 L181.3,4.3 L181.5,4.5 L182.0,4.5 L182.4,4.5 L182.8,4.5 L183.4,4.6 L184.7,4.6 L185.8,4.5 L186.3,4.5 L187.6,4.6 L188.6,4.6 L189.1,4.6 L189.9,4.6 L190.3,4.3 L190.8,4.3 L191.8,4.4 L192.2,4.4 L193.4,4.3 L193.9,4.3 L194.3,4.3 L194.3,4.3 L194.8,4.4 L195.4,4.4 L196.3,4.3 L196.8,4.3 L197.0,4.3 L197.5,4.3 L198.0,4.3 L198.2,4.3 L198.6,4.3 L199.1,4.3 L199.6,4.3 L200.0,4.3" fill="none" stroke="#1565c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+        </div>
+        <a class="link" href="https://www.amazon.co.jp/dp/B0GBV3DD2B" target="_blank">Amazonで見る →</a>
+      </div>
+      <div class="product-card">
+        <div class="rank">#2 BSR</div>
+        <div class="img-wrap"><img src="https://images-fe.ssl-images-amazon.com/images/I/61yfLY6-SYL._AC_UL300_SR300,200_.jpg" alt=""></div>
+        <div class="info">
+          <div class="title">GMKtec ミニPC G10 ブラック新登場｜Ryzen 5 3500U搭載（R3 4300U以上の性能）｜16GB＋256GB 日本語版｜最大64GB DDR4・16TB拡張対応｜最大3.7GHz｜4K 3画面出力｜2.5G LAN｜HDMI 2.1 / DP/Type-C｜Win11 Pro搭載｜超小型・高性能モデル</div>
+          <span class="brand">GMKtec</span>
+          <div class="meta">
+            <span class="price">430円</span>
+            <span class="star">★ 4.7</span>
+            <span style="color:#6b7280;font-size:11px">レビュー 7</span>
+          </div>
+          <div class="sales">
+            <div class="sales-row"><span>月販</span><strong>300個</strong></div>
+            <div class="sales-row"><span>月商</span><strong>128,997円</strong></div>
+          </div>
+          <div class="asin">ASIN: B0GQFN17GR / BSR #1,988</div>
+        </div>
+        <div class="charts">
+          <div class="chart-label">価格推移 <strong>430円</strong></div>
+          <svg width="200" height="36" style="display:block">
+    <path d="M0.0,4.0 L19.2,27.3 L31.2,4.0 L33.6,27.3 L52.4,4.0 L54.4,27.3 L56.0,4.0 L57.4,27.3 L127.0,4.0 L128.1,27.3 L139.8,32.0 L146.5,4.0 L148.7,32.0 L165.0,4.0 L166.7,32.0 L173.9,4.0 L175.8,32.0 L189.2,16.6 L200.0,22.8" fill="none" stroke="#ea580c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+          <div class="chart-label" style="margin-top:6px">BSR推移 <strong>#1,988</strong></div>
+          <svg width="200" height="36" style="display:block">
+    <path d="M0.0,16.3 L1.1,10.2 L2.1,10.3 L2.8,10.3 L4.7,10.3 L5.6,8.7 L5.8,8.8 L6.8,8.8 L7.6,8.8 L7.9,8.8 L10.4,6.2 L10.9,6.1 L12.6,6.1 L12.8,6.2 L13.4,9.2 L13.9,9.2 L14.4,9.2 L14.6,9.2 L15.5,9.3 L17.3,9.7 L18.5,9.7 L18.6,9.7 L19.7,9.7 L20.8,9.7 L21.5,18.6 L22.3,18.8 L22.5,18.7 L22.9,18.7 L23.3,18.7 L23.4,18.7 L24.1,18.7 L24.8,18.7 L25.4,24.0 L26.4,24.0 L26.6,24.1 L27.1,24.1 L27.6,24.1 L29.9,25.7 L30.3,25.4 L30.7,25.4 L32.0,25.4 L32.7,25.4 L33.5,25.4 L33.9,32.0 L34.0,32.0 L34.6,28.9 L35.4,28.9 L35.8,28.9 L37.0,28.9 L38.1,29.2 L38.4,29.2 L38.7,29.2 L39.1,29.2 L39.8,29.2 L40.4,29.2 L41.2,29.2 L41.3,29.2 L42.3,29.2 L42.6,27.8 L43.3,27.9 L44.0,27.9 L44.4,27.8 L44.7,27.8 L45.2,27.8 L46.1,27.5 L46.4,27.5 L46.5,27.5 L47.2,27.5 L48.1,27.5 L49.3,27.5 L49.7,27.5 L49.8,20.7 L50.9,20.8 L51.6,20.8 L52.3,20.7 L52.5,20.8 L53.1,20.8 L53.2,20.8 L54.4,22.8 L55.1,22.8 L55.6,22.8 L56.0,22.8 L56.7,22.8 L56.9,22.8 L57.3,22.8 L58.4,29.1 L58.9,29.1 L59.5,29.3 L60.1,29.3 L60.6,29.3 L61.7,29.3 L62.7,24.6 L63.4,24.6 L64.2,24.6 L64.8,24.6 L66.4,21.4 L66.7,21.4 L67.8,21.5 L68.0,21.5 L69.4,21.6 L69.6,21.5 L70.3,21.5 L70.8,22.1 L71.2,22.1 L71.5,22.1 L71.9,22.1 L72.6,22.1 L73.3,23.3 L74.1,23.3 L74.4,23.3 L74.7,27.5 L74.9,27.5 L75.3,27.4 L76.3,28.1 L76.3,28.2 L76.8,28.1 L77.4,28.2 L77.6,28.1 L78.0,28.2 L78.5,21.4 L79.4,21.4 L80.4,21.4 L80.8,21.4 L81.1,21.4 L81.5,21.4 L81.9,21.4 L82.2,21.4 L82.5,23.8 L82.8,23.9 L83.3,23.8 L83.8,23.9 L84.2,23.9 L84.5,23.9 L84.9,23.9 L85.8,23.9 L86.3,23.9 L86.8,16.1 L87.7,16.2 L88.5,16.2 L88.7,16.2 L89.2,16.2 L90.7,23.4 L91.4,23.4 L91.9,24.5 L92.7,24.5 L93.1,24.5 L93.9,24.5 L94.1,24.5 L94.9,21.7 L95.8,23.1 L96.2,23.2 L96.9,21.8 L97.2,21.8 L98.3,21.8 L98.7,21.8 L99.0,12.2 L99.5,12.2 L100.2,12.2 L103.1,9.8 L104.9,9.7 L105.7,9.7 L106.2,9.7 L107.0,12.8 L107.6,12.8 L108.4,12.9 L110.0,12.9 L110.5,12.9 L111.0,12.9 L111.5,15.4 L113.8,15.4 L114.3,15.4 L114.9,15.4 L115.2,17.3 L116.2,17.4 L116.8,17.4 L119.0,19.2 L119.5,18.4 L120.1,17.4 L121.2,17.3 L121.7,17.3 L122.2,17.3 L122.7,17.3 L123.3,17.3 L123.9,22.2 L124.9,20.8 L125.6,20.8 L126.3,20.8 L126.8,20.8 L127.3,20.9 L128.0,5.4 L128.5,5.4 L129.3,5.4 L129.8,5.5 L130.3,5.4 L131.1,5.4 L131.7,4.0 L133.0,4.0 L133.6,4.0 L134.1,4.0 L134.6,4.0 L134.9,4.0 L135.6,4.0 L136.0,7.6 L136.5,7.6 L136.8,7.6 L137.4,7.5 L138.3,7.5 L139.3,7.5 L140.2,4.5 L141.2,4.6 L141.8,4.6 L143.0,4.6 L144.0,7.8 L144.9,7.8 L147.2,7.8 L147.6,7.8 L148.1,8.2 L148.7,8.2 L149.0,8.1 L150.6,8.0 L151.4,8.1 L152.9,8.9 L154.3,8.9 L155.7,8.9 L157.6,8.2 L159.2,8.1 L160.3,12.3 L160.9,12.3 L161.5,12.2 L162.4,12.3 L162.9,12.3 L163.7,12.3 L165.1,12.3 L165.7,13.2 L167.3,13.3 L167.6,13.3 L168.9,12.2 L169.5,11.8 L170.9,11.8 L171.4,11.8 L172.3,7.6 L173.6,8.0 L177.0,11.3 L177.3,11.3 L178.8,11.3 L180.9,18.8 L181.4,18.9 L181.8,19.0 L183.2,18.9 L184.3,18.9 L185.1,11.5 L185.6,11.5 L191.3,4.2 L192.5,4.2 L193.9,6.0 L194.1,6.0 L195.5,6.0 L196.4,6.1 L197.9,5.7 L198.6,5.2 L200.0,5.2" fill="none" stroke="#1565c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+        </div>
+        <a class="link" href="https://www.amazon.co.jp/dp/B0GQFN17GR" target="_blank">Amazonで見る →</a>
+      </div>
+      <div class="product-card">
+        <div class="rank">#3 BSR</div>
+        <div class="img-wrap"><img src="https://images-fe.ssl-images-amazon.com/images/I/61liiSnOBQL._AC_UL300_SR300,200_.jpg" alt=""></div>
+        <div class="info">
+          <div class="title">ミニ PC Ryzen 7 7730U搭載 5825Uより速い GMKtec M5 Ultra mini pc【64GB DDR4 +16TB M.2 SSD （拡張可能）】最大4.5GHz Win11 pro ミニPC 2.5G 有線LANポート4K3画面出力可能HDMI 2.1/DP/Type-C 小型PC 静音設計 USB3.2×3 Nucbox M5 Ultra 16+1TB 黒い</div>
+          <span class="brand">GMKtec</span>
+          <div class="meta">
+            <span class="price">640円</span>
+            <span class="star">★ 4.1</span>
+            <span style="color:#6b7280;font-size:11px">レビュー 498</span>
+          </div>
+          <div style="background:#fef3c7;color:#92400e;border:1px solid #fbbf24;padding:6px 8px;border-radius:3px;font-size:11px;font-weight:700">⚠ Keepa月販データ未取得 (バックグラウンドで取得中)</div>
+          <div class="asin">ASIN: B0FX1ZT1F3 / BSR #3,121</div>
+        </div>
+        <div class="charts">
+          <div class="chart-label">価格推移 <strong>640円</strong></div>
+          <svg width="200" height="36" style="display:block">
+    <path d="M0.0,20.5 L11.7,20.5 L25.1,10.0 L45.3,10.0 L60.1,25.9 L65.3,10.0 L66.0,4.0 L81.3,24.1 L82.8,32.0 L88.3,4.0 L117.5,5.0 L121.1,5.0 L121.1,32.0 L121.2,5.0 L125.8,24.9 L126.2,24.1 L133.5,4.0 L135.8,27.7 L148.5,27.7 L151.4,4.0 L157.0,27.7 L157.0,4.0 L157.2,27.7 L157.8,27.7 L164.8,4.0 L165.9,27.7 L166.8,4.0 L167.2,27.7 L181.7,4.0 L191.4,27.7 L195.3,4.0 L200.0,27.7" fill="none" stroke="#ea580c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+          <div class="chart-label" style="margin-top:6px">BSR推移 <strong>#3,121</strong></div>
+          <svg width="200" height="36" style="display:block">
+    <path d="M0.0,15.5 L0.4,15.5 L0.6,15.5 L1.1,15.5 L1.3,8.0 L1.6,8.0 L2.0,8.0 L2.1,8.0 L2.4,8.0 L2.4,8.0 L2.8,6.9 L3.0,6.9 L4.2,7.0 L4.4,7.0 L4.7,8.0 L4.9,8.0 L5.1,8.0 L5.3,8.0 L5.6,8.0 L6.0,8.0 L6.6,10.9 L6.7,10.9 L6.9,10.9 L7.0,10.9 L7.4,10.9 L7.6,10.9 L7.7,10.9 L8.1,15.5 L8.3,15.5 L8.3,15.5 L8.6,15.5 L9.1,15.5 L9.3,15.7 L9.8,19.1 L10.0,19.1 L10.2,19.1 L10.4,19.1 L10.6,19.1 L10.8,19.3 L11.0,19.4 L11.4,21.0 L11.7,21.0 L12.3,20.9 L12.4,21.1 L12.9,21.2 L13.4,8.2 L13.6,8.2 L13.8,8.2 L13.9,8.2 L14.3,8.2 L15.2,10.8 L15.2,10.8 L15.5,10.8 L15.6,10.8 L16.0,10.8 L16.5,14.7 L16.6,14.7 L17.0,14.7 L17.5,14.7 L18.3,18.2 L18.8,18.2 L18.9,18.2 L19.1,18.2 L19.4,18.4 L19.7,20.7 L20.1,20.7 L20.2,20.7 L20.9,20.9 L21.0,21.0 L21.7,9.9 L22.1,9.9 L23.9,13.0 L24.3,13.1 L24.8,16.7 L25.0,16.7 L25.1,16.7 L25.3,16.7 L25.5,16.7 L25.6,16.7 L25.8,16.7 L25.9,16.9 L26.6,19.6 L26.7,19.6 L26.9,19.6 L27.3,19.6 L27.7,19.9 L28.2,22.5 L29.8,24.5 L30.4,24.5 L31.1,24.7 L31.4,24.6 L31.7,24.6 L32.1,26.3 L32.6,26.5 L32.9,26.6 L33.2,27.6 L33.3,27.5 L33.5,27.5 L33.7,27.5 L33.9,27.5 L34.2,27.5 L34.4,27.7 L34.5,27.7 L34.7,29.0 L34.9,29.0 L35.0,29.1 L35.2,29.0 L35.4,29.0 L35.6,29.0 L35.8,29.0 L36.2,29.3 L36.5,29.6 L36.7,29.6 L36.8,29.6 L37.0,29.6 L37.2,29.6 L37.4,29.6 L37.7,29.8 L37.9,29.8 L38.1,29.8 L38.5,29.8 L38.7,29.8 L38.9,29.8 L39.1,29.8 L39.4,29.9 L39.6,30.0 L39.8,30.1 L40.1,30.1 L40.3,30.1 L40.5,30.1 L40.7,30.1 L43.2,31.3 L43.4,31.3 L43.6,31.4 L43.8,31.5 L44.1,31.5 L44.3,31.5 L44.5,31.7 L45.0,32.0 L45.3,32.0 L45.5,17.1 L45.8,16.6 L46.0,16.6 L46.2,16.8 L46.4,18.7 L46.6,18.7 L46.9,18.7 L47.1,18.7 L47.3,18.7 L47.5,18.7 L47.7,18.8 L47.9,18.9 L48.1,19.1 L48.3,19.1 L48.7,19.1 L49.0,19.1 L49.1,19.1 L49.6,19.3 L49.8,19.0 L50.0,19.0 L50.2,19.0 L50.5,19.0 L50.5,19.0 L50.8,19.0 L51.0,19.0 L52.0,19.0 L53.1,19.2 L54.0,19.6 L54.2,19.6 L55.1,11.9 L55.6,11.9 L56.5,15.5 L57.4,15.5 L58.3,8.9 L59.2,8.9 L60.1,11.4 L61.1,11.4 L61.5,11.4 L62.3,14.7 L63.3,16.0 L64.2,16.0 L64.9,17.8 L65.2,17.8 L65.4,17.9 L65.5,17.8 L65.8,17.8 L66.0,17.9 L66.3,18.0 L66.6,18.0 L66.9,11.5 L67.4,11.5 L67.7,11.5 L68.0,11.5 L68.6,10.3 L68.7,10.3 L69.1,10.3 L69.8,10.3 L70.1,13.4 L70.4,13.4 L70.6,13.4 L71.3,13.4 L72.3,16.2 L73.5,11.9 L73.9,11.9 L74.1,11.9 L74.7,11.9 L75.2,8.5 L75.7,8.5 L76.3,8.5 L76.6,7.9 L76.9,7.9 L76.9,7.9 L77.3,7.9 L77.7,7.9 L78.0,7.9 L78.3,12.3 L78.6,12.3 L78.7,12.3 L79.2,12.3 L79.4,12.3 L79.9,9.1 L80.2,9.1 L80.6,8.4 L80.7,8.4 L80.9,8.4 L81.2,8.4 L81.3,8.4 L81.8,11.2 L82.2,11.2 L82.4,11.2 L82.8,11.2 L83.0,11.2 L83.4,14.4 L83.6,14.4 L83.8,14.4 L83.9,14.4 L84.3,14.4 L84.7,14.4 L84.8,16.8 L85.3,16.8 L85.7,16.8 L85.9,16.8 L86.2,17.0 L86.5,17.0 L86.8,12.0 L87.3,12.0 L87.7,12.0 L88.0,12.0 L88.2,12.0 L89.3,16.7 L89.5,16.9 L89.7,16.9 L95.6,5.4 L96.2,5.4 L96.8,5.5 L97.4,5.6 L98.4,6.0 L99.0,6.0 L99.3,6.0 L99.8,6.0 L100.4,5.7 L100.8,5.7 L101.4,5.7 L102.0,5.0 L102.4,4.9 L103.0,4.9 L103.6,4.8 L104.5,4.8 L105.1,5.5 L105.7,5.5 L106.5,5.5 L107.1,5.4 L107.8,5.4 L108.4,5.3 L109.1,5.3 L109.5,5.3 L110.1,5.3 L111.0,5.3 L111.6,5.3 L112.2,5.0 L112.3,5.0 L112.6,5.0 L113.0,5.0 L113.1,5.0 L113.8,4.4 L114.0,4.4 L114.4,4.4 L114.8,4.4 L115.2,4.5 L115.8,4.5 L116.4,4.5 L117.0,4.6 L117.8,4.6 L118.5,4.6 L119.2,4.6 L119.9,4.6 L120.1,5.0 L120.7,5.0 L120.8,5.0 L121.1,5.0 L121.6,5.0 L122.2,4.8 L122.4,4.8 L122.5,11.6 L122.8,4.6 L123.3,5.7 L124.0,5.3 L124.2,5.3 L124.9,5.3 L125.4,5.1 L125.8,5.1 L126.1,5.1 L126.6,5.1 L127.0,5.3 L127.2,5.3 L127.8,5.3 L128.0,5.3 L128.4,5.3 L128.9,5.2 L129.0,5.2 L129.4,5.2 L130.1,4.9 L130.5,4.9 L130.8,4.9 L130.9,4.9 L131.7,4.9 L132.3,4.9 L132.4,4.9 L132.9,4.9 L133.6,5.3 L133.9,5.4 L134.4,5.4 L134.9,5.4 L135.3,5.2 L135.9,5.2 L136.5,5.2 L137.1,4.7 L139.1,5.3 L139.7,5.3 L140.3,14.5 L140.9,4.8 L141.3,4.8 L141.8,4.7 L142.4,4.9 L142.9,4.8 L144.1,5.1 L144.8,5.1 L145.3,5.3 L146.0,5.7 L147.4,5.4 L149.3,5.1 L149.8,5.1 L150.4,20.6 L151.0,5.4 L151.6,5.3 L152.2,4.7 L152.6,4.6 L153.2,4.6 L153.8,4.6 L154.0,4.6 L154.7,4.6 L155.4,5.1 L155.9,5.1 L156.5,5.1 L157.2,5.3 L157.5,8.8 L158.1,5.5 L158.8,16.8 L159.0,4.6 L160.0,4.7 L160.3,11.8 L160.8,11.5 L162.2,8.7 L162.7,5.4 L163.4,6.1 L163.7,5.5 L164.0,7.8 L164.4,5.5 L165.0,15.2 L165.6,5.1 L165.7,5.1 L165.9,5.1 L166.5,5.5 L166.8,5.5 L167.2,6.2 L168.2,6.2 L168.8,7.1 L169.0,7.1 L169.4,7.6 L170.6,6.5 L170.8,20.0 L171.1,6.7 L172.3,6.0 L172.7,6.0 L174.0,6.1 L174.4,6.1 L174.7,6.1 L175.0,6.1 L175.5,5.0 L175.7,5.0 L176.1,5.0 L176.6,5.0 L177.2,5.5 L177.8,5.5 L178.4,5.5 L178.9,5.3 L179.1,5.3 L179.7,5.3 L183.5,6.0 L183.7,6.0 L184.2,6.0 L185.2,6.0 L185.8,6.4 L186.5,6.4 L187.0,5.2 L187.1,5.2 L187.4,5.2 L188.2,5.2 L188.8,5.0 L189.4,4.9 L190.1,4.9 L190.6,4.9 L191.2,4.9 L192.3,4.8 L193.5,4.8 L193.8,4.3 L195.0,4.3 L195.6,4.1 L195.9,4.1 L196.5,4.1 L196.7,4.1 L196.8,4.1 L197.4,4.0 L198.0,4.0 L198.2,4.0 L198.8,4.0 L199.4,4.0 L200.0,4.0" fill="none" stroke="#1565c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+        </div>
+        <a class="link" href="https://www.amazon.co.jp/dp/B0FX1ZT1F3" target="_blank">Amazonで見る →</a>
+      </div>
+      <div class="product-card">
+        <div class="rank">#4 BSR</div>
+        <div class="img-wrap"><img src="https://images-fe.ssl-images-amazon.com/images/I/714U3ndj2cL._AC_UL300_SR300,200_.jpg" alt=""></div>
+        <div class="info">
+          <div class="title">ミニpc ディスプレイ付き【Intel N150搭載】16GB DDR4+512GB SSD キーボード付き NVMe拡張対応 mini pc 4K×2画面出力・HDMI/DP/Type-C・Win11 Pro ミニパソコン 自動調整冷却ファン WIFI6/BT5.2 高速LANポート付き 小型pc USB3.0×2 36WPD充電 超小型 高性能 デスクトップpc 企業用/業務用/在宅用に最適</div>
+          <span class="brand">HYPERSTRIX</span>
+          <div class="meta">
+            <span class="price">829円</span>
+            <span class="star">★ 4.2</span>
+            <span style="color:#6b7280;font-size:11px">レビュー 9</span>
+          </div>
+          <div class="sales">
+            <div class="sales-row"><span>月販</span><strong>100個</strong></div>
+            <div class="sales-row"><span>月商</span><strong>82,900円</strong></div>
+          </div>
+          <div class="asin">ASIN: B0GRTQMGR8 / BSR #3,282</div>
+        </div>
+        <div class="charts">
+          <div class="chart-label">価格推移 <strong>829円</strong></div>
+          <svg width="200" height="36" style="display:block">
+    <path d="M0.0,13.2 L30.8,13.2 L69.5,4.0 L84.4,13.2 L92.5,32.0 L113.1,4.0 L116.1,13.2 L140.0,11.6 L144.0,6.9 L177.3,32.0 L179.9,6.9 L183.5,32.0 L200.0,6.9" fill="none" stroke="#ea580c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+          <div class="chart-label" style="margin-top:6px">BSR推移 <strong>#3,282</strong></div>
+          <svg width="200" height="36" style="display:block">
+    <path d="M0.0,19.6 L0.4,19.5 L1.5,19.5 L2.5,19.7 L3.1,22.5 L5.0,22.5 L5.3,22.5 L5.6,22.6 L7.6,25.4 L7.9,25.4 L8.2,25.4 L8.8,25.4 L10.0,25.6 L11.2,28.5 L11.7,28.5 L15.5,13.3 L19.6,16.5 L21.0,16.7 L21.1,16.7 L22.8,20.1 L23.3,20.1 L24.6,20.2 L26.0,20.3 L27.0,22.6 L27.6,22.7 L29.1,25.6 L30.2,25.6 L30.6,25.5 L32.1,25.7 L32.9,28.8 L35.9,29.0 L36.1,29.0 L39.3,14.3 L42.4,17.6 L44.4,20.7 L45.8,20.7 L49.5,23.2 L51.6,25.7 L53.1,25.6 L53.3,25.7 L57.2,28.3 L60.9,30.5 L62.3,30.7 L62.5,30.7 L63.8,31.9 L64.5,31.8 L64.7,31.8 L65.3,31.8 L66.3,32.0 L66.9,13.6 L67.9,13.5 L68.2,13.5 L68.6,13.5 L68.8,13.5 L69.9,13.6 L71.0,13.6 L71.4,13.6 L72.3,13.6 L73.4,13.6 L73.7,13.6 L74.8,10.9 L75.0,10.9 L76.0,10.9 L77.1,10.9 L78.4,14.5 L78.6,14.5 L79.1,14.5 L79.8,14.5 L80.9,14.6 L81.7,14.6 L82.7,17.8 L83.1,17.8 L83.6,17.8 L84.3,17.8 L84.6,17.8 L85.9,8.1 L86.3,8.1 L86.4,8.1 L86.9,8.1 L87.1,8.1 L87.9,8.1 L88.2,8.1 L88.3,8.1 L88.8,8.1 L89.2,10.6 L89.7,10.6 L90.2,10.6 L91.1,10.6 L92.0,10.6 L92.3,10.6 L92.7,10.6 L93.6,4.0 L94.8,4.0 L96.0,4.0 L97.2,4.4 L98.3,4.4 L98.6,4.4 L101.0,5.1 L102.0,5.1 L103.5,5.1 L104.5,6.1 L106.8,6.1 L107.6,6.1 L108.1,7.5 L109.3,7.5 L110.2,7.5 L111.5,7.5 L112.2,9.1 L113.5,9.1 L114.2,9.1 L115.5,6.2 L116.6,6.2 L117.3,6.2 L118.3,6.2 L119.0,6.2 L119.5,5.2 L120.5,5.2 L121.1,5.2 L122.4,5.2 L123.3,5.4 L123.8,5.4 L124.8,5.4 L125.8,5.4 L126.4,5.4 L127.0,5.5 L127.6,5.5 L128.4,5.5 L128.9,5.5 L130.4,5.5 L131.0,5.2 L131.8,5.2 L132.4,5.2 L132.9,5.2 L133.2,5.2 L134.3,6.3 L135.6,6.3 L136.1,6.3 L136.7,6.3 L137.2,6.3 L137.8,6.3 L138.3,5.7 L138.9,5.7 L139.6,5.7 L140.4,5.7 L141.1,5.7 L142.0,5.3 L143.0,5.3 L143.6,5.3 L144.3,5.3 L145.0,5.3 L145.5,5.3 L146.2,5.5 L146.8,5.5 L146.9,5.5 L147.4,5.5 L148.7,5.5 L149.3,5.6 L150.6,5.6 L152.2,5.6 L153.5,5.4 L154.9,5.4 L156.2,5.4 L157.6,6.5 L158.8,6.5 L160.2,6.5 L161.4,6.2 L162.8,6.2 L164.4,6.4 L165.3,6.4 L166.7,6.4 L168.0,6.4 L169.8,6.1 L171.1,6.1 L172.0,6.5 L173.4,6.3 L174.6,6.3 L175.5,7.0 L176.8,7.0 L177.7,7.0 L179.0,7.0 L180.1,5.8 L181.9,5.8 L183.2,4.1 L184.8,4.1 L186.1,4.1 L187.3,4.4 L189.2,4.4 L190.4,4.4 L190.7,4.3 L192.0,4.3 L193.3,4.3 L194.0,4.3 L195.3,4.5 L196.8,4.5 L197.5,4.5 L198.7,4.4 L200.0,4.4" fill="none" stroke="#1565c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+        </div>
+        <a class="link" href="https://www.amazon.co.jp/dp/B0GRTQMGR8" target="_blank">Amazonで見る →</a>
+      </div>
+      <div class="product-card">
+        <div class="rank">#5 BSR</div>
+        <div class="img-wrap"><img src="https://images-fe.ssl-images-amazon.com/images/I/61cukenrhML._AC_UL300_SR300,200_.jpg" alt=""></div>
+        <div class="info">
+          <div class="title">GMKtec ミニPC M8 AMD Ryzen 5 PRO 6650H 【Ryzen 7 5825Uより速い】DDR5 16GB +512GB M.2 2280（16TB拡張可能）最大4.5GHz Win11 Pro｜USB4.0｜ OCulink｜2.5G LAN｜3画面 8K出力 HDMI 2.0/DP/Type-C 静音設計USB3.2×3 高性能ミニPC ゲーミング 省エネゲーム 作業</div>
+          <span class="brand">GMKtec</span>
+          <div class="meta">
+            <span class="price">600円</span>
+            <span class="star">★ 4.2</span>
+            <span style="color:#6b7280;font-size:11px">レビュー 382</span>
+          </div>
+          <div class="sales">
+            <div class="sales-row"><span>月販</span><strong>100個</strong></div>
+            <div class="sales-row"><span>月商</span><strong>59,999円</strong></div>
+          </div>
+          <div class="asin">ASIN: B0GVK6MWPX / BSR #3,669</div>
+        </div>
+        <div class="charts">
+          <div class="chart-label">価格推移 <strong>600円</strong></div>
+          <svg width="200" height="36" style="display:block">
+    <path d="M0.0,4.0 L49.9,25.2 L55.4,32.0 L127.6,4.0 L132.8,32.0 L189.3,4.0 L200.0,21.9" fill="none" stroke="#ea580c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+          <div class="chart-label" style="margin-top:6px">BSR推移 <strong>#3,669</strong></div>
+          <svg width="200" height="36" style="display:block">
+    <path d="M0.0,31.6 L2.7,31.6 L5.2,32.0 L8.6,13.3 L10.3,13.3 L12.4,13.3 L13.4,17.7 L16.4,17.7 L19.8,10.1 L21.4,10.1 L22.9,7.4 L24.2,7.5 L25.2,7.5 L28.8,21.9 L29.9,20.0 L32.0,7.6 L32.9,7.6 L34.1,7.6 L36.8,7.6 L39.0,6.5 L41.4,6.5 L43.1,6.5 L45.2,6.5 L46.3,5.9 L47.3,5.9 L48.6,5.9 L52.0,5.9 L53.7,5.7 L54.6,5.7 L56.1,5.5 L57.2,5.5 L59.9,5.5 L61.0,5.5 L62.1,5.0 L64.1,5.0 L68.5,5.0 L70.4,5.0 L71.8,5.0 L73.0,5.0 L73.7,5.0 L74.9,5.0 L77.5,5.0 L79.2,5.0 L80.4,5.0 L81.5,5.0 L84.3,5.0 L88.4,4.9 L89.7,4.9 L92.7,4.9 L94.8,4.5 L96.6,4.6 L98.1,4.6 L102.3,4.6 L104.3,4.0 L109.2,4.0 L111.9,4.3 L113.2,4.3 L114.2,4.3 L116.8,4.3 L118.1,4.3 L121.4,4.6 L123.3,4.7 L124.3,4.7 L129.9,4.7 L133.0,4.7 L133.6,4.7 L136.6,5.1 L137.5,5.1 L140.5,5.1 L143.9,5.1 L145.7,5.1 L147.6,5.1 L150.4,5.1 L152.4,5.0 L153.5,5.0 L155.5,5.0 L160.1,5.9 L161.8,5.9 L162.9,5.9 L170.3,5.6 L170.9,5.6 L174.4,5.6 L177.3,5.5 L180.8,5.5 L183.7,5.5 L185.1,5.3 L187.8,5.4 L190.5,5.4 L193.3,5.5 L195.3,5.5 L197.2,5.5 L200.0,5.5" fill="none" stroke="#1565c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+        </div>
+        <a class="link" href="https://www.amazon.co.jp/dp/B0GVK6MWPX" target="_blank">Amazonで見る →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🏢 競合ブランド分布</h2>
+    <p class="note">上位5商品を作ってるブランド。1社が複数枠を取ってる場合は寡占気味。</p>
+    <div class="brand-list">
+<div class="brand-chip">GMKtec <strong>×3</strong></div><div class="brand-chip">ToueDigital <strong>×1</strong></div><div class="brand-chip">HYPERSTRIX <strong>×1</strong></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>📊 レビュー分析サマリ <span class="badge">5/5商品</span></h2>
+    
+    <div class="kpi-bar" style="background:#fafbfc;padding:8px 0;border:1px solid #e5e7eb;border-radius:3px;display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;padding:12px">
+      <div class="kpi"><div class="kpi-label">分析対象レビュー</div><div class="kpi-value">26件</div></div>
+      <div class="kpi"><div class="kpi-label">★1-2 (不満)</div><div class="kpi-value red">7件</div></div>
+      <div class="kpi"><div class="kpi-label">★4-5 (満足)</div><div class="kpi-value green">18件</div></div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px">
+      <div>
+        <h3 style="font-size:13px;color:#dc2626;margin-bottom:8px">⚠️ 不満ポイント (★1-2 レビュー) <span style="font-size:10px;font-weight:500;color:#6b7280">クリックで該当レビュー展開</span></h3>
+        <div style="display:flex;flex-direction:column;gap:6px">
+          <div class="bar-row" data-bar-type="pain" data-bar-cat="品質" style="display:flex;align-items:center;gap:8px;background:#fef2f2;padding:6px 10px;border:1px solid #fecaca;border-radius:3px;cursor:pointer"><span style="font-size:12px;font-weight:700;color:#991b1b;min-width:80px">品質</span><span style="flex:1;height:6px;background:#fecaca;border-radius:2px;overflow:hidden"><span style="display:block;height:100%;background:#dc2626;width:15%"></span></span><span style="font-weight:700;color:#991b1b;font-size:12px">3</span></div><div class="bar-row" data-bar-type="pain" data-bar-cat="互換" style="display:flex;align-items:center;gap:8px;background:#fef2f2;padding:6px 10px;border:1px solid #fecaca;border-radius:3px;cursor:pointer"><span style="font-size:12px;font-weight:700;color:#991b1b;min-width:80px">互換</span><span style="flex:1;height:6px;background:#fecaca;border-radius:2px;overflow:hidden"><span style="display:block;height:100%;background:#dc2626;width:10%"></span></span><span style="font-weight:700;color:#991b1b;font-size:12px">2</span></div><div class="bar-row" data-bar-type="pain" data-bar-cat="使い勝手" style="display:flex;align-items:center;gap:8px;background:#fef2f2;padding:6px 10px;border:1px solid #fecaca;border-radius:3px;cursor:pointer"><span style="font-size:12px;font-weight:700;color:#991b1b;min-width:80px">使い勝手</span><span style="flex:1;height:6px;background:#fecaca;border-radius:2px;overflow:hidden"><span style="display:block;height:100%;background:#dc2626;width:5%"></span></span><span style="font-weight:700;color:#991b1b;font-size:12px">1</span></div><div class="bar-row" data-bar-type="pain" data-bar-cat="梱包" style="display:flex;align-items:center;gap:8px;background:#fef2f2;padding:6px 10px;border:1px solid #fecaca;border-radius:3px;cursor:pointer"><span style="font-size:12px;font-weight:700;color:#991b1b;min-width:80px">梱包</span><span style="flex:1;height:6px;background:#fecaca;border-radius:2px;overflow:hidden"><span style="display:block;height:100%;background:#dc2626;width:5%"></span></span><span style="font-weight:700;color:#991b1b;font-size:12px">1</span></div><div class="bar-row" data-bar-type="pain" data-bar-cat="サポート" style="display:flex;align-items:center;gap:8px;background:#fef2f2;padding:6px 10px;border:1px solid #fecaca;border-radius:3px;cursor:pointer"><span style="font-size:12px;font-weight:700;color:#991b1b;min-width:80px">サポート</span><span style="flex:1;height:6px;background:#fecaca;border-radius:2px;overflow:hidden"><span style="display:block;height:100%;background:#dc2626;width:5%"></span></span><span style="font-weight:700;color:#991b1b;font-size:12px">1</span></div>
+        </div>
+      </div>
+      <div>
+        <h3 style="font-size:13px;color:#15803d;margin-bottom:8px">💚 評価ポイント (★4-5 レビュー) <span style="font-size:10px;font-weight:500;color:#6b7280">クリックで該当レビュー展開</span></h3>
+        <div style="display:flex;flex-direction:column;gap:6px">
+          <div class="bar-row" data-bar-type="praise" data-bar-cat="満足" style="display:flex;align-items:center;gap:8px;background:#f0fdf4;padding:6px 10px;border:1px solid #bbf7d0;border-radius:3px;cursor:pointer"><span style="font-size:12px;font-weight:700;color:#166534;min-width:80px">満足</span><span style="flex:1;height:6px;background:#bbf7d0;border-radius:2px;overflow:hidden"><span style="display:block;height:100%;background:#16a34a;width:50%"></span></span><span style="font-weight:700;color:#166534;font-size:12px">10</span></div><div class="bar-row" data-bar-type="praise" data-bar-cat="使いやすさ" style="display:flex;align-items:center;gap:8px;background:#f0fdf4;padding:6px 10px;border:1px solid #bbf7d0;border-radius:3px;cursor:pointer"><span style="font-size:12px;font-weight:700;color:#166534;min-width:80px">使いやすさ</span><span style="flex:1;height:6px;background:#bbf7d0;border-radius:2px;overflow:hidden"><span style="display:block;height:100%;background:#16a34a;width:35%"></span></span><span style="font-weight:700;color:#166534;font-size:12px">7</span></div><div class="bar-row" data-bar-type="praise" data-bar-cat="価値" style="display:flex;align-items:center;gap:8px;background:#f0fdf4;padding:6px 10px;border:1px solid #bbf7d0;border-radius:3px;cursor:pointer"><span style="font-size:12px;font-weight:700;color:#166534;min-width:80px">価値</span><span style="flex:1;height:6px;background:#bbf7d0;border-radius:2px;overflow:hidden"><span style="display:block;height:100%;background:#16a34a;width:10%"></span></span><span style="font-weight:700;color:#166534;font-size:12px">2</span></div><div class="bar-row" data-bar-type="praise" data-bar-cat="品質" style="display:flex;align-items:center;gap:8px;background:#f0fdf4;padding:6px 10px;border:1px solid #bbf7d0;border-radius:3px;cursor:pointer"><span style="font-size:12px;font-weight:700;color:#166534;min-width:80px">品質</span><span style="flex:1;height:6px;background:#bbf7d0;border-radius:2px;overflow:hidden"><span style="display:block;height:100%;background:#16a34a;width:10%"></span></span><span style="font-weight:700;color:#166534;font-size:12px">2</span></div>
+        </div>
+      </div>
+    </div>
+    <div id="bar-expand" style="margin-top:14px"></div>
+    <p class="note" style="margin-top:10px">不満ポイントが OEM 改善の優先テーマ。バークリックで該当レビュー一覧。</p>
+    
+  </div>
+
+  <div class="section">
+    <h2>🔍 中国仕入れ先サーチ (OEM ソーシング)</h2>
+    <p class="note">類似商品の中国卸売価格を調査。1688 / Alibaba / ラクマートで検索。</p>
+    <div class="source-links">
+      <a class="source-link" href="https://s.1688.com/selloffer/offer_search.htm?keywords=%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97" target="_blank">
+        <div class="src-title">🇨🇳 1688で「デスクトップ」検索 →</div>
+        <div class="src-desc">アリババ系の中国国内卸売サイト</div>
+      </a>
+      <a class="source-link" href="https://www.alibaba.com/trade/search?SearchText=%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97" target="_blank">
+        <div class="src-title">🌐 Alibaba.com 検索 →</div>
+        <div class="src-desc">輸出対応サプライヤー</div>
+      </a>
+      <a class="source-link" href="https://www.rakumart.com/search/?key=%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97" target="_blank">
+        <div class="src-title">🏯 ラクマート検索 →</div>
+        <div class="src-desc">日本向け代行 (周副社長窓口)</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>💰 利益試算 (1位商品ベース)</h2>
+    <p class="note">数字を変えると即座に再計算。Amazon JP 販売手数料は L0「パソコン・周辺機器」のため <strong>8%</strong> で自動初期化。</p>
+    <div class="profit-calc" id="profit-calc">
+      <div class="profit-row"><span class="label">想定売値</span>
+        <span class="value"><input type="number" id="pc-price" value="300" style="width:120px;text-align:right;font-family:monospace;font-size:13px;padding:4px;border:1px solid #86efac;border-radius:3px"> 円</span>
+      </div>
+      <div class="profit-row"><span class="label">想定原価 (中国仕入れ)</span>
+        <span class="value"><input type="number" id="pc-cost" value="90" style="width:120px;text-align:right;font-family:monospace;font-size:13px;padding:4px;border:1px solid #86efac;border-radius:3px"> 円</span>
+      </div>
+      <div class="profit-row"><span class="label">Amazon販売手数料</span>
+        <span class="value"><input type="number" id="pc-feerate" value="8" style="width:60px;text-align:right;font-family:monospace;font-size:13px;padding:4px;border:1px solid #86efac;border-radius:3px"> % = <span id="pc-fee-amount" style="font-family:monospace">-</span></span>
+      </div>
+      <div class="profit-row"><span class="label">FBA手数料 (大きさ/重さ)</span>
+        <span class="value"><input type="number" id="pc-fba" value="500" style="width:120px;text-align:right;font-family:monospace;font-size:13px;padding:4px;border:1px solid #86efac;border-radius:3px"> 円</span>
+      </div>
+      <div class="profit-row"><span class="label">国際送料/箱代</span>
+        <span class="value"><input type="number" id="pc-ship" value="300" style="width:120px;text-align:right;font-family:monospace;font-size:13px;padding:4px;border:1px solid #86efac;border-radius:3px"> 円</span>
+      </div>
+      <div class="profit-row"><span class="label">シール代 / パッケージ</span>
+        <span class="value"><input type="number" id="pc-label" value="50" style="width:120px;text-align:right;font-family:monospace;font-size:13px;padding:4px;border:1px solid #86efac;border-radius:3px"> 円</span>
+      </div>
+      <div class="profit-row"><span class="label">その他コスト (返品/保証等)</span>
+        <span class="value"><input type="number" id="pc-misc" value="100" style="width:120px;text-align:right;font-family:monospace;font-size:13px;padding:4px;border:1px solid #86efac;border-radius:3px"> 円</span>
+      </div>
+      <div class="profit-row"><span class="label">単品利益</span><span class="value" id="pc-unit-profit" style="font-weight:700;font-size:14px">-</span></div>
+      <div class="profit-row"><span class="label">利益率</span><span class="value" id="pc-margin">-</span></div>
+      <div class="profit-row"><span class="label">想定月販</span>
+        <span class="value"><input type="number" id="pc-sold" value="200" style="width:120px;text-align:right;font-family:monospace;font-size:13px;padding:4px;border:1px solid #86efac;border-radius:3px"> 個</span>
+      </div>
+      <div class="profit-row"><span class="label">想定月利</span><span class="value" id="pc-monthly-profit">-</span></div>
+    </div>
+    <div class="profit-note">
+      ※ 月販個数 200個 は1位商品の Keepa monthlySold (実測)<br>
+      ※ Amazon手数料は L0カテゴリ基準の代表値 (公式: <a href="https://sellercentral.amazon.co.jp/help/hub/reference/200336920" target="_blank">手数料表</a>)<br>
+      ※ FBA手数料は商品サイズ/重量で大きく変わる、要個別確認
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>📝 競合レビュー一括分析</h2>
+    <p class="note">上位5商品のレビューを Amazon から自動スクレイプ。不満点・要望キーワードから OEM 改善案が見える。</p>
+    <button id="scrape-reviews-btn" style="background:#1565c0;color:white;border:none;padding:10px 24px;font-size:13px;font-weight:700;border-radius:4px;cursor:pointer">🔍 5商品のレビュー一括分析を開始</button>
+    <div id="scrape-status" style="margin-top:12px;font-size:12px;color:#6b7280"></div>
+    <div id="reviews-results" style="margin-top:16px"></div>
+  </div>
+
+  <div class="footer">
+    深掘りレポート / デスクトップ / Skeleton OEM Lab
+  </div>
+</div>
+
+<script>
+// === 利益試算 リアルタイム計算 ===
+function fy(n) { return Math.round(n).toLocaleString() + '円'; }
+const inputs = ['pc-price','pc-cost','pc-feerate','pc-fba','pc-ship','pc-label','pc-misc','pc-sold'].map(id => document.getElementById(id));
+function recalc() {
+  const [price, cost, feerate, fba, ship, label, misc, sold] = inputs.map(el => +el.value || 0);
+  const fee = price * feerate / 100;
+  document.getElementById('pc-fee-amount').textContent = fy(fee);
+  const unitProfit = price - cost - fee - fba - ship - label - misc;
+  const upEl = document.getElementById('pc-unit-profit');
+  upEl.textContent = fy(unitProfit);
+  upEl.style.color = unitProfit > 0 ? '#16a34a' : '#dc2626';
+  const margin = price > 0 ? (unitProfit / price * 100).toFixed(1) : 0;
+  const mgEl = document.getElementById('pc-margin');
+  mgEl.textContent = margin + '%';
+  mgEl.style.color = margin > 25 ? '#16a34a' : margin > 10 ? '#f59e0b' : '#dc2626';
+  const monthlyProfit = unitProfit * sold;
+  const mpEl = document.getElementById('pc-monthly-profit');
+  mpEl.textContent = fy(monthlyProfit);
+  mpEl.style.color = monthlyProfit > 0 ? '#16a34a' : '#dc2626';
+  mpEl.style.fontSize = '18px';
+  mpEl.style.fontWeight = '700';
+}
+inputs.forEach(el => el.addEventListener('input', recalc));
+recalc();
+
+// === レビュー一括スクレイプ ===
+const SCRAPE_ASINS = ["B0GBV3DD2B","B0GQFN17GR","B0FX1ZT1F3","B0GRTQMGR8","B0GVK6MWPX"];
+const scrapeBtn = document.getElementById('scrape-reviews-btn');
+const scrapeStatus = document.getElementById('scrape-status');
+const reviewsResults = document.getElementById('reviews-results');
+
+async function startScrape() {
+  scrapeBtn.disabled = true;
+  scrapeBtn.style.opacity = 0.5;
+  scrapeStatus.textContent = '⏳ レビュースクレイプ開始中...';
+  try {
+    const r = await fetch('/api/scrape-reviews', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({ asins: SCRAPE_ASINS })
+    });
+    const data = await r.json();
+    if (r.status === 409) {
+      // 別スクレイプ進行中 → そのまま進捗ポーリング
+      scrapeStatus.textContent = '⏳ 別商品のスクレイプ進行中 (完了待ち)...';
+      pollStatus();
+      return;
+    }
+    if (!r.ok) throw new Error(data.error || 'スクレイプ起動失敗');
+    scrapeStatus.textContent = '✅ スクレイプ起動: ' + SCRAPE_ASINS.length + 'ASIN (進捗ポーリング中...)';
+    pollStatus();
+  } catch (e) {
+    scrapeStatus.textContent = '✗ エラー: ' + e.message;
+    scrapeBtn.disabled = false; scrapeBtn.style.opacity = 1;
+  }
+}
+
+let pollWasOther = false;
+async function pollStatus() {
+  try {
+    const r = await fetch('/api/scrape-status');
+    const s = await r.json();
+    const isMyAsin = s.current && SCRAPE_ASINS.includes(s.current);
+    if (!isMyAsin && s.state === 'running') {
+      pollWasOther = true;
+      scrapeStatus.textContent = '⏳ 別商品のスクレイプ中 (' + (s.current || '') + ' ' + (s.done || 0) + '/' + (s.total || '?') + ') → 完了後に自分のを開始';
+    } else if (isMyAsin) {
+      scrapeStatus.textContent = '⏳ ' + s.current + ' ' + (s.done + 1 || 1) + '/' + (s.total || SCRAPE_ASINS.length);
+    }
+    if (s.state === 'done' || s.state === 'idle' || s.state === 'error') {
+      if (pollWasOther) {
+        // 他のが終わったら自分の起動
+        pollWasOther = false;
+        scrapeStatus.textContent = '✅ 別商品完了 → 自分のスクレイプ起動中...';
+        const r2 = await fetch('/api/scrape-reviews', {
+          method: 'POST', headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({ asins: SCRAPE_ASINS })
+        });
+        if (r2.status === 409) { setTimeout(pollStatus, 3000); return; }
+        if (!r2.ok) { const d=await r2.json(); throw new Error(d.error||'起動失敗'); }
+        setTimeout(pollStatus, 3000);
+        return;
+      }
+      scrapeStatus.textContent = '✅ 完了';
+      await loadReviews();
+      scrapeBtn.disabled = false; scrapeBtn.style.opacity = 1;
+      return;
+    }
+    setTimeout(pollStatus, 3000);
+  } catch (e) {
+    scrapeStatus.textContent = '✗ ' + e.message;
+    setTimeout(pollStatus, 5000);
+  }
+}
+
+async function loadReviews() {
+  const html = [];
+  for (const asin of SCRAPE_ASINS) {
+    try {
+      const r = await fetch('/api/reviews/' + asin);
+      if (!r.ok) continue;
+      const data = await r.json();
+      const reviews = data.reviews || [];
+      if (reviews.length === 0) continue;
+      // ★順にソート (低→高) で不満→満足の流れにする
+      const sorted = [...reviews].sort((a, b) => (a.rating || 0) - (b.rating || 0));
+      // ★別カウント
+      const byRating = {};
+      for (const r of sorted) { byRating[r.rating || '?'] = (byRating[r.rating || '?'] || 0) + 1; }
+      const ratingSummary = Object.entries(byRating).sort((a,b)=>a[0]-b[0])
+        .map(([s, n]) => '★' + s + ':' + n).join(' / ');
+      html.push('<div style="margin-top:14px;padding:10px;background:#fafbfc;border:1px solid #e5e7eb;border-radius:3px">' +
+        '<div style="font-weight:700;font-size:13px;margin-bottom:6px;display:flex;justify-content:space-between;align-items:center">' +
+          '<span>📦 ' + asin + ' <span style="color:#6b7280;font-weight:500">レビュー全' + reviews.length + '件</span></span>' +
+          '<span style="font-size:10px;color:#6b7280;font-weight:500">' + ratingSummary + '</span>' +
+        '</div>' +
+        '<div style="max-height:500px;overflow-y:auto">' +
+        sorted.map(rv => {
+          const r = rv.rating || 0;
+          const color = r <= 2 ? '#dc2626' : r === 3 ? '#f59e0b' : '#16a34a';
+          return '<div style="padding:6px 8px;border-bottom:1px dashed #e5e7eb;font-size:11px;border-left:3px solid ' + color + '">' +
+            '<div><strong style="color:' + color + '">★' + r + '</strong> ' + (rv.title || '').replace(/</g, '&lt;') + '</div>' +
+            '<div style="color:#374151;margin-top:2px">' + (rv.body || '').slice(0, 300).replace(/</g, '&lt;') + '</div>' +
+          '</div>';
+        }).join('') +
+        '</div>' +
+        '</div>'
+      );
+    } catch {}
+  }
+  reviewsResults.innerHTML = html.join('') || '<p style="color:#6b7280">レビューデータなし</p>';
+}
+
+scrapeBtn.addEventListener('click', startScrape);
+
+// === バークリックで該当レビュー展開 ===
+const PAIN_CAT_REVIEWS = {"品質":[{"asin":"B0GBV3DD2B","idx":4,"hitWord":"不良","rating":1,"title":"「シャットダウン」した後で正常に起動できない。","body":"★「整備済み品」ってパソコンの場合は要注意な買い物だな。正常動作後に「シャットダウン」したら電源スイッチでＯＮができない。スリープモードになったままのよう。物理的なＳＷの接触不良なのか、ＢＩＯＳで電源スイッチ押す＝スリープモードの設定になってるのかの見極めができない。有線キーボードがないのでＢＩＯＳメニューの確認もできない。ＵＳＢポートを全部外して長時間ＡＣケーブルを外して本体だけの状態( 出荷状"},{"asin":"B0GBV3DD2B","idx":5,"hitWord":"断線","rating":1,"title":"破損品","body":"ケーブル断線していた部品は使い回し？"}],"耐久":[],"サイズ":[],"説明書":[],"におい":[],"音":[],"使い勝手":[{"asin":"B0GBV3DD2B","idx":1,"hitWord":"手間","rating":2,"title":"整備済み？","body":"DVDが読み込みません。ディスクを入れても検出せず、「ディスクを入れてください」となります。他の方のレビューにもありましたがきちんと出荷検査していないようです。メモリ、SSD、インストールソフトなどDVD以外は全く問題ありませんでした。手間を掛けて返品処理をするか迷ってます。"}],"デザイン":[],"価格":[],"梱包":[{"asin":"B0GBV3DD2B","idx":0,"hitWord":"梱包","rating":1,"title":"購入時は、気を付けた方が良さそうです。","body":"購入しましたが、一様、怪しい面がありそうな感じだったので、起動前にPC内部のCPUコアとRAMメモリー及び配線等の確認しました。起動は問題無く動作確認出来ました。ただ、CPUコアとRAMメモリーとSSDストレージが、記載と異なりっている問題ありました。アマゾンのサイト上で→コンソール内で確認上・CPUコアｉ７→コアｉ５・RAMメモリ16GB→RAMメモリ8GB・SSDストレージ256GB→ストレー"}],"サポート":[{"asin":"B0GBV3DD2B","idx":1,"hitWord":"返品","rating":2,"title":"整備済み？","body":"DVDが読み込みません。ディスクを入れても検出せず、「ディスクを入れてください」となります。他の方のレビューにもありましたがきちんと出荷検査していないようです。メモリ、SSD、インストールソフトなどDVD以外は全く問題ありませんでした。手間を掛けて返品処理をするか迷ってます。"}],"互換":[{"asin":"B0GBV3DD2B","idx":3,"hitWord":"使えない","rating":1,"title":"外れを引きました。。","body":"Chorome入れたら　DELL画面が繰り返し出て、全く使えない。鋼管を希望したい。。"},{"asin":"B0GBV3DD2B","idx":6,"hitWord":"間違い","rating":1,"title":"典型的な粗悪品、オススメしません。","body":"Windows11のシステム要件を満たしていない古いPCに、無理やりWindows11をインストールして販売する。そう言った噂を前々から聞いていたのですが、これは間違いなく噂のそれです。安いだけの理由があります、今は整備済み品を買うのは辞めましょう。"}]};
+const PRAISE_CAT_REVIEWS = {"満足":[{"asin":"B0GBV3DD2B","idx":2,"hitWord":"良い","rating":4,"title":"まずまずの商品","body":"2日目に到着。きれいに立ち上がり問題なし。内外とも外観は良好。SSDはdisk infoで電源入れ回数1000回程度、使用時間１万。ただし、健康状態不明。長期に使う予定なら、新品のSSDにクローンしたほうが良いが、BackUpで間に合わせることにした。単ソフト使用で、４－５年もてばよい。"},{"asin":"B0GQFN17GR","idx":1,"hitWord":"良い","rating":4,"title":"詳細なレビューをしてみます","body":"サブPCとして仕事用も兼ねて買いました。本来2万円台だと思いますので現在1万ほど高いのかな？これ以上値段を下げると動かないので仕方なく。用途はブラウザでOfficeなどの作業なのでサクサク余裕です。かなり古いCPUですが4コア8スレッドのため動作が重くなることはありませんね。現代の感覚でストレス無く動作する範囲内のPCです。以下Gemini作成スペック表です。それ以降は使用感レビューしていきます。"},{"asin":"B0GQFN17GR","idx":2,"hitWord":"良い","rating":5,"title":"良い買い物でした。","body":"使い始めてまだまだですが今のところ充分に満足しています。"},{"asin":"B0GRTQMGR8","idx":1,"hitWord":"良い","rating":4,"title":"持ち運びPCとしてはおススメです。","body":"ファーストインプレッションです。一昨年買ったUMPC（HigolePC）より画面が5.5インチで本商品は5.7インチと0.2インチ大きくなっただけですが、なぜでしょうか視認性はHigolePCより良いです。自分老眼判定されてますが、裸眼でもそこそこ見えます。眼精疲労まった無しですが・・・！タッチパネルに関してもHigolePCみたいにもたついた感じがしないです。メモリはどちらも16GBなので、CP"},{"asin":"B0GRTQMGR8","idx":4,"hitWord":"良い","rating":4,"title":"最強のテキスト入力端末にしたい。","body":"キーボード付きの端末が欲しくて悩んだ挙句の選択になります。悩み過ぎた結果、一度在庫が無くなり、もう手に入れられないかと途方に暮れました。それからも諦めずに何度もチェックして、半月程してやっと見つけました。半導体不足の影響(？)で少し値上げになっていました。N305にアップグレードしてないか、の密かな望みは先送りになりましたが。悩んだ候補はUnihertzのTitan2及びElite、そしてRasp"},{"asin":"B0GRTQMGR8","idx":5,"hitWord":"良い","rating":5,"title":"とても便利な商品です！","body":"メディアを読み込めませんでした。\n                \n            \n                \n            \n            \n        \n    \n    \n\n\n\n\n\n\n\n\n  \n  \n    この製品はとても便利で気に入っています。小さいのにパワフルでミニPCの性能に5.7インチモニター付き！のタッチパネルも反応が良くて動作もとてもスム"}],"品質":[{"asin":"B0GRTQMGR8","idx":4,"hitWord":"丈夫","rating":4,"title":"最強のテキスト入力端末にしたい。","body":"キーボード付きの端末が欲しくて悩んだ挙句の選択になります。悩み過ぎた結果、一度在庫が無くなり、もう手に入れられないかと途方に暮れました。それからも諦めずに何度もチェックして、半月程してやっと見つけました。半導体不足の影響(？)で少し値上げになっていました。N305にアップグレードしてないか、の密かな望みは先送りになりましたが。悩んだ候補はUnihertzのTitan2及びElite、そしてRasp"},{"asin":"B0GRTQMGR8","idx":6,"hitWord":"しっかり","rating":5,"title":"小さいのに意外とパワフル","body":"\"5.7インチのタッチ画面は反応もよく、重力センサーで自動回転するので縦置き・横置きどちらでも快適。HDMIで4Kモニターに出力してデスクトップ代わりにも使えました。高負荷時はファンがしっかり回りますが、その分長時間使用しても安定している印象です。\""}],"価値":[{"asin":"B0GBV3DD2B","idx":3,"hitWord":"コスパ","rating":5,"title":"問題無し","body":"使い始めて2週間ですが、今のところ何の問題なくとても快適に使えています。この先、まだ何があるかわかりませんが、このままいけばコスパ最強です。"},{"asin":"B0GQFN17GR","idx":0,"hitWord":"コスパ","rating":5,"title":"非常にコンパクト！","body":"今まで使っていたwin8.1proデスクトップタイプが壊れたので購入！非常にコンパクトで無音に感じるほどに静かで通常使用には問題なくサクサク動き、コスパも良く買ってよかった！"}],"使いやすさ":[{"asin":"B0GBV3DD2B","idx":4,"hitWord":"使いやすい","rating":5,"title":"助かりました","body":"使いやすい"},{"asin":"B0GRTQMGR8","idx":0,"hitWord":"簡単","rating":5,"title":"サブ用で携帯ができる小型PCを探していたところ，見つけました。","body":"サブ機として使用を検討していましたが，動作させてみるとメインでも十分使用が可能でした。デスクトップにはよく使用するソフトのアイコン(ショートカット)を配置しました。画面が小さいですが，タッチパネルはかなり反応が良く，優秀です。エクセル，ワード，パワーポイント，YouTube,メモ帳，Gmail,Google Chrome,Google Phot,カメラなどキーボードが英語配置の使用の為【＠】の入力"},{"asin":"B0GRTQMGR8","idx":3,"hitWord":"スムーズ","rating":5,"title":"現時点でのポケットサイズPCとしては頂点です！","body":"当方、このサイズのPCはぶっちゃけHP100LX時代から触っておりまして、様々なポケットサイズのPCを使ってきた立場からレビューさせていただきます。OmniOne5.7はCPUとしてN150が搭載されており、処理速度はこのサイズのPCとしては必要十分条件を満たしております。キーボードはクセがありますが、所謂「親指2本うち打法」でなんとか対応可能です。また、メモリ、SSDとも交換可能なことから、早速"},{"asin":"B0GRTQMGR8","idx":5,"hitWord":"便利","rating":5,"title":"とても便利な商品です！","body":"メディアを読み込めませんでした。\n                \n            \n                \n            \n            \n        \n    \n    \n\n\n\n\n\n\n\n\n  \n  \n    この製品はとても便利で気に入っています。小さいのにパワフルでミニPCの性能に5.7インチモニター付き！のタッチパネルも反応が良くて動作もとてもスム"}]};
+const barExpand = document.getElementById('bar-expand');
+let openBarKey = null;
+function renderBarExpand(type, cat) {
+  const key = type + ':' + cat;
+  if (openBarKey === key) {
+    openBarKey = null;
+    barExpand.innerHTML = '';
+    document.querySelectorAll('.bar-row').forEach(r => r.style.outline = '');
+    return;
+  }
+  openBarKey = key;
+  const dict = type === 'pain' ? PAIN_CAT_REVIEWS : PRAISE_CAT_REVIEWS;
+  const items = (dict[cat] || []).slice().sort((a, b) => (a.rating || 0) - (b.rating || 0));
+  const headColor = type === 'pain' ? '#dc2626' : '#16a34a';
+  const bg = type === 'pain' ? '#fef2f2' : '#f0fdf4';
+  const html = '<div style="background:' + bg + ';border:2px solid ' + headColor + ';border-radius:4px;padding:10px;margin-top:8px">' +
+    '<div style="font-weight:700;color:' + headColor + ';margin-bottom:8px;font-size:13px">' +
+      (type === 'pain' ? '⚠️ ' : '💚 ') + cat + ' に該当 <span style="color:#6b7280;font-weight:500">' + items.length + '件</span>' +
+      '<button onclick="document.querySelector(\'[data-bar-cat=\\\'' + cat + '\\\']\').click()" style="float:right;background:transparent;border:none;color:#6b7280;cursor:pointer;font-size:14px">✕</button>' +
+    '</div>' +
+    '<div style="max-height:400px;overflow-y:auto">' +
+    items.map(r => {
+      const rt = r.rating || 0;
+      const c = rt <= 2 ? '#dc2626' : rt === 3 ? '#f59e0b' : '#16a34a';
+      const hl = (text) => (text || '').replace(new RegExp(r.hitWord, 'g'), '<mark style="background:#fde047;font-weight:700">' + r.hitWord + '</mark>');
+      return '<div style="padding:6px 8px;margin:4px 0;background:white;border-left:3px solid ' + c + ';border-radius:2px;font-size:11px">' +
+        '<div><strong style="color:' + c + '">★' + rt + '</strong> <span style="color:#6b7280;font-size:10px">' + r.asin + '</span> ' + hl(r.title) + '</div>' +
+        '<div style="color:#374151;margin-top:2px">' + hl(r.body) + '</div>' +
+      '</div>';
+    }).join('') +
+    '</div>' +
+  '</div>';
+  barExpand.innerHTML = html;
+  document.querySelectorAll('.bar-row').forEach(r => r.style.outline = '');
+  const active = document.querySelector('[data-bar-type="' + type + '"][data-bar-cat="' + cat + '"]');
+  if (active) active.style.outline = '2px solid ' + headColor;
+  barExpand.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+document.querySelectorAll('.bar-row').forEach(row => {
+  row.addEventListener('click', () => renderBarExpand(row.dataset.barType, row.dataset.barCat));
+});
+
+// 既存のレビューデータがあれば自動表示
+loadReviews();
+</script>
+</body>
+</html>
