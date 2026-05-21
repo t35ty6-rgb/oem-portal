@@ -4,6 +4,30 @@
 <meta charset="UTF-8">
 <title>OEMリサーチ: 家電＆カメラ サブカテゴリ一覧</title>
 <script>
+// === 公開トンネル経由用 token (Bearer) 自動付与 ===
+// URLに ?token=XXX があれば localStorage 保存。以降のfetchで Authorization ヘッダ自動付与。
+(function setupPortalAuth() {
+  try {
+    var u = new URL(location.href);
+    var qt = u.searchParams.get('token');
+    if (qt) {
+      localStorage.setItem('oem-portal-token', qt);
+      u.searchParams.delete('token');
+      history.replaceState(null, '', u.pathname + (u.search || '') + u.hash);
+    }
+    var tk = localStorage.getItem('oem-portal-token');
+    if (tk) {
+      var origFetch = window.fetch;
+      window.fetch = function(input, init) {
+        init = init || {};
+        var headers = new Headers(init.headers || (input && input.headers) || {});
+        if (!headers.has('Authorization')) headers.set('Authorization', 'Bearer ' + tk);
+        init.headers = headers;
+        return origFetch.call(this, input, init);
+      };
+    }
+  } catch (e) { console.warn('portal auth setup failed', e); }
+})();
 // markToggle: HTML head 内に inline 定義 (本体JSが壊れててもマーク操作は動く保険)
 window.markToggle = function(catId, key, btn) {
   try {
@@ -585,7 +609,7 @@ table.rows tbody tr.has-reviews td:first-child {
     <div class="label"><a href="index-l1.html" style="color:#ffe4cc;text-decoration:none">🏠 トップ</a> / STAGE 1 サブカテゴリ一覧</div>
     <h1>家電＆カメラ 配下サブカテゴリ 147件</h1>
     <div class="meta">
-      <span>生成日: 2026/5/22 7:51:17</span>
+      <span>生成日: 2026/5/22 8:15:36</span>
       <span>データソース: Keepa + Amazon JP HTML scrape</span>
     </div>
   </div>
