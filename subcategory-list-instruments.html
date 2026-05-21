@@ -585,7 +585,7 @@ table.rows tbody tr.has-reviews td:first-child {
     <div class="label"><a href="index-l1.html" style="color:#ffe4cc;text-decoration:none">🏠 トップ</a> / STAGE 1 サブカテゴリ一覧</div>
     <h1>楽器・音響機器 配下サブカテゴリ 194件</h1>
     <div class="meta">
-      <span>生成日: 2026/5/22 7:46:20</span>
+      <span>生成日: 2026/5/22 7:51:18</span>
       <span>データソース: Keepa + Amazon JP HTML scrape</span>
     </div>
   </div>
@@ -6670,23 +6670,8 @@ function buildDetailRow(products, colspan, label) {
   return '<tr class="detail-row"><td colspan="' + colspan + '"><div style="padding:6px 10px;background:#fff7ed;font-weight:700;color:#ea580c;border-bottom:1px solid #fed7aa">📦 ' + escHtml(label) + ' BSR 上位' + products.length + '商品</div><div class="product-grid">' + cards + '</div></td></tr>';
 }
 
-document.querySelectorAll('tr.has-products').forEach((tr) => {
-  tr.addEventListener('click', () => {
-    const next = tr.nextElementSibling;
-    if (next && next.classList.contains('detail-row')) {
-      next.remove();
-      tr.classList.remove('expanded');
-      return;
-    }
-    // 他の展開を閉じる
-    document.querySelectorAll('tr.detail-row').forEach((dr) => dr.remove());
-    document.querySelectorAll('tr.expanded').forEach((er) => er.classList.remove('expanded'));
-    const products = JSON.parse(tr.dataset.products);
-    const cols = tr.children.length;
-    tr.classList.add('expanded');
-    tr.insertAdjacentHTML('afterend', buildDetailRow(products, cols, tr.dataset.label));
-  });
-});
+// NOTE: 行クリック展開は head script の window.toggleRowDetail (inline onclick) で処理する。
+// ここで addEventListener を追加すると同一クリックで2回発火し、開→閉でキャンセルされる。
 </script>
 </body>
 </html>
