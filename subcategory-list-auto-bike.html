@@ -136,8 +136,7 @@ window.refreshAutoResearchUI = async function() {
     }
     var info = document.getElementById('auto-research-status');
     if (info && r && r.lastLog) {
-      info.textContent = String(r.lastLog).split('
-').slice(-2).join(' / ').slice(0, 200);
+      info.textContent = String(r.lastLog).split(String.fromCharCode(10)).slice(-2).join(' / ').slice(0, 200);
     }
   } catch (e) {}
 };
@@ -586,7 +585,7 @@ table.rows tbody tr.has-reviews td:first-child {
     <div class="label"><a href="index-l1.html" style="color:#ffe4cc;text-decoration:none">🏠 トップ</a> / STAGE 1 サブカテゴリ一覧</div>
     <h1>車＆バイク 配下サブカテゴリ 491件</h1>
     <div class="meta">
-      <span>生成日: 2026/5/22 7:28:15</span>
+      <span>生成日: 2026/5/22 7:40:25</span>
       <span>データソース: Keepa + Amazon JP HTML scrape</span>
     </div>
   </div>
