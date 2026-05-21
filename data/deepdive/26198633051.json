@@ -1,0 +1,236 @@
+{
+  "categoryId": "26198633051",
+  "categoryName": "ビーチ用品",
+  "l1Path": "スポーツ＆アウトドア / アウトドア / ビーチ用品",
+  "score": 76,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 16502100,
+  "reviewMedian": 78,
+  "topShare": 0.5568988189381957,
+  "ratingMean": 4.06,
+  "avgPrice": 6688,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0DKMZCDPG",
+      "title": "Coleman(コールマン)スクリーンシェード ＤＲ DARKROOM テント キャンプ ピクニック シルバー サンシェード ビーチテント 紫外線対策 通気性 簡単設営 持ち運び便利 運動会 プール",
+      "brand": "Coleman(コールマン)",
+      "price": 9190,
+      "rating": 4.4,
+      "reviewCount": 1287,
+      "monthlySold": 1000,
+      "monthlyRevenue": 9190000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DKMZCDPG.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0GV3SN2KB",
+      "title": "オルタ(oruTa) ラップタオル 大人用 着丈85cm 3WAY キッズ 男の子 女の子 ビーチタオル ボタン調整可 シンプル 吸水速乾 プール 水泳 巻き巻きタオル お着替えタオル 綿100％ ディープネイビー",
+      "brand": "タオルモール オルタ",
+      "price": 2250,
+      "rating": 4.1,
+      "reviewCount": 480,
+      "monthlySold": 50,
+      "monthlyRevenue": 112500,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GV3SN2KB.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0DKN8FNCT",
+      "title": "Coleman(コールマン)インスタントバイザーシェードIII/L DR タープ 日よけ レジャー ダークルーム 遮光 遮熱 ワンタッチテント 紫外線カット 頑丈 簡単設営 熱中症対策 キャンプ アウトドア BBQ ベランダ 防水 持ち運び",
+      "brand": "Coleman(コールマン)",
+      "price": 13998,
+      "rating": 4.2,
+      "reviewCount": 78,
+      "monthlySold": 200,
+      "monthlyRevenue": 2799600,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DKN8FNCT.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0G11LJ89Q",
+      "title": "Coleman(コールマン) モバイルシェード55 DR ライト(アイスグレー)",
+      "brand": "Coleman(コールマン)",
+      "price": 4000,
+      "rating": 4.4,
+      "reviewCount": 11,
+      "monthlySold": 300,
+      "monthlyRevenue": 1200000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0G11LJ89Q.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0G119X8DL",
+      "title": "Coleman(コールマン) モバイルシェード55 DR オート(アイスグレー)",
+      "brand": "Coleman(コールマン)",
+      "price": 4000,
+      "rating": 3.2,
+      "reviewCount": 8,
+      "monthlySold": 800,
+      "monthlyRevenue": 3200000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0G119X8DL.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 79,
+    "lowStarCount": 30,
+    "highStarCount": 37,
+    "topPainPoints": [
+      {
+        "category": "品質",
+        "count": 18
+      },
+      {
+        "category": "サポート",
+        "count": 6
+      },
+      {
+        "category": "耐久",
+        "count": 4
+      },
+      {
+        "category": "におい",
+        "count": 4
+      },
+      {
+        "category": "使い勝手",
+        "count": 4
+      },
+      {
+        "category": "梱包",
+        "count": 3
+      },
+      {
+        "category": "デザイン",
+        "count": 2
+      },
+      {
+        "category": "価格",
+        "count": 2
+      },
+      {
+        "category": "サイズ",
+        "count": 2
+      },
+      {
+        "category": "互換",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 21
+      },
+      {
+        "category": "品質",
+        "count": 16
+      },
+      {
+        "category": "使いやすさ",
+        "count": 16
+      },
+      {
+        "category": "価値",
+        "count": 1
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0DKMZCDPG",
+          "rating": 1,
+          "title": "不良品",
+          "body": "返品品？なのかわかりませんが開封時にポールに土が付いており一番傷のようなものが入ってました。組み立ててみると案の定ポールが折れて使うことができませんでした。"
+        },
+        {
+          "asin": "B0DKMZCDPG",
+          "rating": 1,
+          "title": "不良品？だった…",
+          "body": "梱包あけたらロゴが剥げていた…返金は出来るみたいだったが、このテントが欲しかったので泣く泣く使うことにしました。"
+        },
+        {
+          "asin": "B0DKMZCDPG",
+          "rating": 1,
+          "title": "新品でない",
+          "body": "不良品です。返品された物をそのまま新品として送ってるのでしょうか。商品を選べない通販のデメリットそのものです。"
+        },
+        {
+          "asin": "B0DKMZCDPG",
+          "rating": 1,
+          "title": "不良品",
+          "body": "不良品でした。スリーブが破けていて自立しませんでした。"
+        },
+        {
+          "asin": "B0DKMZCDPG",
+          "rating": 1,
+          "title": "チャック部分が1回目から破損",
+          "body": "メッシュの部分を開けると引っかかる。開けたら穴が空いてるのを確認。一回でこれはひどい"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B0DKMZCDPG",
+          "rating": 1,
+          "title": "使用4回でショックコードが切れた",
+          "body": "用途は公園用です。（キャンプ初心者）4月に購入し、月1の頻度でとても快適に使用していたが8月頭に使おうと持ち出したところ、ショックコードが切れていた。耐久性に疑問がある。それ以外は快適なので残念。【追記】近所のキャンプ用品店に電話してテント持参してショックコードを購入の上、取替え方を教えてもらいました。感謝。"
+        },
+        {
+          "asin": "B0DKMZCDPG",
+          "rating": 2,
+          "title": "Not good",
+          "body": "このテントは購入から1年も経たないうちに壊れてしまい、とても残念でした。設営中にフレームが折れてしまい、耐久性に問題を感じます。使用頻度は少なく、大切に保管していたにもかかわらず、思ったより早く劣化が進んでしまいました。コスパも悪く、今後は信頼できるブランドの製品を検討したいと思います"
+        },
+        {
+          "asin": "B0DKN8FNCT",
+          "rating": 2,
+          "title": "耐久性なし、パーツのみ売る気なし",
+          "body": "昨シーズンと今シーズンの夏に庭で利用。本日片付けてたら、シェード部分が直線にビリビリ破けました。2シーズンは短すぎないか？そしてシェード部分のみ購入しようと探してみたら、公式HPにありました。全セットより高く売ってます。え？誰が買うの？なんかコールマンの信用下がったなー。"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B0DKN8FNCT",
+          "rating": 1,
+          "title": "違うものが届いた",
+          "body": "Lを購入したのに、届いた商品を組み立ててみるとテントのサイズが明らかに骨組みと合っていない。確認したら、骨組みM、テントLが入っていた。メーカーに直接問い合わせして対応してもらったがきちんとした説明もない。もうコールマンの商品は買わない"
+        },
+        {
+          "asin": "B0DKN8FNCT",
+          "rating": 2,
+          "title": "骨組は薄い",
+          "body": "サイズがいいんだけど、骨組は薄いですね。また締める方法は説明不足で、初使用のときに大変でした。"
+        }
+      ],
+      "説明書": [],
+      "におい": [
+        {
+          "asin": "B0DKMZCDPG",
+          "rating": 1,
+          "title": "新品のつもりで買ったのに中古だった",
+          "body": "【気にいらなかった事】新品のつもりで購入したのに、バリバリの中古でした。使い古しの軸が入っており驚きました。テントは綺麗でしたが（小さな穴は数箇所あり）、黄色くて汚れた、多分数年前の？軸組の棒が残念すぎます。あと、部分的に魚臭い？前の人が釣りで使っていたのかなぁと言う感じです。。。日本のアウトドアショップで買うべきでした。失敗しました。【気に入った事】スノーピーク、DODと比べてもしっかりした生地"
+        },
+        {
+          "asin": "B0G119X8DL",
+          "rating": 1,
+          "title": "臭い",
+          "body": "家族（男）へのプレゼントに購入。未だ使っていませんが、開封した瞬間から気分が悪くなる強い臭い。PUコーティングの化学臭です。1日外に干して風を通し何とか治まっていますが、傘を畳んでしまっておいたらまた臭ってくるかも。今時PUコーティングは衣料にも多く使われていて今までも多くの物に触れて来ましたが臭いはしません。何故こんなに酷い？それ以外は少し重いけれど色も良いし大きさも良いし、コールマンは好きなの"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "Coleman(コールマン)": 4,
+    "タオルモール オルタ": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/26198633051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:25.180Z"
+}

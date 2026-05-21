@@ -1,0 +1,224 @@
+{
+  "categoryId": "13944851",
+  "categoryName": "浄水器・整水器",
+  "l1Path": "ホーム＆キッチン / キッチン用品 / 浄水器・整水器",
+  "score": 49,
+  "recommendation": "⚪ 様子見",
+  "marketTag": "🟠 2社支配",
+  "totalRevenue": 127330000,
+  "reviewMedian": 1353,
+  "topShare": 0.4625775543862405,
+  "ratingMean": 4.38,
+  "avgPrice": 4594,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0CPL68SZN",
+      "title": "ブリタ カートリッジ 浄水器 ポット型 交換用 6個入 PFOS/PFOA除去試験済 マクストラプロ カートリッジ ピュアパフォーマンス ポリプロピレン ポリエチレンテレフタレート 【日本正規品】ホワイト",
+      "brand": "ブリタ(Brita)",
+      "price": 5890,
+      "rating": 4.4,
+      "reviewCount": 4654,
+      "monthlySold": 20000,
+      "monthlyRevenue": 117800000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CPL68SZN.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0CP95BCYZ",
+      "title": "ブリタ 浄水器 ポット型 PFOS/PFOA除去試験済 ろ過水容量:1.15L(全容量:2.2L)【日本正規品】リクエリ マクストラプロ ピュアパフォーマンス カートリッジ 1個付",
+      "brand": "ブリタ(Brita)",
+      "price": 3180,
+      "rating": 4.4,
+      "reviewCount": 1354,
+      "monthlySold": 3000,
+      "monthlyRevenue": 9540000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CP95BCYZ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0CT56JPB2",
+      "title": "パナソニック(Panasonic) 浄水器 TK-CJ14-W",
+      "brand": "パナソニック(Panasonic)",
+      "price": 5864,
+      "rating": 4.3,
+      "reviewCount": 1695,
+      "monthlySold": 5000,
+      "monthlyRevenue": 29320000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CT56JPB2.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0CT4HZ6W8",
+      "title": "パナソニック(Panasonic) 交換用カートリッジ TK-CJ24C1",
+      "brand": "パナソニック(Panasonic)",
+      "price": 4498,
+      "rating": 4.5,
+      "reviewCount": 920,
+      "monthlySold": 5000,
+      "monthlyRevenue": 22490000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CT4HZ6W8.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0CT55D6R4",
+      "title": "ブリタ カートリッジ 浄水器 ボトル型 カラフェ型 交換用 6個入 PFOS/PFOA除去試験済 マイクロディスク【日本正規品】",
+      "brand": "ブリタ(Brita)",
+      "price": 3540,
+      "rating": 4.3,
+      "reviewCount": 847,
+      "monthlySold": 2000,
+      "monthlyRevenue": 7080000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CT55D6R4.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 51,
+    "lowStarCount": 20,
+    "highStarCount": 21,
+    "topPainPoints": [
+      {
+        "category": "サポート",
+        "count": 9
+      },
+      {
+        "category": "品質",
+        "count": 6
+      },
+      {
+        "category": "耐久",
+        "count": 4
+      },
+      {
+        "category": "説明書",
+        "count": 4
+      },
+      {
+        "category": "サイズ",
+        "count": 2
+      },
+      {
+        "category": "使い勝手",
+        "count": 2
+      },
+      {
+        "category": "互換",
+        "count": 2
+      },
+      {
+        "category": "デザイン",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 10
+      },
+      {
+        "category": "品質",
+        "count": 4
+      },
+      {
+        "category": "使いやすさ",
+        "count": 4
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0CP95BCYZ",
+          "rating": 2,
+          "title": "良品でした。",
+          "body": "初代が割れたので購入。相変わらず作りはチープですがお水はおいしいです。"
+        },
+        {
+          "asin": "B0CP95BCYZ",
+          "rating": 1,
+          "title": "不良品？",
+          "body": "昔から同モデルを何度か購入しているのですが、今回外側のポットのサイズと中のカートリッジ取り付け用の水受け部のサイズが合わず、ユルすぎて水を注ぐと外れます。外れるだけならまだしも、注ぎ口でないところからも水が漏れ出るので、水を注ぐ時に周りがびしょびしょになります。"
+        },
+        {
+          "asin": "B0CP95BCYZ",
+          "rating": 1,
+          "title": "不良品。買うと赤字。",
+          "body": "何度蓋を閉め直しても注ぎ口から水が漏れる。交換対応欄がなく返金対応しかない。返品送料もAmazonが500円しか負担してくれない。★一つすらつけたくない。"
+        },
+        {
+          "asin": "B0CP95BCYZ",
+          "rating": 2,
+          "title": "蓋のデジタル表示が壊れます",
+          "body": "使って半年経過したので感想を書きます。美味しいお水は飲めます。しかしながら、このポットの蓋にあるデジタル表示される水量メモリについてですが…当然、清潔を保つために水洗いします。デジタル表示が壊れます。毎日布拭きするか、洗わずに使用するか。私は洗って生活を保ちたいので、このデジタル表示を改良して欲しいですが、海外のものなので無理でしょう。"
+        },
+        {
+          "asin": "B0CP95BCYZ",
+          "rating": 2,
+          "title": "電池すぐなくなった",
+          "body": "浄水はいいけど買って二ヶ月くらいで蓋の表示が消えた。調べたら電池の持ちは5年とか書いてあったけど…"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B0CP95BCYZ",
+          "rating": 1,
+          "title": "以前のものは長く使用していたが",
+          "body": "2025年4月に購入して半年ほどで交換目安表示の液晶がつかなくなった。"
+        },
+        {
+          "asin": "B0CP95BCYZ",
+          "rating": 2,
+          "title": "蓋のデジタル表示が壊れます",
+          "body": "使って半年経過したので感想を書きます。美味しいお水は飲めます。しかしながら、このポットの蓋にあるデジタル表示される水量メモリについてですが…当然、清潔を保つために水洗いします。デジタル表示が壊れます。毎日布拭きするか、洗わずに使用するか。私は洗って生活を保ちたいので、このデジタル表示を改良して欲しいですが、海外のものなので無理でしょう。"
+        },
+        {
+          "asin": "B0CP95BCYZ",
+          "rating": 2,
+          "title": "カスタマーに問い合わせしにくい",
+          "body": "昨年12月に購入しましたが、一年経たずに液晶メモが表示されなくなりました。使用頻度は1日3回から4回でした。Amazonストアから問合せをしようかと探しましたが、見つからず、、浄水器としては便利なので、ブリタ公式サイトから液晶メモのみ購入しようか検討中。Amazonストアでも購入出来るようにして欲しいです。"
+        },
+        {
+          "asin": "B0CP95BCYZ",
+          "rating": 2,
+          "title": "浄水は満足、けどメモリ表示に不備あり",
+          "body": "購入後半年ほどで、蓋についているカートリッジ交換を知らせてくれるメモリ表示が一切表示されなくなってしまいました。それ以外の浄水は満足していたのですがメモリ表示が使えなくなってしまって不便だなと感じたため星減らしました。"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B0CP95BCYZ",
+          "rating": 1,
+          "title": "不良品？",
+          "body": "昔から同モデルを何度か購入しているのですが、今回外側のポットのサイズと中のカートリッジ取り付け用の水受け部のサイズが合わず、ユルすぎて水を注ぐと外れます。外れるだけならまだしも、注ぎ口でないところからも水が漏れ出るので、水を注ぐ時に周りがびしょびしょになります。"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0CP95BCYZ",
+          "rating": 2,
+          "title": "説明書が違う",
+          "body": "説明書と商品の形が違うのとフィルター交換時のライトがつくとかいていましたが、つきません。ですが、100パーセントの表示がありそれで判断出来そうなので説明書が前のものなのかな？と思いました。少し混乱して上手くろ過されてるか心配になりました。あと、何回か使ったら胃が痛くなりました。。私だかなのかな、、、"
+        },
+        {
+          "asin": "B0CP95BCYZ",
+          "rating": 2,
+          "title": "何品目除去なのかな？",
+          "body": "何度かブリタにしてはやっぱ美味しく感じなくて他に変えるの繰り返し今回のも何品目除去とか明確な数字がわからないから1カ月使ってあまり美味しくないからペットボトルを近所で買う生活になった毎日飲むから安心なのが良いからきちんと項目を明記して欲しいかな？と思う"
+        }
+      ],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "ブリタ(Brita)": 3,
+    "パナソニック(Panasonic)": 2
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/13944851/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:16.180Z"
+}

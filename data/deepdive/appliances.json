@@ -1,0 +1,282 @@
+{
+  "categoryId": "appliances",
+  "categoryName": "大型家電",
+  "l1Path": "大型家電",
+  "score": 76,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 17853600,
+  "reviewMedian": 1295,
+  "topShare": 0.19962360532329615,
+  "ratingMean": 4.12,
+  "avgPrice": 3783,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0B1HKVX1X",
+      "title": "アイメディア(Aimedia) ドラム式洗濯機用 ゴミ取りフィルター 糸くずフィルター 20枚入 ネット型 ネットタイプ 抗菌 防臭 洗濯フィルター ホコリ取り",
+      "brand": "アイメディア(Aimedia)",
+      "price": 594,
+      "rating": 3.9,
+      "reviewCount": 2210,
+      "monthlySold": 6000,
+      "monthlyRevenue": 3564000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B1HKVX1X.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0FMK4DTY1",
+      "title": "COMFEE' 45L インバーター 幅47.2cm コンパクト 静音25dB 省エネ 7段階温度調節 小型 一人暮らし キッチン/寝室/書斎/オフィス用 ミニ冷蔵庫 グレー RCD45LS1JP(E)",
+      "brand": "コンフィー(COMFEE')",
+      "price": 9999,
+      "rating": 4,
+      "reviewCount": 24,
+      "monthlySold": 500,
+      "monthlyRevenue": 4999500,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FMK4DTY1.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0CTJLRR39",
+      "title": "ISKALT 洗濯機用防振かさ上げ台 高さ調節 洗濯機・乾燥機・冷蔵庫用置き台 取り外し可能 家具に傷防止 滑り止め 床に傷防止 耐荷重約2000kg 異音吸収 振動吸収 テーブルの角を守る 自由につなぎ合わせる 1セット4個入り 据付脚IST001 2-WH",
+      "brand": "ISKALT",
+      "price": 1970,
+      "rating": 4.2,
+      "reviewCount": 1807,
+      "monthlySold": 2000,
+      "monthlyRevenue": 3940000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CTJLRR39.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0DB1SWN9D",
+      "title": "Noend オーガニックファインバブル洗濯機アダプター ナノバブル発生器 【汚れ除去｜ニオイ除去｜洗濯槽洗浄】【部屋干し臭｜生乾き臭】【国内ブランド｜特許取得｜日本初】【タテ型洗濯機/ドラム式洗濯機対応｜工具不要】【グッドデザイン賞2024年度受賞｜金属製】 (アダプター単品/ホワイト)",
+      "brand": "Noend",
+      "price": 5600,
+      "rating": 4.2,
+      "reviewCount": 1295,
+      "monthlySold": 1000,
+      "monthlyRevenue": 5600000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DB1SWN9D.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0DQG7V1LV",
+      "title": "【2個セット】シャープ洗濯機対応 糸くずフィルター ES-LP1 ES-LP2 対応用クズ取りネット 糸くずフィルター 洗濯機 ゴミ取りネット ホコリ取り 交換用",
+      "brand": "HELVAK",
+      "price": 750,
+      "rating": 4.3,
+      "reviewCount": 247,
+      "monthlySold": 1000,
+      "monthlyRevenue": 750000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DQG7V1LV.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 209,
+    "lowStarCount": 74,
+    "highStarCount": 96,
+    "topPainPoints": [
+      {
+        "category": "品質",
+        "count": 15
+      },
+      {
+        "category": "音",
+        "count": 15
+      },
+      {
+        "category": "梱包",
+        "count": 14
+      },
+      {
+        "category": "サポート",
+        "count": 12
+      },
+      {
+        "category": "デザイン",
+        "count": 8
+      },
+      {
+        "category": "におい",
+        "count": 6
+      },
+      {
+        "category": "説明書",
+        "count": 5
+      },
+      {
+        "category": "サイズ",
+        "count": 4
+      },
+      {
+        "category": "使い勝手",
+        "count": 4
+      },
+      {
+        "category": "互換",
+        "count": 3
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 37
+      },
+      {
+        "category": "使いやすさ",
+        "count": 27
+      },
+      {
+        "category": "品質",
+        "count": 16
+      },
+      {
+        "category": "価値",
+        "count": 13
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0B1HKVX1X",
+          "rating": 1,
+          "title": "最悪",
+          "body": "他の方も書いてますが、洗濯機壊れたかと思いました。脱水できず、ドラム自体回らず、色々探っていたらコレでした。水漏れもして最悪でした。ちなみにシャープドラム式。つけて二回目になりました。二度と使いません。"
+        },
+        {
+          "asin": "B0B1HKVX1X",
+          "rating": 2,
+          "title": "買ってみたはいいものの、、",
+          "body": "すぐにズレる"
+        },
+        {
+          "asin": "B0B1HKVX1X",
+          "rating": 2,
+          "title": "掃除の手間を楽にと",
+          "body": "セットの仕方で、故障に繋がらないかと、使用を辞めました"
+        },
+        {
+          "asin": "B0FMK4DTY1",
+          "rating": 1,
+          "title": "おすすめしない",
+          "body": "冷蔵庫の後ろ半分が丸裸で、機械が丸見え。アースは別売りで買わなければいけない。電源を入れてもすぐには冷えない。中は全部は物が入らず、ペットボトルの飲み物を少し入れる程度。"
+        },
+        {
+          "asin": "B0CTJLRR39",
+          "rating": 2,
+          "title": "使用中に外れることがありました。",
+          "body": "使用して二ヶ月程度。ある朝突然外れて洗濯機が倒れかけました。追記上記レビュー直後連絡あり返金されました。ドラム式、本製品三段重ねて使用。脱水途中でものすごい音がしたため確認すると洗濯機の脚が防水パンの外側に出て来ていました。以前別の嵩上げ製品を使ったときには揺れが大きくなり不安でしたが倒れることなく洗濯機が故障するまで使用しました。故障を確認に来たサービスマンより嵩上げの製品が故障を引き起こした可"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B0CTJLRR39",
+          "rating": 1,
+          "title": "床との相性があるかも",
+          "body": "新築購入を機に、こちらを購入しました。使って半年程で、洗濯が終わると洗濯機が動いて斜めになっている事が増えました。酷い時は壁にくっついていることも。本体の異常と思い、メーカーさんを呼び、確認してもらうと、洗濯機本体ではなく、こちらのかさ上げ台の下の黒い部分が天然ゴムでは無い為、我が家の脱衣場の床との相性が悪く、動いていたと判明し、外すことになりました……新しいお家だと、床の性能も上がって、サラサラ"
+        },
+        {
+          "asin": "B0DQG7V1LV",
+          "rating": 2,
+          "title": "耐久性がない",
+          "body": "使用2ヶ月程でネットが破れます。"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B0B1HKVX1X",
+          "rating": 2,
+          "title": "うちの洗濯機には合わず",
+          "body": "パナソニックのドラム式洗濯機で使ってみましたが、結果的にフィルターを使わない方が掃除しやすく感じました。ネットタイプなのでホコリは取れますが、洗濯機の設計上か、逆に掃除の手間が増えてしまう印象です。使用する機種によって合う・合わないがありそうです。"
+        },
+        {
+          "asin": "B0DB1SWN9D",
+          "rating": 1,
+          "title": "ネジ山注意",
+          "body": "東芝のタテ洗濯機には合いませんでした径は同じですが、ネジ山が合わないようで締め付けを進めると斜めになります何度か試しましたがダメ挙げ句の果ては、本品が洗濯機側のネジ山を削ったのかノーマルで水漏れするようになりました"
+        },
+        {
+          "asin": "B0DQG7V1LV",
+          "rating": 1,
+          "title": "小さい",
+          "body": "小さくて使用出来ませんでした。"
+        },
+        {
+          "asin": "B0DQG7V1LV",
+          "rating": 2,
+          "title": "5ミリ短い",
+          "body": "天地の長さが5ミリ程短く、洗濯中に外れてしまう。規格サイズが異なる。全く残念である。"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0B1HKVX1X",
+          "rating": 1,
+          "title": "使ってみないとわからないですよね、",
+          "body": "良さそうに思ったのですが、うちの洗濯機には合いませんでした。エラーが出るようになってしまい、これを外したら、エラーにならなくなりました。"
+        },
+        {
+          "asin": "B0B1HKVX1X",
+          "rating": 1,
+          "title": "使い方が悪かったのか・・・",
+          "body": "いきなり水漏れ。使い方が悪かったのか、よくわからない。ただごっそりと毛玉のようにとれていたが・・・二度とつかえん。"
+        },
+        {
+          "asin": "B0DB1SWN9D",
+          "rating": 1,
+          "title": "ネジ山が破損する",
+          "body": "ネジ山が壊れます説明書のとおり、真っ直ぐに取り付けしても、洗濯機の樹脂製のネジ山が削れて、途中で斜めになる。締め付けると、どんどんネジ山は削れてら斜めになる。斜めになると、水が漏れて、使い物にならない。"
+        },
+        {
+          "asin": "B0DB1SWN9D",
+          "rating": 2,
+          "title": "すぐにはわからない",
+          "body": "まだ違いがわからない"
+        }
+      ],
+      "におい": [
+        {
+          "asin": "B0DB1SWN9D",
+          "rating": 1,
+          "title": "衣類の汚れ落ち、タオルのふんわり感は期待外れ",
+          "body": "汚れ落ちについては、アダプターなしとの実感出来るほどの違いはありません。ケチャップとカレーの汚れを汚した後すぐに洗濯しましたが、商品説明にあるような落ち方はしませんでした。その後、酸素系漂白剤で浸け置きしたら落ちたので、アダプターによる効果は限定的かと思われます。タオルがふんわりするというのも特に感じません。コップにアダプターから注いでみましたが、動画ほどには泡で濁った感じにはなりませんでした。蛇"
+        },
+        {
+          "asin": "B0DB1SWN9D",
+          "rating": 1,
+          "title": "洗濯時間が長くなっただけ",
+          "body": "洗濯物や洗濯機に変化が起こると思って、楽しみにしておりましたが、汚れも溜まるし、臭いがなくなるわけもなく、水が溜まるのが遅くなって洗濯時間が長くなっただけでした。残念すぎます。"
+        },
+        {
+          "asin": "B0DB1SWN9D",
+          "rating": 2,
+          "title": "あまり効果を実感できなかった。",
+          "body": "特に変化無し。洗浄力も柔軟剤の匂いも今まで通り。これは自己満の世界なのかもしれない。"
+        },
+        {
+          "asin": "B0DB1SWN9D",
+          "rating": 2,
+          "title": "あまり実感がない",
+          "body": "見た目ではあまり実感ないかな～匂いは軽減したと思うくらい"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "アイメディア(Aimedia)": 1,
+    "コンフィー(COMFEE')": 1,
+    "ISKALT": 1,
+    "Noend": 1,
+    "HELVAK": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/appliances/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:29.093Z"
+}

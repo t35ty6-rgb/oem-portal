@@ -1,0 +1,208 @@
+{
+  "categoryId": "2130091051",
+  "categoryName": "シンセサイザー",
+  "l1Path": "楽器・音響機器 / シンセサイザー・サンプラー / シンセサイザー",
+  "score": 77,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 11109400,
+  "reviewMedian": 754,
+  "topShare": 0.129619961474067,
+  "ratingMean": 4.44,
+  "avgPrice": 10484,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B002IGTOZQ",
+      "title": "キューブ(Cube) オタマトーン ホワイト 0941",
+      "brand": "Maywa Denki",
+      "price": 2400,
+      "rating": 4.2,
+      "reviewCount": 915,
+      "monthlySold": 600,
+      "monthlyRevenue": 1440000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B002IGTOZQ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0C4DSPP2L",
+      "title": "Roland ローランド シンセサイザー S-1 ポータブル ポリシンセ ステップシーケンサー AIRACOMPACT Tweak Synth コンパクトサイズ 作曲/簡単/ライブ/ビートメイク",
+      "brand": "Roland(ローランド)",
+      "price": 27078,
+      "rating": 4.3,
+      "reviewCount": 753,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C4DSPP2L.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B000SKHSRU",
+      "title": "【総代理店】スタイロフォン Stylophone 【日本語説明有り】 シンセサイザー レトロ 電子楽器 アナログシンセサイザー 音楽ガジェット",
+      "brand": "Stylophone",
+      "price": 6680,
+      "rating": 4.6,
+      "reviewCount": 10827,
+      "monthlySold": 50,
+      "monthlyRevenue": 334000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B000SKHSRU.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0DP5KH5SQ",
+      "title": "バナナが楽器に変身！【総代理店】スタイロフォン スタイロセット 【果物、植物、友達も...鍵盤に変身】日本語説明書付き バナナキーボード 2台連携 他機器接続対応 Stylophone Stylosette",
+      "brand": "Stylophone",
+      "price": 7980,
+      "rating": 4.4,
+      "reviewCount": 157,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DP5KH5SQ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0C7WDX6V9",
+      "title": "【総代理店】 スタイロフォン オフィシャルキャリーケース付 【日本語説明有り】 Stylophone S1 シンセサイザー 電子楽器 レトロサウンド アナログシンセサイザー",
+      "brand": "Stylophone",
+      "price": 8280,
+      "rating": 4.7,
+      "reviewCount": 196,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C7WDX6V9.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 210,
+    "lowStarCount": 67,
+    "highStarCount": 103,
+    "topPainPoints": [
+      {
+        "category": "音",
+        "count": 23
+      },
+      {
+        "category": "品質",
+        "count": 12
+      },
+      {
+        "category": "使い勝手",
+        "count": 7
+      },
+      {
+        "category": "サポート",
+        "count": 4
+      },
+      {
+        "category": "互換",
+        "count": 3
+      },
+      {
+        "category": "説明書",
+        "count": 2
+      },
+      {
+        "category": "デザイン",
+        "count": 2
+      },
+      {
+        "category": "梱包",
+        "count": 2
+      },
+      {
+        "category": "サイズ",
+        "count": 1
+      },
+      {
+        "category": "価格",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 28
+      },
+      {
+        "category": "使いやすさ",
+        "count": 13
+      },
+      {
+        "category": "品質",
+        "count": 4
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B002IGTOZQ",
+          "rating": 1,
+          "title": "正解がわからないけど。",
+          "body": "オタマトーン自体はいいけど、すぐおとが変になった。電池の問題ではなさそう。"
+        },
+        {
+          "asin": "B002IGTOZQ",
+          "rating": 1,
+          "title": "最悪",
+          "body": "届いてすぐ鳴らしてみたが感度が悪すぎてほぼ鳴らない。鳴っても音が途切れて全く使えない。交換希望だっだが同じ商品とは交換できないようで、返信に。手間がかかりすぎる。"
+        },
+        {
+          "asin": "B002IGTOZQ",
+          "rating": 1,
+          "title": "不良品でした",
+          "body": "子供が欲しいと言って喜んで開けたんですが、音量1番大きいとこにスイッチ入れたら何も音がしません。初期不良だろうけど子供が開けたから外箱も捨てました。返品交換したいのですが本体だけでもできますか？問い合わせ先が無くてこちらに書きます。"
+        },
+        {
+          "asin": "B002IGTOZQ",
+          "rating": 1,
+          "title": "壊れてました。",
+          "body": "面倒で返品してませんがウントモスントモ反応なし"
+        },
+        {
+          "asin": "B002IGTOZQ",
+          "rating": 2,
+          "title": "3週間で故障。",
+          "body": "3週間で音が出なくなりました。途切れ途切れな音の出方だったので、どこかで接触不良の箇所があるのでは?と思います。製品としては素晴らしいですが、曲のメロディーに音を合わせて鳴らせるくらいになっていたので残念です。"
+        }
+      ],
+      "耐久": [],
+      "サイズ": [
+        {
+          "asin": "B002IGTOZQ",
+          "rating": 1,
+          "title": "不良品でした",
+          "body": "子供が欲しいと言って喜んで開けたんですが、音量1番大きいとこにスイッチ入れたら何も音がしません。初期不良だろうけど子供が開けたから外箱も捨てました。返品交換したいのですが本体だけでもできますか？問い合わせ先が無くてこちらに書きます。"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B002IGTOZQ",
+          "rating": 1,
+          "title": "正解がわからないけど。",
+          "body": "オタマトーン自体はいいけど、すぐおとが変になった。電池の問題ではなさそう。"
+        },
+        {
+          "asin": "B002IGTOZQ",
+          "rating": 2,
+          "title": "小学生低学年が遊ぶにはむずかったです",
+          "body": "プレゼントにしてみましたが、小学生低学年が遊ぶにはむずかしく、遊び方や音程の出し方がわからないため、早々に諦めて飾りと化してしまいました。もっと成長して、そしてプレゼントする方も何か演奏できた方が盛り上がります。"
+        }
+      ],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "Maywa Denki": 1,
+    "Roland(ローランド)": 1,
+    "Stylophone": 3
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/2130091051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:21.077Z"
+}

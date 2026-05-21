@@ -1,0 +1,150 @@
+{
+  "categoryId": "16299361",
+  "categoryName": "洗濯乾燥機",
+  "l1Path": "大型家電 / 洗濯機・乾燥機 / 洗濯乾燥機",
+  "score": 68,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 154269750,
+  "reviewMedian": 48,
+  "topShare": 0.12115920327867258,
+  "ratingMean": 3.98,
+  "avgPrice": 144177,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0DJTYNGT6",
+      "title": "シャープ ドラム式 洗濯乾燥機 洗濯12kg 乾燥6kg ハイブリッド(ヒートポンプ+サポートヒーター) 無排気乾燥方式 乾燥頻度高い方 4つの自動掃除 洗剤自動投入 節水 省エネ 幅59.6cm ES-X12C-TL 左開き リッチブラウン",
+      "brand": "シャープ(SHARP)",
+      "price": 186912,
+      "rating": 4.3,
+      "reviewCount": 225,
+      "monthlySold": 100,
+      "monthlyRevenue": 18691200,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DJTYNGT6.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0CKWWH948",
+      "title": "【Amazon.co.jp限定】 アイリスオーヤマ ドラム式洗濯機 洗濯8kg 乾燥5kg ブラック DKC85A1-B 左開き インバーター 新生活 一人暮らし",
+      "brand": "アイリスオーヤマ(IRIS OHYAMA)",
+      "price": 89800,
+      "rating": 3.4,
+      "reviewCount": 208,
+      "monthlySold": 100,
+      "monthlyRevenue": 8980000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CKWWH948.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0FJ1K2TPZ",
+      "title": "TOSHIBA(東芝) ドラム式洗濯乾燥機 幅60㎝ 洗濯12kg 乾燥7kg 左開き TW-127XH4L(W) グランホワイト 大風量乾燥 Ag+抗菌水 洗剤自動投入 温水洗浄",
+      "brand": "東芝(TOSHIBA)",
+      "price": 189800,
+      "rating": 4.5,
+      "reviewCount": 16,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FJ1K2TPZ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0CCQG4L4Z",
+      "title": "日立 ドラム式洗濯乾燥機 幅63cm 洗濯11kg 乾燥6kg 左開き BD-SG110JL W ホワイト ビッグドラム 風アイロン",
+      "brand": "日立(HITACHI)",
+      "price": 138800,
+      "rating": 4.2,
+      "reviewCount": 48,
+      "monthlySold": 50,
+      "monthlyRevenue": 6940000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CCQG4L4Z.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0F6XXZHGH",
+      "title": "ハイセンス ドラム式 洗濯乾燥機 洗濯10kg 乾燥6kg 洗剤自動投入 コンパクト 大容量 自動槽洗浄 温水洗浄 60℃除菌コース スリム HWF-KD100SL-W ホワイト",
+      "brand": "Hisense",
+      "price": 115571,
+      "rating": 3.6,
+      "reviewCount": 29,
+      "monthlySold": 50,
+      "monthlyRevenue": 5778550,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F6XXZHGH.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 38,
+    "lowStarCount": 4,
+    "highStarCount": 30,
+    "topPainPoints": [
+      {
+        "category": "音",
+        "count": 2
+      },
+      {
+        "category": "サポート",
+        "count": 2
+      },
+      {
+        "category": "デザイン",
+        "count": 1
+      },
+      {
+        "category": "品質",
+        "count": 1
+      },
+      {
+        "category": "価格",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 27
+      },
+      {
+        "category": "使いやすさ",
+        "count": 14
+      },
+      {
+        "category": "価値",
+        "count": 9
+      },
+      {
+        "category": "品質",
+        "count": 6
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0F6XXZHGH",
+          "rating": 1,
+          "title": "最初は良かったのに",
+          "body": "購入2ヶ月過ぎて表示部に不具合が出ました6Hと表示されてるはずなのにやはりダメだったかと思いました高い買い物だったので残念です"
+        }
+      ],
+      "耐久": [],
+      "サイズ": [],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "シャープ(SHARP)": 1,
+    "アイリスオーヤマ(IRIS OHYAMA)": 1,
+    "東芝(TOSHIBA)": 1,
+    "日立(HITACHI)": 1,
+    "Hisense": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/16299361/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:17.742Z"
+}

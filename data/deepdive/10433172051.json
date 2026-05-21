@@ -1,0 +1,209 @@
+{
+  "categoryId": "10433172051",
+  "categoryName": "レディース",
+  "l1Path": "スポーツ＆アウトドア / ソフトボール / ソフトボール / レディース",
+  "score": 56,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 31046500,
+  "reviewMedian": 346,
+  "topShare": 0.7609553411817758,
+  "ratingMean": 4.2,
+  "avgPrice": 2529,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0CHV8XSTX",
+      "title": "[VARZAR] Stud logo over fit ball cap Black",
+      "brand": "VARZAR",
+      "price": 3375,
+      "rating": 4.2,
+      "reviewCount": 1081,
+      "monthlySold": 7000,
+      "monthlyRevenue": 23625000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CHV8XSTX.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0D2GPR4TT",
+      "title": "[Little&More] 帽子 レディース uvカット 日焼け防止 【UVも遮光性も100%カットでUPF50+】 (ブラック, 深め)",
+      "brand": "Little&More",
+      "price": null,
+      "rating": 4.1,
+      "reviewCount": 96,
+      "monthlySold": 200,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D2GPR4TT.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0CFL93JG5",
+      "title": "[VARZAR] Silver stud over fit ball cap Black",
+      "brand": "VARZAR",
+      "price": 3375,
+      "rating": 4.1,
+      "reviewCount": 347,
+      "monthlySold": 1000,
+      "monthlyRevenue": 3375000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CFL93JG5.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0CFL45NP3",
+      "title": "[VARZAR] Gold stud over fit ball cap Black",
+      "brand": "VARZAR",
+      "price": 3375,
+      "rating": 4.1,
+      "reviewCount": 361,
+      "monthlySold": 900,
+      "monthlyRevenue": 3037500,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CFL45NP3.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0C89XCSXM",
+      "title": "バレーボールウェア ゲームパンツ ニット素材 股下8.5cm(L寸) ストレッチ 吸汗速乾 V2MBB201 レディース ブラック M",
+      "brand": "MIZUNO(ミズノ)",
+      "price": 2523,
+      "rating": 4.5,
+      "reviewCount": 56,
+      "monthlySold": 400,
+      "monthlyRevenue": 1009200,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C89XCSXM.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 176,
+    "lowStarCount": 52,
+    "highStarCount": 87,
+    "topPainPoints": [
+      {
+        "category": "サイズ",
+        "count": 46
+      },
+      {
+        "category": "デザイン",
+        "count": 13
+      },
+      {
+        "category": "サポート",
+        "count": 10
+      },
+      {
+        "category": "梱包",
+        "count": 7
+      },
+      {
+        "category": "互換",
+        "count": 7
+      },
+      {
+        "category": "品質",
+        "count": 4
+      },
+      {
+        "category": "使い勝手",
+        "count": 4
+      },
+      {
+        "category": "価格",
+        "count": 3
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 45
+      },
+      {
+        "category": "品質",
+        "count": 24
+      },
+      {
+        "category": "使いやすさ",
+        "count": 5
+      },
+      {
+        "category": "価値",
+        "count": 2
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0CHV8XSTX",
+          "rating": 1,
+          "title": "折ジワと汚れがあり少し残念",
+          "body": "デザインと深く被れる点はとても良く、紫外線対策として期待して購入しました。ただ、届いた商品は折りジワがかなり強くついており、すぐに使える状態ではありませんでした。また保管や梱包の問題かもしれませんが、表面に白っぽい砂埃のような汚れも2箇所付着しており払うと取れましたが正直あまり気持ちの良いものではありませんでした。形や機能性は良かっただけに、品質面で少し残念に感じました。"
+        },
+        {
+          "asin": "B0D2GPR4TT",
+          "rating": 1,
+          "title": "すぐに使えない",
+          "body": "シワシワで一回洗ってシワを伸ばさないと使用出来ませんでした"
+        },
+        {
+          "asin": "B0D2GPR4TT",
+          "rating": 2,
+          "title": "写真通りのものだと思う",
+          "body": "内側のタグに汚れ有り　すぐに切り落としましたあとは問題なし　生地も薄いので夏でもいけそう"
+        },
+        {
+          "asin": "B0CFL45NP3",
+          "rating": 1,
+          "title": "不良品でした",
+          "body": "開封すると、つばの裏についてあるはずの厚紙(型崩れ防止？)が入ってないし、つばがなんだか斜めについてるようで左上に歪んでました。サイズ感もなんか変で、違和感を覚えました。(本当に本物...？)(中古では..！？)返品が完了するまではレビューとして残しておきます…"
+        }
+      ],
+      "耐久": [],
+      "サイズ": [
+        {
+          "asin": "B0CHV8XSTX",
+          "rating": 1,
+          "title": "頭周りのサイズが自分には合いませんでした",
+          "body": "ユニセックスと書かれいたためメンズでも大丈夫なのかと思い購入。届いた商品を見てみると思ってものより一回りぐらい小さかったです…。被ってみたところキツすぎて使い物にならずお金をドブに捨ててしまいました。サイズ確認せずに買った物なので商品について特に文句を言うつもりはないですが自分にとってはとても残念な買い物でした。その辺の量販店で売ってるフリーサイズのキャップと同じサイズをイメージして購入される方は"
+        },
+        {
+          "asin": "B0CHV8XSTX",
+          "rating": 1,
+          "title": "最悪の配達でした！！",
+          "body": "商品自体はさほど傷などはなかったが、気に入って買った大事なブランド帽子で、自分で受け取りにしたはずが、勝手にポスト投函されていて、しかも全く入らないはずなのに、無理やりポストにはみ出して入れてあり、誰でも取れる状態でした。いざ取ろうと思ったらポストに挟まって全然抜けなくて袋がぐちゃぐちゃになりました。、最悪でした。"
+        },
+        {
+          "asin": "B0CHV8XSTX",
+          "rating": 1,
+          "title": "顔小さい人用",
+          "body": "顔大きく見える"
+        },
+        {
+          "asin": "B0CHV8XSTX",
+          "rating": 2,
+          "title": "大きすぎる",
+          "body": "帽子が大きすぎて小顔に見えません…"
+        },
+        {
+          "asin": "B0D2GPR4TT",
+          "rating": 2,
+          "title": "小さい？",
+          "body": "ちいさいのも大きい…"
+        }
+      ],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "VARZAR": 3,
+    "Little&More": 1,
+    "MIZUNO(ミズノ)": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/10433172051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:15.476Z"
+}

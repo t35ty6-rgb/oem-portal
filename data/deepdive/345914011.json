@@ -1,0 +1,256 @@
+{
+  "categoryId": "345914011",
+  "categoryName": "ベビーケア・バス",
+  "l1Path": "ベビー＆マタニティ / ベビーケア・バス",
+  "score": 66,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 43007000,
+  "reviewMedian": 1443,
+  "topShare": 0.14176761922477737,
+  "ratingMean": 4.58,
+  "avgPrice": 1874,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0BBTCFQHS",
+      "title": "カウブランドベビー 全身泡ソープ 詰替用 350mL 食品成分90％ 目にしみにくい 低刺激",
+      "brand": "カウブランド 無添加",
+      "price": 871,
+      "rating": 4.5,
+      "reviewCount": 247,
+      "monthlySold": 7000,
+      "monthlyRevenue": 6097000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BBTCFQHS.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B01FBP0SE6",
+      "title": "【保湿クリーム】ベビーワセリン 100g(乾燥肌 パラベンフリー)",
+      "brand": "健栄製薬",
+      "price": 582,
+      "rating": 4.5,
+      "reviewCount": 6743,
+      "monthlySold": 8000,
+      "monthlyRevenue": 4656000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01FBP0SE6.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B00BQSV5UY",
+      "title": "ママ&キッズ (Mama&Kids)【公式】 ベビーミルキーローションお得用サイズ 380ml 高保湿 超乾燥肌 超敏感肌 8種の胎脂様成分 羊水 ベビーローション 赤ちゃん 新生児 無添加 うるおい 低刺激 無香料",
+      "brand": "Mama&Kids",
+      "price": 5170,
+      "rating": 4.7,
+      "reviewCount": 3026,
+      "monthlySold": 4000,
+      "monthlyRevenue": 20680000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00BQSV5UY.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B09R9NLLJ6",
+      "title": "ピジョン PIGEON ベビーミルクローション うるおいプラス300g",
+      "brand": "PIGEON",
+      "price": 900,
+      "rating": 4.5,
+      "reviewCount": 1442,
+      "monthlySold": 4000,
+      "monthlyRevenue": 3600000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09R9NLLJ6.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B071KV6T9R",
+      "title": "ママ&キッズ (Mama&Kids)【公式】 ベビー全身シャンプー 460ml 超乾燥肌 超敏感肌 8種の胎脂様成分 羊水 ベビーソープ 泡タイプ 赤ちゃん 新生児 洗浄によるあせも予防 目にしみにくい 無添加 保湿泡 うるおい 低刺激 無香料",
+      "brand": "Mama&Kids",
+      "price": 1848,
+      "rating": 4.7,
+      "reviewCount": 968,
+      "monthlySold": 4000,
+      "monthlyRevenue": 7392000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B071KV6T9R.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 204,
+    "lowStarCount": 61,
+    "highStarCount": 103,
+    "topPainPoints": [
+      {
+        "category": "価格",
+        "count": 20
+      },
+      {
+        "category": "品質",
+        "count": 13
+      },
+      {
+        "category": "におい",
+        "count": 12
+      },
+      {
+        "category": "梱包",
+        "count": 8
+      },
+      {
+        "category": "サポート",
+        "count": 7
+      },
+      {
+        "category": "互換",
+        "count": 6
+      },
+      {
+        "category": "サイズ",
+        "count": 5
+      },
+      {
+        "category": "デザイン",
+        "count": 3
+      },
+      {
+        "category": "耐久",
+        "count": 1
+      },
+      {
+        "category": "使い勝手",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 32
+      },
+      {
+        "category": "品質",
+        "count": 31
+      },
+      {
+        "category": "価値",
+        "count": 17
+      },
+      {
+        "category": "使いやすさ",
+        "count": 13
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0BBTCFQHS",
+          "rating": 1,
+          "title": "不良品",
+          "body": "穴が空いて中身が漏れてたAmazonに問い合わせ新しい商品を送ってもらうことになっているが1ヶ月経っても送られてこない"
+        },
+        {
+          "asin": "B01FBP0SE6",
+          "rating": 1,
+          "title": "破損した状態で届きました。",
+          "body": "アトピーのひどい娘に購入したのですが、届いてびっくり、カッターか何かで切られたような跡がありました。段ボールを開ける際は一番上に梱包材があったので開封時の破損ではありません。中身が漏れていなければそのまま使おうと思ったのですが、広げると中身が出てきたので交換しようと思い手続きしようとしたら”この商品のお手続きを承れません”とありました。海外からの注文で配送料も高かったのにがっかりでした。"
+        },
+        {
+          "asin": "B01FBP0SE6",
+          "rating": 2,
+          "title": "デロデロ",
+          "body": "気温が低いと硬くて出ないのに夏場はデロデロで漏れる。フタの繋ぎ目も弱くて割れる。同じメーカーの白色ワセリン ソフトはそんな事なかったのに。"
+        },
+        {
+          "asin": "B01FBP0SE6",
+          "rating": 2,
+          "title": "ほんとに無臭？",
+          "body": "今まで使ってたワセリンが値上がりしたのでこちらに切り替えました。無臭、無添加と謳ってますが、ほんのり石油のような臭いがして気になります。今まで使っていたメーカーのは全く無臭でした。保湿力も弱いですね。"
+        },
+        {
+          "asin": "B01FBP0SE6",
+          "rating": 2,
+          "title": "いまいち",
+          "body": "サンホワイトを使用してみたら、こちらは保湿力が弱いことを知りました。匂いもあると思います。ワセリンのシンプル美容する場合はサンホワイトの方がいいように思いました。"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B01FBP0SE6",
+          "rating": 1,
+          "title": "柔らかすぎて漏れ出すぞーー！！",
+          "body": "局方品のワセリンより相当に柔らかい。８月、いつもと同じポーチにしまい、部屋に置いて置いいました。仕事から帰り、風呂上がりに塗ろうとしたら、チューブから漏れてて、ポーチの中がえらいことに成ってました。このワセリンが良いかどうかは好みによると思いますが…一年の寒暖差が50度近くある日本に暮らす私はリピはしないです…。ばけがくのことは、遥か昔に忘れましたが、柔らかいのは炭素鎖がみじかいから？？かな？"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B00BQSV5UY",
+          "rating": 1,
+          "title": "ありえない配送",
+          "body": "初めて購入しました。サンプルを使用してすごくいい商品だったので、正規サイズで購入6/10に頼んで6/11の午前中に届いたのはいいが、外箱がひどいありえないどんなに良い商品だとしても、お店に写真のような状態で並んでいるものでしょうか？真摯な対応を希望します"
+        },
+        {
+          "asin": "B00BQSV5UY",
+          "rating": 2,
+          "title": "ブツブツ出来た",
+          "body": "敏感肌でも大丈夫かなと期待して購入したけれどブツブツ出来ました。何か合わない成分が入っていたんでしょう。残念。"
+        },
+        {
+          "asin": "B00BQSV5UY",
+          "rating": 2,
+          "title": "敏感肌でも合わないことがある",
+          "body": "乳児湿疹とにきびをくりかえす息子用に、と評判が良かったので購入。ところが2、3日続けて赤みが増したので断念。塗っていた私の指も水ぶくれができてきたので封印。私自身が敏感肌なので、敏感肌にもという謳い文句があっても化粧品と同じく合わない人はあわない商品だと思います。"
+        },
+        {
+          "asin": "B00BQSV5UY",
+          "rating": 2,
+          "title": "自分を使う",
+          "body": "私の子供の皮膚が　多分合わないから　刺激ことがありました。自分を使ってしがない"
+        }
+      ],
+      "説明書": [],
+      "におい": [
+        {
+          "asin": "B01FBP0SE6",
+          "rating": 1,
+          "title": "お値段安いけど、石油臭いです！",
+          "body": "ワセリンの純度が低めで、かなり石油臭いです！！ワセリンが付いた手を石鹸で洗っても、まだ臭います。この臭いでは、顔とか赤ちゃんに使えないです。私は使用してみて肌トラブルはなかったけど、この臭いは無理です！以前に買った白色ワセリンよりも臭います。臭いが気になるものの、勿体ないからたまに使ってたけど耐えきれず、純度の高い商品を新たに買いました。純度が高ければ値段も当然高いので、お安くても買う前に純度の低"
+        },
+        {
+          "asin": "B01FBP0SE6",
+          "rating": 1,
+          "title": "石油臭い",
+          "body": "以前使ったときは気にならなかったのですが、今回のものは石油？っぽい匂いが強く、使用を断念します。顔や赤ちゃんに長期間塗って本当に大丈夫なのか、疑問を感じます。"
+        },
+        {
+          "asin": "B01FBP0SE6",
+          "rating": 2,
+          "title": "ほんとに無臭？",
+          "body": "今まで使ってたワセリンが値上がりしたのでこちらに切り替えました。無臭、無添加と謳ってますが、ほんのり石油のような臭いがして気になります。今まで使っていたメーカーのは全く無臭でした。保湿力も弱いですね。"
+        },
+        {
+          "asin": "B01FBP0SE6",
+          "rating": 2,
+          "title": "いまいち",
+          "body": "サンホワイトを使用してみたら、こちらは保湿力が弱いことを知りました。匂いもあると思います。ワセリンのシンプル美容する場合はサンホワイトの方がいいように思いました。"
+        },
+        {
+          "asin": "B071KV6T9R",
+          "rating": 2,
+          "title": "苦手",
+          "body": "無香料ですが無香料の匂いがして子どもが嫌がっています。泡で洗った後、いつまでもぬるぬるした感じがありスッキリしません。もぅ終わるので次は違うのにします。"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "カウブランド 無添加": 1,
+    "健栄製薬": 1,
+    "Mama&Kids": 2,
+    "PIGEON": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/345914011/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:26.389Z"
+}

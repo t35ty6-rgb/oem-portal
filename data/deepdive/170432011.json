@@ -1,0 +1,262 @@
+{
+  "categoryId": "170432011",
+  "categoryName": "シニアサポート・介護",
+  "l1Path": "ドラッグストア / シニアサポート・介護",
+  "score": 76,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 42632000,
+  "reviewMedian": 1563,
+  "topShare": 0.07421655094764495,
+  "ratingMean": 4.22,
+  "avgPrice": 3104,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B08H5RVW3F",
+      "title": "アテント パッド 夜1枚安心パッド モレを防いで朝までぐっすり 28枚 8回吸収 テープ式用 【大容量】",
+      "brand": "アテント",
+      "price": 1582,
+      "rating": 4.2,
+      "reviewCount": 351,
+      "monthlySold": 2000,
+      "monthlyRevenue": 3164000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08H5RVW3F.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B07HC5FFS5",
+      "title": "アテント パンツM 夜1枚安心パンツ 14枚 8回吸収 パッドなしでずっと快適 うす型 男女共用",
+      "brand": "アテント",
+      "price": 1655,
+      "rating": 4.2,
+      "reviewCount": 1563,
+      "monthlySold": 2000,
+      "monthlyRevenue": 3310000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07HC5FFS5.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B07H5125WQ",
+      "title": "アテント パッド 紙パンツ用 尿とりパッド 64枚 2回吸収 さらさらパッド 通気性プラス 【大容量】",
+      "brand": "アテント",
+      "price": 1487,
+      "rating": 4.2,
+      "reviewCount": 1723,
+      "monthlySold": 4000,
+      "monthlyRevenue": 5948000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07H5125WQ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0CYSMDPRL",
+      "title": "ライフリー 【一人で歩ける方へ】 うす型軽快パンツ 2回吸収 Mサイズ ケース品68枚 (34枚×2パック) 大人用オムツ 【Amazon.co.jp限定】",
+      "brand": "ライフリー",
+      "price": 5940,
+      "rating": 4.2,
+      "reviewCount": 1207,
+      "monthlySold": 1000,
+      "monthlyRevenue": 5940000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CYSMDPRL.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0982LYF7V",
+      "title": "メイバランスミニ アソートBOX 125ml×24本(8種×各3本) 明治",
+      "brand": "メイバランス",
+      "price": 4854,
+      "rating": 4.3,
+      "reviewCount": 2124,
+      "monthlySold": 5000,
+      "monthlyRevenue": 24270000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0982LYF7V.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 236,
+    "lowStarCount": 86,
+    "highStarCount": 102,
+    "topPainPoints": [
+      {
+        "category": "梱包",
+        "count": 37
+      },
+      {
+        "category": "サイズ",
+        "count": 28
+      },
+      {
+        "category": "説明書",
+        "count": 11
+      },
+      {
+        "category": "サポート",
+        "count": 9
+      },
+      {
+        "category": "品質",
+        "count": 6
+      },
+      {
+        "category": "価格",
+        "count": 6
+      },
+      {
+        "category": "におい",
+        "count": 3
+      },
+      {
+        "category": "使い勝手",
+        "count": 1
+      },
+      {
+        "category": "互換",
+        "count": 1
+      },
+      {
+        "category": "耐久",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "品質",
+        "count": 44
+      },
+      {
+        "category": "満足",
+        "count": 34
+      },
+      {
+        "category": "価値",
+        "count": 15
+      },
+      {
+        "category": "使いやすさ",
+        "count": 4
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B07HC5FFS5",
+          "rating": 2,
+          "title": "足の出入り口が緩い",
+          "body": "値段は手頃だがサイズのバリエーションが少ない女性、身長150cm、体重40キロ、足の出入り口がユルユル夜の9時30分に交換して朝の7時に交換するルーティンで2日に1回は股から漏れる防水シートを超えてベットを水浸しにしないだけマシと思って使ってますがもう少し小さいサイズを出すか足回りをしっかりさせて欲しい介護の必要な年寄りなんだから日に日に痩せ細ることもあり得るだろ事も想定してSも発売して欲しい"
+        },
+        {
+          "asin": "B07H5125WQ",
+          "rating": 1,
+          "title": "肝心の性能が大失敗",
+          "body": "肝心の尿取り性能が劣悪1回１２０㏄程の尿が吸収しきれずに横漏れする新品に取り換えてはも結果は同じ以前使っていたライフリーはすぐに吸収体に取り込まれ、ほぼ濡れ感ゼロだったがこの商品は吸収速度が遅いため耐えられなくなり横漏れしてしまうこちらのほうが一枚単価が安かったため購入したが大失敗！"
+        },
+        {
+          "asin": "B07H5125WQ",
+          "rating": 2,
+          "title": "保管管理どうなってんの？",
+          "body": "袋が擦れて(写真１)破損していた(写真２)。どうやって擦れて穴があいたのかわからないけど。裏面は綺麗なのに(写真３)こういうのは、箱ごと移動させるとおもうのですが、単品で引きずるかんじで移動させ管理しているのでしょうか？一緒に注文したもう一つ(同じ種類)は綺麗です。幸い中身には傷がついていないので、穴はも小さいしこのまま使えると思います。amazonでこういったことになるのは初めてで、残念です。擦"
+        },
+        {
+          "asin": "B0CYSMDPRL",
+          "rating": 2,
+          "title": "一晩で痒くなりました",
+          "body": "寝る前だけ使用皮膚が赤く成り一晩で痒く成りました１枚だけ使用して残り全て捨てました肌の弱い人は要注意です"
+        },
+        {
+          "asin": "B0982LYF7V",
+          "rating": 1,
+          "title": "破損",
+          "body": "外箱に落とした様な凹みあり。中身の商品にも変形あり。"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B0982LYF7V",
+          "rating": 2,
+          "title": "賞味期限が少ない",
+          "body": "通常1年間あるはずのメイバランスが、4ヶ月を切ったものを送って来ました。24本も買っているのに、賞味期限までせめて８ヶ月以上ある商品を送るべきではないですか。失望しました。返したい！他の種類のメイバランスは賞味期限まで８カ月ありましたよ。売れ残りを送るのはやめてほしいです。"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B08H5RVW3F",
+          "rating": 1,
+          "title": "使い物にならない",
+          "body": "こんな大きいもの充てられない　おかしいです　　開けてしまったので返品も出来ない"
+        },
+        {
+          "asin": "B08H5RVW3F",
+          "rating": 1,
+          "title": "私には合いませんでした",
+          "body": "男性で夜間の尿モレが酷くて購入しました。8回吸収とありますが前側だけ吸収して後側に吸収するより先に横漏れすることが多発。寝返りができない人なら大丈夫かもしれませんが寝返りする人は私のような横漏れ現象の可能性あると思います。他社と比べても全体のサイズも大きいし厚みもあって紙オムツとも相性も悪すぎて二度と買いません。有名メーカーだし評価も高くレビュー見て購入したんですが、私には合わずに残念でした。"
+        },
+        {
+          "asin": "B08H5RVW3F",
+          "rating": 2,
+          "title": "大き過ぎた",
+          "body": "大き過ぎました　モコモコしますあと やはり真ん中に寄せられて伝い漏れがある大きい分 長さを多少小さくして羽を付けて欲しい"
+        },
+        {
+          "asin": "B07HC5FFS5",
+          "rating": 1,
+          "title": "箱が空いて中身が見える。",
+          "body": "商品は良いのですが、ほぼ毎日漏れます。夜だけオムツの障害者で、中学生なのですが、ウエストは薬のせいで、Мサイズは小さいしLサイズは大きいし、足は太くないので、ブカブカです。ほかの商品よりはマシなので、これを使ってます。配送や梱包が雑で、今月は中が見えるくらい箱が空いててボゴボコでした。置き配でカメラ見ると、投げて置いてる？って感じです。もう少し大切に扱ってほしいです。"
+        },
+        {
+          "asin": "B07HC5FFS5",
+          "rating": 1,
+          "title": "横漏れします",
+          "body": "脚まわりのえぐれかたがすごくて、横漏れして８回分の意味がない。男女兼用なのは良いが小柄な女性はもれまくって被害甚大。8回分のロング丈か、足が細い人用のSサイズが必要。パッドも漏れるがパッドのほうが吸収がはやくてもれる量もすくない"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B08H5RVW3F",
+          "rating": 1,
+          "title": "商品説明を正確にして欲しい。",
+          "body": "説明書きに32㎝× 63㎝とあり気に入って急いで購入しました。30 ㎝×63㎝の品が届きました。届いた後購入履歴を確認すると画像と説明書きが違いました。"
+        },
+        {
+          "asin": "B07H5125WQ",
+          "rating": 2,
+          "title": "保管管理どうなってんの？",
+          "body": "袋が擦れて(写真１)破損していた(写真２)。どうやって擦れて穴があいたのかわからないけど。裏面は綺麗なのに(写真３)こういうのは、箱ごと移動させるとおもうのですが、単品で引きずるかんじで移動させ管理しているのでしょうか？一緒に注文したもう一つ(同じ種類)は綺麗です。幸い中身には傷がついていないので、穴はも小さいしこのまま使えると思います。amazonでこういったことになるのは初めてで、残念です。擦"
+        },
+        {
+          "asin": "B0982LYF7V",
+          "rating": 1,
+          "title": "賞味期限近すぎる商品が届いたが交換の手続き出来なかった",
+          "body": "{\"clickstreamNexusMetricsConfig\":{\"producerId\":\"vsemetrics_playercards\",\"schemaId\":\"clickstream.CustomerEvent.4\",\"actionType\":\"DISCOVERY\",\"eventOwner\":\"vsemetrics_playercards\",\"eventType\":\"IVEVideoVie"
+        }
+      ],
+      "におい": [
+        {
+          "asin": "B07HC5FFS5",
+          "rating": 1,
+          "title": "煙草の臭いが付いている",
+          "body": "紙パンツの機能は問題なく使えますが、送られてきた袋を開けた時煙草臭がして直ぐに使いたかったので返品はしなかったのですが袋だけでなく中の紙パンツまで煙草臭が付いていて使うたびに不愉快です。定期的に使用するものなので次回は別の通販サイトから購入しようか悩んでいます。"
+        },
+        {
+          "asin": "B07H5125WQ",
+          "rating": 2,
+          "title": "価格でどこまでにおいと吸収力を妥協できるか",
+          "body": "とても安くありがたい商品です。しかし、消臭力は皆無でものすごい匂いになります。そして、吸収はしますが液戻りがすごくびしょびしょになります。安価なので毎日使うにはいいかもしれませんが、予算に余裕があればもう少し機能が優秀なものを使ったほうがいいと思います。"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "アテント": 3,
+    "ライフリー": 1,
+    "メイバランス": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/170432011/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:19.041Z"
+}

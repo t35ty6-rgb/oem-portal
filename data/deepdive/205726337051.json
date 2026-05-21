@@ -1,0 +1,219 @@
+{
+  "categoryId": "205726337051",
+  "categoryName": "メンズボディグルーマー",
+  "l1Path": "ビューティー / シェービング・ムダ毛処理 / メンズボディグルーマー",
+  "score": 78,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 43173045,
+  "reviewMedian": 120,
+  "topShare": 0.9172389855753746,
+  "ratingMean": 3.52,
+  "avgPrice": 10034,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0F2RJWGVJ",
+      "title": "パナソニック ボディトリマー® ボディシェーバー 【Amazon.co.jp 限定】 VIO対応 充電式 長さ調整 お風呂剃り可 メンズ ダークシルバー ER-NGKJ3-S",
+      "brand": "パナソニック(Panasonic)",
+      "price": 13200,
+      "rating": 4.3,
+      "reviewCount": 207,
+      "monthlySold": 3000,
+      "monthlyRevenue": 39600000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F2RJWGVJ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0F2H3PX5N",
+      "title": "ブラウン シリーズ７ ボディ＆フェイスグルーマー BG7550 トリマー コーム4種 ポーチ 掃除用ブラシ",
+      "brand": "Braun",
+      "price": 9700,
+      "rating": 4,
+      "reviewCount": 33,
+      "monthlySold": 200,
+      "monthlyRevenue": 1940000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F2H3PX5N.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0C1Y4MKF1",
+      "title": "パナソニック ボディトリマー® ER-GK82-K",
+      "brand": "パナソニック(Panasonic)",
+      "price": 14400,
+      "rating": 4.4,
+      "reviewCount": 1788,
+      "monthlySold": 100,
+      "monthlyRevenue": 1440000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C1Y4MKF1.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0GWZM9FRN",
+      "title": "パナソニック ボディトリマー® ボディシェーバー VIO対応 充電式 長さ調整 お風呂剃り可 メンズ ブラック ER-GK9A-K",
+      "brand": "パナソニック(Panasonic)",
+      "price": null,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 50,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GWZM9FRN.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0FSZJVC61",
+      "title": "パナソニック ボディトリマー® ボディシェーバー VIO対応 充電式 長さ調整 お風呂剃り可 メンズ ダークシルバー ER-GK83-S",
+      "brand": "ノーブランド品",
+      "price": null,
+      "rating": 5,
+      "reviewCount": 2,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FSZJVC61.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 102,
+    "lowStarCount": 31,
+    "highStarCount": 51,
+    "topPainPoints": [
+      {
+        "category": "サポート",
+        "count": 17
+      },
+      {
+        "category": "説明書",
+        "count": 10
+      },
+      {
+        "category": "品質",
+        "count": 8
+      },
+      {
+        "category": "梱包",
+        "count": 4
+      },
+      {
+        "category": "価格",
+        "count": 3
+      },
+      {
+        "category": "使い勝手",
+        "count": 2
+      },
+      {
+        "category": "耐久",
+        "count": 1
+      },
+      {
+        "category": "互換",
+        "count": 1
+      },
+      {
+        "category": "サイズ",
+        "count": 1
+      },
+      {
+        "category": "音",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "使いやすさ",
+        "count": 38
+      },
+      {
+        "category": "満足",
+        "count": 27
+      },
+      {
+        "category": "品質",
+        "count": 10
+      },
+      {
+        "category": "価値",
+        "count": 4
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0F2RJWGVJ",
+          "rating": 1,
+          "title": "返金、返品対応してくれない",
+          "body": "最初から中古のような状態で届いたので返金、返品対応をお願いしたのですが使用感があるため返金出来ないという対応をされました。初期不良などでもサポートしてくれないという声が多数あるので買わない方がいいです。"
+        },
+        {
+          "asin": "B0C1Y4MKF1",
+          "rating": 1,
+          "title": "毛がたくさんついた、中古品が届いた。最悪、汚い",
+          "body": "毛がたくさんついた商品が届いた、中古品でショック。流石に酷い。パナソニック製だったので届いてすぐに箱を捨ててしまった、、、まず、綺麗好きの自分からしたら毛がついてるものが送られてくるのが最悪"
+        },
+        {
+          "asin": "B0C1Y4MKF1",
+          "rating": 2,
+          "title": "価格不相応、モーター不安定な、不良品なのか？非常に切れ味悪い、メンテナンスが面倒。",
+          "body": "{\"clickstreamNexusMetricsConfig\":{\"producerId\":\"vsemetrics_playercards\",\"schemaId\":\"clickstream.CustomerEvent.4\",\"actionType\":\"DISCOVERY\",\"eventOwner\":\"vsemetrics_playercards\",\"eventType\":\"IVEVideoVie"
+        },
+        {
+          "asin": "B0C1Y4MKF1",
+          "rating": 2,
+          "title": "初めての使用後に、刃が欠けていることに気づきました",
+          "body": "購入後に初めて使った後、刃が欠けていることに気づきました。Panasonic製品なので、初期不良で最初から刃が欠けていた不良品ということはないと思います。私の使い方が悪かったのだと思うのですが、こんなに壊れやすいなんて、とてもショックでした。まだ1回しか使っていないのに、この状態で次に使ったら怪我をしそうで怖いです。"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B0F2RJWGVJ",
+          "rating": 1,
+          "title": "刃が欠損しやすいです",
+          "body": "刃が欠損しやすいです。安くはないものなのでこの耐久力は残念でした。短く整える→バリカンツルツルにする→シェーバーで代用した方がいいかと思います。眉毛シェーバーとか電動シェーバー性能の良さは一体どこへ…"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B0C1Y4MKF1",
+          "rating": 2,
+          "title": "VIOは無理",
+          "body": "届いてみて驚いたのが、このシェーバーはかなり大きいです大きさ故に取り回しがイマイチで凹凸や見えないところがあるVIOや脇などを剃るにのは向かない切れ味もそこまで深剃りできるわけでもなく、シェーバーの当て方によっては怪我をします結論ですが、このシェーバーは手足など大雑把に剃る所向きです細かいところは除毛クリームの方が安全かつ綺麗にできます何と言うか、値段の割に性能がイマイチすぎてガッカリ"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0C1Y4MKF1",
+          "rating": 1,
+          "title": "説明書が悪すぎ。",
+          "body": "とりあえず最悪です。"
+        },
+        {
+          "asin": "B0C1Y4MKF1",
+          "rating": 2,
+          "title": "価格不相応、モーター不安定な、不良品なのか？非常に切れ味悪い、メンテナンスが面倒。",
+          "body": "{\"clickstreamNexusMetricsConfig\":{\"producerId\":\"vsemetrics_playercards\",\"schemaId\":\"clickstream.CustomerEvent.4\",\"actionType\":\"DISCOVERY\",\"eventOwner\":\"vsemetrics_playercards\",\"eventType\":\"IVEVideoVie"
+        },
+        {
+          "asin": "B0C1Y4MKF1",
+          "rating": 2,
+          "title": "そこそこ",
+          "body": "細かい調整ができ、使い分けができます。時間も1時間近く使え、充電時間も短くて済みます。ただ、場所によっては形のせいか剃りにくかったです。追記･返品する際、説明書が不足していただけで返金拒否をし、対応しなければ着払いでの返送又は登録のクレジットへの請求するときます。Amazonへお問い合わせれば返金されますので、機器など付属品のみ送れば大丈夫です。ご注意を。"
+        }
+      ],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "パナソニック(Panasonic)": 3,
+    "Braun": 1,
+    "ノーブランド品": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/205726337051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:20.523Z"
+}

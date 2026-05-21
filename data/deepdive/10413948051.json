@@ -1,0 +1,102 @@
+{
+  "categoryId": "10413948051",
+  "categoryName": "自宅検査キット・モニタリング",
+  "l1Path": "ドラッグストア / 衛生用品・ヘルスケア / 自宅検査キット・モニタリング",
+  "score": 76,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 12208000,
+  "reviewMedian": 16,
+  "topShare": 0.6831585845347313,
+  "ratingMean": 3.96,
+  "avgPrice": 13282,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0DD9LLSSK",
+      "title": "【特典付】FreeStyleリブレ2 グルコースモニタリングシステム センサー リアルタイム測定 14日間連続測定 スマートフォン連携",
+      "brand": "ノーブランド品",
+      "price": 8340,
+      "rating": 3.8,
+      "reviewCount": 114,
+      "monthlySold": 1000,
+      "monthlyRevenue": 8340000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DD9LLSSK.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B08R3W4M9Q",
+      "title": "【妊活キット】meeta シリンジ法 3回分 日本製 家庭用 ミータ 無理ない タイミング法 妊娠 不妊",
+      "brand": "meeta",
+      "price": 3300,
+      "rating": 3.9,
+      "reviewCount": 73,
+      "monthlySold": 100,
+      "monthlyRevenue": 330000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08R3W4M9Q.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0DWMMT6MT",
+      "title": "Abbott フリースタイルリブレ2 センサー2個セット【アルコール綿付】アボット FreeStyleLibre2 1分毎にグルコース値を24時間測定 最大14日間 スマホでモニタリング",
+      "brand": "ノーブランド品",
+      "price": null,
+      "rating": 3.8,
+      "reviewCount": 15,
+      "monthlySold": 100,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DWMMT6MT.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0F7WVVZCH",
+      "title": "Abbott フリースタイルリブレ2 リーダー（読取装置）1台 アボット FreeStyleLibre2 1分毎にグルコース値を24時間測定 最大14日間 専用リーダーでモニタリング",
+      "brand": "ノーブランド品",
+      "price": null,
+      "rating": 4.3,
+      "reviewCount": 10,
+      "monthlySold": 50,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F7WVVZCH.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0F38CCXNK",
+      "title": "Abbott フリースタイルリブレ2 センサー4個セット【アルコール綿付】アボット FreeStyleLibre2 1分毎にグルコース値を24時間測定 最大14日間 スマホでモニタリング",
+      "brand": "ノーブランド品",
+      "price": null,
+      "rating": 4,
+      "reviewCount": 16,
+      "monthlySold": 50,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F38CCXNK.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 0,
+    "lowStarCount": 0,
+    "highStarCount": 0,
+    "topPainPoints": [],
+    "topPraisePoints": [],
+    "painSamples": {
+      "品質": [],
+      "耐久": [],
+      "サイズ": [],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "ノーブランド品": 4,
+    "meeta": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/10413948051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:15.083Z"
+}

@@ -1,0 +1,129 @@
+{
+  "categoryId": "3544106051",
+  "categoryName": "ウェアラブルデバイス",
+  "l1Path": "家電＆カメラ / ウェアラブルデバイス",
+  "score": 61,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 175716000,
+  "reviewMedian": 1828,
+  "topShare": 0.013647021329873204,
+  "ratingMean": 4.36,
+  "avgPrice": 10135,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0DBYYNTNR",
+      "title": "【フルカバー保護】Puptoya アップルウォッチ 防水 カバー Apple Watch Series 6 5 4 SE3 SE2 対応 44mm ケース 2 in 1 前後の保護 PC+ガラス素材 高透過率 装着簡単 脱落しやすい 耐衝撃 iWatch 44mm ブラック",
+      "brand": "Puptoya",
+      "price": 1199,
+      "rating": 4.1,
+      "reviewCount": 4252,
+      "monthlySold": 2000,
+      "monthlyRevenue": 2398000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DBYYNTNR.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0FCMVS326",
+      "title": "エアタグ airtag（2個セット）紛失防止タグ スマートタグ【2025新登場&MFI認証品&GPS全球超強信号】(Appleの「探す」に対応) IOS専用 スマートトラッカー gps タグ 子供 gps発信機 車両追跡 盗難対策 鍵 財布 超薄 超軽量 小型GPS発信機 追跡タグ 超長持ち 子供/高齢者/ペット見守り Bluetooth PVC",
+      "brand": "IDOSA",
+      "price": 1532,
+      "rating": 4.5,
+      "reviewCount": 1840,
+      "monthlySold": 5000,
+      "monthlyRevenue": 7660000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FCMVS326.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0DYF82545",
+      "title": "Xiaomi Smart Band 10 スマートウォッチ 1.72大画面体験 21日間連続使用 輝度1500nits 視認性 強化されたスイミングモード 9軸モーションセンサー搭載 24時間健康管理 睡眠モニタリングアップデート スマートバンド 着信通知・LINEアプリ通知 iPhone&Android対応 ミッドナイトブラック",
+      "brand": "xiaomi(シャオミ)",
+      "price": 5930,
+      "rating": 4.3,
+      "reviewCount": 9347,
+      "monthlySold": 5000,
+      "monthlyRevenue": 29650000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DYF82545.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0GJTW9CL8",
+      "title": "Apple AirTag（第2世代）：紛失防止タグ、音で探せる、耐水 防塵 iPhone/iPad「探す」ネットワーク対応、探せる範囲が最大1.5 倍に広がった「正確な場所を見つける」機能搭載",
+      "brand": "Apple(アップル)",
+      "price": 4980,
+      "rating": 4.4,
+      "reviewCount": 265,
+      "monthlySold": 5000,
+      "monthlyRevenue": 24900000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GJTW9CL8.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0FQFQ5BGS",
+      "title": "Apple Watch SE 3(GPSモデル)- 40mmスターライトアルミニウムケースとスターライトスポーツバンド - S/M",
+      "brand": "Apple(アップル)",
+      "price": 37036,
+      "rating": 4.5,
+      "reviewCount": 639,
+      "monthlySold": 3000,
+      "monthlyRevenue": 111108000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FQFQ5BGS.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 18,
+    "lowStarCount": 2,
+    "highStarCount": 15,
+    "topPainPoints": [
+      {
+        "category": "品質",
+        "count": 2
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "品質",
+        "count": 7
+      },
+      {
+        "category": "満足",
+        "count": 4
+      },
+      {
+        "category": "使いやすさ",
+        "count": 4
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0DBYYNTNR",
+          "rating": 1,
+          "title": "1ヶ月程度で破損",
+          "body": "特に激しい運動や物にぶつけたとかはしていないが、1ヶ月少しで割れてしまった。外装は気に入ってただけに残念。"
+        }
+      ],
+      "耐久": [],
+      "サイズ": [],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "Puptoya": 1,
+    "IDOSA": 1,
+    "xiaomi(シャオミ)": 1,
+    "Apple(アップル)": 2
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/3544106051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:27.078Z"
+}

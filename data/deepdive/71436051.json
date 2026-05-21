@@ -1,0 +1,203 @@
+{
+  "categoryId": "71436051",
+  "categoryName": "介護用飲料",
+  "l1Path": "ドラッグストア / シニアサポート・介護 / 食事・調理介助 / 介護用食品 / 介護用飲料",
+  "score": 63,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 36759000,
+  "reviewMedian": 975,
+  "topShare": 0.6602464702521832,
+  "ratingMean": 4.32,
+  "avgPrice": 3912,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0982LYF7V",
+      "title": "メイバランスミニ アソートBOX 125ml×24本(8種×各3本) 明治",
+      "brand": "メイバランス",
+      "price": 4854,
+      "rating": 4.3,
+      "reviewCount": 2124,
+      "monthlySold": 5000,
+      "monthlyRevenue": 24270000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0982LYF7V.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0155WLX4Y",
+      "title": "エンジョイクリミール いろいろセット 125ml×24本 アソート (ヨーグルト味、いちご味、コーヒー味、バナナ味、コーンスープ味、ミルクティー味、みかん味、くり味×各3本)",
+      "brand": "クリミール",
+      "price": 4162,
+      "rating": 4.4,
+      "reviewCount": 1404,
+      "monthlySold": 1000,
+      "monthlyRevenue": 4162000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0155WLX4Y.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0784NL4YX",
+      "title": "メイバランスミニカップ ミルクテイスト ギフトBOX 125ml×12本(4種×各3本) 明治",
+      "brand": "メイバランス",
+      "price": 2872,
+      "rating": 4.2,
+      "reviewCount": 975,
+      "monthlySold": 1000,
+      "monthlyRevenue": 2872000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0784NL4YX.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0C2PR2FWS",
+      "title": "【HLS】大塚製薬工場 経口補水液 OS-1 オーエスワン 500ml × 12本 HLSオリジナルポケットティッシュ付",
+      "brand": "HLS Healthy Living Standards",
+      "price": 3238,
+      "rating": 4.4,
+      "reviewCount": 251,
+      "monthlySold": 1000,
+      "monthlyRevenue": 3238000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C2PR2FWS.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0B5CWLCKT",
+      "title": "メイバランスミニ ヨーグルト味 125ml×24本【ケース】 明治",
+      "brand": "メイバランス",
+      "price": 4434,
+      "rating": 4.3,
+      "reviewCount": 97,
+      "monthlySold": 500,
+      "monthlyRevenue": 2217000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B5CWLCKT.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 176,
+    "lowStarCount": 58,
+    "highStarCount": 93,
+    "topPainPoints": [
+      {
+        "category": "価格",
+        "count": 13
+      },
+      {
+        "category": "説明書",
+        "count": 8
+      },
+      {
+        "category": "梱包",
+        "count": 6
+      },
+      {
+        "category": "品質",
+        "count": 4
+      },
+      {
+        "category": "耐久",
+        "count": 4
+      },
+      {
+        "category": "サポート",
+        "count": 3
+      },
+      {
+        "category": "サイズ",
+        "count": 1
+      },
+      {
+        "category": "互換",
+        "count": 1
+      },
+      {
+        "category": "デザイン",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 28
+      },
+      {
+        "category": "使いやすさ",
+        "count": 13
+      },
+      {
+        "category": "品質",
+        "count": 11
+      },
+      {
+        "category": "価値",
+        "count": 7
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0982LYF7V",
+          "rating": 1,
+          "title": "破損",
+          "body": "外箱に落とした様な凹みあり。中身の商品にも変形あり。"
+        },
+        {
+          "asin": "B0982LYF7V",
+          "rating": 2,
+          "title": "もう少しで中身が出そうです",
+          "body": "ダンボールがへしゃげて来たので嫌な予感していたんですがすぐ下に商品が入っていると言う意識を持って欲しいと思いました商品自体はとてもいいモノで、重宝しています"
+        },
+        {
+          "asin": "B0155WLX4Y",
+          "rating": 1,
+          "title": "Amazon配送業者が非常識",
+          "body": "評判良さそうだしAmazonオススメだったので注文しましたしかし、40℃に届く猛暑にもかかわらず、「置き配しない」に指定いるのに玄関先に置き逃げされました家に居るのにピンポンも鳴らさずですせっかくの商品、しかも食品をそういう扱いしてるのはどうなのでしょうか？いくら出荷時に良品でも、手元に来た時点で変質・劣化していては買った意味がありません不良品を承知で買うわけではないのでメーカーに落ち度はないです"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B0982LYF7V",
+          "rating": 2,
+          "title": "賞味期限が少ない",
+          "body": "通常1年間あるはずのメイバランスが、4ヶ月を切ったものを送って来ました。24本も買っているのに、賞味期限までせめて８ヶ月以上ある商品を送るべきではないですか。失望しました。返したい！他の種類のメイバランスは賞味期限まで８カ月ありましたよ。売れ残りを送るのはやめてほしいです。"
+        },
+        {
+          "asin": "B0155WLX4Y",
+          "rating": 1,
+          "title": "賞味期限が？",
+          "body": "注文日が2021年1月なのに、賞味期限が最長で2021年3月上旬でした。在庫処分品ですか⁉️返品の期限も2021年1月13日、なんかモヤモヤします。"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B0155WLX4Y",
+          "rating": 1,
+          "title": "運送にクレーム",
+          "body": "「置き配を利用しない」にしていたのに何故か郵便受けに入れられていました。離れて暮らす親に毎月栄養をとってほしいと思い定期便にしている商品なのに自宅の郵便受けなんて小さいのに押し込むように入れられて出すのに大変だし大きく重い宅配物を郵便受けに入れるのは間違いだしいい加減な運送をするな！！こんな事は初めてです。配達した人にクレームです。"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0982LYF7V",
+          "rating": 1,
+          "title": "賞味期限近すぎる商品が届いたが交換の手続き出来なかった",
+          "body": "{\"clickstreamNexusMetricsConfig\":{\"producerId\":\"vsemetrics_playercards\",\"schemaId\":\"clickstream.CustomerEvent.4\",\"actionType\":\"DISCOVERY\",\"eventOwner\":\"vsemetrics_playercards\",\"eventType\":\"IVEVideoVie"
+        }
+      ],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "メイバランス": 3,
+    "クリミール": 1,
+    "HLS Healthy Living Standards": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/71436051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:28.455Z"
+}

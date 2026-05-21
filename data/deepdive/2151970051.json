@@ -1,0 +1,266 @@
+{
+  "categoryId": "2151970051",
+  "categoryName": "キーボード・マウス・入力機器",
+  "l1Path": "パソコン・周辺機器 / キーボード・マウス・入力機器",
+  "score": 72,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 47208000,
+  "reviewMedian": 10253,
+  "topShare": 0.11015082189459413,
+  "ratingMean": 4.2,
+  "avgPrice": 3226,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B07S8VWT5B",
+      "title": "バッファロー マウス 無線 ワイヤレス 5ボタン 【戻る/進むボタン搭載】 小型 軽量 節電モデル 最大584日使用可能 BlueLED ブラック BSMBW315BK",
+      "brand": "バッファロー",
+      "price": 1040,
+      "rating": 4,
+      "reviewCount": 22349,
+      "monthlySold": 5000,
+      "monthlyRevenue": 5200000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07S8VWT5B.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B08K2CHMWK",
+      "title": "ロジクール ワイヤレスキーボード K295GP 静音 耐水 キーボード 無線 Unifying K295 windows chrome グラファイト 国内正規品",
+      "brand": "Logicool(ロジクール)",
+      "price": 3017,
+      "rating": 4.3,
+      "reviewCount": 10253,
+      "monthlySold": 5000,
+      "monthlyRevenue": 15085000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08K2CHMWK.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B06WRN4VGJ",
+      "title": "バッファロー マウス 無線 ワイヤレス 静音 5ボタン 【戻る/進むボタン搭載】dpi切替 BlueLED ブラック BSMBW325BK",
+      "brand": "バッファロー",
+      "price": 1389,
+      "rating": 4,
+      "reviewCount": 22538,
+      "monthlySold": 4000,
+      "monthlyRevenue": 5556000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B06WRN4VGJ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0DC5WQQ2J",
+      "title": "ロジクール 静音 ワイヤレス トラックボール マウス M575SPGR Bluetooth Logibolt 無線 windows mac iPad OS Chrome トラックボールマウス グラファイト M575 M575SP 国内正規品",
+      "brand": "Logicool(ロジクール)",
+      "price": 6900,
+      "rating": 4.3,
+      "reviewCount": 2117,
+      "monthlySold": 1000,
+      "monthlyRevenue": 6900000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DC5WQQ2J.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B09Q5SHDR3",
+      "title": "ロジクール Signature M650MGR ワイヤレスマウス 静音 Bluetooth レギュラー グラファイト ワイヤレス マウス 無線 Logi Bolt Unifying非対応 windows mac iPad Android Chrome OS スクロールホイール 無線マウス 静音マウス M650 国内正規品",
+      "brand": "Logicool(ロジクール)",
+      "price": 3781,
+      "rating": 4.4,
+      "reviewCount": 3239,
+      "monthlySold": 2000,
+      "monthlyRevenue": 7562000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09Q5SHDR3.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 188,
+    "lowStarCount": 80,
+    "highStarCount": 76,
+    "topPainPoints": [
+      {
+        "category": "品質",
+        "count": 46
+      },
+      {
+        "category": "音",
+        "count": 45
+      },
+      {
+        "category": "サイズ",
+        "count": 17
+      },
+      {
+        "category": "使い勝手",
+        "count": 17
+      },
+      {
+        "category": "耐久",
+        "count": 12
+      },
+      {
+        "category": "サポート",
+        "count": 12
+      },
+      {
+        "category": "価格",
+        "count": 9
+      },
+      {
+        "category": "梱包",
+        "count": 7
+      },
+      {
+        "category": "互換",
+        "count": 3
+      },
+      {
+        "category": "説明書",
+        "count": 2
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 47
+      },
+      {
+        "category": "使いやすさ",
+        "count": 43
+      },
+      {
+        "category": "価値",
+        "count": 23
+      },
+      {
+        "category": "品質",
+        "count": 8
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B07S8VWT5B",
+          "rating": 1,
+          "title": "外れを引いた？",
+          "body": "購入してから3ヶ月でマウスホイールが壊れました。常にマウスホイールを押下している状態になりほぼ操作不能となりました。"
+        },
+        {
+          "asin": "B07S8VWT5B",
+          "rating": 2,
+          "title": "残念でした",
+          "body": "既存マウスが故障のため、安かったので購入、マウスサイドの戻る進むボタンに親指が当たり意図せずに戻ってしまい不便なのでお蔵入りに…慣れが必要かもです（私には…）"
+        },
+        {
+          "asin": "B07S8VWT5B",
+          "rating": 1,
+          "title": "早すぎる故障",
+          "body": "２０２６年５月初旬に突然動かなくなりました。半年もたっていません。電池の交換も行いましたが無言でした。"
+        },
+        {
+          "asin": "B07S8VWT5B",
+          "rating": 1,
+          "title": "不良品でした",
+          "body": "接触不良かなにかわからないですが全く使えませんでした。安価な商品なので返品するのも面倒。ゴミ箱行きです。やっぱり、安かろう悪かろうなのかなぁ"
+        },
+        {
+          "asin": "B07S8VWT5B",
+          "rating": 1,
+          "title": "半年で壊れます。",
+          "body": "ホイールを多用する人にはお勧めできません。正直壊れやすいです。"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B07S8VWT5B",
+          "rating": 1,
+          "title": "早すぎる故障",
+          "body": "２０２６年５月初旬に突然動かなくなりました。半年もたっていません。電池の交換も行いましたが無言でした。"
+        },
+        {
+          "asin": "B07S8VWT5B",
+          "rating": 1,
+          "title": "半年で壊れます。",
+          "body": "ホイールを多用する人にはお勧めできません。正直壊れやすいです。"
+        },
+        {
+          "asin": "B07S8VWT5B",
+          "rating": 1,
+          "title": "耐久性なし。個体差あり。",
+          "body": "すぐ壊れた。"
+        },
+        {
+          "asin": "B06WRN4VGJ",
+          "rating": 2,
+          "title": "ハズレに当たったのかな",
+          "body": "使用頻度は高くなかったが1年足らずでエンコーダーが劣化したのか操作が困難になった。こんなに早く使い物にならないマウスは初だった。"
+        },
+        {
+          "asin": "B06WRN4VGJ",
+          "rating": 2,
+          "title": "スクロールボタンの寿命が短い",
+          "body": "マウスを利用しているとスクロールボタンの動きが段々と挙動不審になる。スクロール量に対して実際の画面がスクロール以上に動いたり　動きが鈍くなったりする。スクロールの部材が簡単に交換できるようになってくれれば良い製品になるのではないだろうか。それほど高い製品ではないので、買い替えるしかないのだろうが。スクロールだけの為に買い替えるのは資源の無駄の様な気がする。"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B07S8VWT5B",
+          "rating": 2,
+          "title": "クリックが難しい",
+          "body": "自分は手が小さい方です。クリックする時の上から下への指を降ろす方向性が悪いのか、クリックするとマウスが少しズレます。クリックしたかった位置からズレてクリックされるので「ん〜そこじゃない」が多発します使い方の問題だと思いますが、手のサイズによっては使いやすさが結構変わるのかなぁと思いました"
+        },
+        {
+          "asin": "B07S8VWT5B",
+          "rating": 2,
+          "title": "クリック音が大きい",
+          "body": "安価なので仕方ないと思いますが、クリックの音のカチカチ大きい音が気になりました。"
+        },
+        {
+          "asin": "B08K2CHMWK",
+          "rating": 1,
+          "title": "慣れるまで大変",
+          "body": "静音はいいバックスペースの位置が若干合わない"
+        },
+        {
+          "asin": "B08K2CHMWK",
+          "rating": 2,
+          "title": "打鍵感は二の次で、軽量・ワイヤレスの取り回し重視ならOK",
+          "body": "【良い点】軽量かつワイヤレスなので、机を片付けたいとき、キーボードを使いたいとき、さっと出し入れできる手軽さは期待通りでした。静音のうたい文句の通り充分静かで良いです。【気に入ってない点】デスクトップPCの物と比べるとゴムのような押し心地で、気持ちいい打鍵感とはいいがたいです。押しはじめからゴムの反発があるような感触で慣れないと疲れます。【結論】メカニカル好きの人には全く受け入れられない感触なので"
+        },
+        {
+          "asin": "B06WRN4VGJ",
+          "rating": 1,
+          "title": "小さくて使いづらい",
+          "body": "右側からFMOUSE 超小型 2in1 Bluetooth ワイヤレスマウス　iPadに稀に使用したりしている当商品　小さい使いづらいのでお蔵入り決定、再度ボタンの位置も悪いエレコム Lサイズ 5ボタン M-XGL10DBBK　メインに使っている　程よい大きさロジクール  トラックボール M575S　トラックボールを使ってみたくて購入。長時間使用には不向きPerixx ぺリックス PERIMICE"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B07S8VWT5B",
+          "rating": 1,
+          "title": "不良品でした",
+          "body": "接触不良かなにかわからないですが全く使えませんでした。安価な商品なので返品するのも面倒。ゴミ箱行きです。やっぱり、安かろう悪かろうなのかなぁ"
+        },
+        {
+          "asin": "B08K2CHMWK",
+          "rating": 2,
+          "title": "１年６か月で故障。１日使えていたが次の日にダメになりました。",
+          "body": "値段に妥当といっていいのかどうかわからない。買ってちょうど１年６か月で動かなくなりました。残念です。"
+        }
+      ],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "バッファロー": 2,
+    "Logicool(ロジクール)": 3
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/2151970051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:22.361Z"
+}

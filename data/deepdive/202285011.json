@@ -1,0 +1,104 @@
+{
+  "categoryId": "202285011",
+  "categoryName": "水虫改善",
+  "l1Path": "ドラッグストア / 医薬品・指定医薬部外品 / 水虫改善",
+  "score": 65,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 26550000,
+  "reviewMedian": null,
+  "topShare": 0.5254237288135594,
+  "ratingMean": -0.1,
+  "avgPrice": 1063,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B07CCC2FQQ",
+      "title": "【指定第2類医薬品】ブテナロックVαクリーム 18g",
+      "brand": "久光製薬",
+      "price": 1395,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 10000,
+      "monthlyRevenue": 13950000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07CCC2FQQ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B01BCYHIRU",
+      "title": "【指定第2類医薬品】メンソレータム エクシブWディープ10クリーム 35g",
+      "brand": "エクシブ",
+      "price": 1048,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 5000,
+      "monthlyRevenue": 5240000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01BCYHIRU.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0CYPRQRLC",
+      "title": "【指定第2類医薬品】 by Amazon キルカミンV8水虫クリーム 30g",
+      "brand": "by Amazon",
+      "price": 806,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 4000,
+      "monthlyRevenue": 3224000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CYPRQRLC.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B079JY1QJV",
+      "title": "【指定第2類医薬品】 ラミシールDX 10g",
+      "brand": "ラミシール",
+      "price": 1149,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 2000,
+      "monthlyRevenue": 2298000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B079JY1QJV.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B01BCYHO7Y",
+      "title": "【指定第2類医薬品】メンソレータム エクシブWきわケアジェル 15g",
+      "brand": "エクシブ",
+      "price": 919,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 2000,
+      "monthlyRevenue": 1838000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01BCYHO7Y.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 0,
+    "lowStarCount": 0,
+    "highStarCount": 0,
+    "topPainPoints": [],
+    "topPraisePoints": [],
+    "painSamples": {
+      "品質": [],
+      "耐久": [],
+      "サイズ": [],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "久光製薬": 1,
+    "エクシブ": 2,
+    "by Amazon": 1,
+    "ラミシール": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/202285011/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:19.793Z"
+}

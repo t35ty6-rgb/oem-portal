@@ -1,0 +1,282 @@
+{
+  "categoryId": "14315411",
+  "categoryName": "アウトドア",
+  "l1Path": "スポーツ＆アウトドア / アウトドア",
+  "score": 73,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 37816000,
+  "reviewMedian": 719,
+  "topShare": 0.12153585783795219,
+  "ratingMean": 4.32,
+  "avgPrice": 1929,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B001UT0AO6",
+      "title": "ロゴス(LOGOS) 保冷剤 倍速凍結 長時間保冷 氷点下パックM 長時間 防災 日本製",
+      "brand": "ロゴス(LOGOS)",
+      "price": 1149,
+      "rating": 4.3,
+      "reviewCount": 20060,
+      "monthlySold": 5000,
+      "monthlyRevenue": 5745000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B001UT0AO6.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0FVDX36V5",
+      "title": "Coleman(コールマン) テイク9(ジェットブラック)",
+      "brand": "Coleman(コールマン)",
+      "price": 3000,
+      "rating": 4.4,
+      "reviewCount": 4010,
+      "monthlySold": 3000,
+      "monthlyRevenue": 9000000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FVDX36V5.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0FGCLKBTT",
+      "title": "強力保冷剤 驚異の保冷力 Mサイズ 2個セット【倍速凍結＆長時間保冷】ステンレス製アイス保冷剤 コンパクト 長持ち 繰り返し使用可 防災用にも最適",
+      "brand": "Vicopo",
+      "price": 2560,
+      "rating": 4.2,
+      "reviewCount": 435,
+      "monthlySold": 3000,
+      "monthlyRevenue": 7680000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FGCLKBTT.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0GJS172ZB",
+      "title": "双眼鏡 ライブ用 15倍 オペラグラス 防振【BAK4光学レンズ&FMC多層コーティング】望遠鏡 首掛け 超軽量 コンパクト 近視対応 防水防塵 眼幅調整可能 バードウォッチング/スポーツ観戦用/コンサート用/野鳥観察/卒業コンサート 日本語取扱説明書",
+      "brand": "Evospace",
+      "price": 1999,
+      "rating": 4.6,
+      "reviewCount": 420,
+      "monthlySold": 5000,
+      "monthlyRevenue": 9995000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GJS172ZB.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0F2T1HH8Y",
+      "title": "アース虫よけネット EX 吊り下げ 虫除け 1年用 ベランダ 玄関 簡易パッケージ 無臭 屋外 窓 虫よけ 虫対策 侵入予防 Amazon.co.jp限定",
+      "brand": "虫よけネットEX",
+      "price": 935,
+      "rating": 4.1,
+      "reviewCount": 719,
+      "monthlySold": 7000,
+      "monthlyRevenue": 6545000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F2T1HH8Y.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 246,
+    "lowStarCount": 91,
+    "highStarCount": 108,
+    "topPainPoints": [
+      {
+        "category": "価格",
+        "count": 14
+      },
+      {
+        "category": "品質",
+        "count": 11
+      },
+      {
+        "category": "耐久",
+        "count": 9
+      },
+      {
+        "category": "サイズ",
+        "count": 8
+      },
+      {
+        "category": "サポート",
+        "count": 6
+      },
+      {
+        "category": "デザイン",
+        "count": 5
+      },
+      {
+        "category": "説明書",
+        "count": 4
+      },
+      {
+        "category": "使い勝手",
+        "count": 3
+      },
+      {
+        "category": "互換",
+        "count": 3
+      },
+      {
+        "category": "梱包",
+        "count": 3
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 45
+      },
+      {
+        "category": "使いやすさ",
+        "count": 21
+      },
+      {
+        "category": "品質",
+        "count": 19
+      },
+      {
+        "category": "価値",
+        "count": 15
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B001UT0AO6",
+          "rating": 1,
+          "title": "微妙",
+          "body": "んーこれ買うならペットシートを水で浸して凍らしたほうがいいかも。重たいし、すぐ溶けちゃった"
+        },
+        {
+          "asin": "B001UT0AO6",
+          "rating": 2,
+          "title": "すぐ溶ける",
+          "body": "他社と比べてもすぐ溶ける無いよりは良いが。今年の夏が暑すぎるのかも。"
+        },
+        {
+          "asin": "B0FVDX36V5",
+          "rating": 1,
+          "title": "対応遅すぎる",
+          "body": "商品がへこんでいて交換手続きをしました。連絡もなし、新しいのも届きません。すぐ使いたくて購入したのに残念すぎます。"
+        },
+        {
+          "asin": "B0FVDX36V5",
+          "rating": 2,
+          "title": "シールが剥がせない",
+          "body": "カラーは最高に可愛い！ですが、前面にべったり張られたシールがとてつもなく剥がしにくく、届いてすぐお出かけに持って行きたかったのに、諦めるしかありませんでした。剥がすのに小一時間かかりました。問題にならないんでしょうか？やっと剥がせたと思ったら、背面にもべったり...商品自体にはとても満足していますが、シールだけはありえないほど不愉快でした。"
+        },
+        {
+          "asin": "B0FGCLKBTT",
+          "rating": 1,
+          "title": "すぐに溶ける！",
+          "body": "レビューでの評価が高かったので購入したがすぐ溶けて全然ダメです購入して失敗した"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B001UT0AO6",
+          "rating": 1,
+          "title": "保冷能力が低い",
+          "body": "保冷時間が短くて使えません。サーモスの5L保冷バッグに2つを一緒に入れても3時間で常温になります。偽物なのかな？と疑っています。一般的なゲル状の保冷剤や、100円均一の商品方が長持ちします。早く凍結しても、保冷能力がこんなに低いと意味がなく、がっかりです。"
+        },
+        {
+          "asin": "B001UT0AO6",
+          "rating": 2,
+          "title": "半年保たずに膨らんだ",
+          "body": "半年前に買ったのが冷却後に膨らんでた。ハズレ個体だったのか。以前に買ったのは5年以上そんな事なかったのに"
+        },
+        {
+          "asin": "B0FGCLKBTT",
+          "rating": 2,
+          "title": "余り長持ちしません",
+          "body": "これよりペットボトルが良いです"
+        },
+        {
+          "asin": "B0FGCLKBTT",
+          "rating": 2,
+          "title": "見た目は良いけど、考え物だね",
+          "body": "すぐに中の液体溶けるかも？某メーカーの専用の保冷剤は発砲スチロールの中なら朝から夜迄溶けないけど、この商品は溶けてる、間に挟んでもやっぱり溶けるからねー、大きい保冷剤の方が長持ちするってのが分かったし、液体もちゃんとしたやつの方が溶けにくいかも、350の保冷剤とくらべるとやや溶けやす利点は薄いぐらいだね、水冷ベストに使ってたけど、凍らせたペットボトルの方が良いのかもかさばるけど、薄いからかさばらな"
+        },
+        {
+          "asin": "B0F2T1HH8Y",
+          "rating": 1,
+          "title": "室外ドアノブに使用",
+          "body": "1年玄関のドアに掛けて使いました。全く効果は無かったです。掛けてないよりマシとかではなく、効果は感じませんでした。なんだったらこれに虫止まってました笑"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B001UT0AO6",
+          "rating": 1,
+          "title": "サイズは個々に確認",
+          "body": "一緒に買ったクーラーボックスとサイズが合わなかった。サイズの合った物を薦めるべき"
+        },
+        {
+          "asin": "B001UT0AO6",
+          "rating": 1,
+          "title": "変形します",
+          "body": "100均の同じサイズのものと効果はほとんど変わりません。また冷凍しきるにはかなり時間がかかり、毎日使うことはできません。しかも冷凍すると反ったり膨らんだりものすごく変形します。こんなことは初めです。これなら100均の方がマシだと感じてしまいました。"
+        },
+        {
+          "asin": "B0FVDX36V5",
+          "rating": 1,
+          "title": "残念でした",
+          "body": "ものはカッコよく使いやすそうですが大きいシールがベッタリ貼ってあり剥がしにくく綺麗にはがせなくベタベタが残ってしまいすごく残念です。なぜあんなにシールを貼ったのか不思議です。"
+        },
+        {
+          "asin": "B0FVDX36V5",
+          "rating": 2,
+          "title": "保冷力と蓋の固さ以外は良い！",
+          "body": "メディアを読み込めませんでした。\n                \n            \n                \n            \n            \n        \n    \n    \n\n\n\n\n\n\n\n\n  \n  \n    子供がスポーツで、凍ったペットボトル・お弁当・捕食・ゼリー飲料を持っていく為に購入。低学年が使うには大きさがちょうど良く、クーラーボックスの上に座"
+        },
+        {
+          "asin": "B0FGCLKBTT",
+          "rating": 2,
+          "title": "見た目は良いけど、考え物だね",
+          "body": "すぐに中の液体溶けるかも？某メーカーの専用の保冷剤は発砲スチロールの中なら朝から夜迄溶けないけど、この商品は溶けてる、間に挟んでもやっぱり溶けるからねー、大きい保冷剤の方が長持ちするってのが分かったし、液体もちゃんとしたやつの方が溶けにくいかも、350の保冷剤とくらべるとやや溶けやす利点は薄いぐらいだね、水冷ベストに使ってたけど、凍らせたペットボトルの方が良いのかもかさばるけど、薄いからかさばらな"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0F2T1HH8Y",
+          "rating": 1,
+          "title": "眉唾商品、屋外不向き",
+          "body": "効いてるだか、効いてないだかわからない。効果が見られなかった。玄関先に中空で1枚つるし、1枚掛けたが効果なし。もう買わない"
+        },
+        {
+          "asin": "B0F2T1HH8Y",
+          "rating": 2,
+          "title": "効果がわからない",
+          "body": "効果がわからない"
+        },
+        {
+          "asin": "B0F2T1HH8Y",
+          "rating": 2,
+          "title": "よくわからない",
+          "body": "あんまり効果はわかりません。"
+        }
+      ],
+      "におい": [
+        {
+          "asin": "B0FGCLKBTT",
+          "rating": 1,
+          "title": "説明と異なる",
+          "body": "商品説明において、１時間で利用できそうな記載でしたが、実際には４−５時間冷やす必要があると説明があります。ボックスの裏面に多々注意事項が記載されていて、特に疑問なのは、使用方法３として、「中身が外に出て液体になった、再度冷凍庫に入れて凍らせてください。」理解し難いです。"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "ロゴス(LOGOS)": 1,
+    "Coleman(コールマン)": 1,
+    "Vicopo": 1,
+    "Evospace": 1,
+    "虫よけネットEX": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/14315411/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:16.711Z"
+}

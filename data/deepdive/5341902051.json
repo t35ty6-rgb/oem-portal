@@ -1,0 +1,250 @@
+{
+  "categoryId": "5341902051",
+  "categoryName": "ガラスディスプレイキャビネット",
+  "l1Path": "ホーム＆キッチン / 家具 / ダイニングルーム家具 / ガラスディスプレイキャビネット",
+  "score": 70,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 15117100,
+  "reviewMedian": 60,
+  "topShare": 0.7134172559551766,
+  "ratingMean": 3.98,
+  "avgPrice": 19473,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B07PG5MRL5",
+      "title": "不二貿易 コレクションケース フィギュアケース 4段 幅42.5×奥行36.5×高さ162cm ブラック 強化ガラス 全面ガラス 組立商品 クリア 98880",
+      "brand": "不二貿易(Fujiboeki)",
+      "price": 13481,
+      "rating": 4,
+      "reviewCount": 930,
+      "monthlySold": 800,
+      "monthlyRevenue": 10784800,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07PG5MRL5.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0FGN126MP",
+      "title": "FUFU&GAGA ガラスケース 4段両扉タイプ センサーライト 木製 コレクションシェルフ 幅80 ディスプレイラック おしゃれ リビング収納 ブラック",
+      "brand": "FUFU&GAGA",
+      "price": 29997,
+      "rating": 4.2,
+      "reviewCount": 55,
+      "monthlySold": 100,
+      "monthlyRevenue": 2999700,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FGN126MP.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0BRSBBNM6",
+      "title": "家具350 コレクションケース 幅80 ガラス シェルフ 収納 フィギュア ディスプレイ 推し活 ホワイト 147007",
+      "brand": "株式会社イーナ",
+      "price": 14979,
+      "rating": 4.3,
+      "reviewCount": 60,
+      "monthlySold": 50,
+      "monthlyRevenue": 748950,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BRSBBNM6.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0FGY5Q2S9",
+      "title": "地球家具 ガラスコレクションケース MISTA ミスタ 本体 ミドルタイプ 高さ83cm 背面ガラスタイプ コレクションラック ガラスケース ディスプレイラック ※LEDユニット、扉用鍵は別売 (幅60cm ロータイプ、ホワイト)",
+      "brand": "地球家具",
+      "price": 15730,
+      "rating": 4.1,
+      "reviewCount": 61,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FGY5Q2S9.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0FCSCWJWJ",
+      "title": "FUFU&GAGA コレクションシェルフ 幅80cm ガラスケース サイドボード コンパクト ライト付き 木製 北欧 ディスプレイラック おしゃれ 扉付き リビング収納 ブラウン",
+      "brand": "FUFU&GAGA",
+      "price": 23180,
+      "rating": 3.4,
+      "reviewCount": 26,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FCSCWJWJ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 145,
+    "lowStarCount": 35,
+    "highStarCount": 91,
+    "topPainPoints": [
+      {
+        "category": "品質",
+        "count": 13
+      },
+      {
+        "category": "説明書",
+        "count": 12
+      },
+      {
+        "category": "デザイン",
+        "count": 6
+      },
+      {
+        "category": "梱包",
+        "count": 5
+      },
+      {
+        "category": "サポート",
+        "count": 4
+      },
+      {
+        "category": "サイズ",
+        "count": 3
+      },
+      {
+        "category": "価格",
+        "count": 2
+      },
+      {
+        "category": "耐久",
+        "count": 1
+      },
+      {
+        "category": "使い勝手",
+        "count": 1
+      },
+      {
+        "category": "互換",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 93
+      },
+      {
+        "category": "品質",
+        "count": 34
+      },
+      {
+        "category": "使いやすさ",
+        "count": 19
+      },
+      {
+        "category": "価値",
+        "count": 10
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B07PG5MRL5",
+          "rating": 1,
+          "title": "不良品",
+          "body": "ひび割れボルトがはいらない"
+        },
+        {
+          "asin": "B07PG5MRL5",
+          "rating": 2,
+          "title": "不良",
+          "body": "ネジ穴がちゃんと開いてないところがあって組み立てられなかった"
+        },
+        {
+          "asin": "B07PG5MRL5",
+          "rating": 2,
+          "title": "大切なモノを飾る場所にこそお金をかけるべき",
+          "body": "安さに釣られてセールで購入、失敗でしたまず安心を買うならこちらを強くお勧めします地球家具 ガラスコレクションケース MISTA値は張ると言っても所詮フィギュア一体分です大事なフィギュアやドールが台無しになるくらいなら全然安いです支柱で支える構造で作りがしっかりしていて棚の高さは自由に変えられます以下悪い点一番下の段が固定金具むき出しなので、例えばフィギュアやドールにぶつかって傷がつく可能性がありま"
+        },
+        {
+          "asin": "B07PG5MRL5",
+          "rating": 2,
+          "title": "ひび割れ",
+          "body": "全体的には満足ですが、板がひび割れてたのはショックです。交換してもらえないのかな？"
+        },
+        {
+          "asin": "B07PG5MRL5",
+          "rating": 2,
+          "title": "ダボ不良品",
+          "body": "ダボが不良ですけど余分ダボとかが入ってないです"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B07PG5MRL5",
+          "rating": 1,
+          "title": "傷",
+          "body": "あまりに重かったので半年後に組み立てしたのですが、開けたら傷がついてました。"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B07PG5MRL5",
+          "rating": 1,
+          "title": "もう少し出せばよい商品がある",
+          "body": "棚の高さの調整が細かくできないのでスカスカな展示になる"
+        },
+        {
+          "asin": "B0BRSBBNM6",
+          "rating": 2,
+          "title": "組み立て時に問題有り",
+          "body": "ネジ穴小さすぎんだろネジが回らねえよ"
+        },
+        {
+          "asin": "B0FCSCWJWJ",
+          "rating": 1,
+          "title": "安心・安全に使用できません",
+          "body": "組み立て手順通りに行っても、後半工程で不具合が出て何度も分解する必要があります。また板に傷がいくつかあることや、正しい向きでネジをセットしても、カムロックネジが適切に噛み合わないなどの不具合があります。"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B07PG5MRL5",
+          "rating": 1,
+          "title": "説明書が分かりにくい。",
+          "body": "説明書が分かりにくい。がっかりしましました。"
+        },
+        {
+          "asin": "B07PG5MRL5",
+          "rating": 2,
+          "title": "大切なモノを飾る場所にこそお金をかけるべき",
+          "body": "安さに釣られてセールで購入、失敗でしたまず安心を買うならこちらを強くお勧めします地球家具 ガラスコレクションケース MISTA値は張ると言っても所詮フィギュア一体分です大事なフィギュアやドールが台無しになるくらいなら全然安いです支柱で支える構造で作りがしっかりしていて棚の高さは自由に変えられます以下悪い点一番下の段が固定金具むき出しなので、例えばフィギュアやドールにぶつかって傷がつく可能性がありま"
+        },
+        {
+          "asin": "B07PG5MRL5",
+          "rating": 2,
+          "title": "初期傷あり、説明書分かりづらい",
+          "body": "前面扉部分に傷あり、背面ガラスには汚れありの状態で梱包されていました。説明書表紙には組み立て方の参考動画と記載のあるQRコードがありましたが、同会社の別の商品の組み立て動画。説明書通りに作っても天板と側面がハマらず自分で天板部分の木を削り、半ば無理やり嵌め込みました。扉部分の磁石も磁力が弱く、自身で磁石を追加し、ようやく扉を閉められる状態に。説明書もどのパーツか等わかりづらい点が多く、組み立てに大"
+        },
+        {
+          "asin": "B0FGN126MP",
+          "rating": 1,
+          "title": "説明書ください。作り方分かりませんわ",
+          "body": "これ説明書は？どこ？"
+        },
+        {
+          "asin": "B0BRSBBNM6",
+          "rating": 1,
+          "title": "組み立て方の説明が不足しています。",
+          "body": "商品に入っている説明書が細かい部分省かれていて、組み立て途中で間違いに気付いて前に戻ったりして、２時間弱掛かり゙ました。商品はとても気にいっています。"
+        }
+      ],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "不二貿易(Fujiboeki)": 1,
+    "FUFU&GAGA": 2,
+    "株式会社イーナ": 1,
+    "地球家具": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/5341902051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:28.065Z"
+}

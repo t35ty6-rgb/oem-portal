@@ -1,0 +1,216 @@
+{
+  "categoryId": "170329011",
+  "categoryName": "おむつ",
+  "l1Path": "ベビー＆マタニティ / おむつ・トイレ / おむつ",
+  "score": 60,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 134361000,
+  "reviewMedian": 544,
+  "topShare": 0.27132873378435707,
+  "ratingMean": 4.38,
+  "avgPrice": 5322,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0CP1HVWTH",
+      "title": "【パンツ Lサイズ】マミーポコ パンツ ドラえもん オムツ (9~15kg)160枚(40枚×4) [ケース品] 【Amazon.co.jp限定】",
+      "brand": "MamyPoko",
+      "price": 4557,
+      "rating": 4.5,
+      "reviewCount": 2227,
+      "monthlySold": 8000,
+      "monthlyRevenue": 36456000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CP1HVWTH.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0BGXTCRQT",
+      "title": "【パンツ Mたっち】 ムーニーマン マシュマロ肌ごこち モレ安心 Mたっち おむつ (6~12kg)204枚(68枚×3) [ケース品] 【Amazon.co.jp限定】",
+      "brand": "ムーニーマン",
+      "price": 6428,
+      "rating": 4.5,
+      "reviewCount": 2140,
+      "monthlySold": 2000,
+      "monthlyRevenue": 12856000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BGXTCRQT.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0DDY6R21V",
+      "title": "【Amazon.co.jp限定】【パンツ Lサイズ】メリーズ モレ０へ！ずっと肌さら (9~14kg) 162枚 (54枚×3)[ケース品]",
+      "brand": "メリーズ",
+      "price": 5470,
+      "rating": 4.4,
+      "reviewCount": 544,
+      "monthlySold": 5000,
+      "monthlyRevenue": 27350000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DDY6R21V.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0BSQWDCW8",
+      "title": "【夜用 パンツ ビッグより大きいサイズ】 MamyPoko マミーポコ 夜用パンツ ドラえもん オムツ(13~28kg) 22枚",
+      "brand": "MamyPoko",
+      "price": 1073,
+      "rating": 4,
+      "reviewCount": 261,
+      "monthlySold": 3000,
+      "monthlyRevenue": 3219000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BSQWDCW8.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0FM83THQZ",
+      "title": "【パンツ ビッグサイズ】パンパース オムツ さらさらケア (12-22kg) 192枚 (48枚×4パック) [ケース品]【Amazon.co.jp限定】",
+      "brand": "パンパース",
+      "price": 9080,
+      "rating": 4.5,
+      "reviewCount": 435,
+      "monthlySold": 6000,
+      "monthlyRevenue": 54480000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FM83THQZ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 186,
+    "lowStarCount": 65,
+    "highStarCount": 80,
+    "topPainPoints": [
+      {
+        "category": "価格",
+        "count": 16
+      },
+      {
+        "category": "サイズ",
+        "count": 15
+      },
+      {
+        "category": "品質",
+        "count": 11
+      },
+      {
+        "category": "梱包",
+        "count": 11
+      },
+      {
+        "category": "サポート",
+        "count": 9
+      },
+      {
+        "category": "互換",
+        "count": 4
+      },
+      {
+        "category": "使い勝手",
+        "count": 3
+      },
+      {
+        "category": "デザイン",
+        "count": 3
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "価値",
+        "count": 42
+      },
+      {
+        "category": "満足",
+        "count": 36
+      },
+      {
+        "category": "品質",
+        "count": 31
+      },
+      {
+        "category": "使いやすさ",
+        "count": 6
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0CP1HVWTH",
+          "rating": 1,
+          "title": "オムツかぶれになった。",
+          "body": "吸収力が低いからすぐ交換してもオムツかぶれが酷くなりました。やっぱり安いもんです"
+        },
+        {
+          "asin": "B0CP1HVWTH",
+          "rating": 2,
+          "title": "漏れやすい",
+          "body": "コスパも良さそうで幼稚園用に購入しましたが、あまりおしっこを吸ってくれないのか、ズボンがすぐに湿ってしまい、漏れてる？と感じることが多かったです。こまめにチェックして変えるのなら大丈夫かもしれません。"
+        },
+        {
+          "asin": "B0CP1HVWTH",
+          "rating": 2,
+          "title": "安いですが",
+          "body": "おしっこは問題ないですが、うんちが多いと背中から漏れることが多々、、腰あたりの素材が他製品に比べて薄い気がします。量も少なくすぐに変えれば問題ないかもですが、まだうんちしたと言えない年齢で気付けばアウト、、なこともあります。お安く変えるのはありがたいです"
+        },
+        {
+          "asin": "B0BGXTCRQT",
+          "rating": 1,
+          "title": "パッケージが破れたものが届きました。",
+          "body": "パッケージがかなり破れたものが届きました。ダンボールに入って届いたので配送中の破損ではないように思います。気持ち悪いので使いたくありませんが、返品もできないようなので泣き寝入りです。"
+        },
+        {
+          "asin": "B0BGXTCRQT",
+          "rating": 2,
+          "title": "リニューアル後...",
+          "body": "リニューアル後、初めて使いました。が、以前のものと比べてギャザー部分の面積が多くなったのか横の隙間が凄く....なんだかパカパカするようになりました。そしてギャザー部分が擦れてるのか肌が弱い息子は荒れてきてしまいました。リニューアル前の商品ではこんなことなかったし、ムーニーマン気に入ってたのにな。新しく合うおむつを探さなければ...以前のものに戻してほしいと思いました。"
+        }
+      ],
+      "耐久": [],
+      "サイズ": [
+        {
+          "asin": "B0CP1HVWTH",
+          "rating": 1,
+          "title": "とにかく漏れる。漏れまくる。",
+          "body": "普段はパンパースを使用していますが値上げがなかなかお財布に痛いのでコスパ良しと評判のこちらを試してみました…が、とにかく漏れる！夜中のおしっこ、ゆるウンチ、とにかく漏れまくり。しかも他社の漏れとは比較にならないくらい、盛大に漏れます。子供は痩せ型で、9kgジャストくらいでMサイズを使用しましたがこちらは作りが大きいので体型に合っていないようです。むっちりタイプのお子さんなら漏れないのかもしれません"
+        },
+        {
+          "asin": "B0CP1HVWTH",
+          "rating": 1,
+          "title": "ゆるうんちは横漏れ",
+          "body": "メリーズを使っていましたが、サイズアップのためこちらに変えました。しかし足の付け根部分がしっかりフィットしていないからか、ゆるうんちが両横から漏れてしまいました。。。リピなしです。"
+        },
+        {
+          "asin": "B0CP1HVWTH",
+          "rating": 2,
+          "title": "値段相応",
+          "body": "排泄が多いので値段が安いこちらを試しに購入いつもパンパースやムーニーを使っていたので明らかに薄く感じたおしっこしたオムツを触ると薄いからか湿ってる気がするゆるうんちも漏れたし値段相応って感じゆるうんち信頼できるのはやっぱりムーニーかな…夜用パンツも子(8.5Kg)にはデカすぎて足からおしっこ漏れてるし…信頼できるのはパンパースかなパンパースのLサイズでも漏れなかったし"
+        },
+        {
+          "asin": "B0CP1HVWTH",
+          "rating": 2,
+          "title": "合わない",
+          "body": "荒れました。肌に合わなかったみたい"
+        },
+        {
+          "asin": "B0BGXTCRQT",
+          "rating": 1,
+          "title": "サイズ感に注意が必要だと思います。",
+          "body": "これは一体。。。LサイズとBig XLサイズ大きさが、いっしょ残念です。"
+        }
+      ],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "MamyPoko": 2,
+    "ムーニーマン": 1,
+    "メリーズ": 1,
+    "パンパース": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/170329011/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:18.850Z"
+}

@@ -1,0 +1,98 @@
+{
+  "categoryId": "2189706051",
+  "categoryName": "スクリーントーン",
+  "l1Path": "ホビー / 手芸・画材 / 描画・絵画 / コミック用品 / スクリーントーン",
+  "score": 48,
+  "recommendation": "❌ 規模小さい",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 33955,
+  "reviewMedian": 193,
+  "topShare": 0.9952141836869929,
+  "ratingMean": 3.55,
+  "avgPrice": 3212,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B001EO6IAM",
+      "title": "デリーター(Deleter) スクリーントーンセットVol.2",
+      "brand": "デリーター(Deleter)",
+      "price": 2112,
+      "rating": 4.1,
+      "reviewCount": 384,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B001EO6IAM.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0GJDXW4Z7",
+      "title": "スクリーントーン 漫画 コミック 5枚セット 網点 グラデーション (5枚入り,60%20縦グラデ濃)",
+      "brand": "Tail Smith",
+      "price": 1950,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GJDXW4Z7.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B001U3UYXY",
+      "title": "アイシースクリーン S-42 50/20％",
+      "brand": "アイシー(IC)",
+      "price": 1087,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B001U3UYXY.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B07ZV37169",
+      "title": "感光スクリーンセット DX",
+      "brand": "新日本造形",
+      "price": 9550,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07ZV37169.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0GKPTMYVK",
+      "title": "スクリーントーン 漫画 コミック 5枚セット 網点 グラデーション (45L30%)",
+      "brand": "Tail Smith",
+      "price": 1950,
+      "rating": 3,
+      "reviewCount": 2,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GKPTMYVK.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 0,
+    "lowStarCount": 0,
+    "highStarCount": 0,
+    "topPainPoints": [],
+    "topPraisePoints": [],
+    "painSamples": {}
+  },
+  "competitorBrands": {
+    "デリーター(Deleter)": 1,
+    "Tail Smith": 2,
+    "アイシー(IC)": 1,
+    "新日本造形": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/2189706051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:23.775Z"
+}

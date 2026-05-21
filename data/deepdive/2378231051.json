@@ -1,0 +1,186 @@
+{
+  "categoryId": "2378231051",
+  "categoryName": "寝具カバー・シーツ",
+  "l1Path": "ホーム＆キッチン / 寝具 / 寝具カバー・シーツ",
+  "score": 65,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 13480200,
+  "reviewMedian": 4301,
+  "topShare": 0.13508701651310812,
+  "ratingMean": 4.2,
+  "avgPrice": 2161,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B07RJCZ7SV",
+      "title": "クモリ(Kumori) 綿100% ボックスシーツ 毛玉なし シングル 素肌にやさしい 吸水速乾 耐久性が高い 洗える オールシーズン ベッド/マットレス/敷き布団対応 マットレスカバー ベッドカバー ベッドシーツ 100X200cm ホワイト",
+      "brand": "クモリ(Kumori)",
+      "price": 1821,
+      "rating": 4,
+      "reviewCount": 10845,
+      "monthlySold": 1000,
+      "monthlyRevenue": 1821000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07RJCZ7SV.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0C99CHP4G",
+      "title": "クモリ(Kumori) 掛け布団カバー シングル 洗いざらし 吸湿速乾 素肌にやさしい 柔らかい しっとり ピーチスキン シワ加工 丸洗いOK オールシーズン 布団カバー 掛ふとんカバー (シングル・150X210cm ライトグレー)",
+      "brand": "クモリ(Kumori)",
+      "price": 1782,
+      "rating": 4.1,
+      "reviewCount": 1298,
+      "monthlySold": 1000,
+      "monthlyRevenue": 1782000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C99CHP4G.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0C9Q25RGB",
+      "title": "クモリ(Kumori) ボックスシーツ シングル 100X200cm 洗いざらし 柔らかい 肌触り 無地 耐久シワ加工 洗える 吸湿速乾 着脱簡単 オールシーズン ベッド/マットレス/敷き布団対応 ベッドシーツ シーツ マットレスカバー ベッドカバー (100X200cm, ライトグレー)",
+      "brand": "クモリ(Kumori)",
+      "price": 1343,
+      "rating": 4.2,
+      "reviewCount": 548,
+      "monthlySold": 400,
+      "monthlyRevenue": 537200,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C9Q25RGB.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B09MS6F2KD",
+      "title": "Utukky シルク枕カバー【TVで紹介】まくらカバー 片面シルク枕カバー 43×63cm 封筒式枕カバー シルクピローケース テンセル 洗える 寝癖軽減 抗菌防臭 美髪・美肌 敏感肌に優しい 四季適応 クリスマス 新年ギフト 贈り物 1枚セット シャンパン",
+      "brand": "Utukky",
+      "price": 3480,
+      "rating": 4.5,
+      "reviewCount": 4304,
+      "monthlySold": 1000,
+      "monthlyRevenue": 3480000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09MS6F2KD.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B08D3LQXV4",
+      "title": "クモリ(Kumori) 寝具カバーセット シングル 3点セット 布団カバーセット 布団カバー シーツ 洋式ベッド・和式布団兼用 掛け布団カバー ボックスシーツ 枕カバー 洗い替え速乾タイプ ピーチスキン加工 ダークグレー",
+      "brand": "クモリ(Kumori)",
+      "price": 2380,
+      "rating": 4.2,
+      "reviewCount": 4811,
+      "monthlySold": 1000,
+      "monthlyRevenue": 2380000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08D3LQXV4.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 68,
+    "lowStarCount": 21,
+    "highStarCount": 37,
+    "topPainPoints": [
+      {
+        "category": "におい",
+        "count": 13
+      },
+      {
+        "category": "デザイン",
+        "count": 11
+      },
+      {
+        "category": "サイズ",
+        "count": 2
+      },
+      {
+        "category": "価格",
+        "count": 2
+      },
+      {
+        "category": "梱包",
+        "count": 1
+      },
+      {
+        "category": "互換",
+        "count": 1
+      },
+      {
+        "category": "サポート",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 15
+      },
+      {
+        "category": "価値",
+        "count": 5
+      },
+      {
+        "category": "品質",
+        "count": 3
+      },
+      {
+        "category": "使いやすさ",
+        "count": 2
+      }
+    ],
+    "painSamples": {
+      "品質": [],
+      "耐久": [],
+      "サイズ": [
+        {
+          "asin": "B07RJCZ7SV",
+          "rating": 1,
+          "title": "小さい",
+          "body": "2サイズ位大きめ買わないとダメゴミだった"
+        }
+      ],
+      "説明書": [],
+      "におい": [
+        {
+          "asin": "B07RJCZ7SV",
+          "rating": 1,
+          "title": "洗っても繊維が臭い",
+          "body": "繊維の匂いが臭いです。洗っても取れないです。あれでは気持ち悪くなって寝れません。2度と買わないです。"
+        },
+        {
+          "asin": "B07RJCZ7SV",
+          "rating": 1,
+          "title": "臭い",
+          "body": "悪臭、酸っぱい匂いがした"
+        },
+        {
+          "asin": "B07RJCZ7SV",
+          "rating": 1,
+          "title": "匂い",
+          "body": "あんまりこういうの書きたくないけど、臭すぎる。酸っぱい匂いする。"
+        },
+        {
+          "asin": "B07RJCZ7SV",
+          "rating": 2,
+          "title": "臭い",
+          "body": "開けた瞬間とても臭いです"
+        },
+        {
+          "asin": "B07RJCZ7SV",
+          "rating": 2,
+          "title": "不思議な匂いがします。",
+          "body": "手触りがツルツルで綿100%なのかな？また匂いがするので2度ほど洗いました。生地の厚みは価格に対して厚めで良きです。"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "クモリ(Kumori)": 4,
+    "Utukky": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/2378231051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:24.319Z"
+}

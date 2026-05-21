@@ -1,0 +1,135 @@
+{
+  "categoryId": "345905011",
+  "categoryName": "チャイルドシート",
+  "l1Path": "ベビー＆マタニティ / チャイルドシート",
+  "score": 80,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 12777600,
+  "reviewMedian": 523,
+  "topShare": 0.14854119709491612,
+  "ratingMean": 4.38,
+  "avgPrice": 3414,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0C4KS2J97",
+      "title": "[保育士監修] チャイルドシート 遮熱カバー 日除けカバー 後付け ジュニアシート 日除け サンシェード ベビーシート 遮熱シート ベビーカー コンパクト 持ち歩き (ブルー)",
+      "brand": "nikowaku",
+      "price": 1898,
+      "rating": 4.2,
+      "reviewCount": 163,
+      "monthlySold": 1000,
+      "monthlyRevenue": 1898000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C4KS2J97.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0D9T6FHYR",
+      "title": "【保育士が監修】 チャイルドシート 保護マット チャイルドシート保護マット チャイルドシート保護 保護シート 汚れ防止 シートカバー 傷防止 ISOFIX対応",
+      "brand": "Rozally",
+      "price": 1780,
+      "rating": 4.5,
+      "reviewCount": 523,
+      "monthlySold": 2000,
+      "monthlyRevenue": 3560000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D9T6FHYR.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B01FCMV5RM",
+      "title": "Oncoベビーミラー後部座席用 - 100%割れない素材でできたチャイルドシートミラー – 2023年ベストトラベル発明品受賞 – チャイルドシート鏡 – 出産祝い",
+      "brand": "Onco(オンコ)",
+      "price": 2150,
+      "rating": 4.5,
+      "reviewCount": 32961,
+      "monthlySold": 1000,
+      "monthlyRevenue": 2150000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01FCMV5RM.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B09W2G8VMX",
+      "title": "チャイルドシート 保護マット、レザーおよびファブリックシート用Siivtonカーシートシートプロテクター、2メッシュポケット、滑り止めボトム、車両、赤ちゃん、ペット用",
+      "brand": "Siivton",
+      "price": 1680,
+      "rating": 4.3,
+      "reviewCount": 2585,
+      "monthlySold": 800,
+      "monthlyRevenue": 1344000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09W2G8VMX.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0CJM29LCL",
+      "title": "GRACO(グレコ) ジュニアシート ブースターシート シートベルト固定 ジュニアプラスネクスト R129適合 3歳半頃～12歳頃まで カップホルダー付 背もたれ取り外し可 (アビスネイビー) 2187304",
+      "brand": "Graco(グレコ)",
+      "price": 9564,
+      "rating": 4.4,
+      "reviewCount": 356,
+      "monthlySold": 400,
+      "monthlyRevenue": 3825600,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CJM29LCL.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 32,
+    "lowStarCount": 6,
+    "highStarCount": 23,
+    "topPainPoints": [
+      {
+        "category": "デザイン",
+        "count": 2
+      },
+      {
+        "category": "使い勝手",
+        "count": 1
+      },
+      {
+        "category": "梱包",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 9
+      },
+      {
+        "category": "使いやすさ",
+        "count": 8
+      },
+      {
+        "category": "品質",
+        "count": 7
+      },
+      {
+        "category": "価値",
+        "count": 4
+      }
+    ],
+    "painSamples": {
+      "品質": [],
+      "耐久": [],
+      "サイズ": [],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "nikowaku": 1,
+    "Rozally": 1,
+    "Onco(オンコ)": 1,
+    "Siivton": 1,
+    "Graco(グレコ)": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/345905011/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:26.242Z"
+}

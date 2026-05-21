@@ -1,0 +1,264 @@
+{
+  "categoryId": "2045092051",
+  "categoryName": "空気清浄器･イオン発生器・脱臭器",
+  "l1Path": "車＆バイク / カーアクセサリ / 空気清浄器･イオン発生器・脱臭器",
+  "score": 76,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 12866750,
+  "reviewMedian": 69,
+  "topShare": 0.9170925058775526,
+  "ratingMean": 3.94,
+  "avgPrice": 4743,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0FHQ1CP9W",
+      "title": "【Amazon.co.jp限定】シャープ イオン発生機 IG-MX15-BB プラズマクラスター NEXT 車載 オフィス カップ型 消臭 USB電源搭載 エコパッケージ",
+      "brand": "シャープ(SHARP)",
+      "price": 11800,
+      "rating": 4.3,
+      "reviewCount": 67,
+      "monthlySold": 1000,
+      "monthlyRevenue": 11800000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FHQ1CP9W.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B09NR9V8VH",
+      "title": "コムテック 車内用品 低濃度オゾン発生器 JD1000 車内のウイルス/菌/ニオイをオゾンエアで除菌&消臭",
+      "brand": "コムテック(COMTEC)",
+      "price": 6820,
+      "rating": 4,
+      "reviewCount": 65,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09NR9V8VH.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0DNQKKGG8",
+      "title": "【新登場】車載空気清浄機 小型 空気清浄機 車 卓上 活性炭フィルター イオン発生器 800mAh大容量バッテリー USB充電式 車用清浄機 LEDライト搭載 軽量 静音 アロマ対応 ホコリ PM2.5 花粉症対策 ペット 車内/卓上/オフィス/部屋/冷蔵庫など適用 1年間の品質保証 T4（ブラック）",
+      "brand": "SETHDA",
+      "price": 2598,
+      "rating": 3.8,
+      "reviewCount": 259,
+      "monthlySold": 100,
+      "monthlyRevenue": 259800,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DNQKKGG8.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B00GOQIHHM",
+      "title": "カーメイト 車用 マイナスイオン発生器 シガーソケット取り付け型 ブラック&シルバー KS620",
+      "brand": "カーメイト(Carmate)",
+      "price": 1500,
+      "rating": 3.8,
+      "reviewCount": 215,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00GOQIHHM.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0G48VKJ4R",
+      "title": "3個セット HX-606車用掃除機に適応のHEPAフィルター BeeTool ハンディクリーナーの交換部品",
+      "brand": "BeeTool",
+      "price": 999,
+      "rating": 3.8,
+      "reviewCount": 15,
+      "monthlySold": 50,
+      "monthlyRevenue": 49950,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0G48VKJ4R.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 147,
+    "lowStarCount": 35,
+    "highStarCount": 88,
+    "topPainPoints": [
+      {
+        "category": "サポート",
+        "count": 22
+      },
+      {
+        "category": "品質",
+        "count": 21
+      },
+      {
+        "category": "音",
+        "count": 10
+      },
+      {
+        "category": "耐久",
+        "count": 7
+      },
+      {
+        "category": "梱包",
+        "count": 6
+      },
+      {
+        "category": "説明書",
+        "count": 6
+      },
+      {
+        "category": "デザイン",
+        "count": 4
+      },
+      {
+        "category": "互換",
+        "count": 3
+      },
+      {
+        "category": "におい",
+        "count": 3
+      },
+      {
+        "category": "使い勝手",
+        "count": 2
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 42
+      },
+      {
+        "category": "品質",
+        "count": 13
+      },
+      {
+        "category": "使いやすさ",
+        "count": 12
+      },
+      {
+        "category": "価値",
+        "count": 2
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0FHQ1CP9W",
+          "rating": 2,
+          "title": "一度開封された商品と思われる",
+          "body": "車載用に2台購入しましたが、2個のうち1個は外箱が開封した状態（2箇所破損：写真参照）状態の物が送られて来ました。速やかに返品対応を希望します。"
+        },
+        {
+          "asin": "B09NR9V8VH",
+          "rating": 1,
+          "title": "2週間ほどでバッテリーが壊れる",
+          "body": "使用開始から2週間ほどでバッテリーが機能しなくなり悩みましたが、返品することにしました。初期不良なら良いんですが、こんなすぐに壊れるのにAmazonだと修理は効かず、返品処理しかないが、返品期限があるので故障したら損をする人が大半かと思います。私は運がある意味良かったと思うようにしました。"
+        },
+        {
+          "asin": "B09NR9V8VH",
+          "rating": 1,
+          "title": "期待しただけにがっかり",
+          "body": "不良品でした。充電できず使用不可。"
+        },
+        {
+          "asin": "B09NR9V8VH",
+          "rating": 1,
+          "title": "不良品でした。",
+          "body": "商品を開封し車に取り付け一度使用しました。エンジン停止後4時間起動する設定にしましたが、後日車に乗るとバッテリーの電池がゼロになっていました。寝る前に充電しましたが、朝起きても真ん中のランプが点滅し続け、充電を外して使用しても真ん中のランプが点滅し続けるだけで起動しませんでした。コムテックに連絡したところ、真ん中だけ点滅は想定されてなく異常だと言うことだったので、Amazonにバッテリーユニット以"
+        },
+        {
+          "asin": "B0DNQKKGG8",
+          "rating": 2,
+          "title": "一年足らずで故障しました。また、車内に置く製品にリチウムイオンバッテリ内蔵は怖いです",
+          "body": "同型の色違いを一年前に購入しました。夏から秋にかけては使わなかったためあまり使用時間は長くなかったのですが、購入後、一年を待たずにファンから異音が発生し、使えなくなりました。購入時は気づかなかったのですが、リチウムイオンバッテリ内蔵でUSBの電源供給が無くてもバッテリ駆動できます。一見便利に見えますが、夏場の車内放置はリチウムイオンバッテリの発火が怖いため夏場の使用はお勧めできません。外形が全く同"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B0DNQKKGG8",
+          "rating": 2,
+          "title": "一年足らずで故障しました。また、車内に置く製品にリチウムイオンバッテリ内蔵は怖いです",
+          "body": "同型の色違いを一年前に購入しました。夏から秋にかけては使わなかったためあまり使用時間は長くなかったのですが、購入後、一年を待たずにファンから異音が発生し、使えなくなりました。購入時は気づかなかったのですが、リチウムイオンバッテリ内蔵でUSBの電源供給が無くてもバッテリ駆動できます。一見便利に見えますが、夏場の車内放置はリチウムイオンバッテリの発火が怖いため夏場の使用はお勧めできません。外形が全く同"
+        },
+        {
+          "asin": "B0DNQKKGG8",
+          "rating": 1,
+          "title": "耐久性に難あり",
+          "body": "1ヶ月半ほど使用したところモーターが唸りだしました。モーターの耐久性に問題ありだと思います。"
+        },
+        {
+          "asin": "B00GOQIHHM",
+          "rating": 2,
+          "title": "低寿命のハズレ引いたかな",
+          "body": "半年保ちませんでした。残念😞"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B00GOQIHHM",
+          "rating": 1,
+          "title": "二週間で電源が入らない状態",
+          "body": "品物の当たりが悪かったのでしょうか…スイッチを入れても電源ランプが点灯しません。そもそも効果があるのかも疑問ですね。"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0DNQKKGG8",
+          "rating": 2,
+          "title": "一年足らずで故障しました。また、車内に置く製品にリチウムイオンバッテリ内蔵は怖いです",
+          "body": "同型の色違いを一年前に購入しました。夏から秋にかけては使わなかったためあまり使用時間は長くなかったのですが、購入後、一年を待たずにファンから異音が発生し、使えなくなりました。購入時は気づかなかったのですが、リチウムイオンバッテリ内蔵でUSBの電源供給が無くてもバッテリ駆動できます。一見便利に見えますが、夏場の車内放置はリチウムイオンバッテリの発火が怖いため夏場の使用はお勧めできません。外形が全く同"
+        },
+        {
+          "asin": "B0DNQKKGG8",
+          "rating": 1,
+          "title": "説明書に誤字、商品に対して十分な説明が無い。",
+          "body": "説明書の内容が不親切で文字も小さく読みにくいし誤字あり。車のエンジンを切っても動いているので手動で止めないといけない。"
+        },
+        {
+          "asin": "B0DNQKKGG8",
+          "rating": 2,
+          "title": "致命的に弱い",
+          "body": "タバコを真横に持ってって煙を半分も吸わない……一体、何を吸って何を清浄しているのでしょう笑まぁ値段相応なんでしょうかね(￣▽￣;)説明書は誤字もあり、ちょっと分かりずらいです。"
+        },
+        {
+          "asin": "B00GOQIHHM",
+          "rating": 1,
+          "title": "効果が感じられない。",
+          "body": "昨日は説明書とは全く別で何の効果も感じられなかった。しかも自分の車の場合経常的にカタログのような設置は出来ず使いずらかった。"
+        }
+      ],
+      "におい": [
+        {
+          "asin": "B0DNQKKGG8",
+          "rating": 2,
+          "title": "バッテリーの持ちが悪い。",
+          "body": "トイレに置いています。多少は臭いの軽減になっているのかな。その程度です。他の方が書いておられるように、最大の難点はバッテリーの持ち。だいたい4.5時間程しか運転出来ません。USBケーブルを繋いだままでの使用のようです。充電する度に外さなければならないのでしょうか。とても不便な印象でした。追記楽天サイトでは給電式になっていました。充電式ではなかったのですね。"
+        },
+        {
+          "asin": "B0DNQKKGG8",
+          "rating": 2,
+          "title": "異音＆パワー？",
+          "body": "数日後から異音がするようになった。(ウィンウィンと波打つ感じ、ウィーーーーーんではなく)動作後弱モードだとしばらく異音がする。強モードだと弱モードより早く異音がおさまる。パワーが弱いのか、タバコの煙を側面に近づけて見るも吸っている感じがしない印象…車内で使用しているが、しばらく動作させて車から離れ戻ってくると臭いは消えている気がする…充電ケーブルを差していないとパワーが弱まる印象なので差したまま使"
+        },
+        {
+          "asin": "B0DNQKKGG8",
+          "rating": 2,
+          "title": "見た目だけの商品",
+          "body": "ほとんど吸い込んでくれません。試しにタバコの煙でどの程度吸い込むか見てみましたが、大半の煙は本体を避けていくという謎の気流。当然ですが埃などは吸い込んでませんね。強にして何となくアロマの匂いがするから車内で気休め程度に使う分には良いのかもしれませんね。見た目が綺麗なので★2"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "シャープ(SHARP)": 1,
+    "コムテック(COMTEC)": 1,
+    "SETHDA": 1,
+    "カーメイト(Carmate)": 1,
+    "BeeTool": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/2045092051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:20.342Z"
+}

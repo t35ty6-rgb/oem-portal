@@ -1,0 +1,212 @@
+{
+  "categoryId": "2378086051",
+  "categoryName": "寝具",
+  "l1Path": "ホーム＆キッチン / 寝具",
+  "score": 57,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 102471000,
+  "reviewMedian": 4582,
+  "topShare": 0.01777088151769769,
+  "ratingMean": 4.1,
+  "avgPrice": 4854,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B07RJCZ7SV",
+      "title": "クモリ(Kumori) 綿100% ボックスシーツ 毛玉なし シングル 素肌にやさしい 吸水速乾 耐久性が高い 洗える オールシーズン ベッド/マットレス/敷き布団対応 マットレスカバー ベッドカバー ベッドシーツ 100X200cm ホワイト",
+      "brand": "クモリ(Kumori)",
+      "price": 1821,
+      "rating": 4,
+      "reviewCount": 10845,
+      "monthlySold": 1000,
+      "monthlyRevenue": 1821000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07RJCZ7SV.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0GLPNQBBG",
+      "title": "枕 首が痛くならない【 低反発・人間工学設計】まくら 安眠枕 肩こり対策 横向き 仰向け うつ伏せ 対応 60D 高密度 3D構造 快眠枕 通気性 高さ調節(6cm/10cm/2段階) 洗えるカバー ギフト 誕生日 母の日 父の日 プレゼント (50x30cm) ダークグレー",
+      "brand": "Clyrox",
+      "price": 3000,
+      "rating": 4.3,
+      "reviewCount": 849,
+      "monthlySold": 6000,
+      "monthlyRevenue": 18000000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GLPNQBBG.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B08KFTF6GX",
+      "title": "ヒツジのいらない枕 テンセル枕カバー付 まくら 低反発 高反発 丸洗いOK 安眠枕 寝返り 至極",
+      "brand": "ヒツジのいらない枕",
+      "price": 15800,
+      "rating": 4.1,
+      "reviewCount": 5460,
+      "monthlySold": 5000,
+      "monthlyRevenue": 79000000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08KFTF6GX.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0C99CHP4G",
+      "title": "クモリ(Kumori) 掛け布団カバー シングル 洗いざらし 吸湿速乾 素肌にやさしい 柔らかい しっとり ピーチスキン シワ加工 丸洗いOK オールシーズン 布団カバー 掛ふとんカバー (シングル・150X210cm ライトグレー)",
+      "brand": "クモリ(Kumori)",
+      "price": 1782,
+      "rating": 4.1,
+      "reviewCount": 1298,
+      "monthlySold": 1000,
+      "monthlyRevenue": 1782000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C99CHP4G.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B09QKVXKQ1",
+      "title": "VK Living 敷きパッド 夏用 シングル リバーシブル 【SUPER ICE】 冷感持続 帝人TEIJIN中綿使用 しきぱっと 7層構造 24時間持続制菌消臭 ひんやり 二重除湿速乾 シーツ オールシーズンで使える 洗える ベッドパッド 防ダニ 100×200cm ネイビー",
+      "brand": "VK Living",
+      "price": 1868,
+      "rating": 4,
+      "reviewCount": 4584,
+      "monthlySold": 1000,
+      "monthlyRevenue": 1868000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09QKVXKQ1.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 108,
+    "lowStarCount": 40,
+    "highStarCount": 48,
+    "topPainPoints": [
+      {
+        "category": "におい",
+        "count": 13
+      },
+      {
+        "category": "デザイン",
+        "count": 10
+      },
+      {
+        "category": "サイズ",
+        "count": 2
+      },
+      {
+        "category": "価格",
+        "count": 2
+      },
+      {
+        "category": "品質",
+        "count": 2
+      },
+      {
+        "category": "耐久",
+        "count": 2
+      },
+      {
+        "category": "梱包",
+        "count": 1
+      },
+      {
+        "category": "互換",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 24
+      },
+      {
+        "category": "価値",
+        "count": 9
+      },
+      {
+        "category": "品質",
+        "count": 7
+      },
+      {
+        "category": "使いやすさ",
+        "count": 4
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B09QKVXKQ1",
+          "rating": 1,
+          "title": "効果はたいして感じられませんでした。",
+          "body": "数年前この手の敷パッドを使用したときは、最初は涼しかったのですが、直に背中に汗がたまってきたので、すぐ外しました。それから年数もたったのでどんなものかと思い買いました。結果は、汗はたまりませんでしたが、最初ちょっと涼しいかなという程度で大した涼しくもなく、普通の敷パッドとあまり変わりませんでした。"
+        },
+        {
+          "asin": "B09QKVXKQ1",
+          "rating": 1,
+          "title": "足のカサカサなどで生地が傷む",
+          "body": "布地の性質なのでしょうが、かかとのカサカサなどですぐに生地が傷みます。私の場合には1シーズンだけの商品となりました。"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B09QKVXKQ1",
+          "rating": 2,
+          "title": "耐久性があまり無い",
+          "body": "犬が上で暴れ回ったら直ぐに切れてしまいました、耐久性が悪い様です、１ヶ月持ちませんでした。"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B07RJCZ7SV",
+          "rating": 1,
+          "title": "小さい",
+          "body": "2サイズ位大きめ買わないとダメゴミだった"
+        }
+      ],
+      "説明書": [],
+      "におい": [
+        {
+          "asin": "B07RJCZ7SV",
+          "rating": 1,
+          "title": "洗っても繊維が臭い",
+          "body": "繊維の匂いが臭いです。洗っても取れないです。あれでは気持ち悪くなって寝れません。2度と買わないです。"
+        },
+        {
+          "asin": "B07RJCZ7SV",
+          "rating": 1,
+          "title": "臭い",
+          "body": "悪臭、酸っぱい匂いがした"
+        },
+        {
+          "asin": "B07RJCZ7SV",
+          "rating": 1,
+          "title": "匂い",
+          "body": "あんまりこういうの書きたくないけど、臭すぎる。酸っぱい匂いする。"
+        },
+        {
+          "asin": "B07RJCZ7SV",
+          "rating": 2,
+          "title": "臭い",
+          "body": "開けた瞬間とても臭いです"
+        },
+        {
+          "asin": "B07RJCZ7SV",
+          "rating": 2,
+          "title": "不思議な匂いがします。",
+          "body": "手触りがツルツルで綿100%なのかな？また匂いがするので2度ほど洗いました。生地の厚みは価格に対して厚めで良きです。"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "クモリ(Kumori)": 2,
+    "Clyrox": 1,
+    "ヒツジのいらない枕": 1,
+    "VK Living": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/2378086051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:24.186Z"
+}

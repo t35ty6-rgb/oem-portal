@@ -1,0 +1,263 @@
+{
+  "categoryId": "169874011",
+  "categoryName": "マッサージ・アロマ",
+  "l1Path": "ドラッグストア / マッサージ・アロマ",
+  "score": 72,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 21702000,
+  "reviewMedian": 2872,
+  "topShare": 0.09049857156022487,
+  "ratingMean": 4.08,
+  "avgPrice": 1994,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0GMH7G9Z3",
+      "title": "ファブリーズ 消臭芳香剤(コンセント式) eファブリーズ 【 最大*50日間長持ち 】 すずらん＆グリーンブーケ 本体 *弱設定の場合",
+      "brand": "ファブリーズ",
+      "price": 982,
+      "rating": 3.6,
+      "reviewCount": 179,
+      "monthlySold": 2000,
+      "monthlyRevenue": 1964000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GMH7G9Z3.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0B6V9M9Q3",
+      "title": "Poven ラベンダー エッセンシャルオイル 天然100％ ラベンダー精油 アロマオイル 10ml",
+      "brand": "Poven",
+      "price": 798,
+      "rating": 4,
+      "reviewCount": 4920,
+      "monthlySold": 1000,
+      "monthlyRevenue": 798000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B6V9M9Q3.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B08PKVKHT5",
+      "title": "SAKURA&NATURAL ライスブランオイル 300mL 天然100% マッサージオイル 無添加 ボディオイル クレンジングオイル 大容量 業務用 保湿 マッサージ 無香料 ボタニカル 米油 米ぬか キャリアオイル ボディ用",
+      "brand": "SAKURA & NATURAL",
+      "price": 1400,
+      "rating": 4.3,
+      "reviewCount": 2872,
+      "monthlySold": 2000,
+      "monthlyRevenue": 2800000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08PKVKHT5.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0FD9MYD6W",
+      "title": "ゴリラのふたつかみ 太ももケア ふくらはぎケア 2way 片足ケア 電動 3段階調節（強・中・弱） タイマー10分 軽量 ピンク ドウシシャ GRM-2501 PK",
+      "brand": "ドウシシャ(DOSHISHA)",
+      "price": 6150,
+      "rating": 4.1,
+      "reviewCount": 57,
+      "monthlySold": 2000,
+      "monthlyRevenue": 12300000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FD9MYD6W.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B079YD4FJ1",
+      "title": "【食品添加物】ハッカ油P 20ml(アロマ・お風呂・虫よけ)",
+      "brand": "健栄製薬",
+      "price": 640,
+      "rating": 4.4,
+      "reviewCount": 10236,
+      "monthlySold": 6000,
+      "monthlyRevenue": 3840000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B079YD4FJ1.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 232,
+    "lowStarCount": 84,
+    "highStarCount": 101,
+    "topPainPoints": [
+      {
+        "category": "におい",
+        "count": 62
+      },
+      {
+        "category": "品質",
+        "count": 20
+      },
+      {
+        "category": "価格",
+        "count": 9
+      },
+      {
+        "category": "梱包",
+        "count": 9
+      },
+      {
+        "category": "サポート",
+        "count": 8
+      },
+      {
+        "category": "サイズ",
+        "count": 7
+      },
+      {
+        "category": "デザイン",
+        "count": 4
+      },
+      {
+        "category": "互換",
+        "count": 4
+      },
+      {
+        "category": "音",
+        "count": 4
+      },
+      {
+        "category": "使い勝手",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 48
+      },
+      {
+        "category": "価値",
+        "count": 17
+      },
+      {
+        "category": "品質",
+        "count": 7
+      },
+      {
+        "category": "使いやすさ",
+        "count": 6
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0GMH7G9Z3",
+          "rating": 2,
+          "title": "匂い強すぎ",
+          "body": "ピーチの香りが大好きなのでこちらを購入しましたが甘ったるすぎてつけてすぐはいい匂いと思いましたがずっと匂ってると胃もたれしてきそうな感じがします笑3階建て1軒屋の3階の自部屋で使用してますがドアを開けていれば弱でも2階の部屋までガッツリ匂います。弱設定でも強すぎる。他の匂いも気になりはしますがリピはしないかなあ。"
+        },
+        {
+          "asin": "B0GMH7G9Z3",
+          "rating": 1,
+          "title": "期待外れ",
+          "body": "香りは全くないに等しいです。ベープマットの匂いがします。不良品でしょうか？"
+        },
+        {
+          "asin": "B0GMH7G9Z3",
+          "rating": 1,
+          "title": "最悪",
+          "body": "20畳ほどのリビングでも匂いが甘ったるくて、臭い、強い。頭が痛くなるくらい。テープで穴を半分塞いだりしたがどうにもならなかった。最悪。すぐに使用をやめた。"
+        },
+        {
+          "asin": "B0GMH7G9Z3",
+          "rating": 2,
+          "title": "刺激臭",
+          "body": "人工的な香りが強く刺激臭を感じます。喉など弱い方にはお勧め出来ませんし服などに移り香が残ると思います。"
+        },
+        {
+          "asin": "B0B6V9M9Q3",
+          "rating": 1,
+          "title": "中国産だよ！！買っちゃダメ！",
+          "body": "ゼラニウムの香りは全くなく、安っぽいシャンプーのにおい。後から中国産と知り、納得。皆さん、やめたほうがいいです。安いもの買いの銭失いとはこのことです。返品もできないので、すぐに捨てました。"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B0FD9MYD6W",
+          "rating": 2,
+          "title": "期待しすぎました",
+          "body": "足のむくみが酷く色々試してますが、太ももをほぐしたく以前から気になっていたゴリラ〜に新商品が出たので飛びつきました。結果今のところ満足ではないです。私が心地よい圧とは違いました。圧が入るリズムが遅いというか。。数ヶ月前に8000円くらいで買った充電タイプのふくらはぎ用の良さを改めて感じてます。販売してる会社は好きなのとひとつかみは人気みたいなので私に合わなかっただけだと思います。"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B0GMH7G9Z3",
+          "rating": 1,
+          "title": "香りが不自然で合わない",
+          "body": "機能は良いのだが、個人的には香りが不自然で強く、合わないので使用を止めた。もう少し、香りを工夫して改良して欲しい。。"
+        },
+        {
+          "asin": "B0GMH7G9Z3",
+          "rating": 1,
+          "title": "人工感強めな香りです。",
+          "body": "ホワイトリリー購入しましたが、思っている匂いと違ってちょっと人工感が強すぎる香りでした。安めの車の芳香剤のような香りです。香り最弱にしても結構匂いが強いので、食事の時に匂いがかなり混ざって気持ち悪くなります。アロマなどの自然な香りや、SHIROなどの透明感がある香りが好みの方には、ややケミカル臭が強いので、合わない可能性があると思います。リビングと寝室に置こうと思って2つ買ったのに残念。完全自己責"
+        },
+        {
+          "asin": "B0B6V9M9Q3",
+          "rating": 2,
+          "title": "フランキンセンス",
+          "body": "タイムセールで798円で、安くて香りがとても良い。箱や瓶を見ると英語で書いてるので、西洋で作られてるように感じますが、made in Chinaでした。価格の安さは中国で作られたものだからなんですね。しかも、使用しようと手作りハンドクリームに振ってみたら、全然出ません。仕方なく、中栓の白いプラスチックを抜き、小さい注射器を入れて、それで吸い上げ、使用しました。やはり、中国産！中栓が不良品でした。も"
+        },
+        {
+          "asin": "B08PKVKHT5",
+          "rating": 1,
+          "title": "注意！300mlですが写真が違います",
+          "body": "写真が違います。縦長に写ってますが、容量は300mlで画像の半分の大きさになります。私はこの画像を見て、「大きいボトルがあるんだ」と思い購入。商品が届いて初めて容量を見たら・・・。"
+        },
+        {
+          "asin": "B0FD9MYD6W",
+          "rating": 2,
+          "title": "あまり良くない",
+          "body": "どのへんが2wayなのかよく分からない。ふつうにふくらはぎには使いづらい。長いのでバンド越しにイボイボがあたるようになるけど肌触りが悪い。一度試してから買うのがいいと思う。サイズ展開必要。"
+        }
+      ],
+      "説明書": [],
+      "におい": [
+        {
+          "asin": "B0GMH7G9Z3",
+          "rating": 2,
+          "title": "匂い強すぎ",
+          "body": "ピーチの香りが大好きなのでこちらを購入しましたが甘ったるすぎてつけてすぐはいい匂いと思いましたがずっと匂ってると胃もたれしてきそうな感じがします笑3階建て1軒屋の3階の自部屋で使用してますがドアを開けていれば弱でも2階の部屋までガッツリ匂います。弱設定でも強すぎる。他の匂いも気になりはしますがリピはしないかなあ。"
+        },
+        {
+          "asin": "B0GMH7G9Z3",
+          "rating": 1,
+          "title": "期待外れ",
+          "body": "香りは全くないに等しいです。ベープマットの匂いがします。不良品でしょうか？"
+        },
+        {
+          "asin": "B0GMH7G9Z3",
+          "rating": 1,
+          "title": "香りがキツかった",
+          "body": "香りがキツイ(；'∀｀)１番メモリを小さくして使用してみましたが！かなり香りがキツく。家族から【くさい】とまで言われました。本体にセットするボトルの蓋を外した時に手に少し付いたので直ぐ手洗いしましたが、かなり手に匂いが残っていました。香りに敏感な方には不向きだと思います。凄く広いお部屋なら良いかも分かりませんが。。我が家には向きませんでした。出来れば無香料とかが欲しいですね"
+        },
+        {
+          "asin": "B0GMH7G9Z3",
+          "rating": 1,
+          "title": "化学物質",
+          "body": "匂いが合わず体調崩しました"
+        },
+        {
+          "asin": "B0GMH7G9Z3",
+          "rating": 1,
+          "title": "最悪",
+          "body": "20畳ほどのリビングでも匂いが甘ったるくて、臭い、強い。頭が痛くなるくらい。テープで穴を半分塞いだりしたがどうにもならなかった。最悪。すぐに使用をやめた。"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "ファブリーズ": 1,
+    "Poven": 1,
+    "SAKURA & NATURAL": 1,
+    "ドウシシャ(DOSHISHA)": 1,
+    "健栄製薬": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/169874011/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:18.588Z"
+}

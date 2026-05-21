@@ -1,0 +1,245 @@
+{
+  "categoryId": "2975670051",
+  "categoryName": "室内遊具",
+  "l1Path": "ベビー＆マタニティ / 室内遊具",
+  "score": 67,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 39670200,
+  "reviewMedian": 260,
+  "topShare": 0.5732262504348352,
+  "ratingMean": 4.5,
+  "avgPrice": 10192,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0FB33TL1N",
+      "title": "【2025年モデル】タカラトミー(TAKARA TOMY) ディズニー えらべる回転 6WAYジムにへんしんメリー プラス くまのプーさん",
+      "brand": "タカラトミー(TAKARA TOMY)",
+      "price": 11370,
+      "rating": 4.6,
+      "reviewCount": 169,
+      "monthlySold": 2000,
+      "monthlyRevenue": 22740000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FB33TL1N.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0CL3CFMGH",
+      "title": "リッチェル(Richell) バウンシングシートN ライトグレー 対象月齢：1カ月～24カ月頃 折り畳み可能",
+      "brand": "リッチェル(Richell)",
+      "price": 7382,
+      "rating": 4.5,
+      "reviewCount": 260,
+      "monthlySold": 500,
+      "monthlyRevenue": 3691000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CL3CFMGH.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0D2CKNQWY",
+      "title": "フィッシャープライス(fisher price) あんよでキック! 感覚が育つ4WAYバイリンガル・ピアノジム 赤ちゃん・幼児おもちゃ 室内遊具 ベビージム ・ プレイマット ・ 英語 ・ 外国語 0ヶ月から マルチ HYJ72",
+      "brand": "Fisher-Price",
+      "price": 6955,
+      "rating": 4.4,
+      "reviewCount": 320,
+      "monthlySold": 800,
+      "monthlyRevenue": 5564000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D2CKNQWY.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0DPKFB4JT",
+      "title": "GU MODE プレイマット ベビーマット 抗菌 ベビープレイマット シームレスプレイマット 折りたたみ 持ち手が付く 厚み4cm 収納しやすい 厚手 折りたたみ ノンホルム 防水 防音 マット【グレー・ホワイト/140×200】",
+      "brand": "ＧＵ　ＭＯＤＥ",
+      "price": 14952,
+      "rating": 4.6,
+      "reviewCount": 112,
+      "monthlySold": 100,
+      "monthlyRevenue": 1495200,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DPKFB4JT.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B07DLBKBC4",
+      "title": "アガツマ(AGATSUMA) アンパンマン 8WAY ウォーカーまでへんしん! よくばりメリー （対象年齢0ヶ月以上）",
+      "brand": "アガツマ(AGATSUMA)",
+      "price": 9980,
+      "rating": 4.4,
+      "reviewCount": 614,
+      "monthlySold": 600,
+      "monthlyRevenue": 5988000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07DLBKBC4.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 122,
+    "lowStarCount": 29,
+    "highStarCount": 83,
+    "topPainPoints": [
+      {
+        "category": "サポート",
+        "count": 24
+      },
+      {
+        "category": "品質",
+        "count": 22
+      },
+      {
+        "category": "音",
+        "count": 22
+      },
+      {
+        "category": "説明書",
+        "count": 11
+      },
+      {
+        "category": "梱包",
+        "count": 10
+      },
+      {
+        "category": "サイズ",
+        "count": 3
+      },
+      {
+        "category": "使い勝手",
+        "count": 3
+      },
+      {
+        "category": "価格",
+        "count": 2
+      },
+      {
+        "category": "におい",
+        "count": 1
+      },
+      {
+        "category": "互換",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 46
+      },
+      {
+        "category": "品質",
+        "count": 31
+      },
+      {
+        "category": "使いやすさ",
+        "count": 11
+      },
+      {
+        "category": "価値",
+        "count": 9
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0FB33TL1N",
+          "rating": 1,
+          "title": "モーター音うるさい！",
+          "body": "モーターの音がうるさくて、音楽よりも目立つ。本当にがっかり。流石に初期不良かと思って返品処理して再度送られてきた別個体も全く同じ音が発生。何このクオリティ？メーカーさん大丈夫ですか？"
+        },
+        {
+          "asin": "B0FB33TL1N",
+          "rating": 1,
+          "title": "モーター音？ギヤ音？",
+          "body": "このモーター音？ギヤ音？は正常なんでしょうか？すごく耳ざわりなんですが。不良品でしょうか？"
+        },
+        {
+          "asin": "B0D2CKNQWY",
+          "rating": 2,
+          "title": "3ヶ月使わないうちに壊れました(；ω；)",
+          "body": "{\"clickstreamNexusMetricsConfig\":{\"producerId\":\"vsemetrics_playercards\",\"schemaId\":\"clickstream.CustomerEvent.4\",\"actionType\":\"DISCOVERY\",\"eventOwner\":\"vsemetrics_playercards\",\"eventType\":\"IVEVideoVie"
+        },
+        {
+          "asin": "B0D2CKNQWY",
+          "rating": 2,
+          "title": "2ヶ月しないで壊れた。。？",
+          "body": "クリスマスイブに3ヶ月の息子にプレゼントした。楽しそうに遊んでてちょっと遊ばせてる間に他のことできたり仮眠とったらできてよかった。なのに3日前から\"動物園へ行ったらー〜ライオンさんもいたよ！がおっ\"って流れたら止まるようになってしまいました1曲で止まるので不便です壊れたのかな?またペダルを踏んでも同じ1曲目が流れてそれが終わると止まります。"
+        },
+        {
+          "asin": "B0D2CKNQWY",
+          "rating": 2,
+          "title": "うーん",
+          "body": "鍵盤のところは良かったけどメリーの部分がプラッチックでちゃっちいからすぐ壊れそう😂値段相応か以下。セールの時に買ったからまだ許せるかなって感じ"
+        }
+      ],
+      "耐久": [],
+      "サイズ": [
+        {
+          "asin": "B0FB33TL1N",
+          "rating": 1,
+          "title": "管理方法に疑問しか残りません",
+          "body": "開封したところ製品の段ボールに小さい虫が20匹ほど多数付着。子供が使う物なのにこの管理はいかがなものでしょうか。仮に虫が子供に触れたら？体内に入ってしまったら？返品も同じものと交換をしていただけず残念です。"
+        },
+        {
+          "asin": "B0DPKFB4JT",
+          "rating": 1,
+          "title": "固くて使い勝手が悪い",
+          "body": "暑さはあるし、防水で折り畳みは楽だがただ、硬い‼️小さい子供が頭から倒れて、畳よりは痛くないが、硬いので、大人でも頭から倒れたら痛い。これで、クッション性があれば言うことない。"
+        },
+        {
+          "asin": "B07DLBKBC4",
+          "rating": 1,
+          "title": "新品のハズが中古だった。",
+          "body": "最悪です。新品で頼んだのに中古が届きました。1度開けた形跡がある。誰かが使った形跡がある。マスコットが入っていた袋に穴があいていたり、伸びていた。何個かの部品が袋に入っていなかった。黒いシミが付着していたり、ゴミが付着していたりして汚れていた。説明書が折れ曲がった状態で入っていた。外箱をよく見ると少し端が折れてた。少し汚れが付着していた。テープを剥がしたであろう爪の跡？らしきものがあった。外箱のパ"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0FB33TL1N",
+          "rating": 1,
+          "title": "回転部分が回らなくなってしまった",
+          "body": "商品購入して2ヶ月で回転部分が回らなくなってしまった。電話番号もなく，どこに連絡して相談すればいいのかもわからない。"
+        },
+        {
+          "asin": "B0D2CKNQWY",
+          "rating": 2,
+          "title": "3ヶ月使わないうちに壊れました(；ω；)",
+          "body": "{\"clickstreamNexusMetricsConfig\":{\"producerId\":\"vsemetrics_playercards\",\"schemaId\":\"clickstream.CustomerEvent.4\",\"actionType\":\"DISCOVERY\",\"eventOwner\":\"vsemetrics_playercards\",\"eventType\":\"IVEVideoVie"
+        },
+        {
+          "asin": "B07DLBKBC4",
+          "rating": 1,
+          "title": "新品のハズが中古だった。",
+          "body": "最悪です。新品で頼んだのに中古が届きました。1度開けた形跡がある。誰かが使った形跡がある。マスコットが入っていた袋に穴があいていたり、伸びていた。何個かの部品が袋に入っていなかった。黒いシミが付着していたり、ゴミが付着していたりして汚れていた。説明書が折れ曲がった状態で入っていた。外箱をよく見ると少し端が折れてた。少し汚れが付着していた。テープを剥がしたであろう爪の跡？らしきものがあった。外箱のパ"
+        },
+        {
+          "asin": "B07DLBKBC4",
+          "rating": 1,
+          "title": "レビューを見て購入",
+          "body": "本日､届き生後１ヶ月の息子の祝いで購入し楽しみに開封し説明書どおりに組み立て いざ電源をつけたらメリーが うんともすんとも動かない。よく見たら棒が少し曲がっているような気がしました。こんな故障品 即返品させてもらいます。"
+        }
+      ],
+      "におい": [
+        {
+          "asin": "B0DPKFB4JT",
+          "rating": 2,
+          "title": "返品ポリシーをちゃんと読んだほうがいい",
+          "body": "マット自体の弾力性などは申し分なかったのですが、臭いがやっぱりありました。許容範囲は人それぞれですが、開けてしまうと返品出来ないので、必ずこちらのお店の返品ポリシーを読んで納得した上で購入することをおすすめします。"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "タカラトミー(TAKARA TOMY)": 1,
+    "リッチェル(Richell)": 1,
+    "Fisher-Price": 1,
+    "ＧＵ　ＭＯＤＥ": 1,
+    "アガツマ(AGATSUMA)": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/2975670051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:25.567Z"
+}

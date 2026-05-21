@@ -1,0 +1,201 @@
+{
+  "categoryId": "hobby",
+  "categoryName": "ホビー",
+  "l1Path": "ホビー",
+  "score": 71,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 30009950,
+  "reviewMedian": 63,
+  "topShare": 0.769744701340722,
+  "ratingMean": 2.6,
+  "avgPrice": 2746,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0H1BB9JY4",
+      "title": "VAKIT 機動戦士ガンダム 新MS戦記 ギラ・ドーガ (隊長機) プラモデル",
+      "brand": "メガハウス(MegaHouse)",
+      "price": 7700,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0H1BB9JY4.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0883LTWF3",
+      "title": "HG 機動戦士ガンダム00 グラハム専用ユニオンフラッグカスタム 1/144スケール 色分け済みプラモデル",
+      "brand": "BANDAI SPIRITS(バンダイ スピリッツ)",
+      "price": 2800,
+      "rating": 4,
+      "reviewCount": 15,
+      "monthlySold": 900,
+      "monthlyRevenue": 2520000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0883LTWF3.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B083R8NTNV",
+      "title": "HG 機動戦士ガンダムAGE xvm-fzc ガンダムレギルス 1/144スケール 色分け済みプラモデル",
+      "brand": "BANDAI SPIRITS(バンダイ スピリッツ)",
+      "price": 2800,
+      "rating": 4.7,
+      "reviewCount": 63,
+      "monthlySold": 800,
+      "monthlyRevenue": 2240000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B083R8NTNV.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0079WLDLW",
+      "title": "プラス はさみ フィットカットカーブ フッ素コート 低反発グリップ 粘着テープ のり ベタつかない 30度 SC-175SF ホワイト/グレー 34-515",
+      "brand": "PLUS(プラス)",
+      "price": 430,
+      "rating": 4.5,
+      "reviewCount": 5997,
+      "monthlySold": 5000,
+      "monthlyRevenue": 2150000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0079WLDLW.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0GTHJY35X",
+      "title": "TOP TOY ディズニー＆ピクサー (Disney & Pixar) \"私がビーバーになる時 (Hoppers)\" シリーズ【1ピース】 ガチャガチャ ブラインド ボックス フィギュア プラモデル プレミアム おもちゃ ディズニー ピクサー 映画キャラクター キャラクター 誕生日プレゼント コレクター向け",
+      "brand": "TOP TOY",
+      "price": null,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 50,
+      "monthlyRevenue": null,
+      "imageUrl": "https://m.media-amazon.com/images/I/71pSKvG4ovL._AC_SX569_.jpg",
+      "imagesCSV": null,
+      "listing": {
+        "fullTitle": "TOP TOY ディズニー＆ピクサー (Disney & Pixar) \"私がビーバーになる時 (Hoppers)\" シリーズ【1ピース】 ガチャガチャ ブラインド ボックス フィギュア プラモデル プレミアム おもちゃ ディズニー ピクサー 映画キャラクター キャラクター 誕生日プレゼント コレクター向け",
+        "bullets": [
+          "【TOP TOY × ディズニー＆ピクサー公式！映画『Hoppers』の世界がブラインドボックスに】高萌（こうほう）アラート発令！ピクサー最新作『Hoppers（私がビーバーになる時）』の愛らしい仲間たちが、ガチャガチャ感覚で楽しめるブラインドボックスになって新登場。毛茸茸（もふもふ）な親友たちと一緒に、大自然を舞台にした春の冒険へ出かけましょう！映画のキャラクター設定を忠実に再現した、ディズニー＆ピクサーファン必見のプレミアムフィギュアシリーズです。",
+          "【極上の“もふもふ”感｜こだわりの植毛（フロッキー）加工と細部造形】フィギュア表面には繊細な「植毛（フロッキー）工艺」を施し、まるで本物の小動物のような柔らかでなめらかな手触りを実現。キャラクターの個性を引き立てる「俏皮（おちゃめ）なヒゲ」や、今にも動き出しそうな「霊動（れいどう）な表情」など、細部まで徹底的にこだわり抜きました。視覚だけでなく触覚でも癒やされる、ハイクオリティな仕上がりをご堪能ください。",
+          "【遊び心満載のギミック｜磁石内蔵のクラウン＆光柵（レンチキュラー）効果】ただのフィギュアではありません！一部のキャラクターには「磁吸（じきゅう）パーツ」を内蔵し、王冠などのアクセサリーをピタッと装着可能。さらに、作中のスマートフォン画面には「光柵（レンチキュラー）エフェクト」を採用し、見る角度によって絵柄が変わるマジカルな演出をプラスしました。細かな「隠し要素」が、コレクターの遊び心をくすぐります。",
+          "【プレミアムな存在感｜デスクを彩る約5-9cmのコレクションサイズ】お部屋のインテリアやデスク周りにぴったりのコンパクトなサイズ感（約5-9cm）。ソフビ素材の立体感と植毛の質感が融合し、小さいながらも圧倒的な存在感を放ちます。1ピース（単品）で運試しを楽しむのはもちろん、全8種類を揃えられるアソートボックスなら、あなたのお部屋が映画のワンシーンのような「ビーバーの街」に早変わり！",
+          "【ギフトに最適！TOP TOYとピクサーが贈る最高の贈り物】誕生日、クリスマス、記念日のプレゼントにぴったりな、ディズニー＆ピクサー公式ライセンス商品。自分へのご褒美としてはもちろん、ピクサー映画のファンやフィギュアコレクターの方への贈り物としても、喜ばれること間違いありません。"
+        ],
+        "aplusExcerpt": "商品の説明",
+        "mainImageUrl": "https://m.media-amazon.com/images/I/71pSKvG4ovL._AC_SX569_.jpg"
+      }
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 56,
+    "lowStarCount": 20,
+    "highStarCount": 26,
+    "topPainPoints": [
+      {
+        "category": "サポート",
+        "count": 5
+      },
+      {
+        "category": "品質",
+        "count": 4
+      },
+      {
+        "category": "耐久",
+        "count": 3
+      },
+      {
+        "category": "使い勝手",
+        "count": 3
+      },
+      {
+        "category": "説明書",
+        "count": 1
+      },
+      {
+        "category": "デザイン",
+        "count": 1
+      },
+      {
+        "category": "互換",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 14
+      },
+      {
+        "category": "品質",
+        "count": 3
+      },
+      {
+        "category": "価値",
+        "count": 3
+      },
+      {
+        "category": "使いやすさ",
+        "count": 3
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0079WLDLW",
+          "rating": 1,
+          "title": "まあまあ",
+          "body": "普通Amazon信用出来ない。フライパンは1ヶ月過ぎに壊れたので対応してもらえ無かった。ハサミも1ヶ月過ぎに壊れるかも。いつも泣き寝入り。"
+        },
+        {
+          "asin": "B0079WLDLW",
+          "rating": 1,
+          "title": "不良品でした",
+          "body": "私の購入したものは不良品でした。刃の噛み合わせが悪く、最後1センチ程度閉じるときに引っかかり、かなり重いです。引っかかるのが不快ですが、急いでいましたし、安いもので返品交換も面倒で、そのまま一年ほど使いましたが、やはり使い難くて、なんとかならないかと色々試しましたが、素人ではどうにもならないようです。メーカーホームページを見ても、修理も販売店へ問い合わせ、、、としか書かれておらず、送料などを考える"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B0079WLDLW",
+          "rating": 1,
+          "title": "あんまり使ってないのにフッ素コート剥げてた",
+          "body": "買いたての時は多分大丈夫やったと思います。購入2020/12/12レビュー2021/9/12なんだかんだであまり使わず、手持ちのものを使っていて、たまーにそんなに固くもないもの(幅広のマスキングテープとか)を切る程度で置いてたんですが、ふと見たらコートが一部剥げてました。動かした時にスムーズでなくて気づいたんですが。ほとんど使ってないのにこの脆さはなんだろう…長持ちしそうな気がしてたんですが結局安"
+        },
+        {
+          "asin": "B0079WLDLW",
+          "rating": 1,
+          "title": "不良品でした",
+          "body": "私の購入したものは不良品でした。刃の噛み合わせが悪く、最後1センチ程度閉じるときに引っかかり、かなり重いです。引っかかるのが不快ですが、急いでいましたし、安いもので返品交換も面倒で、そのまま一年ほど使いましたが、やはり使い難くて、なんとかならないかと色々試しましたが、素人ではどうにもならないようです。メーカーホームページを見ても、修理も販売店へ問い合わせ、、、としか書かれておらず、送料などを考える"
+        },
+        {
+          "asin": "B0079WLDLW",
+          "rating": 2,
+          "title": "長持ちしない",
+          "body": "使い始めは切れ味も良いが、使ってるうちに切れ味が落ちる。写真のように刃先がダレる（摩耗する）ためと思われる。地金の質が悪いものと思われる。もっと硬い硬鋼だと良いのだが。計4本購入したが、同様であった。"
+        }
+      ],
+      "サイズ": [],
+      "説明書": [
+        {
+          "asin": "B0079WLDLW",
+          "rating": 2,
+          "title": "厚手ダンボールは切れない",
+          "body": "商品説明書きが変わったか？ダンボール処分のためにいろいろなハサミを検索してこちらを購入したが、薄手のダンボールは切れるが厚手のは切れなくて残念。届いたパッケージには薄手ダンボールときちんと記載があるのに、サイトにはダンボールとだけ記載してあっただけなので厚手のも切れると思って購入した。薄手ダンボールと正直に記載して欲しかった。"
+        }
+      ],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "メガハウス(MegaHouse)": 1,
+    "BANDAI SPIRITS(バンダイ スピリッツ)": 2,
+    "PLUS(プラス)": 1,
+    "TOP TOY": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/hobby/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:29.227Z"
+}

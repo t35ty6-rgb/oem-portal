@@ -1,0 +1,241 @@
+{
+  "categoryId": "26172924051",
+  "categoryName": "冷凍魚",
+  "l1Path": "食品・飲料・お酒 / 冷凍食品 / 冷凍魚介類 / 冷凍魚",
+  "score": 70,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 41978400,
+  "reviewMedian": 292,
+  "topShare": 0.638900005717226,
+  "ratingMean": 4.18,
+  "avgPrice": 3682,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B08ZK65D42",
+      "title": "【工場直送】 【訳あり】 B級 鮭切り身 (銀鮭) 1kg",
+      "brand": "ー",
+      "price": 2980,
+      "rating": 4.4,
+      "reviewCount": 3605,
+      "monthlySold": 9000,
+      "monthlyRevenue": 26820000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08ZK65D42.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B08ZK4DWC7",
+      "title": "【工場直送】 【訳あり】 B級 鮭切り身 (銀鮭) 1kg×3パック",
+      "brand": "ー",
+      "price": 6580,
+      "rating": 4.5,
+      "reviewCount": 664,
+      "monthlySold": 1000,
+      "monthlyRevenue": 6580000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08ZK4DWC7.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0DB1Y1MG1",
+      "title": "【甲羅組】訳あり 【 無塩 骨取り トロさば フィーレ 】＆【 無塩 厚切り 銀鮭 切り身 】セット 合計2kg（各1kg）※大小バラツキあり サケ シャケ ギンザケ とろさば とろサバ 鯖 切身 詰め合わせ",
+      "brand": "越前かに職人 甲羅組",
+      "price": 6150,
+      "rating": 4.4,
+      "reviewCount": 240,
+      "monthlySold": 1000,
+      "monthlyRevenue": 6150000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DB1Y1MG1.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0FF8KS3ZG",
+      "title": "甲羅組【国産】無塩 骨取り さば 切身 さば サバ 切り身 わがママ骨取り切身 弁当 朝食 (国産さば 30g×20切れ)",
+      "brand": "越前かに職人 甲羅組",
+      "price": 2699,
+      "rating": 4.1,
+      "reviewCount": 292,
+      "monthlySold": 900,
+      "monthlyRevenue": 2429100,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FF8KS3ZG.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0FD31CJY5",
+      "title": "甲羅組 骨取りさば サバ 国産 骨取り さば フィーレ 2kg前後 3種類から選べる！ (【2kg】無塩 小中型フィーレ)",
+      "brand": "越前かに職人 甲羅組",
+      "price": null,
+      "rating": 3.5,
+      "reviewCount": 70,
+      "monthlySold": 700,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FD31CJY5.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 195,
+    "lowStarCount": 67,
+    "highStarCount": 86,
+    "topPainPoints": [
+      {
+        "category": "サイズ",
+        "count": 19
+      },
+      {
+        "category": "価格",
+        "count": 15
+      },
+      {
+        "category": "におい",
+        "count": 14
+      },
+      {
+        "category": "説明書",
+        "count": 8
+      },
+      {
+        "category": "デザイン",
+        "count": 6
+      },
+      {
+        "category": "使い勝手",
+        "count": 2
+      },
+      {
+        "category": "品質",
+        "count": 2
+      },
+      {
+        "category": "耐久",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 29
+      },
+      {
+        "category": "価値",
+        "count": 14
+      },
+      {
+        "category": "使いやすさ",
+        "count": 13
+      },
+      {
+        "category": "品質",
+        "count": 4
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0FF8KS3ZG",
+          "rating": 2,
+          "title": "パサパサの骨無し鯖",
+          "body": "小分けで冷凍されていて、食べたい時にすぐに焼いて食べられるのはいいが、脂がのっていなくパサパサした印象です。個人の感想です。"
+        },
+        {
+          "asin": "B0FD31CJY5",
+          "rating": 1,
+          "title": "リピなしですね",
+          "body": "正直骨が無いと言うメリットだけで、美味しくないです。脂がなく、身もパサパサ、香りも弱いという状態で、焼き魚の鯖としては低ランクです。何かしらの調理をすれば美味しくいただけるかもしれません。"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B08ZK65D42",
+          "rating": 2,
+          "title": "消費期限が分からない",
+          "body": "この業者の最大の問題は、消費期限の記載が無く全く分からない事です。という事は、いつ魚取れたを冷凍し、冷凍してからどれくらい経つのかも分かりません。生ものは冷凍しても1年持ちません。Amazon からの警告と改善を望みます。"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B08ZK4DWC7",
+          "rating": 1,
+          "title": "味がイマイチ 大量に冷凍備蓄できて便利",
+          "body": "味が薄め。鮭の風味も弱め。臭みがあって気持ち悪くなってしまった。サイズや部位のばらつきや薄さなどは想定内。1キロで試せば良かった。リピートはしない。3袋にわかれて入っている。袋に空気が入っていてかさばったので小分けにした。"
+        },
+        {
+          "asin": "B08ZK4DWC7",
+          "rating": 2,
+          "title": "本当にB級です",
+          "body": "残念ですが、期待外れでした。「訳アリB級」商品なのでしょうがないのですが、ビックリするぐらい身が薄い切り身がけっこう入っていました。味も可もなく不可もなくといったところでしょうか。価格は安いものの、品質に見合わないと感じましたので次回は他の製品を検討したいと思います。"
+        },
+        {
+          "asin": "B0DB1Y1MG1",
+          "rating": 1,
+          "title": "コスパ感が感じられない",
+          "body": "全体に画像が過剰広告気味！鮭→商品画像より身はかなり薄くカットされ、しかもデカい頭とカマが入っている。　　私もカマは大好きですが、商品画像にハッキリ表示されていない。鯖→1kg中袋の1番上には大きいフィレがあったが、残りは全部小さい。"
+        },
+        {
+          "asin": "B0FF8KS3ZG",
+          "rating": 1,
+          "title": "小さい",
+          "body": "小さくて硬かった。厚みもあまりなかったです。お弁当に入れるのには丁度いいサイズだと思います。"
+        },
+        {
+          "asin": "B0FF8KS3ZG",
+          "rating": 2,
+          "title": "ありえん小ささ",
+          "body": "あれ？袋が小さいな…間違えて注文したかな？と思ってよくみたら、びっくりするほど小さい！！！アジかこれは？と思うほど。半身の半分カットで一切れ150円ほどならまぁ納得…と思って注文したのに、その一切れは2口ぐらいのサイズ。ガッカリしすぎて食べる気になりません。味を見るまでもなくリピート無しです。"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B08ZK65D42",
+          "rating": 1,
+          "title": "鮭に人口的な油が(;ﾟдﾟ)ｪ…",
+          "body": "{\"clickstreamNexusMetricsConfig\":{\"producerId\":\"vsemetrics_playercards\",\"schemaId\":\"clickstream.CustomerEvent.4\",\"actionType\":\"DISCOVERY\",\"eventOwner\":\"vsemetrics_playercards\",\"eventType\":\"IVEVideoVie"
+        }
+      ],
+      "におい": [
+        {
+          "asin": "B08ZK65D42",
+          "rating": 1,
+          "title": "けっこうな臭みがします。",
+          "body": "お値段はお手頃、量も多くて嬉しいなぁと思って購入し、いつものように解凍して焼いてたべたら、「臭い！」びっくりするほど臭くて食べられませんでした。これは私が臭み消しをしないのがいけなかったと思って塩を振って焼いてみたり、牛乳に漬けてから焼いてみたり色々してみましたが、ある程度は匂いが取れるものの、イマイチ‥！たぶん料理上手な人なら臭みも取れるのかもしれませんが、私には無理でした。たまたまそう言うのに"
+        },
+        {
+          "asin": "B08ZK4DWC7",
+          "rating": 1,
+          "title": "腐臭が",
+          "body": "数回目の購入でしたが、前回と違い臭いがキツく食べられませんでした"
+        },
+        {
+          "asin": "B08ZK4DWC7",
+          "rating": 1,
+          "title": "臭い",
+          "body": "夏場に購入したせいか鮮度が最悪で調理した瞬間ゲロのような匂いがしましたリピートはなし再配達を行っていないのに、何故こんなにも酷い匂いを発するのか？届いた瞬間もしっかり冷凍の状態で届いたのに何故？これを食べると下痢をします味は悪くないのに…当たりハズレがあるのでしょうか？原因不明ですが怖いのでもう購入しません"
+        },
+        {
+          "asin": "B08ZK4DWC7",
+          "rating": 1,
+          "title": "期待していたが…",
+          "body": "期待して購入したが…塩味は薄くて…焼いたら、少し臭いが気になっていて…レビューを見るほど…美味しくなく、普通…３キロ購入では無くて…１キロ購入すれば良かったと…後悔しました…リピートは無いですね!"
+        },
+        {
+          "asin": "B08ZK4DWC7",
+          "rating": 2,
+          "title": "臭み取れない、小骨面倒な人は注意かも",
+          "body": "薄いのはともかくとして臭いです。まぁ値段考えるとこんなもんかな。小骨取る手間は省いて安くしてる感じかも結構塩水や酒や湯通しで工夫してみても脂に匂いが溜まってる感じがしました。茹でても抜けない臭さです。塩もあまり抜けないですね"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "ー": 2,
+    "越前かに職人 甲羅組": 3
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/26172924051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:25.059Z"
+}

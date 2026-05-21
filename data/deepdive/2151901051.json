@@ -1,0 +1,250 @@
+{
+  "categoryId": "2151901051",
+  "categoryName": "PCパーツ",
+  "l1Path": "パソコン・周辺機器 / PCパーツ",
+  "score": 66,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 47824500,
+  "reviewMedian": 3998,
+  "topShare": 0.028771863793662245,
+  "ratingMean": 4.34,
+  "avgPrice": 15665,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B098SSJ9L6",
+      "title": "SYY サーマルペースト 3グラム CPUペースト サーマルコンパウンドペーストヒートシンク IC/プロセッサ/CPU/すべてのクーラー用カーボンベース高性能 熱インターフェース素材 CPUサーマルペースト",
+      "brand": "SYY",
+      "price": 688,
+      "rating": 4.5,
+      "reviewCount": 9326,
+      "monthlySold": 1000,
+      "monthlyRevenue": 688000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B098SSJ9L6.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0812Y562C",
+      "title": "シリコンパワー SSD 512GB 3D NAND M.2 2280 PCIe3.0×4 NVMe1.3 P34A60シリーズ 5年保証 SP512GBP34A60M28",
+      "brand": "SP Silicon Power",
+      "price": 15980,
+      "rating": 4.3,
+      "reviewCount": 2670,
+      "monthlySold": 400,
+      "monthlyRevenue": 6392000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0812Y562C.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B081F9KVBG",
+      "title": "Crucial SSD 内蔵2.5インチ SATA接続 BX500 シリーズ 1TB CT1000BX500SSD1JP",
+      "brand": "Crucial(クルーシャル)",
+      "price": 20645,
+      "rating": 4.5,
+      "reviewCount": 20791,
+      "monthlySold": 50,
+      "monthlyRevenue": 1032250,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B081F9KVBG.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B07911QK3X",
+      "title": "【Amazon.co.jp限定】Seagate 3.5インチ 内蔵 HDD ハードディスク8TB 2年保証 5,400rpm BarraCuda 国内正規代理店品 ST8000DM004",
+      "brand": "シーゲイト(SEAGATE)",
+      "price": 35980,
+      "rating": 4.2,
+      "reviewCount": 3998,
+      "monthlySold": 1000,
+      "monthlyRevenue": 35980000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07911QK3X.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0CVPN95P9",
+      "title": "MSI MAG A650BNL PC電源ユニット 650W 80PLUS BRONZE認証 5年保証 PS1406",
+      "brand": "MSI",
+      "price": 5618,
+      "rating": 4.2,
+      "reviewCount": 135,
+      "monthlySold": 400,
+      "monthlyRevenue": 2247200,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CVPN95P9.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 219,
+    "lowStarCount": 86,
+    "highStarCount": 100,
+    "topPainPoints": [
+      {
+        "category": "品質",
+        "count": 62
+      },
+      {
+        "category": "耐久",
+        "count": 27
+      },
+      {
+        "category": "音",
+        "count": 26
+      },
+      {
+        "category": "サポート",
+        "count": 25
+      },
+      {
+        "category": "価格",
+        "count": 15
+      },
+      {
+        "category": "梱包",
+        "count": 11
+      },
+      {
+        "category": "サイズ",
+        "count": 7
+      },
+      {
+        "category": "互換",
+        "count": 7
+      },
+      {
+        "category": "デザイン",
+        "count": 3
+      },
+      {
+        "category": "使い勝手",
+        "count": 2
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 32
+      },
+      {
+        "category": "品質",
+        "count": 20
+      },
+      {
+        "category": "価値",
+        "count": 19
+      },
+      {
+        "category": "使いやすさ",
+        "count": 10
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B098SSJ9L6",
+          "rating": 2,
+          "title": "買って損した",
+          "body": "安かったので購入しましたが使用してすぐにカチカチになってしまうタイプのものでした。その日のうちにmX-4を買いなおしました。"
+        },
+        {
+          "asin": "B0812Y562C",
+          "rating": 1,
+          "title": "外れでした。",
+          "body": "仕事用のデルノートパソコンのSSD載せ替えの為に購入。残念ながらインストール途中でとまってしまい、windowsのインストールすらできませんでした。今まで何台ものノートパソコンに他のメーカーをSSD使ってきましたが、今回、初めて使えないSSDにあたりました…。メモリで使用させてらっているメーカーだけに残念です。今回のSSDだけが不良品だったのかもしれませんがパッケージも捨ててしまった為、返品も諦め"
+        },
+        {
+          "asin": "B0812Y562C",
+          "rating": 1,
+          "title": "いずれ壊れる。",
+          "body": "一年くらいで壊れるとの情報があるので心配したがその通り。自分のは大丈夫だと思ったが、やはり2年で突然読み書き不能になった。買わない方が良い。"
+        },
+        {
+          "asin": "B0812Y562C",
+          "rating": 1,
+          "title": "いきなり…",
+          "body": "半年で壊れました…"
+        },
+        {
+          "asin": "B0812Y562C",
+          "rating": 1,
+          "title": "初期不良？",
+          "body": "ノート用に購入、クローン時は一時的に認識したもののその後認識せず。デスクPCで確認するも管理上にしか上がらずフォーマットエラーでどうしようもない状態。上記で一度は交換したものの、初期不良ロットに当たっていたのか交換後の商品はクローン前から同じく認識せずでした。レビュー数の多さと内容から安心かと思い購入しましたが、返品し別の商品を探します。"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B0812Y562C",
+          "rating": 1,
+          "title": "いずれ壊れる。",
+          "body": "一年くらいで壊れるとの情報があるので心配したがその通り。自分のは大丈夫だと思ったが、やはり2年で突然読み書き不能になった。買わない方が良い。"
+        },
+        {
+          "asin": "B0812Y562C",
+          "rating": 1,
+          "title": "最悪",
+          "body": "最悪のメーカー、最悪の商品。SPのSSDを過去に2回ほど購入しましたが2個とも読み書きができなくなりました。指示通り返品依頼をしても音沙汰無し。SPのSSDを過去に2回ほど購入しましたが2個とも読み書きができなくなりました。指示通り返品依頼をしても音沙汰無し。1TのSSD（NVMe）は1年も経過していないのに読み取りができない状態。あきれております。"
+        },
+        {
+          "asin": "B0812Y562C",
+          "rating": 1,
+          "title": "いきなり…",
+          "body": "半年で壊れました…"
+        },
+        {
+          "asin": "B0812Y562C",
+          "rating": 1,
+          "title": "非常に書き込み速度が遅いです。",
+          "body": "シリコンパワーは信用していたんですが、利用してみるとめちゃくちゃ書き込み速度が遅い。TLCって書いてあったんですけどね。耐久性があればまだいいが、どうなんだろうか。5年保証あるから自信はあるんだろうけど、さすがになぁ。"
+        },
+        {
+          "asin": "B0812Y562C",
+          "rating": 1,
+          "title": "認識しなくなった｡",
+          "body": "購入して1年半で認識できなくなりました｡特に大事なﾃﾞｰﾀでしたので最悪です｡今後､一生Silicon Power製は購入しません｡"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B098SSJ9L6",
+          "rating": 2,
+          "title": "普通の熱伝導率のグリスです",
+          "body": "HY880を使用していましたが、熱伝導率がかなり高いこちらのグリスに興味が湧いたので使用してみました。結論的には熱伝導率が半分以下のHY880と同程度の性能しかなかったです。本製品は薄く塗れず、引き伸ばすと剥がれてきます。シリコンの熱伝導シートを使用した感じです。ヒートシンクを取り付けると伸びるようで、接面部の周りにグリスがはみ出ていました。普通に使用できますが、個人的にはお勧めしません。"
+        },
+        {
+          "asin": "B081F9KVBG",
+          "rating": 1,
+          "title": "選択肢がないという現実",
+          "body": "見事なくらいのQLCですね。サイズがデカくても、キャッシュ切れ後の書き込みがゴミレベル。自分のニーズには合いませんでした。シリコンパワーA58 のほうがTLCなので、マシでした。"
+        },
+        {
+          "asin": "B081F9KVBG",
+          "rating": 2,
+          "title": "お勧めしません",
+          "body": "サイズの大きいファイルを連続して書き込むと異常に遅くなります、ゲームや動画ファイルなどには向いていません。"
+        },
+        {
+          "asin": "B07911QK3X",
+          "rating": 2,
+          "title": "精密機器なのに梱包が雑",
+          "body": "Amazonさんの梱包が精密機器なのに簡易すぎてスカスカで配送時の衝撃で今は動作してるけどすぐに故障するのではないかと心配です。容量が大きいだけに故障した際のリスクが大きすぎます。製品は良いのに残念です。"
+        }
+      ],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "SYY": 1,
+    "SP Silicon Power": 1,
+    "Crucial(クルーシャル)": 1,
+    "シーゲイト(SEAGATE)": 1,
+    "MSI": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/2151901051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:21.895Z"
+}

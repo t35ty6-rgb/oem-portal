@@ -1,0 +1,223 @@
+{
+  "categoryId": "3964679051",
+  "categoryName": "さくらんぼ",
+  "l1Path": "食品・飲料・お酒 / 果物 / さくらんぼ",
+  "score": 66,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 25315200,
+  "reviewMedian": 720,
+  "topShare": 0.58660409556314,
+  "ratingMean": 3.92,
+  "avgPrice": 3556,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B00U212EHY",
+      "title": "竹城青果 母の日 遅れてごめんね 山形県産 さくらんぼ 佐藤錦or紅秀峰 プレミアムボックス Mサイズ",
+      "brand": "竹城青果",
+      "price": 2970,
+      "rating": 4.1,
+      "reviewCount": 1309,
+      "monthlySold": 5000,
+      "monthlyRevenue": 14850000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00U212EHY.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B007IEWQ76",
+      "title": "[山形eLab] 遅れてごめんね 母の日 ギフト さくらんぼ 佐藤錦 山形県産 特秀 L玉 24粒 化粧箱入り プレゼント カーネーションオリジナル母の日カード付 感謝",
+      "brand": "グルメ＆ギフトお取り寄せ山形eLab",
+      "price": 4860,
+      "rating": 4.2,
+      "reviewCount": 720,
+      "monthlySold": 2000,
+      "monthlyRevenue": 9720000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B007IEWQ76.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B07NY58BX9",
+      "title": "【遅れてごめんね】母の日 成澤農園 さくらんぼ ギフト 佐藤錦 M玉 化粧箱入 カーネーション & メッセージカード 付",
+      "brand": "成澤農園",
+      "price": null,
+      "rating": 4.1,
+      "reviewCount": 246,
+      "monthlySold": 800,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07NY58BX9.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B00D1R5OYQ",
+      "title": "ジェイエイてんどうフーズ ご自宅用 山形県産 佐藤錦 約1kg さくらんぼ サクランボ rc01【6月10日より順次発送予定／お届け日指定不可】",
+      "brand": "ジェイエイてんどうフーズ",
+      "price": 4980,
+      "rating": 3.8,
+      "reviewCount": 278,
+      "monthlySold": 50,
+      "monthlyRevenue": 249000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00D1R5OYQ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B01FWW24BI",
+      "title": "竹城青果 山形県産 露地 ご家庭用 さくらんぼ 佐藤錦 ばら詰め Lサイズ 1kg",
+      "brand": "竹城青果",
+      "price": 4970,
+      "rating": 3.4,
+      "reviewCount": 726,
+      "monthlySold": 100,
+      "monthlyRevenue": 497000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01FWW24BI.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 242,
+    "lowStarCount": 97,
+    "highStarCount": 100,
+    "topPainPoints": [
+      {
+        "category": "サイズ",
+        "count": 28
+      },
+      {
+        "category": "デザイン",
+        "count": 28
+      },
+      {
+        "category": "梱包",
+        "count": 16
+      },
+      {
+        "category": "価格",
+        "count": 11
+      },
+      {
+        "category": "品質",
+        "count": 7
+      },
+      {
+        "category": "サポート",
+        "count": 7
+      },
+      {
+        "category": "互換",
+        "count": 5
+      },
+      {
+        "category": "説明書",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 25
+      },
+      {
+        "category": "品質",
+        "count": 4
+      },
+      {
+        "category": "使いやすさ",
+        "count": 2
+      },
+      {
+        "category": "価値",
+        "count": 2
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B00U212EHY",
+          "rating": 1,
+          "title": "腐ったものが届いた",
+          "body": "母の日にプレゼントしましたが、母からすぐに連絡がきて、半分の量のさくらんぼが腐っていました。届いてすぐに開封したのにも関わらずです。せっかくの母の日だったのに、台無しにされました。手術前のプレゼントだったため、非常に残念でなりません。本当に最低だし、責任とって欲しいです。"
+        },
+        {
+          "asin": "B00U212EHY",
+          "rating": 1,
+          "title": "ガッカリです",
+          "body": "昨年は違う業者でしたが、母の日の贈り物として送ってとても喜んで貰えたので今回はこちらで注文しました。でも間違いでした。昨年と同じところにお願いすれば良かったと後悔しています。Lサイズを頼みましたが受け取った母が小さ買ったというので昨年の普通サイズよりも小さかったようです。見た目にもすぐわかるくらいもうあと一歩で腐るような感じだったようで「高い物だろうけどもう送らなくていいから」と言われてしまい本当"
+        },
+        {
+          "asin": "B007IEWQ76",
+          "rating": 1,
+          "title": "生ものは注意",
+          "body": "デリヴァリーが遅れると商品劣化する。"
+        },
+        {
+          "asin": "B00D1R5OYQ",
+          "rating": 1,
+          "title": "1割近くが変色",
+          "body": "味は良かったが、1割近くが変色していた。すぐに食べないとさらに変色が進む。いつ収穫したのか疑問が残る。"
+        },
+        {
+          "asin": "B00D1R5OYQ",
+          "rating": 1,
+          "title": "九州への送料を追加負担しているのに、その価値無しで、ショックでした。",
+          "body": "さくらんぼの粒同士が、箱の中で擦れる為、打ち身のような劣化した部分がある粒が、箱全体の八割くらいありました。贈答用程の丁寧な扱いは出来ないでしょうけど、もう少し工夫が出来ないでしょうか？"
+        }
+      ],
+      "耐久": [],
+      "サイズ": [
+        {
+          "asin": "B00U212EHY",
+          "rating": 1,
+          "title": "ガッカリです",
+          "body": "昨年は違う業者でしたが、母の日の贈り物として送ってとても喜んで貰えたので今回はこちらで注文しました。でも間違いでした。昨年と同じところにお願いすれば良かったと後悔しています。Lサイズを頼みましたが受け取った母が小さ買ったというので昨年の普通サイズよりも小さかったようです。見た目にもすぐわかるくらいもうあと一歩で腐るような感じだったようで「高い物だろうけどもう送らなくていいから」と言われてしまい本当"
+        },
+        {
+          "asin": "B00U212EHY",
+          "rating": 1,
+          "title": "母の日",
+          "body": "母の日に渡すのにLサイズを購入しました。表側はとても綺麗でしたが、反対側はキズや痛みが結構ありました。残念です。味は甘くて美味しかったそうです。"
+        },
+        {
+          "asin": "B00U212EHY",
+          "rating": 2,
+          "title": "高級感あるさくらんぼだが…",
+          "body": "値段の乖離がえぐい…5/6注文から今日までの間に1,000円以上も値段に差がついていたのでショック。Lサイズでも小ぶりに感じた。"
+        },
+        {
+          "asin": "B00U212EHY",
+          "rating": 2,
+          "title": "想像していたより小さい",
+          "body": "届け日とか包装は良かったのですが、思ったより小粒でがっかりしました。味は良かったです。"
+        },
+        {
+          "asin": "B007IEWQ76",
+          "rating": 1,
+          "title": "これでLサイズですか？",
+          "body": "贈答用に注文しましたがガッカリ！！普通サイズのさくらんぼならスーパーで買えるので私は、大切な方に贈答用に大きいものが欲しくて今回、期待してこちらでLサイズを注文しましたが！！箱を開けると赤く色づいてるのは表の部分だけ。　しかもスーパーで普通に売られてるようなサイズ！　　無茶苦茶、高い買い物になりました。…。"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B007IEWQ76",
+          "rating": 2,
+          "title": "美味しくなかったと言われ、、",
+          "body": "自分は食べてないのでわからないけれど、、、見た目も味もイマイチで、今後、通販のサクランボはもったいなから送らないでと言われてしまった(涙）"
+        }
+      ],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "竹城青果": 2,
+    "グルメ＆ギフトお取り寄せ山形eLab": 1,
+    "成澤農園": 1,
+    "ジェイエイてんどうフーズ": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/3964679051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:27.482Z"
+}

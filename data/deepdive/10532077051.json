@@ -1,0 +1,223 @@
+{
+  "categoryId": "10532077051",
+  "categoryName": "アクセサリ",
+  "l1Path": "ホーム＆キッチン / インテリア / ホームフレグランス / アクセサリ",
+  "score": 70,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 13877700,
+  "reviewMedian": 288,
+  "topShare": 0.7739034566246569,
+  "ratingMean": 4.3,
+  "avgPrice": 4842,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0BGX9PW2R",
+      "title": "[ インテリアに溶け込む ] WHITH WHITE(フィス ホワイト) ルームフレグランス アクセサリ ギフト 爽やか 優しい香り リードディフューザー 芳香剤 スティック付き 200ml 約2.5ヶ月分 サボン",
+      "brand": "WHITH WHITE(フィス ホワイト)",
+      "price": 3580,
+      "rating": 4.4,
+      "reviewCount": 1067,
+      "monthlySold": 3000,
+      "monthlyRevenue": 10740000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BGX9PW2R.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0CZSQSGMR",
+      "title": "サワデー香るスティック 【まとめ買い】サワデー香るSｔｉｃｋつめ替用パルファムノアール 70ml×3個(おまけ付き)部屋用 【 部屋 玄関 に映える ディフューザー 】 ブラック 【Amazon.co.jp限定】",
+      "brand": "サワデー香るスティック",
+      "price": 1268,
+      "rating": 4.3,
+      "reviewCount": 288,
+      "monthlySold": 800,
+      "monthlyRevenue": 1014400,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CZSQSGMR.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0CVH3753D",
+      "title": "ラボン(Lavons) トゥザムーン to the Moon ベッドルームディフューザー ノクターナルブルーの香り 110ml",
+      "brand": "Lavons(ラボン)",
+      "price": 1431,
+      "rating": 4.4,
+      "reviewCount": 356,
+      "monthlySold": 300,
+      "monthlyRevenue": 429300,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CVH3753D.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0CF1JCZ55",
+      "title": "オプタウム OPTATUM ペーパーインセンス 紙香 ルームフレグランス アロマ お香 (ジェントルレイン)",
+      "brand": "OPTATUM",
+      "price": 1980,
+      "rating": 4.4,
+      "reviewCount": 96,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CF1JCZ55.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0C5ZNM2JQ",
+      "title": "【直営】DR. VRANJES –ドットール・ヴラニエス ROSSO NOBILE〈ロッソ ノービレ〉ディフューザー リフィル500ml＋付属スティック約40cm ルームフレグランス エレガントなオリジナルショッピングバッグ付き メイドインイタリー モチーフは赤ワイン フルーティノート リッチでダークなフレグランスカラー",
+      "brand": "DR. VRANJES",
+      "price": 15950,
+      "rating": 4,
+      "reviewCount": 25,
+      "monthlySold": 100,
+      "monthlyRevenue": 1595000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C5ZNM2JQ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 146,
+    "lowStarCount": 39,
+    "highStarCount": 79,
+    "topPainPoints": [
+      {
+        "category": "におい",
+        "count": 31
+      },
+      {
+        "category": "価格",
+        "count": 7
+      },
+      {
+        "category": "梱包",
+        "count": 6
+      },
+      {
+        "category": "サポート",
+        "count": 6
+      },
+      {
+        "category": "デザイン",
+        "count": 4
+      },
+      {
+        "category": "互換",
+        "count": 3
+      },
+      {
+        "category": "品質",
+        "count": 2
+      },
+      {
+        "category": "サイズ",
+        "count": 2
+      },
+      {
+        "category": "説明書",
+        "count": 1
+      },
+      {
+        "category": "使い勝手",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 37
+      },
+      {
+        "category": "使いやすさ",
+        "count": 3
+      },
+      {
+        "category": "価値",
+        "count": 2
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0BGX9PW2R",
+          "rating": 2,
+          "title": "うーん",
+          "body": "香りが弱い。私はリピしない。別製品に差し替えた。全額返金の申し出が先方からあり、そのようにした。"
+        },
+        {
+          "asin": "B0CVH3753D",
+          "rating": 2,
+          "title": "子供やペットのいるお宅は注意が必要",
+          "body": "瓶に香りの液体が入っていて、その蓋を外し、付属の金属の輪っかを乗せ、そこに長い棒をさしておくだけの仕様です。この商品を見てすぐ思ったことは「あまりにも危なっかしすぎて置きっぱなしにするのが怖い」ということです。何しろ瓶の蓋をあけたままの状態に長い棒をさしてそのまま置いておくだけなので、ちゃんと置く場所がある人はいいかもしれませんが、置く場所がなくベッドサイドや床などに直置きする人はいつこぼすかわか"
+        }
+      ],
+      "耐久": [],
+      "サイズ": [
+        {
+          "asin": "B0BGX9PW2R",
+          "rating": 1,
+          "title": "値段にあっていない香り",
+          "body": "香りは個人差が大きいとは思いますが、私にはとても安っぽい香りに感じられガッカリしました。トイレ用にします"
+        },
+        {
+          "asin": "B0BGX9PW2R",
+          "rating": 2,
+          "title": "甘くて人工的...泣泣",
+          "body": "配送も早く、見た目もおしゃれで匂いも広がるのですが正直フローラル？のような甘さ全振りの香りで本当に匂いが合わなかったです。自然系柑橘系の香りが普段好きな方には合わないかと...この商品が悪い訳ではなく、相性がよくなかったです。勿体ないけれど2ヶ月使い続けるにはちょっと匂いがしんどいかな...早めに切り上げます。"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0CVH3753D",
+          "rating": 2,
+          "title": "子供やペットのいるお宅は注意が必要",
+          "body": "瓶に香りの液体が入っていて、その蓋を外し、付属の金属の輪っかを乗せ、そこに長い棒をさしておくだけの仕様です。この商品を見てすぐ思ったことは「あまりにも危なっかしすぎて置きっぱなしにするのが怖い」ということです。何しろ瓶の蓋をあけたままの状態に長い棒をさしてそのまま置いておくだけなので、ちゃんと置く場所がある人はいいかもしれませんが、置く場所がなくベッドサイドや床などに直置きする人はいつこぼすかわか"
+        }
+      ],
+      "におい": [
+        {
+          "asin": "B0BGX9PW2R",
+          "rating": 1,
+          "title": "匂いがしない",
+          "body": "全然部屋にいおいが広がらない。薄めてんじゃないですか？返品出来ないとかまじかよ"
+        },
+        {
+          "asin": "B0BGX9PW2R",
+          "rating": 1,
+          "title": "最初だけ",
+          "body": "匂い全然しません。"
+        },
+        {
+          "asin": "B0BGX9PW2R",
+          "rating": 1,
+          "title": "以前ほど香らなくなった。",
+          "body": "今回は3度目の購入で２本同時に注文しましたが、２本とも今までのものとはまるで違い香りが全然広がらず、近くまで顔を近づけてもかすかにしか匂いません。１年前に購入したものは部屋中にちょうど良く香りが行きわたり、家に入る度に部屋の匂いに癒されてその状態が１年弱は持続したのに、大好きな香りなのでがっかりです。同じ商品なのにどうしてこうなるのか。口コミに同様の事を書かれている方も多いので、何か問題があるので"
+        },
+        {
+          "asin": "B0BGX9PW2R",
+          "rating": 1,
+          "title": "好みの問題だと思うけど……",
+          "body": "ご年配の男性の香水って感じでかなり匂いがキツイです好みの問題だと思いますがちょっとなしですね……"
+        },
+        {
+          "asin": "B0BGX9PW2R",
+          "rating": 1,
+          "title": "高い評価割には、、、",
+          "body": "最初蓋開けた時にシールされてなかったのでちょっと不安になりました。また匂いですが、おじさんの匂いがしてがっかりしてます。匂いに関しては好き嫌いあると思いますが、これから高い評価だけで選ぶのは気をつけないと思いました。"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "WHITH WHITE(フィス ホワイト)": 1,
+    "サワデー香るスティック": 1,
+    "Lavons(ラボン)": 1,
+    "OPTATUM": 1,
+    "DR. VRANJES": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/10532077051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:15.733Z"
+}

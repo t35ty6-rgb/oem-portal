@@ -1,0 +1,263 @@
+{
+  "categoryId": "169711011",
+  "categoryName": "ヘアカラー",
+  "l1Path": "ビューティー / ヘアケア・カラー・スタイリング / ヘアカラー",
+  "score": 65,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 27746000,
+  "reviewMedian": 3220,
+  "topShare": 0.0950046853600519,
+  "ratingMean": 4.16,
+  "avgPrice": 1788,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B014KNY5SU",
+      "title": "Wella ウエラトーン 2+1 白髪染め クリームタイプ 7CB 明るいナチュラルブラウン 鮮やかな髪色6週間続く 医薬部外品",
+      "brand": "Wella",
+      "price": 1318,
+      "rating": 4.2,
+      "reviewCount": 6182,
+      "monthlySold": 2000,
+      "monthlyRevenue": 2636000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B014KNY5SU.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0G34W7LCD",
+      "title": "【AGAクリニック×製薬会社 共同開発】KUROKAMINA クリームシャンプー 白髪用シャンプー カラートリートメント ボタニカル 敏感肌用 レディース メンズ ブラック 300g (ダークブラウン)",
+      "brand": "Gleon",
+      "price": 2780,
+      "rating": 4.4,
+      "reviewCount": 3250,
+      "monthlySold": 5000,
+      "monthlyRevenue": 13900000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0G34W7LCD.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0DZ51YCXN",
+      "title": "ブローネ ナチュリラ 色長持ちカラートリートメント ブラック つけかえ 155g",
+      "brand": "ブローネ",
+      "price": 2445,
+      "rating": 4,
+      "reviewCount": 228,
+      "monthlySold": 3000,
+      "monthlyRevenue": 7335000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DZ51YCXN.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B075DXWSR7",
+      "title": "ブローネヘアマスカラ ダークブラウン 12ml 白髪かくし ウォータープルーフ シャンプーで落とせます 約50回使用可能 自然な仕上がり",
+      "brand": "ブローネ",
+      "price": 740,
+      "rating": 4,
+      "reviewCount": 2309,
+      "monthlySold": 3000,
+      "monthlyRevenue": 2220000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B075DXWSR7.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B00AUCX3DY",
+      "title": "エンシェールズ カラーバター 200g | アッシュミルクティー",
+      "brand": "エンシェールズカラーバター",
+      "price": 1655,
+      "rating": 4.2,
+      "reviewCount": 14137,
+      "monthlySold": 1000,
+      "monthlyRevenue": 1655000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00AUCX3DY.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 248,
+    "lowStarCount": 95,
+    "highStarCount": 102,
+    "topPainPoints": [
+      {
+        "category": "デザイン",
+        "count": 86
+      },
+      {
+        "category": "梱包",
+        "count": 15
+      },
+      {
+        "category": "価格",
+        "count": 11
+      },
+      {
+        "category": "互換",
+        "count": 8
+      },
+      {
+        "category": "品質",
+        "count": 5
+      },
+      {
+        "category": "サイズ",
+        "count": 5
+      },
+      {
+        "category": "サポート",
+        "count": 4
+      },
+      {
+        "category": "におい",
+        "count": 3
+      },
+      {
+        "category": "耐久",
+        "count": 2
+      },
+      {
+        "category": "使い勝手",
+        "count": 2
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "使いやすさ",
+        "count": 42
+      },
+      {
+        "category": "満足",
+        "count": 40
+      },
+      {
+        "category": "品質",
+        "count": 24
+      },
+      {
+        "category": "価値",
+        "count": 8
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B014KNY5SU",
+          "rating": 1,
+          "title": "商品管理、製造管理の問題？",
+          "body": "届いた商品を開けて中身をとりだすと、チュウブがへこみ、染毛剤を混ぜ合わせるプラスチックの皿が割れていた。個装箱にへこみ等は見当たらなかった。同時配送の別商品には異常はなかった。このことから、配送中の問題ではなく、商品を個装箱に入れる製造時の問題ではないかと疑われる。"
+        },
+        {
+          "asin": "B0G34W7LCD",
+          "rating": 2,
+          "title": "色を間違えた結果",
+          "body": "この商品自体に文句はないけど、ポチッとしてすぐに色を間違えたことに気がついたけど、返品不可だったのが残念。仕方ないかもしれないけど、まだ発送もされてないんだから、取り消しができたらなあと"
+        },
+        {
+          "asin": "B0DZ51YCXN",
+          "rating": 1,
+          "title": "すぐ落ちる",
+          "body": "期待が多き買ったせいか残念度最大!  染まらない長続きしません。"
+        },
+        {
+          "asin": "B075DXWSR7",
+          "rating": 1,
+          "title": "飛び散る。服が汚れ、絶対に落ちない。",
+          "body": "ブラシを出す時も、塗る時も、非常に飛び散りやすく、服や周囲を汚します。服についたら、漂白剤（塩素系、酵素系）、除光剤、重曹、クエン酸等を使ってもまったく取れず、大切な服をダメにしました。こんな欠陥商品を販売し続けるのは大問題です。消費者センターに通報します。"
+        },
+        {
+          "asin": "B075DXWSR7",
+          "rating": 2,
+          "title": "ウォータープルーフ？？？",
+          "body": "根本染めに月一回美容院に行っているけど、3週間くらい経つと目立ち始める。美容院に行くまでの繋ぎとしてレビューをみて試しに購入。ウォータープルーフだけどウォータープルーフじゃない！って言うレビューが本当でした。まずすぐ乾かない。数分後に触っても手につく。キャップを被ったらキャップにもつく。ドライヤーしたら少しはましになるものの付く！雨の日、汗をかく夏なんて怖くて使えないと思い残念ですが、破棄しました"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B014KNY5SU",
+          "rating": 2,
+          "title": "ウエラ白髪染め",
+          "body": "定期購入を始めて1年足らずですが、手袋が入っていないのが2回目と当たりたくない目玉品です。"
+        },
+        {
+          "asin": "B014KNY5SU",
+          "rating": 2,
+          "title": "2週間程度で色落ち",
+          "body": "何度もリピート購入しています。カラーリング後72時間はシャンプーを控えたり、できるだけ長持ちさせようと試みてみましたが2週間程度で色落ちしますね。"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B014KNY5SU",
+          "rating": 2,
+          "title": "頭皮痛くない",
+          "body": "傷みを気にして、無理してウエラ使ってたが、ものすごく色落ち早いことに気付きました。私には合わないようです。全く頭皮は痛くならないけれど。"
+        },
+        {
+          "asin": "B0G34W7LCD",
+          "rating": 2,
+          "title": "本当に染まるの？",
+          "body": "レビューが良かったので期待してましたが、1回では全くの変化なし。何度か使えば染まるのだろうか…ぐらいの勢いで変化なし。シャンプーなのに泡立たないので物足りない。これなら白髪染めして、白髪染トリートメントで白髪染めを永く持たせる方が安く済むのでは？と思いました。爪の中も黒くなるので、爪洗い用ブラシで擦らないと、爪が不潔な人みたいになります。高評価の人は本当に染まっているのか不思議です。申し訳ないけど"
+        },
+        {
+          "asin": "B0G34W7LCD",
+          "rating": 2,
+          "title": "自分の髪質には合わなかったようです",
+          "body": "もみあげ・耳元付近の白髪が目立つようになり購入しました。しばらく使ってみたものの、自分の髪質と合わないのか、いまだ黒どころか灰色にもなりません…"
+        },
+        {
+          "asin": "B00AUCX3DY",
+          "rating": 2,
+          "title": "イマイチ",
+          "body": "あまり色が入らない。"
+        },
+        {
+          "asin": "B00AUCX3DY",
+          "rating": 2,
+          "title": "ムラになる",
+          "body": "ムラになってしまって扱いが難しかったです。原液でも、トリートメントと混ぜたりもしたけれどイマイチ。何日経ってもタオルに色が着くのも気になる。これならカラー剤で染めた方が早いなと思いました。香りは良かったのですが。いつもはパウチにしていましたが初めて大きいタイプを購入してしまったため、使いきるのに苦労しました。"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B00AUCX3DY",
+          "rating": 1,
+          "title": "ムラシャンの足元にも及ばない",
+          "body": "ブリーチ毛で説明書通り髪洗ってから20分置いたのに全く染まってない。金の無駄素手で染めたけど手も全く染まらなかったし納得。"
+        }
+      ],
+      "におい": [
+        {
+          "asin": "B0G34W7LCD",
+          "rating": 1,
+          "title": "2度と買いません",
+          "body": "洗いあがりや臭い以前に白髪を徐々に染めるために購入したのに、徐々にっていつになったら染まるの？ってくらいに染まらないで、この値段2度と買いません"
+        },
+        {
+          "asin": "B0G34W7LCD",
+          "rating": 2,
+          "title": "効果",
+          "body": "効果は続けないとわかりませんが、思ったより嫌な臭いはしない"
+        },
+        {
+          "asin": "B075DXWSR7",
+          "rating": 2,
+          "title": "便利だが、皮膚トラブルで泣く泣く廃棄",
+          "body": "使用感は良く使い勝手も楽で、香りも嫌な匂いもないので使い続けていましたが、ある日突然生え際の塗布部分だけに痒みと地肌の異常(ブツブツ)が出始め、残念ながら使用中断。付けるのを止めて1カ月以上経ちますが、まだ痒みが断続的に続いており、地肌の異常も治らず、残りを泣く泣く廃棄。もし髪の毛全体に付けていたらと思うとゾッとします。ユーザーは使用中、突然の皮膚トラブルのリスクを承知で使うべきです。毎日連続で使"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "Wella": 1,
+    "Gleon": 1,
+    "ブローネ": 2,
+    "エンシェールズカラーバター": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/169711011/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:18.169Z"
+}

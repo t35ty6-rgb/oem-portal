@@ -1,0 +1,276 @@
+{
+  "categoryId": "2189078051",
+  "categoryName": "赤ちゃん・幼児のおもちゃ",
+  "l1Path": "ベビー＆マタニティ / 赤ちゃん・幼児のおもちゃ",
+  "score": 66,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 27028000,
+  "reviewMedian": 1179,
+  "topShare": 0.07251738937398254,
+  "ratingMean": 4.52,
+  "avgPrice": 2988,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0D9T689B2",
+      "title": "【保育士が監修】 歯固め 赤ちゃん 歯がため 新生児 はがため おもちゃ おしゃぶり 指しゃぶり シリコン 洗える ベビー 可愛い (ベージュ)",
+      "brand": "Rozally",
+      "price": 980,
+      "rating": 4.5,
+      "reviewCount": 1181,
+      "monthlySold": 2000,
+      "monthlyRevenue": 1960000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D9T689B2.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0FB33TL1N",
+      "title": "【2025年モデル】タカラトミー(TAKARA TOMY) ディズニー えらべる回転 6WAYジムにへんしんメリー プラス くまのプーさん",
+      "brand": "タカラトミー(TAKARA TOMY)",
+      "price": 11370,
+      "rating": 4.6,
+      "reviewCount": 169,
+      "monthlySold": 2000,
+      "monthlyRevenue": 22740000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FB33TL1N.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0BFDVQBXD",
+      "title": "【正規品】 かみかみチキン 歯固め シリコン おしゃぶり 歯がため バーピー 食品グレード おもちゃ 歯固め 安心素材 はがため 赤ちゃん 新生児 ベビー BPAフリー 0歳 3ヵ月 1歳 (ベージュ)",
+      "brand": "Berpy",
+      "price": 1300,
+      "rating": 4.5,
+      "reviewCount": 333,
+      "monthlySold": 800,
+      "monthlyRevenue": 1040000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BFDVQBXD.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0772V586C",
+      "title": "ブライトスターツ Bright Starts Oball オーボールラトル【0ヶ月~】ベビーカー用おもちゃ 歯固め ガラガラ ソフトボール 出産祝い レッド 11487",
+      "brand": "Bright Starts",
+      "price": 759,
+      "rating": 4.6,
+      "reviewCount": 21721,
+      "monthlySold": 1000,
+      "monthlyRevenue": 759000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0772V586C.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0B8GKZ8Q7",
+      "title": "温泡 Kids 遊べる入浴 あわっぴー (ブドウの香り) 温泡キッズ 親子 お風呂 子ども用 おもちゃ バスグッズ",
+      "brand": "温泡 Kids",
+      "price": 529,
+      "rating": 4.4,
+      "reviewCount": 1234,
+      "monthlySold": 1000,
+      "monthlyRevenue": 529000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B8GKZ8Q7.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 186,
+    "lowStarCount": 57,
+    "highStarCount": 96,
+    "topPainPoints": [
+      {
+        "category": "梱包",
+        "count": 22
+      },
+      {
+        "category": "デザイン",
+        "count": 18
+      },
+      {
+        "category": "品質",
+        "count": 15
+      },
+      {
+        "category": "説明書",
+        "count": 11
+      },
+      {
+        "category": "サポート",
+        "count": 11
+      },
+      {
+        "category": "音",
+        "count": 9
+      },
+      {
+        "category": "サイズ",
+        "count": 6
+      },
+      {
+        "category": "におい",
+        "count": 5
+      },
+      {
+        "category": "価格",
+        "count": 4
+      },
+      {
+        "category": "互換",
+        "count": 4
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 55
+      },
+      {
+        "category": "品質",
+        "count": 21
+      },
+      {
+        "category": "使いやすさ",
+        "count": 11
+      },
+      {
+        "category": "価値",
+        "count": 11
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0D9T689B2",
+          "rating": 2,
+          "title": "んー",
+          "body": "持ちやすいが少し硬いのか？ツブツブした部分も刺激が強いのか、噛んだ後に不快な顔をして、すぐ投げ捨ててしまう。手にはめるので簡単には外れない"
+        },
+        {
+          "asin": "B0FB33TL1N",
+          "rating": 1,
+          "title": "モーター音うるさい！",
+          "body": "モーターの音がうるさくて、音楽よりも目立つ。本当にがっかり。流石に初期不良かと思って返品処理して再度送られてきた別個体も全く同じ音が発生。何このクオリティ？メーカーさん大丈夫ですか？"
+        },
+        {
+          "asin": "B0FB33TL1N",
+          "rating": 1,
+          "title": "モーター音？ギヤ音？",
+          "body": "このモーター音？ギヤ音？は正常なんでしょうか？すごく耳ざわりなんですが。不良品でしょうか？"
+        },
+        {
+          "asin": "B0772V586C",
+          "rating": 1,
+          "title": "欠陥品でした。ご注意ください。",
+          "body": "{\"clickstreamNexusMetricsConfig\":{\"producerId\":\"vsemetrics_playercards\",\"schemaId\":\"clickstream.CustomerEvent.4\",\"actionType\":\"DISCOVERY\",\"eventOwner\":\"vsemetrics_playercards\",\"eventType\":\"IVEVideoVie"
+        },
+        {
+          "asin": "B0772V586C",
+          "rating": 1,
+          "title": "不良品",
+          "body": "何か火で炙ったような溶け方と焦げた感じになっていて怖くて返品しました。後日、おもちゃ売り場で買い直しました。"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B0D9T689B2",
+          "rating": 2,
+          "title": "買って良かった",
+          "body": "生後半年の孫がお気に入りです"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B0FB33TL1N",
+          "rating": 1,
+          "title": "管理方法に疑問しか残りません",
+          "body": "開封したところ製品の段ボールに小さい虫が20匹ほど多数付着。子供が使う物なのにこの管理はいかがなものでしょうか。仮に虫が子供に触れたら？体内に入ってしまったら？返品も同じものと交換をしていただけず残念です。"
+        },
+        {
+          "asin": "B0BFDVQBXD",
+          "rating": 1,
+          "title": "なぜ人気？",
+          "body": "おしゃぶりが好きな子なので喜ぶと思ったが、トサカを咥えさせると不快そうな表情をする。合わない子には合わない。"
+        },
+        {
+          "asin": "B0BFDVQBXD",
+          "rating": 2,
+          "title": "口コミをみて購入",
+          "body": "口コミをみて購入しましたが、我が家のベビにはあまりハマらなかったもよう。期待が大きかっただけに、口コミはなんだったんだ。とも、思いましたが、やはり、合う合わないの個人差なんでしょうね。こればかりは仕方ないと諦めることにしました。"
+        },
+        {
+          "asin": "B0772V586C",
+          "rating": 1,
+          "title": "プラスチック部分の内部に髪の毛",
+          "body": "①プラスチック部分に髪の毛が挟まっている(1枚目写真上部)②プラスチック内の中の緑のボールに黒い汚れの付着、砂の粒子サイズのゴミが入っている③ピンク部分の汚れや(製造過程のものなのかもしれないが)へこみ(写真2枚目)検品は甘いと感じます。ハズレを引いて残念です。私と同じように、細かい汚れ等が気になる方は、店頭で綺麗なものを購入される方が良いと思います。"
+        },
+        {
+          "asin": "B0772V586C",
+          "rating": 1,
+          "title": "開封済みの状態で届いた",
+          "body": "写真のように開封済みの状態で届いた。しかもテープのところに茶髪の髪の毛もついていて、子供が使う商品のため、衛生的にも安全面でも不安が大きい。商品を箱詰めした人も気づかなかったとは考えづらく、この状態で商品として取り扱うのはありえない。"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0D9T689B2",
+          "rating": 1,
+          "title": "「認証なし、中国製おもちゃに注意喚起」",
+          "body": "⸻⚠️【赤ちゃん向けとは思えない！安全認証が一切なし】赤ちゃん用のおもちゃとして、売上ランキング上位だったので安心して購入しましたが、届いた実物を見て驚きました。✅ CEマーク、EN71、ASTM、STなどの国際的な安全認証は一切なし。✅ 日本の食品衛生法に基づく「食品接触材」などの安全基準も不明。✅ パッケージには製造者名・連絡先・認証番号なども全く記載されておらず、中国製であることも非常にわか"
+        },
+        {
+          "asin": "B0FB33TL1N",
+          "rating": 1,
+          "title": "回転部分が回らなくなってしまった",
+          "body": "商品購入して2ヶ月で回転部分が回らなくなってしまった。電話番号もなく，どこに連絡して相談すればいいのかもわからない。"
+        },
+        {
+          "asin": "B0772V586C",
+          "rating": 1,
+          "title": "欠陥品でした。ご注意ください。",
+          "body": "{\"clickstreamNexusMetricsConfig\":{\"producerId\":\"vsemetrics_playercards\",\"schemaId\":\"clickstream.CustomerEvent.4\",\"actionType\":\"DISCOVERY\",\"eventOwner\":\"vsemetrics_playercards\",\"eventType\":\"IVEVideoVie"
+        },
+        {
+          "asin": "B0772V586C",
+          "rating": 2,
+          "title": "検品してますか？",
+          "body": "商品自体はとても気に入っていたのですが、商品に傷がありました。ぐにゃぐにゃにできるからとぐにゃぐにゃにして遊んでそのまま切れてしまったらどうしようと心配です。Ｂ品対応をお願いしたいけど申し込み方法がわからない。子どものおもちゃだし子どもをつれて返品手続きをするのも大変だし、最初からしっかり検品しておいてほしい。商品はとても気に入っているので、はずれ商品が送られてきてすごく残念。"
+        }
+      ],
+      "におい": [
+        {
+          "asin": "B0BFDVQBXD",
+          "rating": 1,
+          "title": "まずい？",
+          "body": "匂いがダメなのか全然噛んでくれません。洗ってもダメでした。せっかく購入したのに残念です。"
+        },
+        {
+          "asin": "B0B8GKZ8Q7",
+          "rating": 2,
+          "title": "匂いが苦手でした",
+          "body": "子供は大喜びですが、匂いが気になりました。泡はもちもちで弾力ありますが、水に濡れるとすぐに無くなってしまいました。消費が早いかもです。"
+        },
+        {
+          "asin": "B0B8GKZ8Q7",
+          "rating": 2,
+          "title": "においが…",
+          "body": "においがちょっと独特で苦手です。あと濡れた手で触ったりするとすぐ溶けてしまうので形を作ったりは難しいです。お風呂も汚くなって色がついてしまうので、次に入る人がいる場合はちょっと微妙かも。なので桶の中で遊ばせて流してます。形を作るにはかなり量使わなければなのでコスパはあまり良くないと思います。"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "Rozally": 1,
+    "タカラトミー(TAKARA TOMY)": 1,
+    "Berpy": 1,
+    "Bright Starts": 1,
+    "温泡 Kids": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/2189078051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:22.627Z"
+}

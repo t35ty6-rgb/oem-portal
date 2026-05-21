@@ -1,0 +1,270 @@
+{
+  "categoryId": "170248011",
+  "categoryName": "香水・フレグランス",
+  "l1Path": "ビューティー / 香水・フレグランス",
+  "score": 63,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 12690000,
+  "reviewMedian": 1176,
+  "topShare": 0.11607565011820331,
+  "ratingMean": 4.2,
+  "avgPrice": 1082,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0GS591QTT",
+      "title": "オールドスパイス [正規品] ピュアスポーツ フレグランスバー 45mL",
+      "brand": "Old Spice",
+      "price": 982,
+      "rating": 4.3,
+      "reviewCount": 38,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GS591QTT.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0CDBQYW63",
+      "title": "アトマイザー 【anan掲載・21カラー展開・ワンタッチ補充・持ち運び便利】 香水 アトマイザー 持ち運び 漏れない 詰め替え ボトル 5ml 底部充填 小分け ミニ 持ち歩きボトル 入れ替え 携帯 回転 香水用 容器 男女兼用 (シャドウブラック)",
+      "brand": "モエライフ",
+      "price": 999,
+      "rating": 4.1,
+      "reviewCount": 1176,
+      "monthlySold": 1000,
+      "monthlyRevenue": 999000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CDBQYW63.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0B6V9M9Q3",
+      "title": "Poven ラベンダー エッセンシャルオイル 天然100％ ラベンダー精油 アロマオイル 10ml",
+      "brand": "Poven",
+      "price": 798,
+      "rating": 4,
+      "reviewCount": 4920,
+      "monthlySold": 1000,
+      "monthlyRevenue": 798000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B6V9M9Q3.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0BBL5KFHF",
+      "title": "SHIRO サボン ボディコロン 100mL 香水",
+      "brand": "SHIRO",
+      "price": 1980,
+      "rating": 4.3,
+      "reviewCount": 3508,
+      "monthlySold": 4000,
+      "monthlyRevenue": 7920000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BBL5KFHF.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0FSKSJVDC",
+      "title": "COLLEGRANCE お試し香水 1.5ml （ 原材料： レイジーサンデーモーニング） オードトワレ EDT 小分け 独自詰め替え品 量り売り COLLEGRANCE030",
+      "brand": "COLLEGRANCE",
+      "price": 850,
+      "rating": 4.2,
+      "reviewCount": 189,
+      "monthlySold": 2000,
+      "monthlyRevenue": 1700000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FSKSJVDC.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 211,
+    "lowStarCount": 73,
+    "highStarCount": 99,
+    "topPainPoints": [
+      {
+        "category": "におい",
+        "count": 42
+      },
+      {
+        "category": "品質",
+        "count": 15
+      },
+      {
+        "category": "価格",
+        "count": 11
+      },
+      {
+        "category": "梱包",
+        "count": 10
+      },
+      {
+        "category": "サイズ",
+        "count": 6
+      },
+      {
+        "category": "デザイン",
+        "count": 6
+      },
+      {
+        "category": "互換",
+        "count": 6
+      },
+      {
+        "category": "サポート",
+        "count": 2
+      },
+      {
+        "category": "説明書",
+        "count": 1
+      },
+      {
+        "category": "使い勝手",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 60
+      },
+      {
+        "category": "使いやすさ",
+        "count": 31
+      },
+      {
+        "category": "品質",
+        "count": 16
+      },
+      {
+        "category": "価値",
+        "count": 14
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0CDBQYW63",
+          "rating": 1,
+          "title": "すぐ壊れました",
+          "body": "買ってすぐ壊れました"
+        },
+        {
+          "asin": "B0CDBQYW63",
+          "rating": 1,
+          "title": "ゴミ",
+          "body": "星一個もあげたくない。不良品。外側ケースが抜けなくて使い物にならん。頭きた。"
+        },
+        {
+          "asin": "B0CDBQYW63",
+          "rating": 1,
+          "title": "破損品",
+          "body": "届いた時箱を開けなくても凹みがわかり不良品でした。"
+        },
+        {
+          "asin": "B0CDBQYW63",
+          "rating": 1,
+          "title": "しらん",
+          "body": "不良品。最悪。ふざけるな。"
+        },
+        {
+          "asin": "B0B6V9M9Q3",
+          "rating": 1,
+          "title": "中国産だよ！！買っちゃダメ！",
+          "body": "ゼラニウムの香りは全くなく、安っぽいシャンプーのにおい。後から中国産と知り、納得。皆さん、やめたほうがいいです。安いもの買いの銭失いとはこのことです。返品もできないので、すぐに捨てました。"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B0BBL5KFHF",
+          "rating": 1,
+          "title": "ひどい品質",
+          "body": "半年ぐらいで、キツいアルコール臭が！！3分の２も残ってるけど、全然使えない！！偽物ですよね？これ。"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B0CDBQYW63",
+          "rating": 1,
+          "title": "詰め替えられない",
+          "body": "サイズが合わないのかトムフォードのロストチェリー30mlには詰め替えられませんでした。残念です。＊追記＊全額返金するとのメールが届きました。なぜAmazonからメッセージを送らず直接メールからクリックして返金に誘導するのでしょうか。"
+        },
+        {
+          "asin": "B0CDBQYW63",
+          "rating": 2,
+          "title": "中身の蒸発が気になる",
+          "body": "液漏れというより密閉度が低くて中身が蒸発？してしまいます使ってもいないのに中身が空になる摩訶不思議現象が何度も起こりますなので最近は数日使う分しか本体から移し替えないようにしていますそれとワンプッシュで出る香水の量が少し多いような気がしますドバっと出る感じ。スプレーノズルの穴のサイズがでかいのかな･･･？色もいいし、詰替え時の液漏れもないので上記２点が残念です"
+        },
+        {
+          "asin": "B0B6V9M9Q3",
+          "rating": 2,
+          "title": "フランキンセンス",
+          "body": "タイムセールで798円で、安くて香りがとても良い。箱や瓶を見ると英語で書いてるので、西洋で作られてるように感じますが、made in Chinaでした。価格の安さは中国で作られたものだからなんですね。しかも、使用しようと手作りハンドクリームに振ってみたら、全然出ません。仕方なく、中栓の白いプラスチックを抜き、小さい注射器を入れて、それで吸い上げ、使用しました。やはり、中国産！中栓が不良品でした。も"
+        },
+        {
+          "asin": "B0FSKSJVDC",
+          "rating": 1,
+          "title": "期待より小さい",
+          "body": "想像してたより、商品が小いさすぎた"
+        },
+        {
+          "asin": "B0FSKSJVDC",
+          "rating": 1,
+          "title": "少ししか入っていませんでした。",
+          "body": "小さいのに内容量も6割位しか入っていませんでした。"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0CDBQYW63",
+          "rating": 2,
+          "title": "残念。",
+          "body": "商品自体には全く問題はなかったと思います。ただ普通に液体を入れられると思って購入した私は全くつかうことができず、使い物になりませんでした。説明書きをよく理解せず購入してしまったので、今度からはちゃんと読もうと思います。"
+        }
+      ],
+      "におい": [
+        {
+          "asin": "B0CDBQYW63",
+          "rating": 1,
+          "title": "星なんかつけたくない",
+          "body": "漏れます。バックの中全てに香水が匂い移りしてしまいました。最悪です。"
+        },
+        {
+          "asin": "B0B6V9M9Q3",
+          "rating": 1,
+          "title": "臭すぎる",
+          "body": "臭すぎる...病気の太った人の汗の甘い匂いする、嗅覚は悪くないはずお金返して欲しい"
+        },
+        {
+          "asin": "B0B6V9M9Q3",
+          "rating": 2,
+          "title": "香りません。",
+          "body": "私は結構に香り、匂いに敏感ですが、この商品は二度と再び購入しようとは思いません。残念です。"
+        },
+        {
+          "asin": "B0B6V9M9Q3",
+          "rating": 1,
+          "title": "中国産だよ！！買っちゃダメ！",
+          "body": "ゼラニウムの香りは全くなく、安っぽいシャンプーのにおい。後から中国産と知り、納得。皆さん、やめたほうがいいです。安いもの買いの銭失いとはこのことです。返品もできないので、すぐに捨てました。"
+        },
+        {
+          "asin": "B0B6V9M9Q3",
+          "rating": 1,
+          "title": "残念な臭い‼︎ガッカリ‼︎",
+          "body": "フランキーセンスの匂いがしない。以前Amazonで購入した方が匂いがあったし、良かった。とても残念でガッカリ😞透明なラベルを見たら、知らなかったが、メイドイン中国だった。中国の商品は買わない方が良い。"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "Old Spice": 1,
+    "モエライフ": 1,
+    "Poven": 1,
+    "SHIRO": 1,
+    "COLLEGRANCE": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/170248011/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:18.716Z"
+}

@@ -1,0 +1,257 @@
+{
+  "categoryId": "2151950051",
+  "categoryName": "外付けドライブ・ストレージ",
+  "l1Path": "パソコン・周辺機器 / 外付けドライブ・ストレージ",
+  "score": 65,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 95651000,
+  "reviewMedian": 7411,
+  "topShare": 0.056455238314288406,
+  "ratingMean": 4.26,
+  "avgPrice": 4902,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0CBPF2ZJ1",
+      "title": "KIOXIA(キオクシア)【日本製】USBフラッシュメモリ 32GB USB2.0 国内サポート正規品 KLU202A032GL",
+      "brand": "KIOXIA",
+      "price": 1080,
+      "rating": 4.3,
+      "reviewCount": 7445,
+      "monthlySold": 5000,
+      "monthlyRevenue": 5400000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CBPF2ZJ1.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B07BK6696F",
+      "title": "【Amazon.co.jp限定】バッファロー 外付けハードディスク 4TB テレビ録画/PC/PS4/4K対応 バッファロー製nasne™対応 静音&コンパクト 日本製 故障予測 みまもり合図 HD-AD4U3",
+      "brand": "バッファロー",
+      "price": 17980,
+      "rating": 4.3,
+      "reviewCount": 49688,
+      "monthlySold": 4000,
+      "monthlyRevenue": 71920000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07BK6696F.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B07P1XB7BG",
+      "title": "Anker USB-C 2-in-1 カードリーダー【SDXC/SDHC/SD/MMC/RS-MMC/microSDXC/microSDHC/microSD/UHS-Iカード対応】",
+      "brand": "Anker",
+      "price": 1490,
+      "rating": 4.3,
+      "reviewCount": 6213,
+      "monthlySold": 5000,
+      "monthlyRevenue": 7450000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07P1XB7BG.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B00TMYO5CO",
+      "title": "バッファロー USBメモリ 64GB USB3.2(Gen1)/3.1(Gen 1)/3.0/2.0 RUF3-K64GA-BK/N",
+      "brand": "バッファロー",
+      "price": 1982,
+      "rating": 4.2,
+      "reviewCount": 32576,
+      "monthlySold": 500,
+      "monthlyRevenue": 991000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00TMYO5CO.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0CZ6Y6TVH",
+      "title": "BRJR 外付けDVDドライブ 高速処理 8XDVD& 24XCD 光学ドライブ外付け 読取/書込可 バスパワー USB 2.0/3.0&Type-C両接続 外付けCDドライブ (ブラック)",
+      "brand": "BRJR",
+      "price": 1978,
+      "rating": 4.2,
+      "reviewCount": 3411,
+      "monthlySold": 5000,
+      "monthlyRevenue": 9890000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CZ6Y6TVH.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 255,
+    "lowStarCount": 100,
+    "highStarCount": 105,
+    "topPainPoints": [
+      {
+        "category": "品質",
+        "count": 53
+      },
+      {
+        "category": "サポート",
+        "count": 25
+      },
+      {
+        "category": "音",
+        "count": 21
+      },
+      {
+        "category": "使い勝手",
+        "count": 12
+      },
+      {
+        "category": "梱包",
+        "count": 10
+      },
+      {
+        "category": "互換",
+        "count": 10
+      },
+      {
+        "category": "耐久",
+        "count": 9
+      },
+      {
+        "category": "価格",
+        "count": 5
+      },
+      {
+        "category": "サイズ",
+        "count": 4
+      },
+      {
+        "category": "デザイン",
+        "count": 4
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 48
+      },
+      {
+        "category": "使いやすさ",
+        "count": 44
+      },
+      {
+        "category": "価値",
+        "count": 26
+      },
+      {
+        "category": "品質",
+        "count": 17
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0CBPF2ZJ1",
+          "rating": 1,
+          "title": "遅い",
+          "body": "ファイルの転送速度が　遅いなんてものではない　そもそも　キオクシアって　SDカードとかも　遅かったような？SUNDISKの高速製品に成れてると　不良品か？　と思う位には　遅いです　買う価値無し"
+        },
+        {
+          "asin": "B0CBPF2ZJ1",
+          "rating": 1,
+          "title": "壊れやすい",
+          "body": "すぐに壊れた、数回優しく抜き差ししていたというのにPCで読み取りできなくなり中のデータが破損しました。ドライブ保存前だったので本当に最悪でした。"
+        },
+        {
+          "asin": "B0CBPF2ZJ1",
+          "rating": 2,
+          "title": "すぐに壊れるのも、ありそうです。",
+          "body": "いくつか購入したのですが、そのうち一個は2カ月ほどで壊れました。保証期間内だとは思ったのですが、面倒なので廃棄しました。"
+        },
+        {
+          "asin": "B07BK6696F",
+          "rating": 1,
+          "title": "BDレコーダーで中途半端に認識で動作不能のうえ 後遺症残存  相性か",
+          "body": ".BDレコーダー に接続した既存HDDの空き容量が少なくなってきたので追加HDDを調達HDD既存: IO-Data など追加: 本品　(初追加)いままでHDDの追加接続でトラブった経験がなかったのでナメていた結果まったく認識シナイ正しくは中途半端に認識したために後述の後遺症も残存したママなのだ5-6時間格闘したので疲労困憊だマサかの展開だった通常10分でできるコトがこの結果だったハマったというヤツ"
+        },
+        {
+          "asin": "B07BK6696F",
+          "rating": 1,
+          "title": "1年で壊れました。",
+          "body": "星1つもつけたくないくらいです。データ復旧にも多額のお金がかかるし。最悪"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B07BK6696F",
+          "rating": 1,
+          "title": "1年で壊れました。",
+          "body": "星1つもつけたくないくらいです。データ復旧にも多額のお金がかかるし。最悪"
+        },
+        {
+          "asin": "B07BK6696F",
+          "rating": 1,
+          "title": "おススメしません",
+          "body": "購入して3か月ほどで一部ファイルの読み込みエラーが多発。フォーマット後は回復したが購入半年で急に認識できなくなり使用不可能に。2台目の同商品もなんと接続2回目でみまもり異常が出る始末。"
+        },
+        {
+          "asin": "B07BK6696F",
+          "rating": 2,
+          "title": "1年で使えなくなりました",
+          "body": "購入したのが2024年11月12日、最後のアクセスログが2025年12月27日。保証期間が終わるのを待っていたかのように動かなくなりました。パイロットランプはついているものの、複数のPCに接続しても認識しない。認識自体されないので復旧ソフトを利用することも出来ません。バッファロー製のHDDはけっこうよく壊れて、この一年で別の製品も含めて3台が購入後1~2年程度で使えなくなってます。比較的安価なもの"
+        },
+        {
+          "asin": "B07BK6696F",
+          "rating": 2,
+          "title": "保証対応してくれた",
+          "body": "11月27日テレビが認識しなくなった、PCでも認識しない、アマゾンカスタマーに連絡すると1年保証なので代替品を送ってくれるそうです、保証が使えて良かった、カスタマーの方も丁寧な対応ありがとうございました。"
+        },
+        {
+          "asin": "B07BK6696F",
+          "rating": 2,
+          "title": "不具合なのかわかりませんが",
+          "body": "二年目まで使えてましたが容量の75パーセントぐらい使ってから別の日に立ち上げて録画したの見ようとしたらHDDの空き容量が０になり録画リストも空になり何度も電源や接続してるのは外してみてダメだったのでカスタマーセンターに連絡したら初期化してくださいと言われたのでして初期化したらまた使えるようになったので半年つかってたら容量半分くらいでまたなったのでバッファローはやめて他のメーカーにします。ちなみにソ"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B0CBPF2ZJ1",
+          "rating": 1,
+          "title": "配送指定を、勝手に変えて配送",
+          "body": "ポストに入るサイズでしたが、勝手に置き配達になってました。"
+        },
+        {
+          "asin": "B0CBPF2ZJ1",
+          "rating": 2,
+          "title": "横幅が従来タイプよりも広いのが難点",
+          "body": "外見デザインと国内メーカーを気に入って購入しましたが、本来のタイプより横幅が広く、私のノートPCでは古いモデルのせいなのかスロット間隔から少しはみ出してしまい、2つ並べて差し込むと真っ直ぐ入らず、やや斜めになります。"
+        },
+        {
+          "asin": "B0CZ6Y6TVH",
+          "rating": 2,
+          "title": "ノイズが少し大きいです",
+          "body": "CD装置は使えますが、ノイズが少し大きいです。"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0CZ6Y6TVH",
+          "rating": 2,
+          "title": "取説 わからない",
+          "body": "接続がうまくいきません 取説が 不足気味です。"
+        }
+      ],
+      "におい": [
+        {
+          "asin": "B07BK6696F",
+          "rating": 1,
+          "title": "BDレコーダーで中途半端に認識で動作不能のうえ 後遺症残存  相性か",
+          "body": ".BDレコーダー に接続した既存HDDの空き容量が少なくなってきたので追加HDDを調達HDD既存: IO-Data など追加: 本品　(初追加)いままでHDDの追加接続でトラブった経験がなかったのでナメていた結果まったく認識シナイ正しくは中途半端に認識したために後述の後遺症も残存したママなのだ5-6時間格闘したので疲労困憊だマサかの展開だった通常10分でできるコトがこの結果だったハマったというヤツ"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "KIOXIA": 1,
+    "バッファロー": 2,
+    "Anker": 1,
+    "BRJR": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/2151950051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:22.188Z"
+}

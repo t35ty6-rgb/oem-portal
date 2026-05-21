@@ -1,0 +1,104 @@
+{
+  "categoryId": "202254011",
+  "categoryName": "痔",
+  "l1Path": "ドラッグストア / 医薬品・指定医薬部外品 / 痔",
+  "score": 70,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "🟠 2社支配",
+  "totalRevenue": 26498000,
+  "reviewMedian": null,
+  "topShare": 0.3946712959468639,
+  "ratingMean": -0.1,
+  "avgPrice": 1274,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0BXWC9L5J",
+      "title": "【指定第2類医薬品】ボラギノールA軟膏 20g",
+      "brand": "ボラギノール",
+      "price": 1162,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 9000,
+      "monthlyRevenue": 10458000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BXWC9L5J.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B00FJUAECU",
+      "title": "【指定第2類医薬品】オシリア 10g",
+      "brand": "オシリア",
+      "price": 679,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 5000,
+      "monthlyRevenue": 3395000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00FJUAECU.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B07V386QBJ",
+      "title": "【第2類医薬品】ヘモリンド舌下錠 40錠",
+      "brand": "ヘモリンド",
+      "price": 1963,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 3000,
+      "monthlyRevenue": 5889000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07V386QBJ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0BXWDX213",
+      "title": "【指定第2類医薬品】ボラギノールA注入軟膏 2g×10個",
+      "brand": "ボラギノール",
+      "price": 1628,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 3000,
+      "monthlyRevenue": 4884000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BXWDX213.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B00E1F1AUY",
+      "title": "【指定第2類医薬品】プリザエース軟膏 15g",
+      "brand": "プリザ",
+      "price": 936,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 2000,
+      "monthlyRevenue": 1872000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00E1F1AUY.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 0,
+    "lowStarCount": 0,
+    "highStarCount": 0,
+    "topPainPoints": [],
+    "topPraisePoints": [],
+    "painSamples": {
+      "品質": [],
+      "耐久": [],
+      "サイズ": [],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "ボラギノール": 2,
+    "オシリア": 1,
+    "ヘモリンド": 1,
+    "プリザ": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/202254011/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:19.468Z"
+}

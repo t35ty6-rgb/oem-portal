@@ -1,0 +1,104 @@
+{
+  "categoryId": "10509644051",
+  "categoryName": "デンタルケアキット",
+  "l1Path": "ドラッグストア / オーラルケア / デンタルケアキット",
+  "score": 68,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "🟠 2社支配",
+  "totalRevenue": 39676000,
+  "reviewMedian": 286,
+  "topShare": 0.4990422421615082,
+  "ratingMean": 4.32,
+  "avgPrice": 2629,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B07QZWQJRM",
+      "title": "[ その白さ、反則級。たっぷり120g ] WHITH WHITE(フィス ホワイト) 歯磨き粉 ホワイトニング ［医薬部外品] 薬用歯磨き 低刺激 ハーブミント風味 デンタルケアキット 口臭ケア 日本製 (ペースト, 120グラム (x 1))",
+      "brand": "WHITH WHITE(フィス ホワイト)",
+      "price": 1980,
+      "rating": 4.4,
+      "reviewCount": 5424,
+      "monthlySold": 10000,
+      "monthlyRevenue": 19800000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07QZWQJRM.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0F1XGH1CT",
+      "title": "【白く美しく、輝かしい歯へ】ルビーホワイト 歯磨き粉 ホワイトニング 医薬部外品 薬用 口臭ケア 虫歯予防 低刺激 フッ素 磨きあがりツルツル 歯を白くする 自宅 セルフホワイトニング",
+      "brand": "pure nature",
+      "price": 1380,
+      "rating": 4.4,
+      "reviewCount": 287,
+      "monthlySold": 4000,
+      "monthlyRevenue": 5520000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F1XGH1CT.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B09RT5WKMD",
+      "title": "【汚れが見える マウスウォッシュ 】 ブレスマイル 計量カップ付 デンタルケアキット 口臭ケア ホワイトニング 歯 口臭対策 口臭 ブレスマイルウォッシュ BRESMILE 270ｍL×1袋",
+      "brand": "ブレスマイル（BRESMILE）",
+      "price": 4571,
+      "rating": 4.3,
+      "reviewCount": 2291,
+      "monthlySold": 2000,
+      "monthlyRevenue": 9142000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09RT5WKMD.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0F8VLBZDQ",
+      "title": "【白く美しく、輝かしい歯へ】ルビーホワイト クリアシート デンタルケア用クリーニングシート 28枚14セット分 刺激 キシリトール 磨きあがりツルツル",
+      "brand": "pure nature",
+      "price": 1480,
+      "rating": 4.3,
+      "reviewCount": 196,
+      "monthlySold": 1000,
+      "monthlyRevenue": 1480000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F8VLBZDQ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0D8VLKYVY",
+      "title": "【シリーズ累計100万本突破 】 公式ガイドブック付デンタルキット タヴァティー （TaVaTeee） ホワイトニング 歯磨き粉 歯磨きジェル 口臭 口腔 ケア 薬用 医薬部外品 研磨剤不使用 40g×1本",
+      "brand": "TaVaTeee(タヴァティー)",
+      "price": 3734,
+      "rating": 4.2,
+      "reviewCount": 223,
+      "monthlySold": 1000,
+      "monthlyRevenue": 3734000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D8VLKYVY.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 0,
+    "lowStarCount": 0,
+    "highStarCount": 0,
+    "topPainPoints": [],
+    "topPraisePoints": [],
+    "painSamples": {
+      "品質": [],
+      "耐久": [],
+      "サイズ": [],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "WHITH WHITE(フィス ホワイト)": 1,
+    "pure nature": 2,
+    "ブレスマイル（BRESMILE）": 1,
+    "TaVaTeee(タヴァティー)": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/10509644051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:15.605Z"
+}

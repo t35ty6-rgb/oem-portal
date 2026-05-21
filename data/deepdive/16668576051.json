@@ -1,0 +1,228 @@
+{
+  "categoryId": "16668576051",
+  "categoryName": "フォーク・アコーディオン",
+  "l1Path": "楽器・音響機器 / ピアノ・キーボード / フォーク・アコーディオン",
+  "score": 70,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 27729800,
+  "reviewMedian": 111,
+  "topShare": 0.8638720798563279,
+  "ratingMean": 4.34,
+  "avgPrice": 3257,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B00N4NKT74",
+      "title": "ヤマハ YAMAHA PIANICA ピアニカ 鍵盤ハーモニカ 32鍵 ブルー P-32E 子どもたちの使い勝手を追求した 同系色のプラスチック製ハードケース付属 1) ブルー",
+      "brand": "ヤマハ(YAMAHA)",
+      "price": 4791,
+      "rating": 4.5,
+      "reviewCount": 2857,
+      "monthlySold": 4000,
+      "monthlyRevenue": 19164000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00N4NKT74.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B079S7196F",
+      "title": "KC キョーリツ 鍵盤ハーモニカ メロディピアノ 32鍵 虹色 P3001-32K/NIJI (ドレミ表記シール・クロス・お名前シール付き)",
+      "brand": "KC(ケーシー)",
+      "price": 3982,
+      "rating": 4.6,
+      "reviewCount": 691,
+      "monthlySold": 400,
+      "monthlyRevenue": 1592800,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B079S7196F.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0FTM4TP7P",
+      "title": "SUZUKI スズキ 鍵盤ハーモニカ メロディオン 卓奏唄口 MP-113 + 立奏唄口（A） MP-121 セット",
+      "brand": "スズキ(Suzuki)",
+      "price": 850,
+      "rating": 4.2,
+      "reviewCount": 23,
+      "monthlySold": 1000,
+      "monthlyRevenue": 850000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FTM4TP7P.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B081RHPX81",
+      "title": "RiZKiZ 鍵盤ハーモニカ 32鍵盤 授業で使える 卓奏用 立奏用 ふき口 ホース ケース付 ホールドベルト 名前シールスペース付 [ライトブルー]",
+      "brand": "RiZKiZ(リズキズ)",
+      "price": 3180,
+      "rating": 4.1,
+      "reviewCount": 111,
+      "monthlySold": 200,
+      "monthlyRevenue": 636000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B081RHPX81.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0DW3W439K",
+      "title": "アンジュスマイル 鍵盤ハーモニカ Maestro+ (32鍵 / マエストロプラス/アイスブルー) 届いてすぐに使える6点セット こども用 32鍵盤 ハーモニカ 楽器 (お名前 音符シール付き/ハードケース付き) 小学生 卓奏 立奏",
+      "brand": "アンジュスマイル",
+      "price": 3480,
+      "rating": 4.3,
+      "reviewCount": 109,
+      "monthlySold": 200,
+      "monthlyRevenue": 696000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DW3W439K.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 152,
+    "lowStarCount": 44,
+    "highStarCount": 86,
+    "topPainPoints": [
+      {
+        "category": "梱包",
+        "count": 55
+      },
+      {
+        "category": "音",
+        "count": 29
+      },
+      {
+        "category": "品質",
+        "count": 28
+      },
+      {
+        "category": "サポート",
+        "count": 19
+      },
+      {
+        "category": "デザイン",
+        "count": 7
+      },
+      {
+        "category": "互換",
+        "count": 4
+      },
+      {
+        "category": "におい",
+        "count": 3
+      },
+      {
+        "category": "使い勝手",
+        "count": 2
+      },
+      {
+        "category": "価格",
+        "count": 2
+      },
+      {
+        "category": "サイズ",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 29
+      },
+      {
+        "category": "価値",
+        "count": 19
+      },
+      {
+        "category": "品質",
+        "count": 16
+      },
+      {
+        "category": "使いやすさ",
+        "count": 4
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B00N4NKT74",
+          "rating": 1,
+          "title": "ショック、、",
+          "body": "レビューを読んで、梱包の仕方も良くなってきてるのかと思い購入しましたが、、Amazonの紙袋に緩衝材無しで鍵盤ハーモニカが入れられていました。こちら壊れやすい物ですし、これから６年間使う大事なものです。お得に買えた分がこのような梱包の簡易さということなのでしょうか？子供は喜んで早速音を確かめたので返品はしませんが、親としてもとても悲しい気持ちになりました。何ならいつも定期便で購入している洗剤の方が"
+        },
+        {
+          "asin": "B00N4NKT74",
+          "rating": 1,
+          "title": "梱包は酷いです。",
+          "body": "商品については問題ないように思います。まだ使用していないのでわかりません。しかし梱包の酷さには驚きとがっかりで呆然としてしまいました。まず本体はビニール袋などに入っておらずこれは本当に新品なの？と心配に。。。またピアニカは楽器であるにもかかわらずプチプなどにも包まれずそのままダンボールにいれられ、くしゃくしゃにした紙が３枚ほど入っているだけで中でガタガタと動きます。上積み厳禁、取扱注意などのシール"
+        },
+        {
+          "asin": "B00N4NKT74",
+          "rating": 1,
+          "title": "ありえない",
+          "body": "ダンボールにそのまま入ってた。中はピアニー以外なにもなくて動き放題。一応、楽器ですよ？ありえない。本体壊れてたらどうするん？？Amazon雑すぎ。"
+        },
+        {
+          "asin": "B00N4NKT74",
+          "rating": 2,
+          "title": "梱包に問題あり",
+          "body": "早く届いたし物も綺麗でしたが大きい紙袋にピアニカがそのまま入っていただけで、雑に配送されていたらケースが割れたりもありそうだと感じた。せめてダンボールにいれてほしかった"
+        },
+        {
+          "asin": "B00N4NKT74",
+          "rating": 2,
+          "title": "はやり梱包に問題が…",
+          "body": "やはりレビュー通り紙袋にそのままケースがポンと入っただけで包装にびっくりでした。子供が一通り吹いてみた感じ音は問題ないかな、、？他の方と一緒でえ？正規品じゃないの？と少し不安に…安く買えたので使ってみてすぐに壊れないか様子見です。"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B081RHPX81",
+          "rating": 1,
+          "title": "ヤマハ、スズキには敵わない",
+          "body": "プラスチックカバーの成型が悪くカバーを閉じる際に力が必要です引っかかりも甘いため、耐久性に疑問が残ります"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B00N4NKT74",
+          "rating": 2,
+          "title": "梱包に問題あり",
+          "body": "早く届いたし物も綺麗でしたが大きい紙袋にピアニカがそのまま入っていただけで、雑に配送されていたらケースが割れたりもありそうだと感じた。せめてダンボールにいれてほしかった"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0DW3W439K",
+          "rating": 1,
+          "title": "不具合",
+          "body": "一か所、音が出なかった。返品交換には、未使用の物品に限ると書いてある。吹いてみないと音が出ないかわからない。不具合の場合は、連絡してから送るようにと書いてあるが、その連絡先のメールアドレスがすぐにわかるところに記載されてない。"
+        }
+      ],
+      "におい": [
+        {
+          "asin": "B081RHPX81",
+          "rating": 1,
+          "title": "独特な臭いがすごくて傷だらけでした",
+          "body": "梱包をあけるとびっくり、ケースの外は黒ずみの汚れが付着しており、開けてみると汚れとデコボコした傷が無数についていました。外の黒ずみはふいたら取れましたが傷はどうすることもできず。そしてなによりも独特のきつい臭いがすごくて、触った手に付着し手がしばらく臭かった。。子供に触らせるの無理、と思い即返品しました。安さにひかれて購入しましたが安かろう悪かろうなお品ですので要注意です！！その後はヤ○ハを購入し"
+        },
+        {
+          "asin": "B0DW3W439K",
+          "rating": 1,
+          "title": "残念でした",
+          "body": "不良品が届きました。対応もスムーズでなく、残念でした。子どもが使用するものなので臭いが気になります。やはり高額でもヤマハやスズキを購入すればよかったと後悔しています。"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "ヤマハ(YAMAHA)": 1,
+    "KC(ケーシー)": 1,
+    "スズキ(Suzuki)": 1,
+    "RiZKiZ(リズキズ)": 1,
+    "アンジュスマイル": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/16668576051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:18.018Z"
+}

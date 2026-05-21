@@ -1,0 +1,233 @@
+{
+  "categoryId": "71141051",
+  "categoryName": "パン・ケーキ",
+  "l1Path": "食品・飲料・お酒 / パン・ケーキ",
+  "score": 83,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 22183400,
+  "reviewMedian": 519,
+  "topShare": 0.198301432602757,
+  "ratingMean": 4.08,
+  "avgPrice": 3614,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0G1BC112R",
+      "title": "ベースブレッド 5種20袋 パン 【チョコ、シナモン、ミルク、ストロベリー、さつまいも】 置き換えダイエット ダイエット食品 完全栄養食 低糖質 お試し BASE BREAD ベースフード BASE FOOD",
+      "brand": "ベースフード",
+      "price": 4399,
+      "rating": 4,
+      "reviewCount": 432,
+      "monthlySold": 1000,
+      "monthlyRevenue": 4399000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0G1BC112R.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0F8N3GB21",
+      "title": "【糖質オフの豆粉パン】ZENB ゼンブ ブレッド グルテンフリー 6種12個 (くるみ＆レーズン・カカオ・3種の雑穀・紅茶＆オレンジ・きなこ あんぱん・金時豆 各2個) [ 糖質オフ 糖質制限 糖質コントロール 腸活 時の 食物繊維 補給に ダイエット 時の栄養補給に 置き換え ロングライフパン たんぱく質 食物繊維 鉄分 ビタミンB1 非常食 小腹がすいた時に食べる 常温保存 長期保存 ]",
+      "brand": "ZENB",
+      "price": 3978,
+      "rating": 4.1,
+      "reviewCount": 1562,
+      "monthlySold": 800,
+      "monthlyRevenue": 3182400,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F8N3GB21.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0GLMXX3X1",
+      "title": "母の日 R.L ワッフル ケーキ 母の日シール＆ カーネーション付き お菓子 スイーツ ギフト 手提げ袋付き 冷凍 10個",
+      "brand": "ワッフル･ケーキの店R.L エール・エル",
+      "price": 3330,
+      "rating": 4.3,
+      "reviewCount": 1627,
+      "monthlySold": 3000,
+      "monthlyRevenue": 9990000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GLMXX3X1.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0DHFPGK29",
+      "title": "KOUBO 低糖質パン 低糖質食べ比べセット 12個入 ロングライフパン 常温保存 個包装 非常食",
+      "brand": "K KOUBO",
+      "price": 2980,
+      "rating": 4,
+      "reviewCount": 519,
+      "monthlySold": 1000,
+      "monthlyRevenue": 2980000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DHFPGK29.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0DT8K684C",
+      "title": "【糖質オフの豆粉パン】ZENB ゼンブ ブレッド グルテンフリー 5種10個 (くるみ＆レーズン・カカオ・3種の雑穀・紅茶＆オレンジ・きなこ あんぱん 各2個) [ 糖質オフ 糖質制限 糖質コントロール 腸活 時の 食物繊維 補給に ダイエット 時の栄養補給に 置き換え ロングライフパン たんぱく質 食物繊維 鉄分 ビタミンB1 非常食 小腹がすいた時に食べる 常温保存 長期保存 ]",
+      "brand": "ZENB",
+      "price": 3383,
+      "rating": 4,
+      "reviewCount": 371,
+      "monthlySold": 600,
+      "monthlyRevenue": 2029800,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DT8K684C.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 246,
+    "lowStarCount": 96,
+    "highStarCount": 100,
+    "topPainPoints": [
+      {
+        "category": "価格",
+        "count": 24
+      },
+      {
+        "category": "サイズ",
+        "count": 17
+      },
+      {
+        "category": "梱包",
+        "count": 13
+      },
+      {
+        "category": "サポート",
+        "count": 9
+      },
+      {
+        "category": "デザイン",
+        "count": 8
+      },
+      {
+        "category": "におい",
+        "count": 5
+      },
+      {
+        "category": "品質",
+        "count": 3
+      },
+      {
+        "category": "互換",
+        "count": 2
+      },
+      {
+        "category": "使い勝手",
+        "count": 2
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 40
+      },
+      {
+        "category": "使いやすさ",
+        "count": 4
+      },
+      {
+        "category": "価値",
+        "count": 4
+      },
+      {
+        "category": "品質",
+        "count": 4
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0F8N3GB21",
+          "rating": 1,
+          "title": "まずい高い無意味",
+          "body": "パスタも相当不味かったがCMで期待して体調不良で長期寝込んでいる際に購入栄養素なし、小さくてまずい一個￥500一袋￥200でましな栄養補助食品もグルテンフリーもある商品企画もっと他社製品で研究しろ"
+        },
+        {
+          "asin": "B0F8N3GB21",
+          "rating": 2,
+          "title": "味はかなりイマイチです",
+          "body": "美味しくないです。劣化した油っぽい感じがします。食べた後のパッケージや手指に沢山油がついていて健康そうには思えないです。"
+        },
+        {
+          "asin": "B0GLMXX3X1",
+          "rating": 2,
+          "title": "冷凍",
+          "body": "息子の誕生日に送ったのですが、冷凍で送られてきたので、すぐに食べられなかったとのこと美味しかったとは言ってました"
+        }
+      ],
+      "耐久": [],
+      "サイズ": [
+        {
+          "asin": "B0F8N3GB21",
+          "rating": 2,
+          "title": "思ったより小さい",
+          "body": "お試しで3種6個買ってみました。408円／個、このサイズでこの値段は高すぎるせめてベースブレッドのボリュームがあるかと思ったけど小さくて軽いです味は可もなく不可も無し、食感はもちもちで悪くはないでもリピートは無いですね"
+        },
+        {
+          "asin": "B0F8N3GB21",
+          "rating": 1,
+          "title": "小さい",
+          "body": "想像以上に美味しくないし、小さかった。休日のランチを安くヘルシーに済ませたくて買ったんですが、小さすぎて2〜3個食べないと足りない。その金額出すなら美味しくないパンじゃなくて、他にもっと選択肢がある。リピはないです。"
+        },
+        {
+          "asin": "B0F8N3GB21",
+          "rating": 2,
+          "title": "グルテンフリーの糖質オフパン",
+          "body": "味がイマイチと思う人もいるみたいなので、個人差はあると思う。うちは小さい子供達にあげてみたが、口に合わずでした😅💦私もそのままよりはレンチンして食べれたのですが、リピーターにはならないかな〜。糖質オフなので、身体には良くて罪悪感なく食べれるおやつ感覚には良いと思う✨"
+        },
+        {
+          "asin": "B0F8N3GB21",
+          "rating": 2,
+          "title": "小さな片手サイズパンが¥500って..高すぎ",
+          "body": "小さな片手サイズパンが¥500って..高すぎ"
+        },
+        {
+          "asin": "B0F8N3GB21",
+          "rating": 2,
+          "title": "大きさ",
+          "body": "想像してのと違う。小さい"
+        }
+      ],
+      "説明書": [],
+      "におい": [
+        {
+          "asin": "B0G1BC112R",
+          "rating": 1,
+          "title": "美味しくない",
+          "body": "アルコール脱臭剤の匂い､味で食欲がなくなる。そのままでは食べれないので焼いて食べました。リピ無し"
+        },
+        {
+          "asin": "B0F8N3GB21",
+          "rating": 1,
+          "title": "とにかく苦い。苦すぎる",
+          "body": "くるみ＆レーズン紅茶＆オレンジを食べた感想食べる前→コゲ臭い。香りで苦いと感じる。口に含んだ→まるでコゲを食べてるようで苦い＆後味も真っ黒にコゲたパンを食べたあとみたいに口の中がとにかく苦い。身体に悪そう⋯。見た目はコゲてはいない⋯でも、香りからコゲ臭い＆口に含んだらガツンと苦味が来る。成分にこめ油。があるけどこれが原因なのか？賞味期限2026.04.16オレンジの香りは微かにする。"
+        },
+        {
+          "asin": "B0DHFPGK29",
+          "rating": 2,
+          "title": "少し食べてたけど",
+          "body": "そんなにおいしいものでもない"
+        },
+        {
+          "asin": "B0DT8K684C",
+          "rating": 1,
+          "title": "不味い",
+          "body": "お世辞にも美味しいとは言えない。防腐剤なのか、鼻にツンとくる匂いがするし、食感も良くない。息を止めて無理やり一個食べたが、残り9個は、開けるのも嫌になる。返品したいが、Amazonでは返品出来ないので困ってる。"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "ベースフード": 1,
+    "ZENB": 2,
+    "ワッフル･ケーキの店R.L エール・エル": 1,
+    "K KOUBO": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/71141051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:28.315Z"
+}

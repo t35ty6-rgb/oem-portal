@@ -1,0 +1,218 @@
+{
+  "categoryId": "2145940051",
+  "categoryName": "メンズシェーバー",
+  "l1Path": "ビューティー / シェービング・ムダ毛処理 / メンズシェーバー",
+  "score": 69,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 51860000,
+  "reviewMedian": 1479,
+  "topShare": 0.1975318164288469,
+  "ratingMean": 4.34,
+  "avgPrice": 4575,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0DLWK7YQH",
+      "title": "ひげそり 電動シェーバー 【2026革新型・密着360°×スムーズ剃り】 シェーバー メンズ 髭剃り 電動 往復式 電気シェーバー 乾湿両用 3枚刃 電動髭剃り 低騒音 メンズシェーバー IPX7防水 ひげ剃り 電動 長持ちバッテリー 大型LED画面 残量表示 ロック機能 ヒゲトリマー ひげそり 電気 シェイバー 男性用 電気カミソリ 軽量 持ち運び便利 出張/旅行 父の日 ギフト",
+      "brand": "Ｏｍｎｉｖｅｏ",
+      "price": 2561,
+      "rating": 4.2,
+      "reviewCount": 1687,
+      "monthlySold": 4000,
+      "monthlyRevenue": 10244000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DLWK7YQH.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0FKG6WN38",
+      "title": "パナソニック メンズ シェーバー ラムダッシュ 3枚刃 電動 髭剃り ACアダプター充電 ウォータースルー洗浄 ES-L321W-K ブラック",
+      "brand": "パナソニック(Panasonic)",
+      "price": 7364,
+      "rating": 4.3,
+      "reviewCount": 298,
+      "monthlySold": 2000,
+      "monthlyRevenue": 14728000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FKG6WN38.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0FR4GP2WG",
+      "title": "ボディシェーバー メンズ【チクチクしない！セラミック刃 & 7000r/min一掃式超効率】VIOシェーバー男性用 ボディしぇーばー 男性 全身しぇーばー むだげ処理 メンズ 充電式 電動 全身使える 防水 携帯便利 お風呂使用可 体毛 背中 ヒゲ ビキニライン ボディ 胸 眉毛 顔 頭 ヒゲ 首 ワキ",
+      "brand": "MANSPOT",
+      "price": 3980,
+      "rating": 4.3,
+      "reviewCount": 11338,
+      "monthlySold": 3000,
+      "monthlyRevenue": 11940000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FR4GP2WG.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0GFF1QTC2",
+      "title": "Oliforu 電気シェーバー メンズ 髭剃り ひげそり 電動シェーバー 往復式 深剃り 【重厚フルメタル筐体 & 独立3D浮動3枚刃】 IPX7防水 お風呂剃り可 Type-C急速充電 120分連続使用 スマートLEDディスプレイ ト ラベルロック 低騒音 小型 携帯便利 出張/旅行/車内用 日本語取扱説明書付属(ガンメタルグレー)",
+      "brand": "Oliforu",
+      "price": 5979,
+      "rating": 4.6,
+      "reviewCount": 592,
+      "monthlySold": 2000,
+      "monthlyRevenue": 11958000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GFF1QTC2.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0CZRCNLF9",
+      "title": "ボディシェーバー メンズ 電動シェーバー VIO シェーバー むだ毛処理 フェイスシェーバー RENAGE USB充電タイプ 防水 全身 ボディ トリマー 電気シェーバー 水洗い可 お風呂剃り可 4種類ヘッド付き (ブラック, 通常版)",
+      "brand": "RENAGE",
+      "price": 2990,
+      "rating": 4.3,
+      "reviewCount": 1479,
+      "monthlySold": 1000,
+      "monthlyRevenue": 2990000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CZRCNLF9.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 139,
+    "lowStarCount": 44,
+    "highStarCount": 67,
+    "topPainPoints": [
+      {
+        "category": "品質",
+        "count": 25
+      },
+      {
+        "category": "サポート",
+        "count": 10
+      },
+      {
+        "category": "価格",
+        "count": 8
+      },
+      {
+        "category": "音",
+        "count": 7
+      },
+      {
+        "category": "サイズ",
+        "count": 4
+      },
+      {
+        "category": "デザイン",
+        "count": 3
+      },
+      {
+        "category": "耐久",
+        "count": 1
+      },
+      {
+        "category": "互換",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 36
+      },
+      {
+        "category": "使いやすさ",
+        "count": 27
+      },
+      {
+        "category": "価値",
+        "count": 26
+      },
+      {
+        "category": "品質",
+        "count": 10
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0DLWK7YQH",
+          "rating": 1,
+          "title": "すぐに刃こぼれしました",
+          "body": "買って一ヶ月で三カ所刃こぼれしました。充電量が視覚的に判断できるのは評価できますが、刃が弱すぎる。ちなみにそんなに剛毛でもないです。"
+        },
+        {
+          "asin": "B0DLWK7YQH",
+          "rating": 1,
+          "title": "不良品？故障相談",
+          "body": "この電動シェーバーを購入しましたが最初の充電中に勝手に動きだしスイッチを押しても電源が切れなくなり制御不能の状態になりました。その後何度か試してみましたが充電が切れるまで待つしか無い始末です。保証や交換を求める方法がわからなくて困っています。販売店からの連絡をお願いします。"
+        },
+        {
+          "asin": "B0DLWK7YQH",
+          "rating": 1,
+          "title": "故障しやすく保証短い",
+          "body": "2台購入して両方すぐ故障。それぞれ購入から10日と40日で故障。メーカー保証は自然故障の無償の交換は原則購入から30日まで。"
+        },
+        {
+          "asin": "B0DLWK7YQH",
+          "rating": 1,
+          "title": "期待をしていたのに…。",
+          "body": "たまたま私の購入した製品が外れだったのかもしれませんが、本体が丸洗い可能と書いていたはずなのに、丸洗いした後に不具合が発生致しました。特にインジケーターのディスプレイに水滴が付いてしまったり、電源ボタンが全く反応しなくなったり、バッテリーの残量インジケーターの不具合(数字が表示されない等)が発生しています。しかし不可解なことに、時間が経つと正常になったり不具合がまた再発したりと、消費者としては非常"
+        },
+        {
+          "asin": "B0DLWK7YQH",
+          "rating": 1,
+          "title": "同じ不具合が出てる人もいますね…不良品です。",
+          "body": "乾湿両用とのことで購入したが、半月使ったところで電源スイッチが効かなくなった。勝手に電源が入ったり切れたりする。"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B0DLWK7YQH",
+          "rating": 2,
+          "title": "良いのはコスパだけでした",
+          "body": "綺麗に剃れるのだが、半年も持たずに充電されなくなってしまった。"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B0FKG6WN38",
+          "rating": 1,
+          "title": "デカい",
+          "body": "ES-ST2のバッテリーが弱って替刃も高かったので8000円未満の価格に釣られ実物を見ずにES-L321Wを購入。失敗だった。短所無駄にデカい。スイングヘッドではないのに上位グレードと同じ外形サイズ。幅、厚み、全長、グリップ径まで旧機種よりも大きく、体積2割増しに感じます。無駄にかさ張るので出張には持って行く気になりません。充電器がいまだに専用アダプターなので更に荷物が増えます。ゴミも増え、さすが"
+        },
+        {
+          "asin": "B0GFF1QTC2",
+          "rating": 1,
+          "title": "特典でつっておいて、特典すら送ってこない",
+          "body": "特典でつっておいて、特典すら送ってこない。クソ。深剃りもできないし、ただ小さいだけの中国製品"
+        },
+        {
+          "asin": "B0GFF1QTC2",
+          "rating": 2,
+          "title": "肝心な切れ味に不満・・",
+          "body": "形状デザインが気に入って、飛び付いて購入下が、肝心な切れ味がいまいちで、結局以前のパナソニツのシｪバ━の替刃と蓄電池を交換して使っています、小さいので旅行等の際にと思います・・"
+        },
+        {
+          "asin": "B0GFF1QTC2",
+          "rating": 2,
+          "title": "性能を求めてはいけない",
+          "body": "あまり剃れない。小さいので旅行とかいいかも、でもボデイがツルツルで落としそう。"
+        }
+      ],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "Ｏｍｎｉｖｅｏ": 1,
+    "パナソニック(Panasonic)": 1,
+    "MANSPOT": 1,
+    "Oliforu": 1,
+    "RENAGE": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/2145940051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:21.470Z"
+}

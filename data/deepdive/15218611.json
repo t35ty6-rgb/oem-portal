@@ -1,0 +1,252 @@
+{
+  "categoryId": "15218611",
+  "categoryName": "バレーボール",
+  "l1Path": "スポーツ＆アウトドア / バレーボール",
+  "score": 66,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 9013700,
+  "reviewMedian": 1181,
+  "topShare": 0.13729101256975493,
+  "ratingMean": 4.3,
+  "avgPrice": 3076,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B007E5JU5A",
+      "title": "ディーアンドエム トリコットニーパッド D-809 ブラック M",
+      "brand": "D&M(ディーアンドエム)",
+      "price": 1375,
+      "rating": 4.3,
+      "reviewCount": 1703,
+      "monthlySold": 900,
+      "monthlyRevenue": 1237500,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B007E5JU5A.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B09BLFFSPD",
+      "title": "[DawnRain] スポーツウェア レディース 5点セット ランニングウェア フィットネス ウェア ウォーキング トレーニング トップス 半袖 パンツ ショートパンツ レギンス",
+      "brand": "DawnRain",
+      "price": 3580,
+      "rating": 4.1,
+      "reviewCount": 2216,
+      "monthlySold": 100,
+      "monthlyRevenue": 358000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09BLFFSPD.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0CL9DF5GZ",
+      "title": "アディダス ジャージ上下セット セレーノ トラックスーツ メンズ KNA81 Top : ブラック Bottom : ブラック (IR7843) M",
+      "brand": "adidas(アディダス)",
+      "price": 3635,
+      "rating": 4,
+      "reviewCount": 1182,
+      "monthlySold": 300,
+      "monthlyRevenue": 1090500,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CL9DF5GZ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B07BBTC5G2",
+      "title": "ミカサ(MIKASA) カラーソフトバレーボール 円周78cm 検定球(イエロー)MSN78-Y",
+      "brand": "ミカサ",
+      "price": 1541,
+      "rating": 4.4,
+      "reviewCount": 684,
+      "monthlySold": 700,
+      "monthlyRevenue": 1078700,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07BBTC5G2.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0036NJ3CE",
+      "title": "モルテン フリスタテック バレーボール V4M5000",
+      "brand": "モルテン(molten)",
+      "price": 5249,
+      "rating": 4.6,
+      "reviewCount": 1047,
+      "monthlySold": 1000,
+      "monthlyRevenue": 5249000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0036NJ3CE.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 208,
+    "lowStarCount": 76,
+    "highStarCount": 91,
+    "topPainPoints": [
+      {
+        "category": "サイズ",
+        "count": 36
+      },
+      {
+        "category": "サポート",
+        "count": 18
+      },
+      {
+        "category": "品質",
+        "count": 16
+      },
+      {
+        "category": "価格",
+        "count": 9
+      },
+      {
+        "category": "梱包",
+        "count": 7
+      },
+      {
+        "category": "耐久",
+        "count": 6
+      },
+      {
+        "category": "互換",
+        "count": 5
+      },
+      {
+        "category": "デザイン",
+        "count": 4
+      },
+      {
+        "category": "使い勝手",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 48
+      },
+      {
+        "category": "価値",
+        "count": 13
+      },
+      {
+        "category": "品質",
+        "count": 9
+      },
+      {
+        "category": "使いやすさ",
+        "count": 4
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B007E5JU5A",
+          "rating": 2,
+          "title": "パッケージと中身のサイズが違う",
+          "body": "注文したのはMサイズだったのに、実際に届いた商品はLサイズでした。(商品の入っているパッケージの表示はMサイズなのに...)若干緩かったけど、すぐに使用したかった事もあり返品はしませんでしたが…非常に残念でした。商品自体は、良さそうでした。"
+        },
+        {
+          "asin": "B007E5JU5A",
+          "rating": 2,
+          "title": "2個入りではなく1個入り！気をつけて！",
+          "body": "1個入りと分かりやすく表示して欲しい！！商品未使用なのでわかりませんが、すぐ破れそう…"
+        },
+        {
+          "asin": "B09BLFFSPD",
+          "rating": 2,
+          "title": "縫製不良で返品。",
+          "body": "パーカーの右裾の部分が縫製不良で穴が空いていたため返品。以前全く同じデザインのものを購入しましたが、それに比べて生地がペラペラに薄くなっていました。オールシーズン着られると謳っていますが冬は無理でしょう。"
+        },
+        {
+          "asin": "B09BLFFSPD",
+          "rating": 1,
+          "title": "ちょっと不安",
+          "body": "補正不良でした"
+        },
+        {
+          "asin": "B07BBTC5G2",
+          "rating": 1,
+          "title": "普通",
+          "body": "すぐ飽きた"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B007E5JU5A",
+          "rating": 2,
+          "title": "耐久性に難あり",
+          "body": "過去のレビューを見て納得。素材が改悪されたようです。厚手と書いてある方がいますが、私には厚手に思えません。薄くもない。洗濯したら縮んだのか、丸まってしまいました。一応使えるので使っていますが、使用感が悪い。他のを買いなおそうと思います。"
+        },
+        {
+          "asin": "B007E5JU5A",
+          "rating": 2,
+          "title": "あんまり長持ち出来ない。",
+          "body": "小学生が使えますが値段の割には長持ち出来ない。"
+        },
+        {
+          "asin": "B0CL9DF5GZ",
+          "rating": 2,
+          "title": "服の形をした布",
+          "body": "値段相応の商品、ペラペラ過ぎる。夏限定のジャージとしては使えるけど、耐久性は低そう。宮川大輔さんなら必ず言う「見たら分かる、安いヤツ‼︎」です！"
+        },
+        {
+          "asin": "B07BBTC5G2",
+          "rating": 2,
+          "title": "最初はよかったが、、",
+          "body": "届いた日は小学1年の子供が楽しくバレーボールをしていました。いつも家の前で遊びますが、軽いボールのように弾まないので遠くまでとんでいかず親子ともども満足していました。が、翌日から空気が抜けた状態になり、一日に数回空気を入れてもしぼむ感じでした。穴は確認できませんでしたが、返品処理を行いました。返品はスムーズに行えましたが、次購入するボールを悩みます、、"
+        },
+        {
+          "asin": "B0036NJ3CE",
+          "rating": 1,
+          "title": "空気が抜ける",
+          "body": "すぐに空気が抜けます半年程で使い物にならなくなりました買ってはいけません"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B007E5JU5A",
+          "rating": 2,
+          "title": "パッケージと中身のサイズが違う",
+          "body": "注文したのはMサイズだったのに、実際に届いた商品はLサイズでした。(商品の入っているパッケージの表示はMサイズなのに...)若干緩かったけど、すぐに使用したかった事もあり返品はしませんでしたが…非常に残念でした。商品自体は、良さそうでした。"
+        },
+        {
+          "asin": "B007E5JU5A",
+          "rating": 2,
+          "title": "引き締め",
+          "body": "サイズと引き締め感が想像と違います。もっと全体的に引き締めるものが良かった。"
+        },
+        {
+          "asin": "B007E5JU5A",
+          "rating": 2,
+          "title": "サイズアップして欲しい",
+          "body": "足が太いので痛い"
+        },
+        {
+          "asin": "B09BLFFSPD",
+          "rating": 1,
+          "title": "返金金額0円",
+          "body": "サイズが大きかったため返品をしましたが、返金金額が0円でした。こちらの出品者からは二度と購入しません。"
+        },
+        {
+          "asin": "B09BLFFSPD",
+          "rating": 1,
+          "title": "サイズが表記と着用で違う",
+          "body": "パーカーサイズは小さいショートパンツは超デカいタイツは普通希望のサイズはタイツだけ"
+        }
+      ],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "D&M(ディーアンドエム)": 1,
+    "DawnRain": 1,
+    "adidas(アディダス)": 1,
+    "ミカサ": 1,
+    "モルテン(molten)": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/15218611/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:16.888Z"
+}

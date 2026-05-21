@@ -1,0 +1,105 @@
+{
+  "categoryId": "7967511051",
+  "categoryName": "集音器",
+  "l1Path": "ホーム＆キッチン / 家電 / 健康家電 / 集音器",
+  "score": 78,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "🟠 2社支配",
+  "totalRevenue": 27430900,
+  "reviewMedian": 182,
+  "topShare": 0.357297791906208,
+  "ratingMean": 4.02,
+  "avgPrice": 8143,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B07DKMGLQ8",
+      "title": "【公式】楽ちんヒアリング 集音器 軽量 正規品 ベージュ 超軽量タイプ 目立たない 約30倍に音を増幅 4段階の音量調整 充電式で電池交換不要 敬老の日 プレゼント Shop Japan(ショップジャパン) RAH-SSAM",
+      "brand": "Shop Japan(ショップジャパン)",
+      "price": 10890,
+      "rating": 3.3,
+      "reviewCount": 2125,
+      "monthlySold": 900,
+      "monthlyRevenue": 9801000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07DKMGLQ8.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0DK91MDHL",
+      "title": "FIIL 集音器 骨伝導 高齢者 しゅうおんき BT5.3 耳に入る必要はない ノイズ低減 マグネット式充電 5段階音量調節 4種類モード 電話/音楽対応 紛失対策 両耳用 IPX5防水 軽量 敬老の日 母の日 父の日 日本語説明書付き",
+      "brand": "KXP",
+      "price": 10341,
+      "rating": 4.3,
+      "reviewCount": 117,
+      "monthlySold": 500,
+      "monthlyRevenue": 5170500,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DK91MDHL.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0DXBVBBZW",
+      "title": "Micfendy 集音器 高齢者 耳掛け集音器 音声拡聴器 充電式 両耳兼用 2種類モード 小型 軽量 簡単操作 両親 敬老の日 母の日 父の日 高齢者プレゼント",
+      "brand": "Micfendy",
+      "price": 2296,
+      "rating": 4,
+      "reviewCount": 182,
+      "monthlySold": 500,
+      "monthlyRevenue": 1148000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DXBVBBZW.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0DQWMZC6V",
+      "title": "ミミクリア 集音器 高齢者 【日本企画・医師推奨・最大35倍・2026年最新・ノイズ除去機能】 片耳用 耳掛け式 1個 軽量 約5g 耳が遠い 便利グッズ 介護 40時間連続使用 充電式 【1年保証】ベージュ [ 補聴器 ではありません]",
+      "brand": "ミミクリア",
+      "price": 9980,
+      "rating": 4.3,
+      "reviewCount": 387,
+      "monthlySold": 700,
+      "monthlyRevenue": 6986000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DQWMZC6V.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0GCNXP689",
+      "title": "集音器 高齢者 しゅうおんき【2026進化版！革命的なデジタルチップ&高性能BA型スピーカー搭載！無段階音量調整】35倍増幅 24時間連続使用 軽量 快適 簡単操作 自動降噪 目立たない 両耳/片耳対応 USB充電式 電池交換不要 残量表示 両親 敬老の日 母の日 父の日 誕生日 高齢者プレゼント 掃除ブラシ＆3種類イヤーピース付 日本語説明書",
+      "brand": "Yaotin",
+      "price": 7209,
+      "rating": 4.3,
+      "reviewCount": 117,
+      "monthlySold": 600,
+      "monthlyRevenue": 4325400,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GCNXP689.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 0,
+    "lowStarCount": 0,
+    "highStarCount": 0,
+    "topPainPoints": [],
+    "topPraisePoints": [],
+    "painSamples": {
+      "品質": [],
+      "耐久": [],
+      "サイズ": [],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "Shop Japan(ショップジャパン)": 1,
+    "KXP": 1,
+    "Micfendy": 1,
+    "ミミクリア": 1,
+    "Yaotin": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/7967511051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:28.584Z"
+}

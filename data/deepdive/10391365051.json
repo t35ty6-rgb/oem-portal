@@ -1,0 +1,267 @@
+{
+  "categoryId": "10391365051",
+  "categoryName": "自動車整備工具",
+  "l1Path": "車＆バイク / 自動車整備工具",
+  "score": 65,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 24418000,
+  "reviewMedian": 4462,
+  "topShare": 0.12732410516831846,
+  "ratingMean": 4.3,
+  "avgPrice": 1713,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B01B2TB1DM",
+      "title": "BOSCH(ボッシュ) トヨタ車用エアコンフィルター アエリストプレミアム (抗ウイルス・抗アレルタイプ) AP-T10 アクア 現行(MXPK) ヤリス クロス",
+      "brand": "Bosch",
+      "price": 3109,
+      "rating": 4.4,
+      "reviewCount": 4463,
+      "monthlySold": 1000,
+      "monthlyRevenue": 3109000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01B2TB1DM.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0BG1S73H4",
+      "title": "【バイク用】エーモン(amon) ポイパック2.5L 3個パック オイル交換に 可燃ゴミとして処理しやすい袋状の廃油処理材 4991 販売ルート限定品",
+      "brand": "エーモン(amon)",
+      "price": 1098,
+      "rating": 4.3,
+      "reviewCount": 5376,
+      "monthlySold": 2000,
+      "monthlyRevenue": 2196000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BG1S73H4.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0DB5NDVSK",
+      "title": "自転車 空気入れ 電動 電動空気入れ バイク 車 用 コードレス 6000mAh 大容量バッテリー 仏/英/米式バルブ対応 自動停止 低騒音 エアポンプ",
+      "brand": "AAL",
+      "price": 2675,
+      "rating": 4.3,
+      "reviewCount": 4367,
+      "monthlySold": 6000,
+      "monthlyRevenue": 16050000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DB5NDVSK.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B08YDMSZSG",
+      "title": "エーモン(amon) 非常信号灯 発炎筒の代わりに 車検対応 (防滴仕様IPX3相当) ON/OFFスイッチタイプ 土屋圭市氏推奨 6904 赤",
+      "brand": "エーモン(amon)",
+      "price": 691,
+      "rating": 4.4,
+      "reviewCount": 6824,
+      "monthlySold": 3000,
+      "monthlyRevenue": 2073000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08YDMSZSG.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B07X7T5MQX",
+      "title": "エーモン(amon) エアゲージ ブラック ラバープロテクト付 タイヤ空気圧の日常点検に 最大測定値500kPa 4978 販売ルート限定品",
+      "brand": "エーモン(amon)",
+      "price": 990,
+      "rating": 4.1,
+      "reviewCount": 1845,
+      "monthlySold": 1000,
+      "monthlyRevenue": 990000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07X7T5MQX.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 155,
+    "lowStarCount": 60,
+    "highStarCount": 65,
+    "topPainPoints": [
+      {
+        "category": "品質",
+        "count": 22
+      },
+      {
+        "category": "音",
+        "count": 15
+      },
+      {
+        "category": "耐久",
+        "count": 9
+      },
+      {
+        "category": "サイズ",
+        "count": 9
+      },
+      {
+        "category": "使い勝手",
+        "count": 9
+      },
+      {
+        "category": "サポート",
+        "count": 7
+      },
+      {
+        "category": "互換",
+        "count": 7
+      },
+      {
+        "category": "価格",
+        "count": 5
+      },
+      {
+        "category": "梱包",
+        "count": 4
+      },
+      {
+        "category": "説明書",
+        "count": 2
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 36
+      },
+      {
+        "category": "使いやすさ",
+        "count": 36
+      },
+      {
+        "category": "品質",
+        "count": 12
+      },
+      {
+        "category": "価値",
+        "count": 10
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0DB5NDVSK",
+          "rating": 1,
+          "title": "分かりにくてて使いにくい",
+          "body": "稼働時の音や振動がとても大きくうるさいです。各設定の初期値の出力表示と取説で表記がことなっていて大変わかりにくく、自転車の空気入れに買いましたが、調べながら値を設定して使用したのですぐにパッと使えなくて残念だし、その値も正解なのかどうか分からない。同じ値でやって新品自転車で、前輪はパンパンに入ったと思ったら、後輪はスカスカだったし使い方が難しいです。"
+        },
+        {
+          "asin": "B0DB5NDVSK",
+          "rating": 1,
+          "title": "2回使って壊れた",
+          "body": "自転車での使用で、バルブに挟む部分が速攻で壊れた。使う前から貧弱な感じはしていたが挟む箇所の上と下がズレてしまってまともにバルブを挟めず空気が入っていかない。おまけに結構デカい音がする。その割には空気が微量にしか入っていかず早朝や深夜ではかなり気を使う。何一ついいとこが無かった。"
+        },
+        {
+          "asin": "B0DB5NDVSK",
+          "rating": 1,
+          "title": "故障？",
+          "body": "初めての電動空気入れ、空気入れ始めてものすごく大きな音でびっくりしましたこれは朝や夜帰宅後には絶対使えないです"
+        },
+        {
+          "asin": "B0DB5NDVSK",
+          "rating": 1,
+          "title": "全く使えません。",
+          "body": "初期不良か何かで全く使えません。"
+        },
+        {
+          "asin": "B08YDMSZSG",
+          "rating": 1,
+          "title": "２個中２個故障",
+          "body": "２個買って２個とも１年以内に接触不良気味になり最後は全く使えなくなりました。こんな単純な構造かつ非常用のものなのにびっくりするほど耐久性が悪い"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B0DB5NDVSK",
+          "rating": 1,
+          "title": "耐久性って言葉知ってますか？",
+          "body": "2回も使えました。充電出来なくなり終了"
+        },
+        {
+          "asin": "B0DB5NDVSK",
+          "rating": 2,
+          "title": "エアー漏れしますな",
+          "body": "3ヶ月の使用ですが本体は問題ないのですが、タイヤバルブに嵌めて固定した時にエアーが漏れる様になりました。バルブに固定する際にシリコンゴム？を縮めるが隙間が出来た様で使い物になりません。同じ様な予備のホースをまた購入しました。ゴムが弱すぎる気がします。一番重要な所は耐久性を考えて欲しいものです。"
+        },
+        {
+          "asin": "B08YDMSZSG",
+          "rating": 1,
+          "title": "２個中２個故障",
+          "body": "２個買って２個とも１年以内に接触不良気味になり最後は全く使えなくなりました。こんな単純な構造かつ非常用のものなのにびっくりするほど耐久性が悪い"
+        },
+        {
+          "asin": "B08YDMSZSG",
+          "rating": 1,
+          "title": "1年3ヶ月で使えない",
+          "body": "当たりはずれがあるのかと思いますが、前回の車検前に発煙筒から切り替えました、今年また8月が車検なので点検しようと思いスイッチを押してみたが点滅せず、電池が無いかと思い入れ替えてもダメでした。車検毎に買い換えるなら発煙筒の方が良かったです。しかもいざという時使用できない可能性があり信用できませんね。"
+        },
+        {
+          "asin": "B08YDMSZSG",
+          "rating": 1,
+          "title": "使えない",
+          "body": "一年前に購入し、今回の車検で電池切れと言われたけれど、帰って電池残量を見たらまだ使えるのでスイッチを入切したり、電池の蓋を開け閉めしたら点いたり消えたりとして不良品だったみたい。皆さんの悪いレビューを確認すべきでした。"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B0DB5NDVSK",
+          "rating": 1,
+          "title": "分かりにくてて使いにくい",
+          "body": "稼働時の音や振動がとても大きくうるさいです。各設定の初期値の出力表示と取説で表記がことなっていて大変わかりにくく、自転車の空気入れに買いましたが、調べながら値を設定して使用したのですぐにパッと使えなくて残念だし、その値も正解なのかどうか分からない。同じ値でやって新品自転車で、前輪はパンパンに入ったと思ったら、後輪はスカスカだったし使い方が難しいです。"
+        },
+        {
+          "asin": "B0DB5NDVSK",
+          "rating": 1,
+          "title": "車の空気が入らない",
+          "body": "車の空気入れとして購入しましたが、空気口に真っ直ぐに入らずタイヤの空気が抜けてしまい、ガススタに行く事になりました。最悪です。"
+        },
+        {
+          "asin": "B0DB5NDVSK",
+          "rating": 2,
+          "title": "動作音がびっくりするほど大",
+          "body": "機能は満足、ただし動作音が尋常ではなく住宅街では使うのをためらうほど大きい。"
+        },
+        {
+          "asin": "B0DB5NDVSK",
+          "rating": 2,
+          "title": "音が大きい！",
+          "body": "空気を入れるときの音が大きいので、日本のような近隣の方に配慮しないといけない住環境だとちょっと使いずらいと感じた。昼間ならOK。早朝や夜間は控えた方がよいかな。あと、説明書が分かりずらい。あまり、こういった製品を買わないし使わないのもあるがもう少し補足説明が欲しいところ。"
+        },
+        {
+          "asin": "B0DB5NDVSK",
+          "rating": 2,
+          "title": "実際の空気圧とズレがある",
+          "body": "車の空気圧を入れるのに購入〜空気圧と表示が合わない😅他のゲージと併用しないとどれくらい入っているか不明"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0DB5NDVSK",
+          "rating": 1,
+          "title": "分かりにくてて使いにくい",
+          "body": "稼働時の音や振動がとても大きくうるさいです。各設定の初期値の出力表示と取説で表記がことなっていて大変わかりにくく、自転車の空気入れに買いましたが、調べながら値を設定して使用したのですぐにパッと使えなくて残念だし、その値も正解なのかどうか分からない。同じ値でやって新品自転車で、前輪はパンパンに入ったと思ったら、後輪はスカスカだったし使い方が難しいです。"
+        },
+        {
+          "asin": "B0DB5NDVSK",
+          "rating": 2,
+          "title": "音が大きい！",
+          "body": "空気を入れるときの音が大きいので、日本のような近隣の方に配慮しないといけない住環境だとちょっと使いずらいと感じた。昼間ならOK。早朝や夜間は控えた方がよいかな。あと、説明書が分かりずらい。あまり、こういった製品を買わないし使わないのもあるがもう少し補足説明が欲しいところ。"
+        }
+      ],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "Bosch": 1,
+    "エーモン(amon)": 3,
+    "AAL": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/10391365051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:14.948Z"
+}

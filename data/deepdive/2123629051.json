@@ -1,0 +1,196 @@
+{
+  "categoryId": "2123629051",
+  "categoryName": "楽器・音響機器",
+  "l1Path": "楽器・音響機器",
+  "score": 66,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 66876000,
+  "reviewMedian": 2857,
+  "topShare": 0.17616185178539387,
+  "ratingMean": 4.4,
+  "avgPrice": 5195,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0CXH6K3ZB",
+      "title": "ヤマハ YAMAHA チューナーメトロノーム アイボリーTDM-710IV チューナーとメトロノームが同時に使える 日常の練習に最適 サウンドバック機能",
+      "brand": "ヤマハ(YAMAHA)",
+      "price": 3927,
+      "rating": 4.4,
+      "reviewCount": 375,
+      "monthlySold": 3000,
+      "monthlyRevenue": 11781000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CXH6K3ZB.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0DDL8WGH5",
+      "title": "DJI Mic Mini（2 TX + 1 RX + 充電ケース） ピンマイク ワイヤレス 超軽量 48時間使用 ノイズキャンセリング 自動制限機能 カメラ／iPhone／Android用ワイヤレスマイク Vlog撮影 ストリーミング",
+      "brand": "DJI",
+      "price": 14300,
+      "rating": 4.6,
+      "reviewCount": 8648,
+      "monthlySold": 2000,
+      "monthlyRevenue": 28600000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DDL8WGH5.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B00WEPP8E2",
+      "title": "SUCCUL ACアダプター 12V 1A 大手メーカーOEM社製品 センタープラス スイッチング式 出力12Wまで 出力プラグ外径5.5mm(内径2.1mm)PSE取得品",
+      "brand": "SUCCUL",
+      "price": 980,
+      "rating": 4,
+      "reviewCount": 768,
+      "monthlySold": 500,
+      "monthlyRevenue": 490000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00WEPP8E2.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B01NBNR2F2",
+      "title": "ELIXIR(エリクサー) Elixirエレキギター弦 OPTIWEB Super Light .009-.042 #19002 【国内正規品】",
+      "brand": "ELIXIR(エリクサー)",
+      "price": 1918,
+      "rating": 4.5,
+      "reviewCount": 3261,
+      "monthlySold": 1000,
+      "monthlyRevenue": 1918000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01NBNR2F2.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B00N4NKT74",
+      "title": "ヤマハ YAMAHA PIANICA ピアニカ 鍵盤ハーモニカ 32鍵 ブルー P-32E 子どもたちの使い勝手を追求した 同系色のプラスチック製ハードケース付属 1) ブルー",
+      "brand": "ヤマハ(YAMAHA)",
+      "price": 4791,
+      "rating": 4.5,
+      "reviewCount": 2857,
+      "monthlySold": 4000,
+      "monthlyRevenue": 19164000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00N4NKT74.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 119,
+    "lowStarCount": 44,
+    "highStarCount": 50,
+    "topPainPoints": [
+      {
+        "category": "梱包",
+        "count": 43
+      },
+      {
+        "category": "品質",
+        "count": 14
+      },
+      {
+        "category": "サポート",
+        "count": 14
+      },
+      {
+        "category": "音",
+        "count": 10
+      },
+      {
+        "category": "互換",
+        "count": 4
+      },
+      {
+        "category": "価格",
+        "count": 3
+      },
+      {
+        "category": "デザイン",
+        "count": 3
+      },
+      {
+        "category": "使い勝手",
+        "count": 1
+      },
+      {
+        "category": "サイズ",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 14
+      },
+      {
+        "category": "使いやすさ",
+        "count": 13
+      },
+      {
+        "category": "品質",
+        "count": 11
+      },
+      {
+        "category": "価値",
+        "count": 9
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0CXH6K3ZB",
+          "rating": 1,
+          "title": "商品が正常に動作しなくなった。",
+          "body": "１年間の保証期間中なので修理もしくは交換してほしい。メーカーのYAMAHAに問い合わせたら、故障の症状から初期不良の可能性が高いが、AMAZONから購入の場合はAMAZONに依頼するよう言われた。"
+        },
+        {
+          "asin": "B0DDL8WGH5",
+          "rating": 1,
+          "title": "初期不良？交換出来る？",
+          "body": "これは、こちらが間違ってますか？音声が一切入りません。付属のケーブルをソニーa7Vに繋げてます。もし初期不良なら交換したい"
+        },
+        {
+          "asin": "B0DDL8WGH5",
+          "rating": 1,
+          "title": "マイクの1つがすぐ自然故障しかも保証対象期間が短すぎ",
+          "body": "マイクの2つのうちの1つが、受信機とリンクはしているのに音を全く拾わなくなった。購入して1ヶ月後位から。保証も対象外？だし最悪の商品"
+        },
+        {
+          "asin": "B00N4NKT74",
+          "rating": 1,
+          "title": "ショック、、",
+          "body": "レビューを読んで、梱包の仕方も良くなってきてるのかと思い購入しましたが、、Amazonの紙袋に緩衝材無しで鍵盤ハーモニカが入れられていました。こちら壊れやすい物ですし、これから６年間使う大事なものです。お得に買えた分がこのような梱包の簡易さということなのでしょうか？子供は喜んで早速音を確かめたので返品はしませんが、親としてもとても悲しい気持ちになりました。何ならいつも定期便で購入している洗剤の方が"
+        },
+        {
+          "asin": "B00N4NKT74",
+          "rating": 1,
+          "title": "梱包は酷いです。",
+          "body": "商品については問題ないように思います。まだ使用していないのでわかりません。しかし梱包の酷さには驚きとがっかりで呆然としてしまいました。まず本体はビニール袋などに入っておらずこれは本当に新品なの？と心配に。。。またピアニカは楽器であるにもかかわらずプチプなどにも包まれずそのままダンボールにいれられ、くしゃくしゃにした紙が３枚ほど入っているだけで中でガタガタと動きます。上積み厳禁、取扱注意などのシール"
+        }
+      ],
+      "耐久": [],
+      "サイズ": [
+        {
+          "asin": "B00N4NKT74",
+          "rating": 2,
+          "title": "梱包に問題あり",
+          "body": "早く届いたし物も綺麗でしたが大きい紙袋にピアニカがそのまま入っていただけで、雑に配送されていたらケースが割れたりもありそうだと感じた。せめてダンボールにいれてほしかった"
+        }
+      ],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "ヤマハ(YAMAHA)": 2,
+    "DJI": 1,
+    "SUCCUL": 1,
+    "ELIXIR(エリクサー)": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/2123629051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:20.924Z"
+}

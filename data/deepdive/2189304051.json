@@ -1,0 +1,228 @@
+{
+  "categoryId": "2189304051",
+  "categoryName": "野球",
+  "l1Path": "スポーツ＆アウトドア / 野球 / 野球",
+  "score": 69,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 31783100,
+  "reviewMedian": 1080,
+  "topShare": 0.11547017125453464,
+  "ratingMean": 4.3,
+  "avgPrice": 1978,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B07SWBR5FB",
+      "title": "[アンダーアーマー] UA TECH GRAPHIC SHORT Mens メンズ 001 日本 LG (日本サイズL相当)",
+      "brand": "UNDER ARMOUR(アンダーアーマー)",
+      "price": 1835,
+      "rating": 4.3,
+      "reviewCount": 2301,
+      "monthlySold": 2000,
+      "monthlyRevenue": 3670000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07SWBR5FB.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0CHV8XSTX",
+      "title": "[VARZAR] Stud logo over fit ball cap Black",
+      "brand": "VARZAR",
+      "price": 3375,
+      "rating": 4.2,
+      "reviewCount": 1081,
+      "monthlySold": 7000,
+      "monthlyRevenue": 23625000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CHV8XSTX.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0D6XZ6HN6",
+      "title": "[Andeor] キャップ メンズ 大きいサイズ 帽子 【特大60-68cm・UPF50+測定済み・2重型崩れにくい】 キャップメンズ 深め 紫外線対策 メッシュ 刺繍 シンプル おしゃれ 野球帽 調整可能 ゴルフ アウトドア 男女兼用 四季 3タイプ展開 (JP, 数字サイズ, 60.0 cm, 68.0 cm, ブラック)",
+      "brand": "Andeor",
+      "price": 1853,
+      "rating": 4.5,
+      "reviewCount": 1188,
+      "monthlySold": 1000,
+      "monthlyRevenue": 1853000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D6XZ6HN6.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0D6GG1HXZ",
+      "title": "トレーニングウェア ナビドライ ニットハーフパンツ 短パン 吸汗速乾 UV UPF15 32MDC190 メンズ ブラック/シルバー L",
+      "brand": "MIZUNO(ミズノ)",
+      "price": 1929,
+      "rating": 4.2,
+      "reviewCount": 595,
+      "monthlySold": 900,
+      "monthlyRevenue": 1736100,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D6GG1HXZ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0GQRFBSNV",
+      "title": "[YUMISS] キャップ メンズ ランニング 超軽量 【通気性や速乾性の高いメッシュ素材】 帽子 涼しい 通気 蒸れにくい 54-60cm サイズ調整可能 夏用キャップ 散歩 お釣り 運動 きゃっぷ(JP, アルファベット, Free Size, ブラック)",
+      "brand": "YUMISS",
+      "price": 899,
+      "rating": 4.3,
+      "reviewCount": 161,
+      "monthlySold": 1000,
+      "monthlyRevenue": 899000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GQRFBSNV.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 183,
+    "lowStarCount": 58,
+    "highStarCount": 91,
+    "topPainPoints": [
+      {
+        "category": "サイズ",
+        "count": 12
+      },
+      {
+        "category": "サポート",
+        "count": 8
+      },
+      {
+        "category": "品質",
+        "count": 7
+      },
+      {
+        "category": "梱包",
+        "count": 7
+      },
+      {
+        "category": "価格",
+        "count": 6
+      },
+      {
+        "category": "使い勝手",
+        "count": 3
+      },
+      {
+        "category": "互換",
+        "count": 3
+      },
+      {
+        "category": "デザイン",
+        "count": 2
+      },
+      {
+        "category": "耐久",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 63
+      },
+      {
+        "category": "品質",
+        "count": 26
+      },
+      {
+        "category": "価値",
+        "count": 18
+      },
+      {
+        "category": "使いやすさ",
+        "count": 2
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B07SWBR5FB",
+          "rating": 1,
+          "title": "すぐにボロボロ",
+          "body": "生地が薄すぎる。リストラップなどのマジックテープが触れただけでほつれるからすぐボロボロになる"
+        },
+        {
+          "asin": "B07SWBR5FB",
+          "rating": 1,
+          "title": "縫製が甘くすぐに使用できなくなった。",
+          "body": "縫製が甘く、すぐにウェストのゴムがむき出しになって使えなくなった"
+        },
+        {
+          "asin": "B07SWBR5FB",
+          "rating": 2,
+          "title": "残念！",
+          "body": "生地が思ってたのと違くて、すぐにへたりそうでした…"
+        },
+        {
+          "asin": "B0CHV8XSTX",
+          "rating": 1,
+          "title": "折ジワと汚れがあり少し残念",
+          "body": "デザインと深く被れる点はとても良く、紫外線対策として期待して購入しました。ただ、届いた商品は折りジワがかなり強くついており、すぐに使える状態ではありませんでした。また保管や梱包の問題かもしれませんが、表面に白っぽい砂埃のような汚れも2箇所付着しており払うと取れましたが正直あまり気持ちの良いものではありませんでした。形や機能性は良かっただけに、品質面で少し残念に感じました。"
+        },
+        {
+          "asin": "B0D6GG1HXZ",
+          "rating": 2,
+          "title": "裏地が擦れて痛い",
+          "body": "ランニング用に購入しましたが、裏地で太ももの内側が擦れて痛い。ウォーキングでも30分で限界でヒリヒリしてきます。肌が弱い方はだめかも。"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B0GQRFBSNV",
+          "rating": 1,
+          "title": "縫製が下手　交換希望",
+          "body": "発送遅れで本日受け取りました。袋から出して見ると全く検品してないです！縫製が雑過ぎ！安いし評価も良さげだったので注文したけど残念です。軽くて通気性は良さげですが、耐久性は無さそう。交換してほしいです。"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B0CHV8XSTX",
+          "rating": 1,
+          "title": "頭周りのサイズが自分には合いませんでした",
+          "body": "ユニセックスと書かれいたためメンズでも大丈夫なのかと思い購入。届いた商品を見てみると思ってものより一回りぐらい小さかったです…。被ってみたところキツすぎて使い物にならずお金をドブに捨ててしまいました。サイズ確認せずに買った物なので商品について特に文句を言うつもりはないですが自分にとってはとても残念な買い物でした。その辺の量販店で売ってるフリーサイズのキャップと同じサイズをイメージして購入される方は"
+        },
+        {
+          "asin": "B0CHV8XSTX",
+          "rating": 1,
+          "title": "最悪の配達でした！！",
+          "body": "商品自体はさほど傷などはなかったが、気に入って買った大事なブランド帽子で、自分で受け取りにしたはずが、勝手にポスト投函されていて、しかも全く入らないはずなのに、無理やりポストにはみ出して入れてあり、誰でも取れる状態でした。いざ取ろうと思ったらポストに挟まって全然抜けなくて袋がぐちゃぐちゃになりました。、最悪でした。"
+        },
+        {
+          "asin": "B0CHV8XSTX",
+          "rating": 1,
+          "title": "顔小さい人用",
+          "body": "顔大きく見える"
+        },
+        {
+          "asin": "B0CHV8XSTX",
+          "rating": 2,
+          "title": "大きすぎる",
+          "body": "帽子が大きすぎて小顔に見えません…"
+        },
+        {
+          "asin": "B0GQRFBSNV",
+          "rating": 1,
+          "title": "サイズ",
+          "body": "小さい"
+        }
+      ],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "UNDER ARMOUR(アンダーアーマー)": 1,
+    "VARZAR": 1,
+    "Andeor": 1,
+    "MIZUNO(ミズノ)": 1,
+    "YUMISS": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/2189304051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:22.884Z"
+}

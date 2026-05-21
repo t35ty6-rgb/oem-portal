@@ -1,0 +1,225 @@
+{
+  "categoryId": "3371371",
+  "categoryName": "デジタルカメラ",
+  "l1Path": "家電＆カメラ / カメラ / デジタルカメラ",
+  "score": 54,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "🟠 2社支配",
+  "totalRevenue": 114559900,
+  "reviewMedian": 173,
+  "topShare": 0.4067391818603194,
+  "ratingMean": 4.2,
+  "avgPrice": 22962,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0FYQ1LFFK",
+      "title": "DJI Osmo Pocket 4 エッセンシャル コンボ ポケットジンバル Vlog カメラ 1インチCMOS & 4K/240fps 3軸手ブレ補正 2倍 ロスレスズーム 14ストップダイナミックレンジ 107 GB内蔵ストレージ ハンドル コンパクトデジカメ コンパクトデジタルカメラ",
+      "brand": "DJI",
+      "price": 77660,
+      "rating": 4.2,
+      "reviewCount": 193,
+      "monthlySold": 1000,
+      "monthlyRevenue": 77660000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FYQ1LFFK.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0FKBDT8FR",
+      "title": "KODAK CHARMERA キーチェーン デジタルカメラブラインドボックス シングルボックス (1個)ミニカメラ、デジカメ、ビデオ録画、バッグチャーム、フィルムシミュレーションプリセット、1.6メガピクセル、マイクロSDカードスロット、初心者、ティーン、大人向け",
+      "brand": "KODAK",
+      "price": 6400,
+      "rating": 4.3,
+      "reviewCount": 2597,
+      "monthlySold": 3000,
+      "monthlyRevenue": 19200000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FKBDT8FR.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B09ZRN1N3Z",
+      "title": "KODAK (コダック) PIXPRO 使いやすい ズーム FZ55-BK 16MP デジタルカメラ 光学5倍ズーム 広角 28mm 2.7インチ液晶画面 (ブラック)",
+      "brand": "KODAK",
+      "price": 22800,
+      "rating": 4.3,
+      "reviewCount": 3365,
+      "monthlySold": 2000,
+      "monthlyRevenue": 45600000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09ZRN1N3Z.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0FSQDKW45",
+      "title": "AiMike スマホに送れる デジタルカメラ 5K デジカメ WIFI転送機能 7200万画素 64GBマイクロSDカード付き 16倍デジタルズーム オートフォーカス機能 LEDライト ウェブカメラ 2.8インチ大画面 バッテリー2枚 コンパクト 子供や初心者向け 子供の日 クリスマスプレゼント アイボリーホワイト",
+      "brand": "AiMike",
+      "price": 7960,
+      "rating": 4.1,
+      "reviewCount": 78,
+      "monthlySold": 400,
+      "monthlyRevenue": 3184000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FSQDKW45.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0GWZWDBT4",
+      "title": "デジカメ5K スマホに送れる デジタルカメラ WIFI転送機能 8000万画素 デュアルスクリーン 32GBマイクロSDカード付き 自撮り18Xデジタルズーム前 2.8インチ 後ろ1.5インチIPSスクリーン AFオートフォーカス 充電式YouTubeカメラ 初心者向け ウェブカメラ 子供用 誕生日 VLOG クリスマス 新年 軽量 携帯便利 日本語説明書",
+      "brand": "ZOLAMENTE",
+      "price": null,
+      "rating": 4.2,
+      "reviewCount": 27,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GWZWDBT4.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 119,
+    "lowStarCount": 49,
+    "highStarCount": 57,
+    "topPainPoints": [
+      {
+        "category": "サポート",
+        "count": 37
+      },
+      {
+        "category": "品質",
+        "count": 23
+      },
+      {
+        "category": "デザイン",
+        "count": 13
+      },
+      {
+        "category": "価格",
+        "count": 9
+      },
+      {
+        "category": "説明書",
+        "count": 5
+      },
+      {
+        "category": "使い勝手",
+        "count": 4
+      },
+      {
+        "category": "互換",
+        "count": 4
+      },
+      {
+        "category": "梱包",
+        "count": 2
+      },
+      {
+        "category": "音",
+        "count": 1
+      },
+      {
+        "category": "サイズ",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "使いやすさ",
+        "count": 35
+      },
+      {
+        "category": "満足",
+        "count": 28
+      },
+      {
+        "category": "価値",
+        "count": 6
+      },
+      {
+        "category": "品質",
+        "count": 5
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0FKBDT8FR",
+          "rating": 1,
+          "title": "初期不良、安いからしょうがないですね",
+          "body": "残念…初期不良でUSB接続できませんでした。ガチャで杜撰が欲しかった中の一色だったので嬉しかったのですが、本当に残念です。iPhone2台、Mac3台にアブプル純正含む複数のケーブルで接続してもカメラ側がUSB接続モードにならず、カメラ側のボタンを押したり色々試したのですが、全く変わらず、サポートやネット検索、YouTubeでも検索しましたが同じ事象の人は見つからず初期不良と判断しました。写真を数"
+        },
+        {
+          "asin": "B0FKBDT8FR",
+          "rating": 1,
+          "title": "バッテリー初期不良品に注意",
+          "body": "到着後何度かバッテリー充電しつつ利用していましたが、しばらく経つとUSBケーブルを接続してもバッテリーが充電されない不具合が発生。ケーブル接続し通電中のみ起動したので問い合わせ参考にし本体リセット等試しましたが復旧せず、残念ながら保証期間も1ヶ月と短かった為廃棄しました。検索すると結構バッテリー回りの同様の初期不良が多いようです。"
+        },
+        {
+          "asin": "B0FKBDT8FR",
+          "rating": 1,
+          "title": "不良品",
+          "body": "マイクロSDカードが取れなくなって保存できないので意味ないです。音が出るだけ。"
+        },
+        {
+          "asin": "B0FKBDT8FR",
+          "rating": 1,
+          "title": "初期不良に注意",
+          "body": "メディアを読み込めませんでした。\n                \n            \n                \n            \n            \n        \n    \n    \n\n\n\n\n\n\n\n\n  \n  \n    旅行用に購入しましたが、到着直後から充電が正常に行えない不具合がありました。ディスプレイ上では充電中の表示は出るものの実際には充電されておらず、ケ"
+        },
+        {
+          "asin": "B0FKBDT8FR",
+          "rating": 1,
+          "title": "ブラインド商品の弊害もあり",
+          "body": "トイカメラとしては申し分ないです。ですが、開封したところ背面液晶画面に傷と異物混入があり不良品でした。1番欲しかった黒が当たった為、交換希望でしたが、ブラインド商品の為返品返金のみの対応のようで、次も黒が当たる保証もない為悩みに悩んで泣く泣くそのまま使う事にしました…ブラインド商品でも不良品は交換対応出来るように対応の改善も兼ねて星は1にしました。"
+        }
+      ],
+      "耐久": [],
+      "サイズ": [
+        {
+          "asin": "B09ZRN1N3Z",
+          "rating": 2,
+          "title": "新品なのにキズ",
+          "body": "新品を購入しました。気になる点がいくつか。まず配送が早かったのはよかったのですが、注文した商品が機械類にも関わらず固定されていなかったこと。商品より大きい段ボールに入っており中で自由に商品が動く状態でした。不安なまま商品を開梱すると本体に複数のスレ傷が。写真は一枚しかありませんが、レンズ横にも傷がありました。(上手く写せなかった)電源はちゃんと入ったのでまぁ…と言うところですが、安価なコンデジとは"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0FKBDT8FR",
+          "rating": 1,
+          "title": "初期不良に注意",
+          "body": "メディアを読み込めませんでした。\n                \n            \n                \n            \n            \n        \n    \n    \n\n\n\n\n\n\n\n\n  \n  \n    旅行用に購入しましたが、到着直後から充電が正常に行えない不具合がありました。ディスプレイ上では充電中の表示は出るものの実際には充電されておらず、ケ"
+        },
+        {
+          "asin": "B09ZRN1N3Z",
+          "rating": 1,
+          "title": "当たり外れ",
+          "body": "個体によって当たり外れがある？充電後、初めて電源を入れる。、、点かない。もう一度、ボタンを押してようやく起動。言語選択画面が出るはず、、が出ない。モニターが真っ暗でどうしようもない状況。改めて一旦、電源を落とす。直ぐに切れずに数秒後にようやく切れる。再度、電源オン。と、明らかにどこかに不具合。何度か電源のオンオフを繰り返してようやくモニターが点いて初期設定完了。テスト撮り。シャッターを押しても、、"
+        },
+        {
+          "asin": "B09ZRN1N3Z",
+          "rating": 2,
+          "title": "人物ポートレート撮影には向かない。",
+          "body": "説明書は日本語で書かれておらず、使い方は無親切で勘で自力で習得していかなくてはならない。モード変換の操作がわかりづらい機能です。画素も想像していたよりも低いようにも思われます。建物等を撮影するにはまあまあかもしれませんが、人物ポートレート撮影は、いまいち鮮明さが無く、画素は高いようには感じません。買って損した感は否めないです。"
+        },
+        {
+          "asin": "B0FSQDKW45",
+          "rating": 2,
+          "title": "無題",
+          "body": "説明書が小さ方て見にくいです後、予想より画面見る限り荒い印象です"
+        }
+      ],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "DJI": 1,
+    "KODAK": 2,
+    "AiMike": 1,
+    "ZOLAMENTE": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/3371371/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:25.823Z"
+}

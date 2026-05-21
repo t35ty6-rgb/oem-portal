@@ -1,0 +1,262 @@
+{
+  "categoryId": "10353087051",
+  "categoryName": "スポーツウェア",
+  "l1Path": "ファッション / スポーツウェア",
+  "score": 69,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 31573000,
+  "reviewMedian": 2301,
+  "topShare": 0.06150825072055237,
+  "ratingMean": 4.24,
+  "avgPrice": 1791,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B07T1ZBS4K",
+      "title": "[UNDER ARMOUR(アンダーアーマー)]UA Tech 2.0 SS Tee Mens メンズ 001 日本 LG (日本サイズL相当)",
+      "brand": "UNDER ARMOUR(アンダーアーマー)",
+      "price": 1942,
+      "rating": 4.3,
+      "reviewCount": 7671,
+      "monthlySold": 1000,
+      "monthlyRevenue": 1942000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07T1ZBS4K.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B07SWBR5FB",
+      "title": "[アンダーアーマー] UA TECH GRAPHIC SHORT Mens メンズ 001 日本 LG (日本サイズL相当)",
+      "brand": "UNDER ARMOUR(アンダーアーマー)",
+      "price": 1835,
+      "rating": 4.3,
+      "reviewCount": 2301,
+      "monthlySold": 2000,
+      "monthlyRevenue": 3670000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07SWBR5FB.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B00S7JLSI4",
+      "title": "[グリマー] UVカット・吸汗速乾 ドライメッシュポロシャツ（ポケット付） ホワイト L",
+      "brand": "glimmer(グリマー)",
+      "price": 795,
+      "rating": 4.2,
+      "reviewCount": 1644,
+      "monthlySold": 400,
+      "monthlyRevenue": 318000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00S7JLSI4.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0CHV8XSTX",
+      "title": "[VARZAR] Stud logo over fit ball cap Black",
+      "brand": "VARZAR",
+      "price": 3375,
+      "rating": 4.2,
+      "reviewCount": 1081,
+      "monthlySold": 7000,
+      "monthlyRevenue": 23625000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CHV8XSTX.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0D33BXLGV",
+      "title": "ミッドレングス3Pソックス (LAS55637) 3パック 3枚 3足",
+      "brand": "new balance(ニューバランス)",
+      "price": 1009,
+      "rating": 4.2,
+      "reviewCount": 2330,
+      "monthlySold": 2000,
+      "monthlyRevenue": 2018000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D33BXLGV.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 253,
+    "lowStarCount": 100,
+    "highStarCount": 103,
+    "topPainPoints": [
+      {
+        "category": "サイズ",
+        "count": 30
+      },
+      {
+        "category": "サポート",
+        "count": 18
+      },
+      {
+        "category": "デザイン",
+        "count": 13
+      },
+      {
+        "category": "品質",
+        "count": 10
+      },
+      {
+        "category": "価格",
+        "count": 10
+      },
+      {
+        "category": "梱包",
+        "count": 10
+      },
+      {
+        "category": "互換",
+        "count": 5
+      },
+      {
+        "category": "におい",
+        "count": 4
+      },
+      {
+        "category": "使い勝手",
+        "count": 4
+      },
+      {
+        "category": "耐久",
+        "count": 2
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 67
+      },
+      {
+        "category": "品質",
+        "count": 31
+      },
+      {
+        "category": "価値",
+        "count": 13
+      },
+      {
+        "category": "使いやすさ",
+        "count": 2
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B07SWBR5FB",
+          "rating": 1,
+          "title": "すぐにボロボロ",
+          "body": "生地が薄すぎる。リストラップなどのマジックテープが触れただけでほつれるからすぐボロボロになる"
+        },
+        {
+          "asin": "B07SWBR5FB",
+          "rating": 1,
+          "title": "縫製が甘くすぐに使用できなくなった。",
+          "body": "縫製が甘く、すぐにウェストのゴムがむき出しになって使えなくなった"
+        },
+        {
+          "asin": "B07SWBR5FB",
+          "rating": 2,
+          "title": "残念！",
+          "body": "生地が思ってたのと違くて、すぐにへたりそうでした…"
+        },
+        {
+          "asin": "B00S7JLSI4",
+          "rating": 2,
+          "title": "襟がヨレヨレになる",
+          "body": "すぐに襟がヨレヨレになる耐久性は良くないです"
+        },
+        {
+          "asin": "B0CHV8XSTX",
+          "rating": 1,
+          "title": "折ジワと汚れがあり少し残念",
+          "body": "デザインと深く被れる点はとても良く、紫外線対策として期待して購入しました。ただ、届いた商品は折りジワがかなり強くついており、すぐに使える状態ではありませんでした。また保管や梱包の問題かもしれませんが、表面に白っぽい砂埃のような汚れも2箇所付着しており払うと取れましたが正直あまり気持ちの良いものではありませんでした。形や機能性は良かっただけに、品質面で少し残念に感じました。"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B00S7JLSI4",
+          "rating": 2,
+          "title": "襟がヨレヨレになる",
+          "body": "すぐに襟がヨレヨレになる耐久性は良くないです"
+        },
+        {
+          "asin": "B0D33BXLGV",
+          "rating": 1,
+          "title": "毛羽毛羽ひどい",
+          "body": "一日使用しただけなのに毛羽だってしまいもう履く気がしません。安くてもソックスがこんなに耐久性がないのに驚いています"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B07T1ZBS4K",
+          "rating": 2,
+          "title": "試着感",
+          "body": "生地は厚くて良いがサイズが表記より一回りおおきい為　ワンサイズ小さめで良いと思う"
+        },
+        {
+          "asin": "B07T1ZBS4K",
+          "rating": 2,
+          "title": "サイズに注意して！",
+          "body": "色違いで2枚購入したが同サイズのハズが、1枚は少し小さいので脱ぎづらい。"
+        },
+        {
+          "asin": "B07T1ZBS4K",
+          "rating": 2,
+          "title": "やや小さめ",
+          "body": "やや小さめ、サイズのしっかりした確認が必要。"
+        },
+        {
+          "asin": "B07T1ZBS4K",
+          "rating": 2,
+          "title": "首周りがキツイ",
+          "body": "まず着てみて首周りがきつくてサイズを間違えたかも。168センチ83キロLLサイズです。肌感は良いですがもう買いません。"
+        },
+        {
+          "asin": "B07T1ZBS4K",
+          "rating": 2,
+          "title": "シャツの色によってサイズ感が違うのか？",
+          "body": "ホワイトオーバーキャストグレイとスチールライトヘザーブラックのXLをオーダーしたが、スチールライトヘザーブラックは同じXLでもサイズが小さくて着心地が悪いので返品した。"
+        }
+      ],
+      "説明書": [],
+      "におい": [
+        {
+          "asin": "B07T1ZBS4K",
+          "rating": 1,
+          "title": "臭すぎる",
+          "body": "めちゃくちゃ臭いです。臭すぎて着れない。"
+        },
+        {
+          "asin": "B07T1ZBS4K",
+          "rating": 1,
+          "title": "臭い",
+          "body": "数時間の着用でひどく臭くなる。ほかの同様な素材の服は何枚もあるがそうはならない。"
+        },
+        {
+          "asin": "B07T1ZBS4K",
+          "rating": 1,
+          "title": "グレーはやめといたほうがいい",
+          "body": "臭い何回洗っても"
+        },
+        {
+          "asin": "B00S7JLSI4",
+          "rating": 1,
+          "title": "ちゃっちいから気をつけろ",
+          "body": "生地がテラテラしてて薄くてちゃっちいので1枚だけだと乳首が透けます。あと、汗吸うと臭くなりやすいです。汗ふきシートとかの匂いがこのポロシャツは相性めっちゃ悪くて臭くなりやすいです。安物買いの銭失いって感じです。次からちゃんとしたもの買います。"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "UNDER ARMOUR(アンダーアーマー)": 2,
+    "glimmer(グリマー)": 1,
+    "VARZAR": 1,
+    "new balance(ニューバランス)": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/10353087051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:14.547Z"
+}

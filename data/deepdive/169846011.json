@@ -1,0 +1,261 @@
+{
+  "categoryId": "169846011",
+  "categoryName": "シェービング・ムダ毛処理",
+  "l1Path": "ビューティー / シェービング・ムダ毛処理",
+  "score": 73,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 41889000,
+  "reviewMedian": 754,
+  "topShare": 0.08279023132564635,
+  "ratingMean": 4.28,
+  "avgPrice": 1650,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0GJSXGDTX",
+      "title": "Schick(シック)キワミ 敏感肌 ホルダー＋シェービング剤セット 男性用 髭剃り カミソリ お買得セット",
+      "brand": "Schick(シック)",
+      "price": 1156,
+      "rating": 4.4,
+      "reviewCount": 30,
+      "monthlySold": 3000,
+      "monthlyRevenue": 3468000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GJSXGDTX.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0CY3PWWTQ",
+      "title": "【乾電池式】パナソニック 電池式 鼻毛カッター エチケットカッター メンズ 眉毛 ヒゲ 耳 ER-NGNB2-K 【Amazon.co.jp限定】",
+      "brand": "パナソニック(Panasonic)",
+      "price": 1480,
+      "rating": 4,
+      "reviewCount": 3578,
+      "monthlySold": 10000,
+      "monthlyRevenue": 14800000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CY3PWWTQ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0B4J397K6",
+      "title": "Schick(シック) サロンプラス トーンアップ フェイススムーサー ホルダー(刃付き) 女性用 カミソリ",
+      "brand": "Schick(シック)",
+      "price": 1357,
+      "rating": 4.1,
+      "reviewCount": 1527,
+      "monthlySold": 4000,
+      "monthlyRevenue": 5428000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B4J397K6.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B09R7MVHS8",
+      "title": "Schick(シック) イントゥイション 敏感肌用 替刃(3コ入) 女性用 カミソリ",
+      "brand": "Schick(シック)",
+      "price": 1173,
+      "rating": 4.5,
+      "reviewCount": 754,
+      "monthlySold": 5000,
+      "monthlyRevenue": 5865000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09R7MVHS8.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0F2DXQSXP",
+      "title": "パナソニック フェイスシェーバー フェリエ ウブ毛 乾電池式 ベージュ ES-WF53-E",
+      "brand": "パナソニック(Panasonic)",
+      "price": 3073,
+      "rating": 4.4,
+      "reviewCount": 258,
+      "monthlySold": 4000,
+      "monthlyRevenue": 12292000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F2DXQSXP.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 194,
+    "lowStarCount": 67,
+    "highStarCount": 91,
+    "topPainPoints": [
+      {
+        "category": "品質",
+        "count": 25
+      },
+      {
+        "category": "梱包",
+        "count": 15
+      },
+      {
+        "category": "価格",
+        "count": 11
+      },
+      {
+        "category": "耐久",
+        "count": 7
+      },
+      {
+        "category": "サイズ",
+        "count": 5
+      },
+      {
+        "category": "におい",
+        "count": 3
+      },
+      {
+        "category": "説明書",
+        "count": 2
+      },
+      {
+        "category": "サポート",
+        "count": 2
+      },
+      {
+        "category": "互換",
+        "count": 2
+      },
+      {
+        "category": "使い勝手",
+        "count": 2
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 44
+      },
+      {
+        "category": "使いやすさ",
+        "count": 40
+      },
+      {
+        "category": "品質",
+        "count": 24
+      },
+      {
+        "category": "価値",
+        "count": 23
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0CY3PWWTQ",
+          "rating": 1,
+          "title": "1ヶ月で壊れた",
+          "body": "不良品でした。残念。"
+        },
+        {
+          "asin": "B0CY3PWWTQ",
+          "rating": 1,
+          "title": "すぐに壊れた",
+          "body": "１ヶ月も使わないうちに壊れた。低品質。Made in Japanと書いてあったからといって、品質管理がされているとは限らない。"
+        },
+        {
+          "asin": "B0CY3PWWTQ",
+          "rating": 1,
+          "title": "壊れた",
+          "body": "あの。。購入してから1月で壊れたのですが"
+        },
+        {
+          "asin": "B0CY3PWWTQ",
+          "rating": 1,
+          "title": "痛い",
+          "body": "無名品がスイッチ不良で壊れたので　有名メーカーを買ったが　切れが悪いのか　痛い　無理"
+        },
+        {
+          "asin": "B0CY3PWWTQ",
+          "rating": 1,
+          "title": "不良品",
+          "body": "新品の電池を入れて起動しても、5〜10回に一度しか作動しない不良品を引き当ててしまったので返品させていただきました。商品自体がおもちゃみたいな軽さで少し心配になります。よって、再購入は検討中です。"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B0CY3PWWTQ",
+          "rating": 2,
+          "title": "一年経たずに壊れた",
+          "body": "切れ味などは特に問題無かったが一年経たずに壊れました。"
+        },
+        {
+          "asin": "B0CY3PWWTQ",
+          "rating": 2,
+          "title": "1年持たなかった・・・。メイド・イン　アジアのどこか・・・。",
+          "body": "1年持たなかった・・・。メイド・イン　アジアのどこか・・・。"
+        },
+        {
+          "asin": "B0B4J397K6",
+          "rating": 1,
+          "title": "重たいだけ",
+          "body": "ただ重いだけで、耐久性もなく1週間程でサビます。100均のモノと切れ味は変わりません。シック製品の耐久性の無さは評価に値しないです。"
+        },
+        {
+          "asin": "B0F2DXQSXP",
+          "rating": 1,
+          "title": "電池消耗が激しい",
+          "body": "購入して半年も経たず、電池の消耗が激しく、新品交換希望"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B0B4J397K6",
+          "rating": 1,
+          "title": "重さがあり持ちやすいけど...",
+          "body": "3個頼んで2個しか届かなかったのでびっくりしました。重みがあるので持ちやすく使いやすいけど私には合わないのか効果を感じられず正直イマイチでした...期待しすぎたのかお値段以上の価値が感じられず残念。"
+        },
+        {
+          "asin": "B0B4J397K6",
+          "rating": 2,
+          "title": "お値段高い→期待",
+          "body": "うーん　期待しすぎたかな。眉整えには合わないかも。"
+        },
+        {
+          "asin": "B0B4J397K6",
+          "rating": 2,
+          "title": "刃の先端が肌に当たる",
+          "body": "サイズと形が私の持ち方に合わないのか、刃先が肌に当たりチクチクと痛いです。"
+        },
+        {
+          "asin": "B09R7MVHS8",
+          "rating": 1,
+          "title": "大変扱いづらい",
+          "body": "他の方のレビューでは概ね好評ですが、なぜか私には合いませんでした…①普通に剃り残しが多発する腕が骨っぽくて当たりづらいからなのかもしれませんが、とにかく剃り残しが多発します。ソープ部分が大きく、どこに当たっているのか見えないのも、原因かもしれないです。②かゆくなるなぜだか分からないのですが、妙にかゆくなります。肌に滑らせたつもりなのに全然剃れない→強く当ててしまう→かゆくなるということかもしれませ"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0CY3PWWTQ",
+          "rating": 2,
+          "title": "月1回から2回の使用で、2年弱は使えるけどね",
+          "body": "星１レビューの人が言う、1、2回で壊れたとか、そこまでひどくはないけれど、月に1から２回程度の使用で、2年弱もたない。つまり使ったのは48回もないはず。じつは3度買ってるリピーターなんだけれどね。なんでリピーターしてるかというと、鼻毛がからまったりして痛い思いはしたことないところ。そこは信頼してるんだけれど。回数からすると高いんだか安いんだかわからない。。。"
+        },
+        {
+          "asin": "B09R7MVHS8",
+          "rating": 1,
+          "title": "最悪のリニューアル",
+          "body": "定期おトク便で変わりましたと通知があったので確認したところ、香りが最悪です。ローズやフローラル系、いわゆるフラワー系の香りが苦手、むしろ気分が悪くなるので、定期おトク便は即キャンセルしました。敏感肌用のものにわざわざ香りをつけるってどういうこと？？？？と思わなくもないというか…バラエティパックの方はその記載がぱっと見わからないので、フラワー系の香りが苦手な方はご注意ください。"
+        }
+      ],
+      "におい": [
+        {
+          "asin": "B0CY3PWWTQ",
+          "rating": 2,
+          "title": "妥協して買うならこれかな。",
+          "body": "安いだけあって、性能は値段相応です。金属部分の匂いが気になりました。カメムシみたいな匂いです。洗ったけど臭いままです。我慢して使ってます。"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "Schick(シック)": 3,
+    "パナソニック(Panasonic)": 2
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/169846011/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:18.440Z"
+}

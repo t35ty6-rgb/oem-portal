@@ -1,0 +1,104 @@
+{
+  "categoryId": "137571011",
+  "categoryName": "ブルーレイプレーヤー",
+  "l1Path": "家電＆カメラ / テレビ・レコーダー / ブルーレイプレーヤー・レコーダー / ブルーレイプレーヤー",
+  "score": 70,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 29705950,
+  "reviewMedian": 208,
+  "topShare": 0.6295035169721891,
+  "ratingMean": 4.18,
+  "avgPrice": 14801,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0DYMVWMJ3",
+      "title": "ソニー ブルーレイプレーヤー/DVDプレーヤー 2025年モデル コンパクト スタンダードモデル BDP-S1700/K",
+      "brand": "Sony",
+      "price": 18689,
+      "rating": 4.2,
+      "reviewCount": 5994,
+      "monthlySold": 1000,
+      "monthlyRevenue": 18689000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DYMVWMJ3.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0DJBKW69J",
+      "title": "パナソニック ブルーレイプレーヤー フルHDアップコンバート対応 コンパクト ブラック DMP-BD90S-K",
+      "brand": "パナソニック(Panasonic)",
+      "price": 11918,
+      "rating": 4.2,
+      "reviewCount": 208,
+      "monthlySold": 500,
+      "monthlyRevenue": 5959000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DJBKW69J.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B071CXBY8M",
+      "title": "パナソニック ブルーレイプレーヤー フルHDアップコンバート対応 ブラック DMP-BD90",
+      "brand": "パナソニック(Panasonic)",
+      "price": 13720,
+      "rating": 4.2,
+      "reviewCount": 3675,
+      "monthlySold": 200,
+      "monthlyRevenue": 2744000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B071CXBY8M.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0D9H36FX9",
+      "title": "ブルーレイDVDプレーヤー コンパクトデザイン、フルHD 1080p、USB & HDMI & 同軸 & RCA & DTSサウンドサポート付き、CPRM再生可能 高速起動",
+      "brand": "WISCENT",
+      "price": 13279,
+      "rating": 4.1,
+      "reviewCount": 43,
+      "monthlySold": 50,
+      "monthlyRevenue": 663950,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D9H36FX9.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0CTH3FFBB",
+      "title": "UBK80S [4Kブルーレイディスクプレーヤー HDR10/BT.2020/Ultra HD/USBファイル再生対応/HDR-SDR画質変換対応]",
+      "brand": "LG",
+      "price": 16380,
+      "rating": 4.2,
+      "reviewCount": 90,
+      "monthlySold": 100,
+      "monthlyRevenue": 1638000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CTH3FFBB.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 0,
+    "lowStarCount": 0,
+    "highStarCount": 0,
+    "topPainPoints": [],
+    "topPraisePoints": [],
+    "painSamples": {
+      "品質": [],
+      "耐久": [],
+      "サイズ": [],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "Sony": 1,
+    "パナソニック(Panasonic)": 2,
+    "WISCENT": 1,
+    "LG": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/137571011/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:15.876Z"
+}

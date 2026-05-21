@@ -1,0 +1,281 @@
+{
+  "categoryId": "3477381",
+  "categoryName": "テレビ・レコーダー",
+  "l1Path": "家電＆カメラ / テレビ・レコーダー",
+  "score": 65,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 68911000,
+  "reviewMedian": 4382,
+  "topShare": 0.058553786768440454,
+  "ratingMean": 4.14,
+  "avgPrice": 3417,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B014I8SSD0",
+      "title": "Amazonベーシック HDMI ケーブル ハイスピード 4K ARC対応 1.8m(タイプAオス - タイプAオス)ブラック",
+      "brand": "Amazonベーシック(Amazon Basics)",
+      "price": 807,
+      "rating": 4.2,
+      "reviewCount": 559852,
+      "monthlySold": 5000,
+      "monthlyRevenue": 4035000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B014I8SSD0.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0DVJ64ZLT",
+      "title": "【New】Amazon Fire TV Stick HD | 手軽にストリーミングをはじめよう | ストリーミングメディアプレイヤー",
+      "brand": "Amazon",
+      "price": 6980,
+      "rating": 3.8,
+      "reviewCount": 159,
+      "monthlySold": 5000,
+      "monthlyRevenue": 34900000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DVJ64ZLT.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B003N17VG4",
+      "title": "ホーリック アンテナケーブル S-4C-FB同軸 3m 【4K8K放送(3224MHz)/BS/CS/地デジ/CATV 対応】 HSマーク登録 ホワイト L字差込式/ネジ式コネクタ HAT30-921LS",
+      "brand": "ホーリック(HORIC)",
+      "price": 620,
+      "rating": 4.2,
+      "reviewCount": 22781,
+      "monthlySold": 2000,
+      "monthlyRevenue": 1240000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B003N17VG4.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0CN415PTV",
+      "title": "Amazon Fire TV Stick 4K Select | 4Kの高画質ストリーミング | ストリーミングメディアプレイヤー",
+      "brand": "Amazon",
+      "price": 7980,
+      "rating": 4.2,
+      "reviewCount": 3541,
+      "monthlySold": 5000,
+      "monthlyRevenue": 39900000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CN415PTV.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0CL6K44BZ",
+      "title": "エレコム HDMI ケーブル 1m スーパースリム 1.4 ハイスピード 4K・2K(30Hz) ARC対応 【HIGH SPEED with ETHERNET認証済み】 ECDH-HD14SS10BK",
+      "brand": "エレコム(ELECOM)",
+      "price": 699,
+      "rating": 4.3,
+      "reviewCount": 4382,
+      "monthlySold": 4000,
+      "monthlyRevenue": 2796000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CL6K44BZ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 252,
+    "lowStarCount": 97,
+    "highStarCount": 105,
+    "topPainPoints": [
+      {
+        "category": "品質",
+        "count": 47
+      },
+      {
+        "category": "サポート",
+        "count": 43
+      },
+      {
+        "category": "互換",
+        "count": 16
+      },
+      {
+        "category": "使い勝手",
+        "count": 14
+      },
+      {
+        "category": "価格",
+        "count": 13
+      },
+      {
+        "category": "音",
+        "count": 9
+      },
+      {
+        "category": "説明書",
+        "count": 8
+      },
+      {
+        "category": "サイズ",
+        "count": 8
+      },
+      {
+        "category": "梱包",
+        "count": 5
+      },
+      {
+        "category": "デザイン",
+        "count": 4
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 28
+      },
+      {
+        "category": "使いやすさ",
+        "count": 28
+      },
+      {
+        "category": "価値",
+        "count": 13
+      },
+      {
+        "category": "品質",
+        "count": 10
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B014I8SSD0",
+          "rating": 1,
+          "title": "不良品か？",
+          "body": "プツプツ画面が消えたり付いたりするんだけど？"
+        },
+        {
+          "asin": "B014I8SSD0",
+          "rating": 1,
+          "title": "不良品",
+          "body": "テレビ側プラグが1か月で接触不良となり使えなくなりました。"
+        },
+        {
+          "asin": "B014I8SSD0",
+          "rating": 1,
+          "title": "初期不良？",
+          "body": "使い始めて3週間くらいで接触が悪くてモニターがつかなくなる事が度々……。初期不良なのかもしれませんが、はやり安いのはダメでした。"
+        },
+        {
+          "asin": "B0DVJ64ZLT",
+          "rating": 1,
+          "title": "交換した商品も不具合があります。",
+          "body": "最初に購入した商品に不具合があり交換させていただきました。交換した商品も不具合があり見たかったtverが途中でフリーズします。Wi-Fiに原因があると思いWi-Fiを変えてみても駄目でした。Wi-Fiに原因があるわけではなくfire tv stickに問題があると思われます。問い合わせするのも面倒なためレビューさせていただきました。もう2度と購入しません。返金してほしいくらいです。返品してほしいと"
+        },
+        {
+          "asin": "B0DVJ64ZLT",
+          "rating": 1,
+          "title": "わざと故障するように作られている？…",
+          "body": "以前使っていたスティックがだめになったので買い替えたのですが…以前のもの（線）が使えない仕様にデザインされていて「わざとかな？」と感じました。アマゾンビデオ内のゲーム機能もなくなってしまい、以前観ていたシリーズ物もいくら探しても見つからなくて非常に残念です。変えてなにか良くなったことはあるのかな？？"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B003N17VG4",
+          "rating": 1,
+          "title": "すぐダメになりました",
+          "body": "接続当日はテレビを見れたのですが翌日には画面に“アンテナ線を確認してください”表示が出て見れなくなりましたテレビのせいなのかわからないのでメーカー品の新しい物を買い替え接続するとテレビ見れました"
+        },
+        {
+          "asin": "B0CN415PTV",
+          "rating": 1,
+          "title": "ABEMAでカクツキが酷い",
+          "body": "定期的な買い替えで4Kからの更新。タイトル通りです。ABEMAとの相性が悪いのかSELECTにしてからABEMAの視聴に支障（韻踏んだ、、、）きたすレベルでカクつくようになりました。環境のせいかと思い、同じ環境で旧端末での確認をしましたが以前と同様、全く問題なく視聴できます。再起動、初期化、再設定、思いつくことは全て試しましたが改善しません。なんなんでしょ？ほかではカクつくことないんでしばらく使い"
+        },
+        {
+          "asin": "B0CL6K44BZ",
+          "rating": 2,
+          "title": "耐久性に難あり",
+          "body": "ノートPCを外付けモニターに接続する為に購入したが、PC側で通常サイズのHDMI接続では、USBと互いに干渉する為、こちらミニタイプを購入。ただ線が細い為、頻繁に抜き差ししていると、接続不良を起こすので、根本部分の補強があった方が良い。"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B003N17VG4",
+          "rating": 1,
+          "title": "挿入できない",
+          "body": "1月29日到着分壁側端子とL端子微妙にサイズが合わず、挿入出来ない。出来れば交換お願いしたい。残念。"
+        },
+        {
+          "asin": "B003N17VG4",
+          "rating": 2,
+          "title": "差し込みにくいサイズが小さいかも",
+          "body": "ネジ側は外れにくいが差し込みにくかった。そうでない方はかべのtvジャックになかなか差し込めなかった。径のサイズがギリギリすぎたのかも。最終的には、差し込めましたが壊れるんじゃないかと思うぐらい差し込めませんでした。"
+        },
+        {
+          "asin": "B0CL6K44BZ",
+          "rating": 1,
+          "title": "コネクタが機器の端子に入らない",
+          "body": "古くなったHDMIケーブルを変えようとこちらを購入。しかしテレビにもブルーレイレコーダにも、コネクタ部分が固いのか微妙に合っていないのか機器側の端子に入らない。元々刺さっていたケーブルと見比べてやっているので、向きも合っているし、接続すべき端子も間違えていない。元のケーブルは外すのも、もう一度差し込むのも難なくすっとできているのに。たまたま運悪く不良品に当たったということでしょうけど、返品したかっ"
+        },
+        {
+          "asin": "B0CL6K44BZ",
+          "rating": 2,
+          "title": "耐久性に難あり",
+          "body": "ノートPCを外付けモニターに接続する為に購入したが、PC側で通常サイズのHDMI接続では、USBと互いに干渉する為、こちらミニタイプを購入。ただ線が細い為、頻繁に抜き差ししていると、接続不良を起こすので、根本部分の補強があった方が良い。"
+        },
+        {
+          "asin": "B0CL6K44BZ",
+          "rating": 2,
+          "title": "頻繁に抜き差しする方は注意",
+          "body": "ノートPCとメインPCのモニターを接続するために購入しました。今回購入したものはコネクタの抜き差しがとても固く、頻繁に抜き差しする使い方のため別商品の購入を検討しています。モニターとノートPC側どちらも固かったためコネクタのサイズが規格に沿っていないのでは？ちなみに以前同メーカーのウルトラハイスピードを購入し、そちらは問題ありませんでした。"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0DVJ64ZLT",
+          "rating": 1,
+          "title": "交換した商品も不具合があります。",
+          "body": "最初に購入した商品に不具合があり交換させていただきました。交換した商品も不具合があり見たかったtverが途中でフリーズします。Wi-Fiに原因があると思いWi-Fiを変えてみても駄目でした。Wi-Fiに原因があるわけではなくfire tv stickに問題があると思われます。問い合わせするのも面倒なためレビューさせていただきました。もう2度と購入しません。返金してほしいくらいです。返品してほしいと"
+        },
+        {
+          "asin": "B0DVJ64ZLT",
+          "rating": 2,
+          "title": "購入すべきだったか",
+          "body": "セットアップの分かりやすい日本語ガイダンスが必要ではなかったか。これまでの fire tv stick イーサネットアダプターの使用可否について事前に情報が得られなかったのは残念。はたして、購入した意味があったか、これから検証したい。"
+        },
+        {
+          "asin": "B003N17VG4",
+          "rating": 1,
+          "title": "すぐダメになりました",
+          "body": "接続当日はテレビを見れたのですが翌日には画面に“アンテナ線を確認してください”表示が出て見れなくなりましたテレビのせいなのかわからないのでメーカー品の新しい物を買い替え接続するとテレビ見れました"
+        },
+        {
+          "asin": "B0CN415PTV",
+          "rating": 1,
+          "title": "異常が分かっていても売るAmazon",
+          "body": "Amazon musicの検索バー🔍のプログラムが異常です。日本語46語ではなく32語しかないので曲名や歌手名が検索出来ません。英字切り替えもありません。部署に確認したら女性の方が32文字しかありませんねって笑いながら対応されてました。英字は言語を英字に切り替えて下さいって言われました、いつの時代方法でしょうか。チームリーダーの方にプログラムが異常ですよと言いましたが交換してくれず、しかも異常が"
+        },
+        {
+          "asin": "B0CN415PTV",
+          "rating": 2,
+          "title": "ありがとうございました",
+          "body": "すぐに届きました、使い方がわかりにくいですが動きました"
+        }
+      ],
+      "におい": [
+        {
+          "asin": "B0CN415PTV",
+          "rating": 1,
+          "title": "旧商品からの買い替えに注意！！",
+          "body": "先日購入したFire TV Stick 4K Plus がサクサク動きとても良かったので、他の古いFire TV Stickも買い替えという事で今回4K Selectを選んだのですが、OSがAmazonオリジナルになったらしく、androidアプリが使えないなど使い勝手が全く変わってしまった！！Amazon系のサービスは当然問題ないのですが、主にSpotifyを使う事が多い自分には耐えがたい変更で"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "Amazonベーシック(Amazon Basics)": 1,
+    "Amazon": 2,
+    "ホーリック(HORIC)": 1,
+    "エレコム(ELECOM)": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/3477381/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:26.814Z"
+}

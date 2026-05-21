@@ -1,0 +1,127 @@
+{
+  "categoryId": "2189366051",
+  "categoryName": "プラモデル",
+  "l1Path": "ホビー / プラモデル・模型 / プラモデル",
+  "score": 78,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 31820000,
+  "reviewMedian": 56,
+  "topShare": 0.725958516656191,
+  "ratingMean": 3.56,
+  "avgPrice": 4700,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0H1BB9JY4",
+      "title": "VAKIT 機動戦士ガンダム 新MS戦記 ギラ・ドーガ (隊長機) プラモデル",
+      "brand": "メガハウス(MegaHouse)",
+      "price": 7700,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0H1BB9JY4.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0883LTWF3",
+      "title": "HG 機動戦士ガンダム00 グラハム専用ユニオンフラッグカスタム 1/144スケール 色分け済みプラモデル",
+      "brand": "BANDAI SPIRITS(バンダイ スピリッツ)",
+      "price": 2800,
+      "rating": 4,
+      "reviewCount": 15,
+      "monthlySold": 900,
+      "monthlyRevenue": 2520000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0883LTWF3.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B083R8NTNV",
+      "title": "HG 機動戦士ガンダムAGE xvm-fzc ガンダムレギルス 1/144スケール 色分け済みプラモデル",
+      "brand": "BANDAI SPIRITS(バンダイ スピリッツ)",
+      "price": 2800,
+      "rating": 4.7,
+      "reviewCount": 63,
+      "monthlySold": 800,
+      "monthlyRevenue": 2240000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B083R8NTNV.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B07TKK8T4H",
+      "title": "BANDAI SPIRITS(バンダイ スピリッツ) HG 機動戦士ガンダムSEED C.E.73 STARGAZER ストライクノワールガンダム 1/144スケール 色分け済みプラモデル",
+      "brand": "BANDAI SPIRITS(バンダイ スピリッツ)",
+      "price": 4500,
+      "rating": 4.6,
+      "reviewCount": 49,
+      "monthlySold": 500,
+      "monthlyRevenue": 2250000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07TKK8T4H.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B09XTYF4Y1",
+      "title": "MG 機動戦士ガンダム 第08MS小隊 RX-79G 陸戦型ガンダム 1/100スケール 色分け済みプラモデル",
+      "brand": "BANDAI SPIRITS(バンダイ スピリッツ)",
+      "price": 5700,
+      "rating": 4.6,
+      "reviewCount": 433,
+      "monthlySold": 300,
+      "monthlyRevenue": 1710000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09XTYF4Y1.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 39,
+    "lowStarCount": 3,
+    "highStarCount": 31,
+    "topPainPoints": [
+      {
+        "category": "品質",
+        "count": 2
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 14
+      },
+      {
+        "category": "品質",
+        "count": 2
+      },
+      {
+        "category": "価値",
+        "count": 1
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B09XTYF4Y1",
+          "rating": 1,
+          "title": "初期不良？腕の関節両腕ともパーツポロリ",
+          "body": "初期不良品かな？それとも仕様かな？両腕の関節パーツが綺麗にはまらないです…バリの処理も行ってますし、そもそもパーツ切り離してバリが残る場所でもないのにハマらない…他の方もこう行った症状出てるんですかね？"
+        }
+      ],
+      "耐久": [],
+      "サイズ": [],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "メガハウス(MegaHouse)": 1,
+    "BANDAI SPIRITS(バンダイ スピリッツ)": 4
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/2189366051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:23.395Z"
+}

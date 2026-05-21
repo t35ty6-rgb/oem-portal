@@ -1,0 +1,103 @@
+{
+  "categoryId": "202230011",
+  "categoryName": "痛み止め",
+  "l1Path": "ドラッグストア / 医薬品・指定医薬部外品 / 痛み止め",
+  "score": 57,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 83810000,
+  "reviewMedian": null,
+  "topShare": 0.5512468679155232,
+  "ratingMean": -0.1,
+  "avgPrice": 1088,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B08NB9FB5F",
+      "title": "【指定第2類医薬品】イブクイック頭痛薬DX 60錠",
+      "brand": "イブ(EVE)",
+      "price": 1540,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 30000,
+      "monthlyRevenue": 46200000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08NB9FB5F.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B01DDI0QZE",
+      "title": "【第1類医薬品】ロキソニンSプレミアム 24錠",
+      "brand": "ロキソニン",
+      "price": 1010,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 10000,
+      "monthlyRevenue": 10100000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01DDI0QZE.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B09JYBSFS3",
+      "title": "【指定第2類医薬品】イブA錠 90錠",
+      "brand": "イブ(EVE)",
+      "price": 941,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 10000,
+      "monthlyRevenue": 9410000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09JYBSFS3.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B09DTKLTFZ",
+      "title": "【指定第2類医薬品】バファリンプレミアムDXクイック+ 60錠",
+      "brand": "バファリン",
+      "price": 1390,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 9000,
+      "monthlyRevenue": 12510000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09DTKLTFZ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B00F9S0D14",
+      "title": "【第1類医薬品】ロキソニンS 12錠",
+      "brand": "ロキソニン",
+      "price": 559,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 10000,
+      "monthlyRevenue": 5590000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00F9S0D14.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 0,
+    "lowStarCount": 0,
+    "highStarCount": 0,
+    "topPainPoints": [],
+    "topPraisePoints": [],
+    "painSamples": {
+      "品質": [],
+      "耐久": [],
+      "サイズ": [],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "イブ(EVE)": 2,
+    "ロキソニン": 2,
+    "バファリン": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/202230011/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:19.322Z"
+}

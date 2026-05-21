@@ -1,0 +1,152 @@
+{
+  "categoryId": "3151669051",
+  "categoryName": "野球",
+  "l1Path": "スポーツ＆アウトドア / スポーツファンショップ / 野球",
+  "score": 60,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 3208950,
+  "reviewMedian": 103,
+  "topShare": -0.000015581420713940698,
+  "ratingMean": 4.3,
+  "avgPrice": 2858,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0GRH2P4KV",
+      "title": "【2026年モデル】 Francfranc フランフラン フレ ネックストラップ シンプル ホワイト 首掛け ストラップ マルチストラップ 落下防止 ハンディファン アクセサリー",
+      "brand": "Francfranc",
+      "price": null,
+      "rating": 3.9,
+      "reviewCount": 5,
+      "monthlySold": 50,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GRH2P4KV.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0CX1P5XV1",
+      "title": "[ニューエラ] キャップ 帽子 ロサンゼルス ドジャース ストラップバック アジャスタブル キャップ USAモデル [60235212] GREY [並行輸入品]",
+      "brand": "NEW ERA(ニューエラ)",
+      "price": 4280,
+      "rating": 4.4,
+      "reviewCount": 449,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CX1P5XV1.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0C8N2663W",
+      "title": "プロモショップ ザ・メガホン 赤色 1本から 応援用メガホン 硬くて割れにくい 大きな声を届ける 32.5cm 11色 日本製",
+      "brand": "プロモショップ",
+      "price": 1210,
+      "rating": 4.1,
+      "reviewCount": 72,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C8N2663W.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0DKBQ7M72",
+      "title": "[ニューエラ] ベースボールキャップ 帽子 MLB NYブラック/ホワイト FREE 940 NEYYAN BLK SWHI 25J",
+      "brand": "NEW ERA(ニューエラ)",
+      "price": 4180,
+      "rating": 4.6,
+      "reviewCount": 292,
+      "monthlySold": 100,
+      "monthlyRevenue": 418000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DKBQ7M72.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0GMYZ33SP",
+      "title": "MLB 2026 TOPPS SERIES 1 BASEBALL VALUE BOX",
+      "brand": "Topps",
+      "price": 4620,
+      "rating": 4.5,
+      "reviewCount": 104,
+      "monthlySold": 300,
+      "monthlyRevenue": 1386000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GMYZ33SP.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 21,
+    "lowStarCount": 9,
+    "highStarCount": 12,
+    "topPainPoints": [
+      {
+        "category": "サイズ",
+        "count": 2
+      },
+      {
+        "category": "デザイン",
+        "count": 2
+      },
+      {
+        "category": "説明書",
+        "count": 1
+      },
+      {
+        "category": "サポート",
+        "count": 1
+      },
+      {
+        "category": "価格",
+        "count": 1
+      },
+      {
+        "category": "互換",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 6
+      },
+      {
+        "category": "品質",
+        "count": 1
+      }
+    ],
+    "painSamples": {
+      "品質": [],
+      "耐久": [],
+      "サイズ": [
+        {
+          "asin": "B0CX1P5XV1",
+          "rating": 2,
+          "title": "小さい",
+          "body": "試着をしたら小さいと感じた"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0GRH2P4KV",
+          "rating": 1,
+          "title": "ありえない",
+          "body": "商品を気に入って購入したのに。配達がダメ。不在の為に宅配ボックスへお願いしたのに2度も持ち帰りされて。聞いたら宅配ボックスの場所がわからなかったとの事。はぁ？わかる所に設置されてるのにわからないなんて。届く日が遅くなり返品依頼しました。マジで物には罪がない。可愛いし気に入ってるのに。Francfrancの店で買います。"
+        }
+      ],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "Francfranc": 1,
+    "NEW ERA(ニューエラ)": 2,
+    "プロモショップ": 1,
+    "Topps": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/3151669051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:25.692Z"
+}

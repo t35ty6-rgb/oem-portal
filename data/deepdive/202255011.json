@@ -1,0 +1,114 @@
+{
+  "categoryId": "202255011",
+  "categoryName": "肩こり・腰痛・筋肉痛緩和",
+  "l1Path": "ドラッグストア / 医薬品・指定医薬部外品 / 肩こり・腰痛・筋肉痛緩和",
+  "score": 77,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 38712000,
+  "reviewMedian": 3,
+  "topShare": 0.30533168009919404,
+  "ratingMean": 0.84,
+  "avgPrice": 1456,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0CRV1LXP6",
+      "title": "【第2類医薬品】by Amazon ユーシップFRテープVα 50枚",
+      "brand": "by Amazon",
+      "price": 1182,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 10000,
+      "monthlyRevenue": 11820000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CRV1LXP6.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0B254FTZG",
+      "title": "【第2類医薬品】リフェンダLXテープ 7枚入 ×5",
+      "brand": "タカミツ",
+      "price": 1470,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 5000,
+      "monthlyRevenue": 7350000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B254FTZG.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0D31D7Z2X",
+      "title": "【第2類医薬品】フィスターLXテープ 大判 7枚入 ×5",
+      "brand": "フィスターLXテープ 大判",
+      "price": 2119,
+      "rating": 4.6,
+      "reviewCount": 3,
+      "monthlySold": 5000,
+      "monthlyRevenue": 10595000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D31D7Z2X.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B000FQU68K",
+      "title": "【第3類医薬品】ロイヒつぼ膏 RT156 156枚",
+      "brand": "ロイヒ",
+      "price": 847,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 3000,
+      "monthlyRevenue": 2541000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B000FQU68K.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B08SRS1243",
+      "title": "【第2類医薬品】フェイタス5.0大判 20枚",
+      "brand": "フェイタス",
+      "price": 1682,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 2000,
+      "monthlyRevenue": 3364000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08SRS1243.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 1,
+    "lowStarCount": 0,
+    "highStarCount": 1,
+    "topPainPoints": [],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 1
+      },
+      {
+        "category": "価値",
+        "count": 1
+      }
+    ],
+    "painSamples": {
+      "品質": [],
+      "耐久": [],
+      "サイズ": [],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "by Amazon": 1,
+    "タカミツ": 1,
+    "フィスターLXテープ 大判": 1,
+    "ロイヒ": 1,
+    "フェイタス": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/202255011/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:19.639Z"
+}

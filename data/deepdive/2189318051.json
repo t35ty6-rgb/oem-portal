@@ -1,0 +1,103 @@
+{
+  "categoryId": "2189318051",
+  "categoryName": "アクション・スポーツトイ",
+  "l1Path": "おもちゃ / アクション・スポーツトイ",
+  "score": 77,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 26458200,
+  "reviewMedian": 346,
+  "topShare": 0.1719693705543083,
+  "ratingMean": 4.42,
+  "avgPrice": 7217,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0DWS1N4ZX",
+      "title": "BEYBLADE X ベイブレードX CX-04 バトルエントリーセットC",
+      "brand": "タカラトミー(TAKARA TOMY)",
+      "price": 9180,
+      "rating": 4.3,
+      "reviewCount": 184,
+      "monthlySold": 500,
+      "monthlyRevenue": 4590000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DWS1N4ZX.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0DMSQ57X5",
+      "title": "BEYBLADE X ベイブレードX UX-11 スターター インパクトドレイク9-60LR",
+      "brand": "タカラトミー(TAKARA TOMY)",
+      "price": 4600,
+      "rating": 4.6,
+      "reviewCount": 346,
+      "monthlySold": 300,
+      "monthlyRevenue": 1380000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DMSQ57X5.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0GMF7QZQB",
+      "title": "タカラトミー(TAKARA TOMY) CX-16 スタートダッシュセットC",
+      "brand": "タカラトミー(TAKARA TOMY)",
+      "price": 9700,
+      "rating": 4.8,
+      "reviewCount": 58,
+      "monthlySold": 900,
+      "monthlyRevenue": 8730000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GMF7QZQB.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B09DSZCW7Y",
+      "title": "Gimamaフライングボール 「TV・SNS・ブログで 正規品」 ジャイロ 飛行ボールトイ UFOおもちゃ ブーメランスピナー LEDライト付き クリスマス 人気を集めているプレゼント (ブルー)…",
+      "brand": "Gimama",
+      "price": 3199,
+      "rating": 4,
+      "reviewCount": 4739,
+      "monthlySold": 1000,
+      "monthlyRevenue": 3199000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09DSZCW7Y.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B07G11S323",
+      "title": "モルック 日本正規公式品 NEW モデル TACTIC MOLKKY (正規品 公式 OHSサプライ 外遊び 大会 スポーツ 人気)",
+      "brand": "OHSサプライ(OHS Supply)",
+      "price": 8988,
+      "rating": 4.4,
+      "reviewCount": 1441,
+      "monthlySold": 900,
+      "monthlyRevenue": 8089200,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07G11S323.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 0,
+    "lowStarCount": 0,
+    "highStarCount": 0,
+    "topPainPoints": [],
+    "topPraisePoints": [],
+    "painSamples": {
+      "品質": [],
+      "耐久": [],
+      "サイズ": [],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "タカラトミー(TAKARA TOMY)": 3,
+    "Gimama": 1,
+    "OHSサプライ(OHS Supply)": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/2189318051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:23.018Z"
+}

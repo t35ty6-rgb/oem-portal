@@ -1,0 +1,120 @@
+{
+  "categoryId": "2151975051",
+  "categoryName": "ジョイスティック",
+  "l1Path": "パソコン・周辺機器 / キーボード・マウス・入力機器 / ジョイスティック",
+  "score": 78,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 14414300,
+  "reviewMedian": 78,
+  "topShare": 0.728443282018551,
+  "ratingMean": 3.26,
+  "avgPrice": 12304,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B09P9L38GX",
+      "title": "【SONYライセンス商品】ファイティングスティックα for PlayStation®5, PlayStation®4, PC【PS5,PS4両対応】 (通常版)",
+      "brand": "ホリ",
+      "price": 21000,
+      "rating": 4.4,
+      "reviewCount": 635,
+      "monthlySold": 500,
+      "monthlyRevenue": 10500000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09P9L38GX.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0D4TPJYX9",
+      "title": "リアルアーケードPro.V HAYABUSA for Windows® PC",
+      "brand": "ホリ",
+      "price": 14809,
+      "rating": 4.2,
+      "reviewCount": 71,
+      "monthlySold": 100,
+      "monthlyRevenue": 1480900,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D4TPJYX9.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0G5YZGDDX",
+      "title": "Varmilo FK2 Black Leverless Arcade Controller for Fighting Games 格闘ゲーム レバーレス アーケードコントローラー ラピッドトリガー対応 日本正規代理店保証品",
+      "brand": "Varmilo",
+      "price": 16979,
+      "rating": 4,
+      "reviewCount": 7,
+      "monthlySold": 100,
+      "monthlyRevenue": 1697900,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0G5YZGDDX.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0D4V4D64K",
+      "title": "ファイティングスティック mini for Windows® PC",
+      "brand": "ホリ",
+      "price": 5980,
+      "rating": 3.8,
+      "reviewCount": 85,
+      "monthlySold": 100,
+      "monthlyRevenue": 598000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D4V4D64K.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0GWN58QKT",
+      "title": "Leadjoy R20 2.4GHz信号受信機は、Xbox Series S/Xに対応しています",
+      "brand": "leadjoy",
+      "price": 2750,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GWN58QKT.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 19,
+    "lowStarCount": 0,
+    "highStarCount": 18,
+    "topPainPoints": [],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 22
+      },
+      {
+        "category": "使いやすさ",
+        "count": 7
+      },
+      {
+        "category": "価値",
+        "count": 5
+      },
+      {
+        "category": "品質",
+        "count": 3
+      }
+    ],
+    "painSamples": {
+      "品質": [],
+      "耐久": [],
+      "サイズ": [],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "ホリ": 3,
+    "Varmilo": 1,
+    "leadjoy": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/2151975051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:22.490Z"
+}

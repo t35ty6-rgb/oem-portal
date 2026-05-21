@@ -1,0 +1,122 @@
+{
+  "categoryId": "89086051",
+  "categoryName": "オフィス機器",
+  "l1Path": "文房具・オフィス用品 / オフィス機器",
+  "score": 66,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 69413000,
+  "reviewMedian": 2607,
+  "topShare": 0.14262458041000967,
+  "ratingMean": 4.54,
+  "avgPrice": 3805,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0BF9VWSKN",
+      "title": "アイリスオーヤマ ラミネートフィルム 100μm A4 サイズ 100枚入 LZ-A4100R",
+      "brand": "アイリスオーヤマ(IRIS OHYAMA)",
+      "price": 1650,
+      "rating": 4.4,
+      "reviewCount": 2607,
+      "monthlySold": 6000,
+      "monthlyRevenue": 9900000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BF9VWSKN.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0F5GQLNWP",
+      "title": "Philoent プロジェクター 家庭用 超小型 【2026アップグレード版Android TV14.0搭載＆388g史上最軽＆HiFi外部スピーカー】30000LM 1080P 4K対応 270°回転 短距離 天井投影 高輝度 Wi-Fi6 大画面 自動台形補正 軽量Bluetooth5.4 IOS/Android/パソコン/DVD/PS機/SWITCH接続可 日本語取扱説明書 ホワイト",
+      "brand": "Philoent",
+      "price": 7587,
+      "rating": 4.8,
+      "reviewCount": 6519,
+      "monthlySold": 5000,
+      "monthlyRevenue": 37935000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0F5GQLNWP.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B074W36HQ7",
+      "title": "カシオ カラフル電卓 ペールブルー 12桁 ミニジャストタイプ MW-C20C-LB-N",
+      "brand": "CASIO(カシオ)",
+      "price": 799,
+      "rating": 4.4,
+      "reviewCount": 3650,
+      "monthlySold": 2000,
+      "monthlyRevenue": 1598000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B074W36HQ7.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0027DRQ82",
+      "title": "OHM 100ミクロンラミネーターフィルム100枚 A4 LAM-FA41003",
+      "brand": "オーム（OHM）",
+      "price": 1000,
+      "rating": 4.4,
+      "reviewCount": 591,
+      "monthlySold": 4000,
+      "monthlyRevenue": 4000000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0027DRQ82.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0GD11LD17",
+      "title": "プロジェクター 家庭用 小型【2026音質強化バージョン・外部スピーカー・HDR高ダイナミック画質】30000LM 270°回転 高輝度 1080P 天井投影 Wi-Fi6 大画面 Android TV搭載 Bluetooth5.4 HiFiスピーカー 自動台形補正 ズーム機能 短距離投影 軽量 静音 HDMI/スマホ/PC/DVDなどに対応 プレゼントに最適 ホームシアター",
+      "brand": "FALIYORS",
+      "price": 7990,
+      "rating": 4.5,
+      "reviewCount": 524,
+      "monthlySold": 2000,
+      "monthlyRevenue": 15980000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GD11LD17.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 10,
+    "lowStarCount": 0,
+    "highStarCount": 9,
+    "topPainPoints": [],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 8
+      },
+      {
+        "category": "価値",
+        "count": 3
+      },
+      {
+        "category": "使いやすさ",
+        "count": 3
+      },
+      {
+        "category": "品質",
+        "count": 2
+      }
+    ],
+    "painSamples": {
+      "品質": [],
+      "耐久": [],
+      "サイズ": [],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "アイリスオーヤマ(IRIS OHYAMA)": 1,
+    "Philoent": 1,
+    "CASIO(カシオ)": 1,
+    "オーム（OHM）": 1,
+    "FALIYORS": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/89086051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:28.969Z"
+}

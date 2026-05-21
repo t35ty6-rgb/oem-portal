@@ -1,0 +1,247 @@
+{
+  "categoryId": "70993051",
+  "categoryName": "果物",
+  "l1Path": "食品・飲料・お酒 / 果物",
+  "score": 66,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 29448000,
+  "reviewMedian": 471,
+  "topShare": 0.5042787286063569,
+  "ratingMean": 4.08,
+  "avgPrice": 3278,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B00U212EHY",
+      "title": "竹城青果 母の日 遅れてごめんね 山形県産 さくらんぼ 佐藤錦or紅秀峰 プレミアムボックス Mサイズ",
+      "brand": "竹城青果",
+      "price": 2970,
+      "rating": 4.1,
+      "reviewCount": 1309,
+      "monthlySold": 5000,
+      "monthlyRevenue": 14850000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B00U212EHY.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0DFXDVRVT",
+      "title": "高糖度 光センサー選果 りんご 5kg 青森県産 規格外 早生 ふじ サンふじ 2kg 5kg 10kg 寺田フルーツ (5キロ)",
+      "brand": "寺田フルーツ",
+      "price": 3300,
+      "rating": 3.8,
+      "reviewCount": 472,
+      "monthlySold": 1000,
+      "monthlyRevenue": 3300000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DFXDVRVT.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B007IEWQ76",
+      "title": "[山形eLab] 遅れてごめんね 母の日 ギフト さくらんぼ 佐藤錦 山形県産 特秀 L玉 24粒 化粧箱入り プレゼント カーネーションオリジナル母の日カード付 感謝",
+      "brand": "グルメ＆ギフトお取り寄せ山形eLab",
+      "price": 4860,
+      "rating": 4.2,
+      "reviewCount": 720,
+      "monthlySold": 2000,
+      "monthlyRevenue": 9720000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B007IEWQ76.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0BD4L51WH",
+      "title": "＜ゼスプリ＞サンゴールドキウイ 約2kg（16～22玉）大玉｜ニュージーランド産 ゴールデンキウイ｜濃厚な甘みと驚くほどジューシー｜1個で1日分のビタミンC・栄養満点の定番フルーツ｜Zespri SunGold Kiwi 黃金奇異果｜家庭用・贈答用・父の日・母の日・お中元ギフト｜四季の広場厳選｜安心の国内検品",
+      "brand": "京英ランド",
+      "price": 3280,
+      "rating": 3.9,
+      "reviewCount": 128,
+      "monthlySold": 300,
+      "monthlyRevenue": 984000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BD4L51WH.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B01CEUF3DC",
+      "title": "久幸園 訳ありすぎる清見オレンジ (3kg)",
+      "brand": "久幸園",
+      "price": 1980,
+      "rating": 4.4,
+      "reviewCount": 121,
+      "monthlySold": 300,
+      "monthlyRevenue": 594000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01CEUF3DC.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 219,
+    "lowStarCount": 81,
+    "highStarCount": 103,
+    "topPainPoints": [
+      {
+        "category": "デザイン",
+        "count": 20
+      },
+      {
+        "category": "梱包",
+        "count": 17
+      },
+      {
+        "category": "サイズ",
+        "count": 16
+      },
+      {
+        "category": "価格",
+        "count": 11
+      },
+      {
+        "category": "におい",
+        "count": 9
+      },
+      {
+        "category": "サポート",
+        "count": 8
+      },
+      {
+        "category": "品質",
+        "count": 7
+      },
+      {
+        "category": "互換",
+        "count": 5
+      },
+      {
+        "category": "説明書",
+        "count": 2
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 20
+      },
+      {
+        "category": "品質",
+        "count": 4
+      },
+      {
+        "category": "価値",
+        "count": 4
+      },
+      {
+        "category": "使いやすさ",
+        "count": 4
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B00U212EHY",
+          "rating": 1,
+          "title": "腐ったものが届いた",
+          "body": "母の日にプレゼントしましたが、母からすぐに連絡がきて、半分の量のさくらんぼが腐っていました。届いてすぐに開封したのにも関わらずです。せっかくの母の日だったのに、台無しにされました。手術前のプレゼントだったため、非常に残念でなりません。本当に最低だし、責任とって欲しいです。"
+        },
+        {
+          "asin": "B00U212EHY",
+          "rating": 1,
+          "title": "ガッカリです",
+          "body": "昨年は違う業者でしたが、母の日の贈り物として送ってとても喜んで貰えたので今回はこちらで注文しました。でも間違いでした。昨年と同じところにお願いすれば良かったと後悔しています。Lサイズを頼みましたが受け取った母が小さ買ったというので昨年の普通サイズよりも小さかったようです。見た目にもすぐわかるくらいもうあと一歩で腐るような感じだったようで「高い物だろうけどもう送らなくていいから」と言われてしまい本当"
+        },
+        {
+          "asin": "B0DFXDVRVT",
+          "rating": 1,
+          "title": "カビだらけのリンゴが食べれるものか！",
+          "body": "リンゴが全部カビだらけで食べられない不良品5kgのリンゴ全てに土色の斑点があり、手に取ってリンゴの皮を触ると表面がザラザラしていて、こんなリンゴは見たことがない！❩これが業者が言っていた【皮にカビが生えたリンゴ】だと。確信しました!リンゴ5kgを購入して、商品が今日（29日）の午前中に佐川急便が配達されました! 届いた段ボールを空けてビックリしました! リンゴの皮には、土色の絵斑点がびっしりで、手"
+        },
+        {
+          "asin": "B0DFXDVRVT",
+          "rating": 1,
+          "title": "傷に気をつけて",
+          "body": "箱を開けたらすぐに四つ傷があるのが見えた。箱を閉じる前や詰める時に絶対にわかる傷だと思う。"
+        },
+        {
+          "asin": "B007IEWQ76",
+          "rating": 1,
+          "title": "生ものは注意",
+          "body": "デリヴァリーが遅れると商品劣化する。"
+        }
+      ],
+      "耐久": [],
+      "サイズ": [
+        {
+          "asin": "B00U212EHY",
+          "rating": 1,
+          "title": "ガッカリです",
+          "body": "昨年は違う業者でしたが、母の日の贈り物として送ってとても喜んで貰えたので今回はこちらで注文しました。でも間違いでした。昨年と同じところにお願いすれば良かったと後悔しています。Lサイズを頼みましたが受け取った母が小さ買ったというので昨年の普通サイズよりも小さかったようです。見た目にもすぐわかるくらいもうあと一歩で腐るような感じだったようで「高い物だろうけどもう送らなくていいから」と言われてしまい本当"
+        },
+        {
+          "asin": "B00U212EHY",
+          "rating": 1,
+          "title": "母の日",
+          "body": "母の日に渡すのにLサイズを購入しました。表側はとても綺麗でしたが、反対側はキズや痛みが結構ありました。残念です。味は甘くて美味しかったそうです。"
+        },
+        {
+          "asin": "B00U212EHY",
+          "rating": 2,
+          "title": "高級感あるさくらんぼだが…",
+          "body": "値段の乖離がえぐい…5/6注文から今日までの間に1,000円以上も値段に差がついていたのでショック。Lサイズでも小ぶりに感じた。"
+        },
+        {
+          "asin": "B00U212EHY",
+          "rating": 2,
+          "title": "想像していたより小さい",
+          "body": "届け日とか包装は良かったのですが、思ったより小粒でがっかりしました。味は良かったです。"
+        },
+        {
+          "asin": "B007IEWQ76",
+          "rating": 1,
+          "title": "これでLサイズですか？",
+          "body": "贈答用に注文しましたがガッカリ！！普通サイズのさくらんぼならスーパーで買えるので私は、大切な方に贈答用に大きいものが欲しくて今回、期待してこちらでLサイズを注文しましたが！！箱を開けると赤く色づいてるのは表の部分だけ。　しかもスーパーで普通に売られてるようなサイズ！　　無茶苦茶、高い買い物になりました。…。"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0DFXDVRVT",
+          "rating": 1,
+          "title": "残念",
+          "body": "残念ながら、うちにきたりんごは甘くもなく実がしまってるわけでもなく、スーパーで買うやつのほうがいいかも？レベルでした。。農家さんは悪くないと思います。農産物は食べてみないとわからないし。"
+        },
+        {
+          "asin": "B007IEWQ76",
+          "rating": 2,
+          "title": "美味しくなかったと言われ、、",
+          "body": "自分は食べてないのでわからないけれど、、、見た目も味もイマイチで、今後、通販のサクランボはもったいなから送らないでと言われてしまった(涙）"
+        }
+      ],
+      "におい": [
+        {
+          "asin": "B0DFXDVRVT",
+          "rating": 1,
+          "title": "カビ臭くて食べられないリンゴです",
+          "body": "1箱購入し、ほぼすべてがカビ臭くなっていました。いろいろ試しましたが臭いは取れませんでした。食べた後も口の中にカビの臭いが残ります。出荷時に分かっていて発送したはずです。この販売者からの購入は薦められません。"
+        },
+        {
+          "asin": "B0DFXDVRVT",
+          "rating": 1,
+          "title": "匂いが…",
+          "body": "味は美味しいのですが古臭い匂いなのかカビ臭い匂いなのか臭い匂いが口の中に残って食べれなかったです。"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "竹城青果": 1,
+    "寺田フルーツ": 1,
+    "グルメ＆ギフトお取り寄せ山形eLab": 1,
+    "京英ランド": 1,
+    "久幸園": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/70993051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:28.193Z"
+}

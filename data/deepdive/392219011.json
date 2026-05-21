@@ -1,0 +1,287 @@
+{
+  "categoryId": "392219011",
+  "categoryName": "収納家具",
+  "l1Path": "ホーム＆キッチン / 家具 / 収納家具",
+  "score": 67,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 12277000,
+  "reviewMedian": 2462,
+  "topShare": 0.2558442616274334,
+  "ratingMean": 4.02,
+  "avgPrice": 2574,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B01LWP8AL2",
+      "title": "Amazonベーシック 3段スチールラック 棚 メタルラック 耐荷重340kg 幅58.9×奥行34×高さ76.2cm ブラック",
+      "brand": "Amazonベーシック(Amazon Basics)",
+      "price": 3141,
+      "rating": 4.2,
+      "reviewCount": 244153,
+      "monthlySold": 1000,
+      "monthlyRevenue": 3141000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B01LWP8AL2.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0C9CKHMNJ",
+      "title": "山善(YAMAZEN) ハンガーラック キャスター付き 縦伸縮 シングル 幅75×奥行43×高さ89-152cm 組立品 オールホワイト MKS-S(AWH)",
+      "brand": "山善(YAMAZEN)",
+      "price": 1990,
+      "rating": 4.1,
+      "reviewCount": 2463,
+      "monthlySold": 1000,
+      "monthlyRevenue": 1990000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C9CKHMNJ.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0FB7QG878",
+      "title": "アイリスプラザ カラーボックス 3段 本棚 収納 一人暮らし 幅41.5×奥行29×高さ88cm 棚 A4対応 木目調 おしゃれ ミッドブラウン ~SMART COLLECTION~",
+      "brand": "アイリスプラザ(IRIS PLAZA)",
+      "price": 1791,
+      "rating": 4,
+      "reviewCount": 373,
+      "monthlySold": 1000,
+      "monthlyRevenue": 1791000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FB7QG878.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0833RKLNB",
+      "title": "Vacplus 収納棚 大容量 収納ラック 組み立て式 整理棚 収納ボックス 本棚 衣類収納ボックス 多用途 耐久性 省スペース 収納便利 ブラック 1個幅30×奥行30×高30㎝ 16ボックス （ホワイト）",
+      "brand": "Vacplus",
+      "price": 3975,
+      "rating": 3.8,
+      "reviewCount": 7869,
+      "monthlySold": 900,
+      "monthlyRevenue": 3577500,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0833RKLNB.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0CN2T45T4",
+      "title": "SVOHZAV キッチンワゴン 隙間収納 キャスター付き 13cm 18cm 22cm ペットボトルラック 冷蔵庫横 洗面所 収納 隙間ラック 3段 4段 スリムワゴン 細い棚 調味料棚 (13.5cm-[三段式], ホワイト)",
+      "brand": "SVOHZAV",
+      "price": 1975,
+      "rating": 4,
+      "reviewCount": 2074,
+      "monthlySold": 800,
+      "monthlyRevenue": 1580000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CN2T45T4.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 254,
+    "lowStarCount": 100,
+    "highStarCount": 102,
+    "topPainPoints": [
+      {
+        "category": "品質",
+        "count": 44
+      },
+      {
+        "category": "サイズ",
+        "count": 15
+      },
+      {
+        "category": "サポート",
+        "count": 14
+      },
+      {
+        "category": "使い勝手",
+        "count": 9
+      },
+      {
+        "category": "梱包",
+        "count": 9
+      },
+      {
+        "category": "説明書",
+        "count": 8
+      },
+      {
+        "category": "価格",
+        "count": 8
+      },
+      {
+        "category": "耐久",
+        "count": 7
+      },
+      {
+        "category": "デザイン",
+        "count": 7
+      },
+      {
+        "category": "互換",
+        "count": 6
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "使いやすさ",
+        "count": 55
+      },
+      {
+        "category": "品質",
+        "count": 36
+      },
+      {
+        "category": "満足",
+        "count": 32
+      },
+      {
+        "category": "価値",
+        "count": 19
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B01LWP8AL2",
+          "rating": 1,
+          "title": "安いので買いましたが",
+          "body": "ポール上のスリーブ用の溝の断面が「コ」ではなく「 ）」になっているためスリーブがポールに固定されず、ちょっとした負荷ですぐに外れてしまいます。何とか組み上げ、大丈夫だろうと3合炊きの炊飯器を載せて、お米を炊いていたらスリーブが外れ、棚板が炊飯器ごと下に落ちてしまいました。家族には怒られ、貴重なお米も無駄になり散々な1日でした。これは普通に組み立ててもダメとあきらめ、ポールとスリーブを接着して組み直"
+        },
+        {
+          "asin": "B01LWP8AL2",
+          "rating": 1,
+          "title": "不良品です。",
+          "body": "足を取り付けるネジ山が4本とも無かった。ちゃんと製品チェックしてから販売してほしい。床が傷付くので使えない。返品するのも大変なのでゴミになった。"
+        },
+        {
+          "asin": "B01LWP8AL2",
+          "rating": 1,
+          "title": "部品の留め具が壊れています。",
+          "body": "部品の留め具が壊れています。"
+        },
+        {
+          "asin": "B01LWP8AL2",
+          "rating": 2,
+          "title": "モノは良いのに惜しい！",
+          "body": "価格の割にしっかりしていて耐荷重もあるラックです。買って損はないのですが、加工に問題があります。自分が購入しだのは、棚板のうち１枚のポールを通す穴内側に１箇所だけ、突起がありました。この突起のおかげで棚がしっかり嵌っていません。ニッパーでカット…も考えましたが刃こぼれすると予想。返品交換も面倒なのでそのまま使うことにしました。金属用ヤスリか何かで削り落とそうと思っています。この不具合なければ★4と"
+        },
+        {
+          "asin": "B0C9CKHMNJ",
+          "rating": 1,
+          "title": "かけ過ぎるとダメかも。",
+          "body": "少し思いコートをかけ過ぎたのが原因かと思いますが、壊れてしまいました。"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B0C9CKHMNJ",
+          "rating": 1,
+          "title": "耐久性なし",
+          "body": "荷重に耐えられず一週間ほどでパーツが割れたり、樹脂でできた足が歪んで使い物にならなかった。"
+        },
+        {
+          "asin": "B0C9CKHMNJ",
+          "rating": 2,
+          "title": "くすみホワイトは部屋になじむ",
+          "body": "使って一年になるのかな。組み立て式なのもあり、移動させてるとあちこちポコポコ外れて崩れていきますw重いものかけすぎ・移動させすぎなのがメーカーさんの想定外なのでしょう。この手のハンガーを通販で買うとなると完全に組み立て前提なのでしょうがないですね。服屋さんにある銀色のアレぐらい丈夫ならなぁ。(個人で買えるのかな？)"
+        },
+        {
+          "asin": "B0C9CKHMNJ",
+          "rating": 2,
+          "title": "耐久性はない",
+          "body": "1年3ヶ月使用後、突然プラスチック部分がバキバキに割れ洋服が全て下に落ちました。耐久性はあまりないようです。"
+        },
+        {
+          "asin": "B0833RKLNB",
+          "rating": 2,
+          "title": "本や思い物には向かない",
+          "body": "組み立て簡単、見立ても良いが樹脂素材の為、本や思い物は撓んでしまい向かない、耐久性は劣る。"
+        },
+        {
+          "asin": "B0CN2T45T4",
+          "rating": 2,
+          "title": "耐久性はない",
+          "body": "届いたら1部プラスチックが割れていて傾いてしまいます、、、。"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B01LWP8AL2",
+          "rating": 1,
+          "title": "約束は守りましょう。",
+          "body": "配送は常時手渡しでやってもらっていますが、これの配送時は雨天、インターホンも押さずに夜間玄関わきに放置されていた。重いものでも大きいものでもないが発見時はびしょぬれ。鉄製なので腐食も心配。あまりに酷いのでここに通報。"
+        },
+        {
+          "asin": "B01LWP8AL2",
+          "rating": 1,
+          "title": "精度の高い検品を！！",
+          "body": "縦棒4本の接続部分、内部に入り込んでいるはずの金属が出ていて接続不能でした。どうやっても内部に入り込まない、ネジ歪んでいるようです。諦めてAmazonに手続きを取りました。大きいサイズのものは梱包しなおしたり、返品も大変…勘弁して欲しい。正しい精度の高い検品をお願いします。再度の購入は諦めました。"
+        },
+        {
+          "asin": "B0C9CKHMNJ",
+          "rating": 2,
+          "title": "サイズ",
+          "body": "もう少し長い方がよい"
+        },
+        {
+          "asin": "B0FB7QG878",
+          "rating": 2,
+          "title": "組立は難しく、完成形も不安定",
+          "body": "組立に苦労しました。説明書はなく、縦横の木の板と後ろのベニヤ板、それに謎の木片2つとねじ16本が同封されていました。2枚の木の板の溝に仕切り板、ベニヤ板、仕切り板、ベニヤ板、仕切り板、と挟んでねじ止めするという工程なのですが、とにかくバランスを保つのが難しいです。ベニヤ板が溝から出たり、木枠の角度がずれたり、てんやわんやでした。先にねじなしで組み立てて後から片側ずつねじ止めするという手法に切り替え"
+        },
+        {
+          "asin": "B0FB7QG878",
+          "rating": 2,
+          "title": "A 4入らないです",
+          "body": "A 4対応とあったので購入しましたが・・・入りません(･･;)きちんと寸法測ればよかったー。"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B01LWP8AL2",
+          "rating": 2,
+          "title": "説明書がわかりづらい",
+          "body": "五等分に棚を設置できない"
+        },
+        {
+          "asin": "B01LWP8AL2",
+          "rating": 1,
+          "title": "ごみ",
+          "body": "説明書が見にくくわかりづらい最悪"
+        },
+        {
+          "asin": "B01LWP8AL2",
+          "rating": 2,
+          "title": "わかりにくい",
+          "body": "説明書内にある”D”は最初から付いています。備品が入っている袋の中には入っていません。"
+        },
+        {
+          "asin": "B0C9CKHMNJ",
+          "rating": 2,
+          "title": "検品しっかり",
+          "body": "説明書のページ順が変になってる。"
+        },
+        {
+          "asin": "B0FB7QG878",
+          "rating": 2,
+          "title": "組立は難しく、完成形も不安定",
+          "body": "組立に苦労しました。説明書はなく、縦横の木の板と後ろのベニヤ板、それに謎の木片2つとねじ16本が同封されていました。2枚の木の板の溝に仕切り板、ベニヤ板、仕切り板、ベニヤ板、仕切り板、と挟んでねじ止めするという工程なのですが、とにかくバランスを保つのが難しいです。ベニヤ板が溝から出たり、木枠の角度がずれたり、てんやわんやでした。先にねじなしで組み立てて後から片側ずつねじ止めするという手法に切り替え"
+        }
+      ],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "Amazonベーシック(Amazon Basics)": 1,
+    "山善(YAMAZEN)": 1,
+    "アイリスプラザ(IRIS PLAZA)": 1,
+    "Vacplus": 1,
+    "SVOHZAV": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/392219011/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:27.214Z"
+}

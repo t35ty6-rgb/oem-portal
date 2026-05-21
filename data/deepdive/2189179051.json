@@ -1,0 +1,255 @@
+{
+  "categoryId": "2189179051",
+  "categoryName": "ままごと・ごっこ遊び",
+  "l1Path": "おもちゃ / ままごと・ごっこ遊び",
+  "score": 75,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "🟠 2社支配",
+  "totalRevenue": 16218400,
+  "reviewMedian": 233,
+  "topShare": 0.4871010703891876,
+  "ratingMean": 4.22,
+  "avgPrice": 3615,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0GT8FR4W6",
+      "title": "[バンダイ(BANDAI)] 名探偵プリキュア！ まわして変身！ ティアアルカナロッド 対象年齢 3 才以上",
+      "brand": "BANDAI",
+      "price": 7999,
+      "rating": 3.7,
+      "reviewCount": 59,
+      "monthlySold": 2000,
+      "monthlyRevenue": 15998000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GT8FR4W6.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0DRBDTFNG",
+      "title": "セガフェイブ (SEGA FAVE) アンパンマン おべんとうパズル アンパンマンのからあげ弁当",
+      "brand": "セガフェイブ(SEGA FAVE)",
+      "price": 1020,
+      "rating": 4.6,
+      "reviewCount": 233,
+      "monthlySold": 700,
+      "monthlyRevenue": 714000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DRBDTFNG.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0D413LGGC",
+      "title": "[iijo] ヘアゴム ぎざ子 キッズ こども 100本 セット 髪ゴム 3cm (新パステル)",
+      "brand": "iijo",
+      "price": 799,
+      "rating": 4,
+      "reviewCount": 115,
+      "monthlySold": 600,
+      "monthlyRevenue": 479400,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D413LGGC.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0837VP5X5",
+      "title": "セガフェイブ (SEGA FAVE) アンパンマン おさつスイスイ! セルフでピピッ アンパンマンレジスター",
+      "brand": "セガフェイブ(SEGA FAVE)",
+      "price": 4806,
+      "rating": 4.4,
+      "reviewCount": 3117,
+      "monthlySold": 1000,
+      "monthlyRevenue": 4806000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0837VP5X5.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0BSF182YP",
+      "title": "セガフェイブ(SEGA FAVE) アンパンマン かまどでぷく~ ジャムおじさんのやきたてパン工場",
+      "brand": "セガフェイブ(SEGA FAVE)",
+      "price": 4100,
+      "rating": 4.4,
+      "reviewCount": 1432,
+      "monthlySold": 700,
+      "monthlyRevenue": 2870000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BSF182YP.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 182,
+    "lowStarCount": 57,
+    "highStarCount": 95,
+    "topPainPoints": [
+      {
+        "category": "梱包",
+        "count": 54
+      },
+      {
+        "category": "品質",
+        "count": 29
+      },
+      {
+        "category": "音",
+        "count": 18
+      },
+      {
+        "category": "サポート",
+        "count": 14
+      },
+      {
+        "category": "価格",
+        "count": 10
+      },
+      {
+        "category": "説明書",
+        "count": 10
+      },
+      {
+        "category": "サイズ",
+        "count": 8
+      },
+      {
+        "category": "互換",
+        "count": 5
+      },
+      {
+        "category": "デザイン",
+        "count": 3
+      },
+      {
+        "category": "耐久",
+        "count": 2
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 38
+      },
+      {
+        "category": "品質",
+        "count": 10
+      },
+      {
+        "category": "価値",
+        "count": 10
+      },
+      {
+        "category": "使いやすさ",
+        "count": 6
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0GT8FR4W6",
+          "rating": 1,
+          "title": "オタクの大人が喜ぶおもちゃ",
+          "body": "デザインがとても可愛くて子供が喜んでいました。ただ、お値段のわりに光ったりせず、機能は音が鳴るだけで少し地味です。マコトジュエルをいくつか別途買わないと、すぐ飽きそうです。キュアアルカナ・シャドウ推しの大人なら喜びそうですが、、キュアニャミーのときもそうでしたが、今回買えない子供も多くてかわいそうです。ps.数日で音がうまく鳴らなくなりました。変身音の途中でいきなり違うものに変わったり、途切れます"
+        },
+        {
+          "asin": "B0DRBDTFNG",
+          "rating": 1,
+          "title": "蓋がないのは不良品",
+          "body": "クリスマスプレゼントだったのに、お弁当箱の箱がついてなかった。交換したけど…残念でした。"
+        },
+        {
+          "asin": "B0D413LGGC",
+          "rating": 1,
+          "title": "1回使ったらすぐゴムが切れる",
+          "body": "４歳の娘に使用思ったよりゴムが細く、1回の使用で切れるます使い捨てですかなり薄毛ちゃんにはいいかもしれませんが普通量以上の子はおすすめしません"
+        },
+        {
+          "asin": "B0D413LGGC",
+          "rating": 2,
+          "title": "すぐ切れる",
+          "body": "ゴムが柔らかく伸びてしまいます。また数回で切れました。品質に難アリだと思います。"
+        },
+        {
+          "asin": "B0D413LGGC",
+          "rating": 1,
+          "title": "すぐ切れる…",
+          "body": "9月に購入して髪多め女子に使ってますが、中のゴムがすぐ切れます。半分は1回目の使用で切れる印象。製造ロットで差があったりする？コスパ良くないのでリピしません。"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B0837VP5X5",
+          "rating": 2,
+          "title": "壊れやすい",
+          "body": "半年もしないうちに使えない機能が、どんどん増えてる"
+        },
+        {
+          "asin": "B0837VP5X5",
+          "rating": 2,
+          "title": "なぜスピーカーを下につけた？",
+          "body": "子供たちが楽しく騒いていたらほぼ意音が聞こえません。あとは特に問題なし。使い方次第で長持ちします。"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B0DRBDTFNG",
+          "rating": 1,
+          "title": "価格は転売価格",
+          "body": "物はいい！しかし、アマゾンで買うのに転売価格が気に入らない…"
+        },
+        {
+          "asin": "B0837VP5X5",
+          "rating": 1,
+          "title": "壊れてました。",
+          "body": "声がとっても小さい。静かにしていないと聞こえないレベル。そしてスキャナーも反応しなかったし、数字も1.2しか反応しなかった。色々試しているうちに電源すら入らなくなった。返品します。"
+        },
+        {
+          "asin": "B0837VP5X5",
+          "rating": 1,
+          "title": "小さ過ぎ。",
+          "body": "思ったより、かなり小さくて手のひらに乗るサイズでした．3歳の女の子にすれば小さ過ぎて使い辛いと思います。直ぐ返品してワンランク大きめな物を買ってプレゼントしたら凄く喜んでました。"
+        },
+        {
+          "asin": "B0837VP5X5",
+          "rating": 2,
+          "title": "残念でした。",
+          "body": "16年前くらいのアンパンマンレジスターを持っていました。色々なパーツを無くしていたり10年以上前の物だからと新しく購入しました。悪いレビューになってしまい申し訳ないです…個人的な意見として書かせてもらいます。まず音が小さい。音量調整ができるかと思うくらい音の小ささが気になりました。また、最近のレジに近づけようとしてかとは思いますが以前のものはきちんと数字がボタンになっていましたがこちらは何だか押し"
+        },
+        {
+          "asin": "B0837VP5X5",
+          "rating": 2,
+          "title": "音が小さい",
+          "body": "スピーカーが底面にあり声がこもってすごく聞こえにくいです。なぜ底面に、、残念すぎるあとハンドスキャナーのコードが短すぎるのと、お札は紙じゃなくて壊れにくい素材が良かったです。それ以外は最高です。"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0837VP5X5",
+          "rating": 1,
+          "title": "壊れてるの覚悟で買ってください",
+          "body": "孫の誕生日にと購入しました。実物届いて孫もテンション上がり喜んでいたのもつかの間……押したボタンが戻らない。仕方なく返品対応していただき、2台目を届けていただきましたがこちらも届いたその日に今度はおもちゃのコインが入らなくなるという不具合。説明書を読み、ネットで調べてあれこれ試しましたが結局ダメでした。孫も楽しみにしていたのにガッカリです。それに再注文や返品、私の労力と時間を返してもらいたい。"
+        },
+        {
+          "asin": "B0837VP5X5",
+          "rating": 2,
+          "title": "不良品？",
+          "body": "{\"clickstreamNexusMetricsConfig\":{\"producerId\":\"vsemetrics_playercards\",\"schemaId\":\"clickstream.CustomerEvent.4\",\"actionType\":\"DISCOVERY\",\"eventOwner\":\"vsemetrics_playercards\",\"eventType\":\"IVEVideoVie"
+        },
+        {
+          "asin": "B0837VP5X5",
+          "rating": 2,
+          "title": "アンパンマンがはいってない",
+          "body": "クリスマスプレゼントにしたら、まさかのアンパンマンハンバーガーがはいっていない。問い合わせもどこにしたらよいかわからない"
+        }
+      ],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "BANDAI": 1,
+    "セガフェイブ(SEGA FAVE)": 3,
+    "iijo": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/2189179051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:22.761Z"
+}

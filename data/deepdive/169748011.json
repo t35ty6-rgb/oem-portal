@@ -1,0 +1,103 @@
+{
+  "categoryId": "169748011",
+  "categoryName": "育毛・養毛剤",
+  "l1Path": "ドラッグストア / 医薬品・指定医薬部外品 / 育毛・養毛剤",
+  "score": 75,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 118608000,
+  "reviewMedian": null,
+  "topShare": 0.3431471738837178,
+  "ratingMean": -0.1,
+  "avgPrice": 5885,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0CGGWPT51",
+      "title": "【Amazon.co.jp限定】【第1類医薬品】リアップX5 チャージ 62mL",
+      "brand": "リアップ",
+      "price": 8140,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 5000,
+      "monthlyRevenue": 40700000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CGGWPT51.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B075GCCMQT",
+      "title": "【第1類医薬品】リアップX5 60mL",
+      "brand": "リアップ",
+      "price": 5476,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 5000,
+      "monthlyRevenue": 27380000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B075GCCMQT.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0956B82LS",
+      "title": "【第1類医薬品】リアップX5プラスネオ(通販限定パッケージ) 60mL",
+      "brand": "リアップ",
+      "price": 6967,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 4000,
+      "monthlyRevenue": 27868000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0956B82LS.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0BCHQSDT6",
+      "title": "【第1類医薬品】リアップリジェンヌ 60mL",
+      "brand": "リジェンヌ",
+      "price": 4980,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 3000,
+      "monthlyRevenue": 14940000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0BCHQSDT6.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0857QZPG8",
+      "title": "【第1類医薬品】アロゲイン5 60mL",
+      "brand": "アロゲイン",
+      "price": 3860,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 2000,
+      "monthlyRevenue": 7720000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0857QZPG8.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 0,
+    "lowStarCount": 0,
+    "highStarCount": 0,
+    "topPainPoints": [],
+    "topPraisePoints": [],
+    "painSamples": {
+      "品質": [],
+      "耐久": [],
+      "サイズ": [],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "リアップ": 3,
+    "リジェンヌ": 1,
+    "アロゲイン": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/169748011/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:18.309Z"
+}

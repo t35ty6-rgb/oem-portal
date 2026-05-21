@@ -1,0 +1,300 @@
+{
+  "categoryId": "2574212051",
+  "categoryName": "バス用品",
+  "l1Path": "ホーム＆キッチン / バス・トイレ・洗面用品 / バス用品",
+  "score": 64,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "⚪ 普通",
+  "totalRevenue": 42917000,
+  "reviewMedian": 2363,
+  "topShare": 0.23275159027891046,
+  "ratingMean": 4.18,
+  "avgPrice": 1972,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B07PY21DSB",
+      "title": "山崎実業(Yamazaki) マグネット バスルーム ラック ワイド ホワイト 約W28XD9.5XH8cm ミスト 浴室ラック 浴室収納 フック付き 4237",
+      "brand": "Yamazaki(山崎実業)",
+      "price": 1427,
+      "rating": 4.5,
+      "reviewCount": 4054,
+      "monthlySold": 7000,
+      "monthlyRevenue": 9989000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07PY21DSB.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0GCYQNFFC",
+      "title": "シャワーヘッド マイクロナノバブル 強力水流【ナノバブルSPA・増圧アップ・90%節水・美髪・毛穴洗浄・5段階モード】 肌ケア 毛穴汚れ除く 高水圧 超微細泡シャワー 手元止水 広面板 美肌 頭皮ケア ミストシャワー ヘッド うるおい 保温 肌ケア 浴室掃除対応 軽量設計 工具不要 簡単取付 4種アダプター 全規格対応（K/M/T/G型）（シルバー）",
+      "brand": "EnergyBear",
+      "price": 3199,
+      "rating": 4.6,
+      "reviewCount": 1031,
+      "monthlySold": 5000,
+      "monthlyRevenue": 15995000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GCYQNFFC.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0C3YWMG1J",
+      "title": "王様のバスマット【更に改善されましたｘ吸水力2倍サラふわUP】 珪藻土 バスマット 洗える マット キッチン ソフト 速乾 おしゃれ 安心 お風呂 足拭き ドア BOOMIE (角型グレー, 60cm×40cm)",
+      "brand": "ｂｏｏｍｉｅ",
+      "price": 2580,
+      "rating": 3.8,
+      "reviewCount": 4395,
+      "monthlySold": 4000,
+      "monthlyRevenue": 10320000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C3YWMG1J.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0CLY5DKXP",
+      "title": "DIHACOZ 珪藻土 バスマット【驚きの吸水×2・速乾×3】 柔軟 お風呂マット 足拭き吸水 抗菌 滑り止め 収納簡単 洗浄可能 バスルーム 脱衣所 洗面所 マット（40*60, ダークグレー）",
+      "brand": "DIHACOZ",
+      "price": 1980,
+      "rating": 4,
+      "reviewCount": 924,
+      "monthlySold": 3000,
+      "monthlyRevenue": 5940000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CLY5DKXP.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0B961J2BS",
+      "title": "アイメディア(Aimedia) バススリッパ バスブーツ 25-27cm グレー ベランダ 軽量 水切り 穴あきソール 男女兼用 軽くてソフトなベランダサンダル",
+      "brand": "アイメディア(Aimedia)",
+      "price": 673,
+      "rating": 4,
+      "reviewCount": 2363,
+      "monthlySold": 1000,
+      "monthlyRevenue": 673000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0B961J2BS.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 263,
+    "lowStarCount": 101,
+    "highStarCount": 112,
+    "topPainPoints": [
+      {
+        "category": "品質",
+        "count": 18
+      },
+      {
+        "category": "デザイン",
+        "count": 17
+      },
+      {
+        "category": "耐久",
+        "count": 15
+      },
+      {
+        "category": "サイズ",
+        "count": 14
+      },
+      {
+        "category": "サポート",
+        "count": 9
+      },
+      {
+        "category": "互換",
+        "count": 6
+      },
+      {
+        "category": "説明書",
+        "count": 6
+      },
+      {
+        "category": "梱包",
+        "count": 5
+      },
+      {
+        "category": "価格",
+        "count": 4
+      },
+      {
+        "category": "におい",
+        "count": 3
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "満足",
+        "count": 66
+      },
+      {
+        "category": "使いやすさ",
+        "count": 40
+      },
+      {
+        "category": "品質",
+        "count": 33
+      },
+      {
+        "category": "価値",
+        "count": 13
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B07PY21DSB",
+          "rating": 1,
+          "title": "非常に後悔",
+          "body": "買って3週間。突然落下してお風呂場の床を直撃。ユニットバスの床がえぐれて傷がつきました。棚の角も凹んで塗装が剥がれ、マグネットの設置面が歪んで安定してつかなくなりました。最悪です。棚も壊れたし何よりお風呂の床に傷がついたのが最悪。修理代払って欲しい。これから買う方は注意してください。そんなに安定感ないです。"
+        },
+        {
+          "asin": "B07PY21DSB",
+          "rating": 2,
+          "title": "錆びます",
+          "body": "意外とすぐに錆びました。もう少し良い商品だと思っていたので少し期待外れです。お風呂で使用するものはプラスチック製品の方が良さそうです。"
+        },
+        {
+          "asin": "B07PY21DSB",
+          "rating": 2,
+          "title": "錆びます",
+          "body": "粉体塗装の質が悪いのだと思いますが、底面の金属部分の塗装がすぐに剥げて錆びました。程度は異なるものの2つ買って2つ共に。体を綺麗にする浴室で錆びているものを見るのは心地よくないですね…。機能としては満足しているのですが。"
+        },
+        {
+          "asin": "B07PY21DSB",
+          "rating": 2,
+          "title": "磁石が弱い",
+          "body": "他社製品と比べて、作りは良いが磁石部分の改善が必要"
+        },
+        {
+          "asin": "B0GCYQNFFC",
+          "rating": 1,
+          "title": "安全性が",
+          "body": "シャワーヘッドを反時計に回すと取れる構造になっている。シャワーを使っている時に、ヘッド部を触ったらロックが緩み、水圧でヘッドが飛んできて頭に当たった。不良品ではないため返品は出来ないが、危ないため一回のみの使用となった。もう少し安全に考慮した構造にしてほしい。それさえ無ければ、値段の割には良い品だと思いました。"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B07PY21DSB",
+          "rating": 1,
+          "title": "さびる",
+          "body": "一年ちょっとで錆びました。なぜメーカーさんは対応されないのでしょうか？"
+        },
+        {
+          "asin": "B07PY21DSB",
+          "rating": 1,
+          "title": "サビが出ます…山崎実業さんにしては珍しくハズレ商品です。",
+          "body": "錆（サビ）ます！山崎実業さんにしては珍しくハズレの商品です。色々と山崎実業さんの商品を使ってますが、このお風呂のマグネットシリーズは錆ます。数ヶ月だと大丈夫ですが、年単位で使うと棚、カゴ、スマホホルダーなど全てが錆ました。棚などの裏面（下側）やサイドなど分かりづらい部分から錆びます。塗装を変えるか、ABS樹脂などに変更しないとダメだと思います。山崎実業さんなので改善してくれると信じてますが、現段階"
+        },
+        {
+          "asin": "B07PY21DSB",
+          "rating": 1,
+          "title": "一年で赤サビ。サビ汁が風呂の壁に付いた",
+          "body": "一年使って塗装が剥がれて錆びてきた。消耗品なの？塗料が剥がれてサビ汁が出てきました。風呂の壁にも赤錆が付くし、最悪です。これでよく風呂用の製品として販売するなと思う。"
+        },
+        {
+          "asin": "B07PY21DSB",
+          "rating": 1,
+          "title": "さび",
+          "body": "一年も経たずに錆びまして壁に汚れが付きましたスタイリッシュでしたが残念。樹脂製でいい"
+        },
+        {
+          "asin": "B07PY21DSB",
+          "rating": 2,
+          "title": "1年から2年でサビる",
+          "body": "磁石はしっかりしているが、2年前後でサビました。早い方だと1年前後でサビているみたい。山崎実業さんなのに残念"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B0GCYQNFFC",
+          "rating": 2,
+          "title": "ホースは対応してても",
+          "body": "ホースは対応しててもヘッドのハンドル部の太さで入らない場合があります。"
+        },
+        {
+          "asin": "B0GCYQNFFC",
+          "rating": 2,
+          "title": "思ったより大きい",
+          "body": "友達が良いというので買ったが、シャワーヘッドが重くて大きすぎた。"
+        },
+        {
+          "asin": "B0B961J2BS",
+          "rating": 1,
+          "title": "サイズが合ってない人は歩きにくいです。",
+          "body": "軽いですが足が小さいせいなのか？中で滑って超はきにくいでした。足の、サイズがぴったりの人にはいいのかな?買いなおす事にしました。残念"
+        },
+        {
+          "asin": "B0B961J2BS",
+          "rating": 1,
+          "title": "大きいい",
+          "body": "M　２３－２５を購入しましたが、どう見てもＬでした。がっかり"
+        },
+        {
+          "asin": "B0B961J2BS",
+          "rating": 2,
+          "title": "サイズ感大きい",
+          "body": "普段24.5ですがMだと大きめです　旦那普段26.5で丁度いい感じです　Sがあるならそちらの方がいいかなと"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B0GCYQNFFC",
+          "rating": 1,
+          "title": "購入したらダメです",
+          "body": "説明書の内容と異なるゴムパッキンは網ありとあるがひとつはゴムのみそれに加えて止水テープは使用済みのリングのみ最悪"
+        },
+        {
+          "asin": "B0C3YWMG1J",
+          "rating": 1,
+          "title": "臭い",
+          "body": "とにかくゴムの匂いが取れない。説明書通り陰干しを3日ほどしたが、臭くて、まだ一度も使ってない。無駄金でした。"
+        },
+        {
+          "asin": "B0C3YWMG1J",
+          "rating": 1,
+          "title": "色落ち！吸水力イマイチ。",
+          "body": "汚れが早く、洗うと一緒に色落ちします。気が付いたら、何色かわからない状態（ピンク　⇒　ベージュまだら？？）吸収力も珪藻土ハードタイプには全く及びません。"
+        },
+        {
+          "asin": "B0C3YWMG1J",
+          "rating": 2,
+          "title": "なんで？",
+          "body": "他の珪藻土バスマットではなかった、吸水水のシミが出来やすい。なので汚れやすい。なんでこんなに評価が高いのかわからない…。"
+        },
+        {
+          "asin": "B0CLY5DKXP",
+          "rating": 1,
+          "title": "よさがわからない",
+          "body": "全然吸収せず、一回でびしょびしょ。乾くまで時間がかかる。"
+        }
+      ],
+      "におい": [
+        {
+          "asin": "B0C3YWMG1J",
+          "rating": 1,
+          "title": "臭い",
+          "body": "とにかくゴムの匂いが取れない。説明書通り陰干しを3日ほどしたが、臭くて、まだ一度も使ってない。無駄金でした。"
+        },
+        {
+          "asin": "B0CLY5DKXP",
+          "rating": 1,
+          "title": "最悪",
+          "body": "変な匂いがするし、色も写真と全然違う最悪"
+        }
+      ]
+    }
+  },
+  "competitorBrands": {
+    "Yamazaki(山崎実業)": 1,
+    "EnergyBear": 1,
+    "ｂｏｏｍｉｅ": 1,
+    "DIHACOZ": 1,
+    "アイメディア(Aimedia)": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/2574212051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:24.785Z"
+}

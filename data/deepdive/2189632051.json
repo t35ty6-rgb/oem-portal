@@ -1,0 +1,103 @@
+{
+  "categoryId": "2189632051",
+  "categoryName": "食玩",
+  "l1Path": "ホビー / 食玩",
+  "score": 83,
+  "recommendation": "🟢 おすすめ",
+  "marketTag": "🟠 2社支配",
+  "totalRevenue": 17620000,
+  "reviewMedian": 1,
+  "topShare": 0.44948921679909193,
+  "ratingMean": 0.72,
+  "avgPrice": 4420,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B0GZT5XXL1",
+      "title": "ハート(Heart) たまごっちチョコチップクッキー缶 [BOX販売/4個セット]",
+      "brand": "ハート",
+      "price": 2640,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": null,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GZT5XXL1.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0GCGX5FV4",
+      "title": "バンダイ(BANDAI) Disney Characters ウエハース2 ウエハース（焼菓子） 食玩 【BOX販売/20個セット】",
+      "brand": "BANDAI",
+      "price": 2660,
+      "rating": 4,
+      "reviewCount": 1,
+      "monthlySold": 400,
+      "monthlyRevenue": 1064000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GCGX5FV4.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0GKZPKZ87",
+      "title": "hololive OFFICIAL CARD GAME ツインウエハース 20個入りBOX (食玩)",
+      "brand": "BANDAI",
+      "price": 4880,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 800,
+      "monthlyRevenue": 3904000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GKZPKZ87.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0GFHK54LG",
+      "title": "バンダイ(BANDAI) To LOVEる -とらぶる- ダークネス ウエハース化計画 ウエハース（焼菓子） 食玩 【BOX販売/20個セット】",
+      "brand": "BANDAI",
+      "price": 3980,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 800,
+      "monthlyRevenue": 3184000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GFHK54LG.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0H1BYSNXL",
+      "title": "スター ウォーズ STAR WARS ビックリマンチョコ ＜ マンダロリアン＆グローグー ＞ 1BOX 30個入",
+      "brand": "ノーブランド品",
+      "price": 7980,
+      "rating": null,
+      "reviewCount": null,
+      "monthlySold": 200,
+      "monthlyRevenue": 1596000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0H1BYSNXL.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 0,
+    "lowStarCount": 0,
+    "highStarCount": 0,
+    "topPainPoints": [],
+    "topPraisePoints": [],
+    "painSamples": {
+      "品質": [],
+      "耐久": [],
+      "サイズ": [],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "ハート": 1,
+    "BANDAI": 3,
+    "ノーブランド品": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/2189632051/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:23.651Z"
+}

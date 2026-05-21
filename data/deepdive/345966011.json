@@ -1,0 +1,232 @@
+{
+  "categoryId": "345966011",
+  "categoryName": "乳幼児用ベッド",
+  "l1Path": "ベビー＆マタニティ / ベビー家具・収納 / 乳幼児用ベッド",
+  "score": 63,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 14751500,
+  "reviewMedian": 377,
+  "topShare": 0.747381622207911,
+  "ratingMean": 4.36,
+  "avgPrice": 8451,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B08TGR9YXH",
+      "title": "＼キッズデザイン賞受賞／【LDK ベストバイ選出】 ネオママイズム ベッドインベッド ベビーベッド 添い寝 新生児 傾斜調整可 洗濯機OK (グレー)",
+      "brand": "neomamaism",
+      "price": 15750,
+      "rating": 4.4,
+      "reviewCount": 376,
+      "monthlySold": 700,
+      "monthlyRevenue": 11025000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B08TGR9YXH.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0DLZBV3JG",
+      "title": "【保育士が監修】 ベッドインベッド ベビー お昼寝布団 ベビー布団 折りたたみ 寝返り防止 添い寝 新生児 赤ちゃん 乳幼児 持ち運び 男の子 女の子 軽量 コンパクト (グレー*グレー)",
+      "brand": "Rozally",
+      "price": 5380,
+      "rating": 4.5,
+      "reviewCount": 377,
+      "monthlySold": 300,
+      "monthlyRevenue": 1614000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0DLZBV3JG.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0CYXVTRWL",
+      "title": "ベビーベッド 添い寝 高さ5段調節可能 睡吐防止 乳児用ベッド 新生児ベッド 多機能ベビーベッド 組み立て簡単 収納便利 揺りかご 蚊帳 キャスタ付き 持ち運び メッシュ 通気性 折り畳み 洗濯可能 赤ちゃん 寝具 新生児 出産祝い 0ヶ月 ~ 24ヶ月 マットレス 固定ベルト 収納袋付き (ホワイト)",
+      "brand": "Kino Linpo",
+      "price": null,
+      "rating": 4.4,
+      "reviewCount": 346,
+      "monthlySold": 200,
+      "monthlyRevenue": null,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CYXVTRWL.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0C9HX3V3D",
+      "title": "Kino Linpo ベビーベッド 添い寝 新生児ベッド 乳児用ベッド 高さ6段調節可能 蚊帳 通気性 揺りかご 収納バスケット キャスタ付き 持ち運び便利 組み立て簡単 幼児 新生児用 出産祝い プレゼント",
+      "brand": "Kino Linpo",
+      "price": 12433,
+      "rating": 4.2,
+      "reviewCount": 417,
+      "monthlySold": 100,
+      "monthlyRevenue": 1243300,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0C9HX3V3D.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B07HGZVQ6R",
+      "title": "【ベビーアムール】 Bebamour ベビーベッド 折りたたみ式 ベッドインベッド 添い寝 簡易ベッド 新生児 携帯型ベビーベッド 通気性 高さ調整可 機械洗い(グレー)",
+      "brand": "Bebamour",
+      "price": 9660,
+      "rating": 4.3,
+      "reviewCount": 512,
+      "monthlySold": 100,
+      "monthlyRevenue": 966000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B07HGZVQ6R.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 94,
+    "lowStarCount": 35,
+    "highStarCount": 40,
+    "topPainPoints": [
+      {
+        "category": "品質",
+        "count": 19
+      },
+      {
+        "category": "梱包",
+        "count": 19
+      },
+      {
+        "category": "サポート",
+        "count": 12
+      },
+      {
+        "category": "デザイン",
+        "count": 7
+      },
+      {
+        "category": "サイズ",
+        "count": 4
+      },
+      {
+        "category": "使い勝手",
+        "count": 3
+      },
+      {
+        "category": "説明書",
+        "count": 2
+      },
+      {
+        "category": "価格",
+        "count": 1
+      },
+      {
+        "category": "耐久",
+        "count": 1
+      },
+      {
+        "category": "互換",
+        "count": 1
+      }
+    ],
+    "topPraisePoints": [
+      {
+        "category": "使いやすさ",
+        "count": 19
+      },
+      {
+        "category": "満足",
+        "count": 18
+      },
+      {
+        "category": "品質",
+        "count": 5
+      },
+      {
+        "category": "価値",
+        "count": 3
+      }
+    ],
+    "painSamples": {
+      "品質": [
+        {
+          "asin": "B0C9HX3V3D",
+          "rating": 1,
+          "title": "汚い ミニのお布団マットが入らない",
+          "body": "開けた瞬間から写真の通り汚かったかです。新品を買いました。時間がなくすぐに返品したかったのですが出来ませんでした。凄く嫌な気持ちです。新生児が使うため悲しい気持ちです。ベットのそのいた？は硬くて薄い物です。お布団がないので、ミニを買いましたがお布団マットが入りません推奨のお布団セットの紹介があったらああですね。交換してもらいたいです。10月4日まで返品が出来るので返品したいと思います。"
+        },
+        {
+          "asin": "B0C9HX3V3D",
+          "rating": 1,
+          "title": "安いから仕方ないか",
+          "body": "開封後速攻不良箇所有り×(パイプ差し込み部の爪が折れてなくなっていた)安定性×(構造的に乳児を常にベッドのセンターに置かない限り並行はおそらく保てない、傾く)見た目◎軽さ◎高さ調節機能◎下段の収納スペース◎清潔さ×(砂のようなザラザラしたものが付着、使用前の洗濯推奨)乳児用製品での不良品はさすがに憤りを覚えます。お産が早まり急ぎで購入したので返品等の処理はしませんが、やっぱり安物はダメですね。余裕"
+        },
+        {
+          "asin": "B0C9HX3V3D",
+          "rating": 1,
+          "title": "サビ、汚れ",
+          "body": "最低、最悪です赤ちゃんなので汚れなどは絶対に許せないです！！今後買う人は、購入後すぐに確認した方がいいですよサビがひどいです"
+        },
+        {
+          "asin": "B0C9HX3V3D",
+          "rating": 1,
+          "title": "検品の質を疑う商品",
+          "body": "届いてすぐ開封したところベット部の内側側面に赤いインク？血？のようなシミを発見。子どものために用意したのですが気味が悪く使用できません。評価も高く期待していたのですが残念です。購入する際には今一度ご検討することをお勧めします。"
+        },
+        {
+          "asin": "B0C9HX3V3D",
+          "rating": 1,
+          "title": "商品はいいのにもったいない。",
+          "body": "軽いし持ち運びは楽ですが色々汚れてたりしてました。すぐ要るものなので返品せずにアルコール消毒除菌をして拭いてなんとかなりましたが、もったいないと思いました。"
+        }
+      ],
+      "耐久": [
+        {
+          "asin": "B07HGZVQ6R",
+          "rating": 2,
+          "title": "残念",
+          "body": "3月に購入し愛用させていただいていたのですが、角度をつけるネジを回す部分の故障が起こり、角度がつけれなくなってしまい大変残念です。もうしばらく使用したかったのですが半年持ちませんでした。"
+        }
+      ],
+      "サイズ": [
+        {
+          "asin": "B0C9HX3V3D",
+          "rating": 1,
+          "title": "汚い ミニのお布団マットが入らない",
+          "body": "開けた瞬間から写真の通り汚かったかです。新品を買いました。時間がなくすぐに返品したかったのですが出来ませんでした。凄く嫌な気持ちです。新生児が使うため悲しい気持ちです。ベットのそのいた？は硬くて薄い物です。お布団がないので、ミニを買いましたがお布団マットが入りません推奨のお布団セットの紹介があったらああですね。交換してもらいたいです。10月4日まで返品が出来るので返品したいと思います。"
+        },
+        {
+          "asin": "B07HGZVQ6R",
+          "rating": 2,
+          "title": "長時間寝かせてるとずり落ちて、頭の変形の原因に",
+          "body": "商品自体はしっかりしてて良いものですが、うちの子には合いませんでした。生後1ヶ月間使った結果、一番傾斜の浅い設定にしてもどうしても傾斜が残るため、時間と共にずり落ちてしまい.....中心でドーナツ枕に寝かせていてもずり落ちて外れてしまうので、長時間そういった状態を見逃していた結果、頭の形がかなり変形してしまいました。また生後1ヶ月半ばなのでこれから矯正可能だと信じてますが、ずっと寝かせるために使用"
+        },
+        {
+          "asin": "B07HGZVQ6R",
+          "rating": 2,
+          "title": "メッシュだけど硬い…",
+          "body": "通気性は良いかも知れませんが、硬いので何かひかないと使えないです。大きさは、意外と大きいので長く使えるけど、ベッドが小さいと邪魔になるかもしれません。採寸の確認して購入した方が良い！"
+        }
+      ],
+      "説明書": [
+        {
+          "asin": "B07HGZVQ6R",
+          "rating": 1,
+          "title": "不安があります",
+          "body": "写真にある外袋が付いてなかったのと、取り扱い説明書がなく、カバーの外し方などか全然わかりません、、、、持ち運びケースも汚れがあり、新生児に使う物なので管理が不安になりました、、、"
+        },
+        {
+          "asin": "B07HGZVQ6R",
+          "rating": 2,
+          "title": "長時間寝かせてるとずり落ちて、頭の変形の原因に",
+          "body": "商品自体はしっかりしてて良いものですが、うちの子には合いませんでした。生後1ヶ月間使った結果、一番傾斜の浅い設定にしてもどうしても傾斜が残るため、時間と共にずり落ちてしまい.....中心でドーナツ枕に寝かせていてもずり落ちて外れてしまうので、長時間そういった状態を見逃していた結果、頭の形がかなり変形してしまいました。また生後1ヶ月半ばなのでこれから矯正可能だと信じてますが、ずっと寝かせるために使用"
+        }
+      ],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "neomamaism": 1,
+    "Rozally": 1,
+    "Kino Linpo": 2,
+    "Bebamour": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/345966011/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:26.533Z"
+}

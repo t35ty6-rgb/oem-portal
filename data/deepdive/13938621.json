@@ -1,0 +1,105 @@
+{
+  "categoryId": "13938621",
+  "categoryName": "鍋・フライパンセット",
+  "l1Path": "ホーム＆キッチン / キッチン用品 / 鍋・フライパン / 鍋・フライパンセット",
+  "score": 66,
+  "recommendation": "🟡 ありかも",
+  "marketTag": "🔴 1社独占",
+  "totalRevenue": 38620900,
+  "reviewMedian": 880,
+  "topShare": 0.5634255027718152,
+  "ratingMean": 4.06,
+  "avgPrice": 6555,
+  "topProducts": [
+    {
+      "rank": 1,
+      "asin": "B09Y1GCP6P",
+      "title": "【オンライン限定】 ティファール 取っ手のとれる 鍋 フライパンセット 9点セット ガス火専用 PFOAなどの有害物質不使用 「インジニオ･ネオ フレーズグレー」 こびりつきにくさ長持ち グレー L16199",
+      "brand": "T-Fal",
+      "price": 10880,
+      "rating": 4.3,
+      "reviewCount": 6370,
+      "monthlySold": 2000,
+      "monthlyRevenue": 21760000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B09Y1GCP6P.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 2,
+      "asin": "B0D86TL4BY",
+      "title": "CAROTE カローテ フライパン 鍋 セット IH&ガス火対応 6点 PFOAなどの有害物質不使用 プロ仕様 5層構造 チタンコート 軽量 取っ手のとれる 洗練されデザイン コンパクト収納 1人暮らしセット 新生活セット 取っ手のとれる こびりつかずに お手入れ簡単 黒 ブラック",
+      "brand": "CAROTE",
+      "price": 4980,
+      "rating": 4.1,
+      "reviewCount": 542,
+      "monthlySold": 2000,
+      "monthlyRevenue": 9960000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0D86TL4BY.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 3,
+      "asin": "B0CQX6CF9Z",
+      "title": "【オンライン限定】 パール金属 フライパン 鍋 5点セット IH対応 マーブルコート 取っ手のとれる 金属ヘラOK オーブン調理OK フライパン20cm フライパン26cm マルチポット18cm ガラス蓋18cm 専用ハンドル ネイビー AZ-5612",
+      "brand": "パール金属株式会社",
+      "price": 3980,
+      "rating": 4.2,
+      "reviewCount": 532,
+      "monthlySold": 1000,
+      "monthlyRevenue": 3980000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0CQX6CF9Z.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 4,
+      "asin": "B0GNMGWV4V",
+      "title": "【Amazon.co.jp 限定】サーモス デュラブルシリーズ 取っ手のとれるフライパン6点セットDA IH対応 グレー KSD-6A GY",
+      "brand": "サーモス(THERMOS)",
+      "price": 9590,
+      "rating": 4.2,
+      "reviewCount": 880,
+      "monthlySold": 200,
+      "monthlyRevenue": 1918000,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0GNMGWV4V.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    },
+    {
+      "rank": 5,
+      "asin": "B0FPGGHPYX",
+      "title": "GiPP フライパン 鍋 セット 3点 セラミックコーティング IH・ガス火対応 フッ素不使用 体に害のない くっつきにくい 取っ手が取れる 軽量 食洗機対応 オーブン調理可 PFOA PFOS PTFE フリー【一年保証】グレー",
+      "brand": "GiPP",
+      "price": 3343,
+      "rating": 3.5,
+      "reviewCount": 1183,
+      "monthlySold": 300,
+      "monthlyRevenue": 1002900,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/P/B0FPGGHPYX.09.LZZZZZZZ.jpg",
+      "imagesCSV": null
+    }
+  ],
+  "reviewSummary": {
+    "totalReviews": 0,
+    "lowStarCount": 0,
+    "highStarCount": 0,
+    "topPainPoints": [],
+    "topPraisePoints": [],
+    "painSamples": {
+      "品質": [],
+      "耐久": [],
+      "サイズ": [],
+      "説明書": [],
+      "におい": []
+    }
+  },
+  "competitorBrands": {
+    "T-Fal": 1,
+    "CAROTE": 1,
+    "パール金属株式会社": 1,
+    "サーモス(THERMOS)": 1,
+    "GiPP": 1
+  },
+  "amazonBsrUrl": "https://www.amazon.co.jp/gp/bestsellers/-/13938621/",
+  "onek1688": null,
+  "googleTrends": null,
+  "generatedAt": "2026-05-21T06:12:16.047Z"
+}
